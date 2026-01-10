@@ -14,6 +14,8 @@ export interface LiftProperties {
   capacity: number;
   duration: number; // minutes
   sector: Sector;
+  fromStation: string;
+  toStation: string;
   isOpen?: boolean;
   lastRun?: string; // time like "16:30"
 }
@@ -27,7 +29,14 @@ export interface SlopeProperties {
   fromLift: string;
   toLift: string | null;
   sector: Sector;
+  fromStation: string;
+  toStation: string;
   isOpen?: boolean;
+}
+
+export interface ValidationResult {
+  isValid: boolean;
+  message?: string;
 }
 
 export interface GeoJSONFeature<T> {

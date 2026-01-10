@@ -7,6 +7,7 @@ import {
   RouteSegment,
   RouteStats,
   Difficulty,
+  ValidationResult,
 } from '@/types';
 
 const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
@@ -79,4 +80,92 @@ export function formatTime(minutes: number): string {
     return `${hours}h ${mins}m`;
   }
   return `${mins}m`;
+}
+
+// Get the end station of a segment
+function getSegmentEndStation(segment: RouteSegment): string | null {
+  if (segment.type === 'lift') {
+    const lift = getLiftById(segment.id);
+    return lift?.properties.toStation || null;
+  } else {
+    const slope = getSlopeById(segment.id);
+    return slope?.properties.toStation || null;
+  }
+}
+
+// Get the start station of a segment
+function getSegmentStartStation(segment: RouteSegment): string | null {
+  if (segment.type === 'lift') {
+    const lift = getLiftById(segment.id);
+    return lift?.properties.fromStation || null;
+  } else {
+    const slope = getSlopeById(segment.id);
+    return slope?.properties.fromStation || null;
+  }
+}
+
+// Validate if a new segment can be added to the route
+export function validateConnection(
+  currentRoute: RouteSegment[],
+  newSegment: RouteSegment
+): ValidationResult {
+  // First segment is always valid
+  if (currentRoute.length === 0) {
+    return { isValid: true };
+  }
+
+  const lastSegment = currentRoute[currentRoute.length - 1];
+  const lastEndStation = getSegmentEndStation(lastSegment);
+  const newStartStation = getSegmentStartStation(newSegment);
+
+  if (!lastEndStation || !newStartStation) {
+    return { isValid: true }; // Can't validate, allow it
+  }
+
+  if (lastEndStation === newStartStation) {
+    return { isValid: true };
+  }
+
+  // Get names for the error message
+  const lastName = lastSegment.name;
+  const newName = newSegment.name;
+
+  return {
+    isValid: false,
+    message: `"${newName}" doesn't connect to "${lastName}". You need to be at ${newStartStation} but you're at ${lastEndStation}.`,
+  };
+}
+
+// Get all valid next segments from current position
+export function getValidNextSegments(currentRoute: RouteSegment[]): {
+  lifts: string[];
+  slopes: string[];
+} {
+  if (currentRoute.length === 0) {
+    // All segments are valid at start
+    return {
+      lifts: lifts.features.map((f) => f.properties.id),
+      slopes: slopes.features.map((f) => f.properties.id),
+    };
+  }
+
+  const lastSegment = currentRoute[currentRoute.length - 1];
+  const currentStation = getSegmentEndStation(lastSegment);
+
+  if (!currentStation) {
+    return {
+      lifts: lifts.features.map((f) => f.properties.id),
+      slopes: slopes.features.map((f) => f.properties.id),
+    };
+  }
+
+  const validLifts = lifts.features
+    .filter((f) => f.properties.fromStation === currentStation)
+    .map((f) => f.properties.id);
+
+  const validSlopes = slopes.features
+    .filter((f) => f.properties.fromStation === currentStation)
+    .map((f) => f.properties.id);
+
+  return { lifts: validLifts, slopes: validSlopes };
 }

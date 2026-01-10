@@ -12,7 +12,9 @@
         "verticalRise": 881,
         "capacity": 2000,
         "duration": 9,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "trockener-steg",
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
@@ -33,7 +35,9 @@
         "verticalRise": 368,
         "capacity": 2400,
         "duration": 8,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "furgg",
+        "toStation": "trockener-steg"
       },
       "geometry": {
         "type": "LineString",
@@ -54,7 +58,9 @@
         "verticalRise": 716,
         "capacity": 2400,
         "duration": 7,
-        "sector": "Schwarzsee"
+        "sector": "Schwarzsee",
+        "fromStation": "furi",
+        "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
@@ -75,7 +81,9 @@
         "verticalRise": 247,
         "capacity": 2800,
         "duration": 4,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "zermatt-matterhorn",
+        "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
@@ -96,7 +104,9 @@
         "verticalRise": 668,
         "capacity": 3000,
         "duration": 3,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "zermatt-sunnegga",
+        "toStation": "sunnegga"
       },
       "geometry": {
         "type": "LineString",
@@ -117,7 +127,9 @@
         "verticalRise": 283,
         "capacity": 2400,
         "duration": 5,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "sunnegga",
+        "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
@@ -138,7 +150,9 @@
         "verticalRise": 532,
         "capacity": 2000,
         "duration": 4,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "blauherd",
+        "toStation": "rothorn"
       },
       "geometry": {
         "type": "LineString",
@@ -159,7 +173,9 @@
         "verticalRise": 1469,
         "capacity": 1500,
         "duration": 33,
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "zermatt-gornergrat",
+        "toStation": "gornergrat"
       },
       "geometry": {
         "type": "LineString",
@@ -180,7 +196,9 @@
         "verticalRise": 3,
         "capacity": 2200,
         "duration": 8,
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "furi",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
@@ -201,7 +219,9 @@
         "verticalRise": 349,
         "capacity": 2000,
         "duration": 5,
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "gant",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
@@ -222,7 +242,9 @@
         "verticalRise": 237,
         "capacity": 2400,
         "duration": 5,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "findeln",
+        "toStation": "sunnegga"
       },
       "geometry": {
         "type": "LineString",
@@ -243,7 +265,9 @@
         "verticalRise": 300,
         "capacity": 2400,
         "duration": 6,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "patrullarve-base",
+        "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
@@ -264,7 +288,9 @@
         "verticalRise": 362,
         "capacity": 2400,
         "duration": 7,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "trockener-steg",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
@@ -285,7 +311,9 @@
         "verticalRise": 157,
         "capacity": 2400,
         "duration": 5,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "theodul",
+        "toStation": "gobba-di-rollin"
       },
       "geometry": {
         "type": "LineString",
@@ -306,7 +334,9 @@
         "verticalRise": 127,
         "capacity": 1200,
         "duration": 6,
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "furggsattel-base",
+        "toStation": "furggsattel"
       },
       "geometry": {
         "type": "LineString",

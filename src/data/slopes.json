@@ -11,7 +11,9 @@
         "verticalDrop": 680,
         "fromLift": "blauherd-rothorn",
         "toLift": "sunnegga",
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "rothorn",
+        "toStation": "sunnegga"
       },
       "geometry": {
         "type": "LineString",
@@ -33,7 +35,9 @@
         "verticalDrop": 380,
         "fromLift": "blauherd-rothorn",
         "toLift": "sunnegga-blauherd",
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "rothorn",
+        "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
@@ -54,7 +58,9 @@
         "verticalDrop": 550,
         "fromLift": "blauherd-rothorn",
         "toLift": "patrullarve",
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "rothorn",
+        "toStation": "patrullarve-base"
       },
       "geometry": {
         "type": "LineString",
@@ -76,7 +82,9 @@
         "verticalDrop": 1253,
         "fromLift": "matterhorn-glacier-paradise",
         "toLift": "trockener-steg",
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "klein-matterhorn",
+        "toStation": "furgg"
       },
       "geometry": {
         "type": "LineString",
@@ -100,7 +108,9 @@
         "verticalDrop": 716,
         "fromLift": "furi-schwarzsee",
         "toLift": "zermatt-furi",
-        "sector": "Schwarzsee"
+        "sector": "Schwarzsee",
+        "fromStation": "schwarzsee",
+        "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
@@ -122,7 +132,9 @@
         "verticalDrop": 963,
         "fromLift": "furi-schwarzsee",
         "toLift": "zermatt-furi",
-        "sector": "Schwarzsee"
+        "sector": "Schwarzsee",
+        "fromStation": "schwarzsee",
+        "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
@@ -144,7 +156,9 @@
         "verticalDrop": 504,
         "fromLift": "gornergrat-bahn",
         "toLift": "riffelberg-express",
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "gornergrat",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
@@ -165,7 +179,9 @@
         "verticalDrop": 349,
         "fromLift": "riffelberg-express",
         "toLift": "gant",
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "riffelberg",
+        "toStation": "gant"
       },
       "geometry": {
         "type": "LineString",
@@ -186,14 +202,16 @@
         "verticalDrop": 368,
         "fromLift": "trockener-steg",
         "toLift": "furi-schwarzsee",
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "trockener-steg",
+        "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7469, 45.9728],
-          [7.7375, 45.9783],
-          [7.7300, 45.9817],
+          [7.7306, 45.9394],
+          [7.7267, 45.9567],
+          [7.7233, 45.9700],
           [7.7233, 45.9828]
         ]
       }
@@ -208,7 +226,9 @@
         "verticalDrop": 362,
         "fromLift": "theodul",
         "toLift": "trockener-steg",
-        "sector": "Matterhorn"
+        "sector": "Matterhorn",
+        "fromStation": "theodul",
+        "toStation": "trockener-steg"
       },
       "geometry": {
         "type": "LineString",
@@ -230,7 +250,9 @@
         "verticalDrop": 520,
         "fromLift": "gornergrat-bahn",
         "toLift": "gant",
-        "sector": "Gornergrat"
+        "sector": "Gornergrat",
+        "fromStation": "gornergrat",
+        "toStation": "gant"
       },
       "geometry": {
         "type": "LineString",
@@ -252,7 +274,9 @@
         "verticalDrop": 237,
         "fromLift": "sunnegga",
         "toLift": "findelbahn",
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "sunnegga",
+        "toStation": "findeln"
       },
       "geometry": {
         "type": "LineString",
@@ -273,7 +297,9 @@
         "verticalDrop": 668,
         "fromLift": "sunnegga",
         "toLift": null,
-        "sector": "Sunnegga-Rothorn"
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "sunnegga",
+        "toStation": "zermatt-sunnegga"
       },
       "geometry": {
         "type": "LineString",
@@ -295,7 +321,9 @@
         "verticalDrop": 700,
         "fromLift": "gobba-di-rollin",
         "toLift": null,
-        "sector": "Cervinia"
+        "sector": "Cervinia",
+        "fromStation": "gobba-di-rollin",
+        "toStation": "cervinia"
       },
       "geometry": {
         "type": "LineString",
@@ -304,6 +332,29 @@
           [7.6950, 45.9283],
           [7.6867, 45.9233],
           [7.6767, 45.9200]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "blauherd-sunnegga",
+        "name": "Blauherd - Sunnegga",
+        "difficulty": "blue",
+        "length": 1800,
+        "verticalDrop": 283,
+        "fromLift": "sunnegga-blauherd",
+        "toLift": "sunnegga",
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "blauherd",
+        "toStation": "sunnegga"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7542, 45.9928],
+          [7.7600, 46.0000],
+          [7.7647, 46.0075]
         ]
       }
     }
