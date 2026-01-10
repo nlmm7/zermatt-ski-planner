@@ -1,0 +1,311 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "national",
+        "name": "National",
+        "difficulty": "red",
+        "length": 3200,
+        "verticalDrop": 680,
+        "fromLift": "blauherd-rothorn",
+        "toLift": "sunnegga",
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7503, 45.9772],
+          [7.7542, 45.9928],
+          [7.7583, 46.0025],
+          [7.7647, 46.0075]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "weisse-perle",
+        "name": "Weisse Perle",
+        "difficulty": "blue",
+        "length": 2800,
+        "verticalDrop": 380,
+        "fromLift": "blauherd-rothorn",
+        "toLift": "sunnegga-blauherd",
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7503, 45.9772],
+          [7.7525, 45.9850],
+          [7.7542, 45.9928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kumme",
+        "name": "Kumme",
+        "difficulty": "red",
+        "length": 2500,
+        "verticalDrop": 550,
+        "fromLift": "blauherd-rothorn",
+        "toLift": "patrullarve",
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7503, 45.9772],
+          [7.7567, 45.9883],
+          [7.7603, 46.0025],
+          [7.7603, 46.0125]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "matterhorn-descent",
+        "name": "Matterhorn Glacier Descent",
+        "difficulty": "red",
+        "length": 7500,
+        "verticalDrop": 1253,
+        "fromLift": "matterhorn-glacier-paradise",
+        "toLift": "trockener-steg",
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7286, 45.9263],
+          [7.7256, 45.9333],
+          [7.7306, 45.9394],
+          [7.7356, 45.9500],
+          [7.7400, 45.9600],
+          [7.7469, 45.9728]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "schwarzsee-furi",
+        "name": "Schwarzsee - Furi",
+        "difficulty": "blue",
+        "length": 4200,
+        "verticalDrop": 716,
+        "fromLift": "furi-schwarzsee",
+        "toLift": "zermatt-furi",
+        "sector": "Schwarzsee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7233, 45.9828],
+          [7.7300, 45.9900],
+          [7.7400, 45.9975],
+          [7.7483, 46.0078]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zmutt",
+        "name": "Zmutt",
+        "difficulty": "black",
+        "length": 3800,
+        "verticalDrop": 963,
+        "fromLift": "furi-schwarzsee",
+        "toLift": "zermatt-furi",
+        "sector": "Schwarzsee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7233, 45.9828],
+          [7.7367, 45.9867],
+          [7.7433, 45.9967],
+          [7.7483, 46.0078]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "riffelberg",
+        "name": "Riffelberg",
+        "difficulty": "red",
+        "length": 3500,
+        "verticalDrop": 504,
+        "fromLift": "gornergrat-bahn",
+        "toLift": "riffelberg-express",
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7847, 45.9831],
+          [7.7778, 45.9867],
+          [7.7678, 45.9933]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gant-run",
+        "name": "Gant",
+        "difficulty": "blue",
+        "length": 2200,
+        "verticalDrop": 349,
+        "fromLift": "riffelberg-express",
+        "toLift": "gant",
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7678, 45.9933],
+          [7.7750, 45.9967],
+          [7.7817, 46.0011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furgg",
+        "name": "Furgg",
+        "difficulty": "blue",
+        "length": 2800,
+        "verticalDrop": 368,
+        "fromLift": "trockener-steg",
+        "toLift": "furi-schwarzsee",
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7469, 45.9728],
+          [7.7375, 45.9783],
+          [7.7300, 45.9817],
+          [7.7233, 45.9828]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "theodul-run",
+        "name": "Theodul",
+        "difficulty": "red",
+        "length": 3000,
+        "verticalDrop": 362,
+        "fromLift": "theodul",
+        "toLift": "trockener-steg",
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7064, 45.9342],
+          [7.7150, 45.9367],
+          [7.7250, 45.9383],
+          [7.7306, 45.9394]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hohtalli",
+        "name": "Hohtalli",
+        "difficulty": "black",
+        "length": 2600,
+        "verticalDrop": 520,
+        "fromLift": "gornergrat-bahn",
+        "toLift": "gant",
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7847, 45.9831],
+          [7.7850, 45.9900],
+          [7.7833, 45.9967],
+          [7.7817, 46.0011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "findeln",
+        "name": "Findeln",
+        "difficulty": "blue",
+        "length": 2100,
+        "verticalDrop": 237,
+        "fromLift": "sunnegga",
+        "toLift": "findelbahn",
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7647, 46.0075],
+          [7.7717, 46.0083],
+          [7.7789, 46.0089]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tufteren",
+        "name": "Tufteren",
+        "difficulty": "blue",
+        "length": 3500,
+        "verticalDrop": 668,
+        "fromLift": "sunnegga",
+        "toLift": null,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7647, 46.0075],
+          [7.7600, 46.0117],
+          [7.7567, 46.0167],
+          [7.7528, 46.0217]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cervinia-connection",
+        "name": "Cervinia Connection",
+        "difficulty": "red",
+        "length": 4500,
+        "verticalDrop": 700,
+        "fromLift": "gobba-di-rollin",
+        "toLift": null,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7017, 45.9317],
+          [7.6950, 45.9283],
+          [7.6867, 45.9233],
+          [7.6767, 45.9200]
+        ]
+      }
+    }
+  ]
+}

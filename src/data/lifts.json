@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "matterhorn-glacier-paradise",
+        "name": "Matterhorn Glacier Paradise",
+        "type": "cable_car",
+        "bottomElevation": 2939,
+        "topElevation": 3820,
+        "verticalRise": 881,
+        "capacity": 2000,
+        "duration": 9,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7306, 45.9394],
+          [7.7286, 45.9263]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trockener-steg",
+        "name": "Trockener Steg",
+        "type": "cable_car",
+        "bottomElevation": 2571,
+        "topElevation": 2939,
+        "verticalRise": 368,
+        "capacity": 2400,
+        "duration": 8,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7469, 45.9728],
+          [7.7306, 45.9394]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furi-schwarzsee",
+        "name": "Furi - Schwarzsee",
+        "type": "gondola",
+        "bottomElevation": 1867,
+        "topElevation": 2583,
+        "verticalRise": 716,
+        "capacity": 2400,
+        "duration": 7,
+        "sector": "Schwarzsee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7483, 46.0078],
+          [7.7233, 45.9828]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zermatt-furi",
+        "name": "Zermatt - Furi",
+        "type": "gondola",
+        "bottomElevation": 1620,
+        "topElevation": 1867,
+        "verticalRise": 247,
+        "capacity": 2800,
+        "duration": 4,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7478, 46.0208],
+          [7.7483, 46.0078]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sunnegga",
+        "name": "Sunnegga Express",
+        "type": "funicular",
+        "bottomElevation": 1620,
+        "topElevation": 2288,
+        "verticalRise": 668,
+        "capacity": 3000,
+        "duration": 3,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7528, 46.0217],
+          [7.7647, 46.0075]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sunnegga-blauherd",
+        "name": "Sunnegga - Blauherd",
+        "type": "gondola",
+        "bottomElevation": 2288,
+        "topElevation": 2571,
+        "verticalRise": 283,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7647, 46.0075],
+          [7.7542, 45.9928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "blauherd-rothorn",
+        "name": "Blauherd - Rothorn",
+        "type": "cable_car",
+        "bottomElevation": 2571,
+        "topElevation": 3103,
+        "verticalRise": 532,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7542, 45.9928],
+          [7.7503, 45.9772]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gornergrat-bahn",
+        "name": "Gornergrat Bahn",
+        "type": "railway",
+        "bottomElevation": 1620,
+        "topElevation": 3089,
+        "verticalRise": 1469,
+        "capacity": 1500,
+        "duration": 33,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7481, 46.0242],
+          [7.7847, 45.9831]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "riffelberg-express",
+        "name": "Riffelberg Express",
+        "type": "gondola",
+        "bottomElevation": 2582,
+        "topElevation": 2585,
+        "verticalRise": 3,
+        "capacity": 2200,
+        "duration": 8,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7483, 46.0078],
+          [7.7678, 45.9933]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gant",
+        "name": "Gant",
+        "type": "gondola",
+        "bottomElevation": 2222,
+        "topElevation": 2571,
+        "verticalRise": 349,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7817, 46.0011],
+          [7.7678, 45.9933]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "findelbahn",
+        "name": "Findelbahn",
+        "type": "chairlift",
+        "bottomElevation": 2051,
+        "topElevation": 2288,
+        "verticalRise": 237,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7789, 46.0089],
+          [7.7647, 46.0075]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "patrullarve",
+        "name": "Patrullarve",
+        "type": "chairlift",
+        "bottomElevation": 2100,
+        "topElevation": 2400,
+        "verticalRise": 300,
+        "capacity": 2400,
+        "duration": 6,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7603, 46.0125],
+          [7.7542, 45.9928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "theodul",
+        "name": "Theodulgletscher",
+        "type": "chairlift",
+        "bottomElevation": 2939,
+        "topElevation": 3301,
+        "verticalRise": 362,
+        "capacity": 2400,
+        "duration": 7,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7306, 45.9394],
+          [7.7064, 45.9342]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gobba-di-rollin",
+        "name": "Gobba di Rollin",
+        "type": "chairlift",
+        "bottomElevation": 3301,
+        "topElevation": 3458,
+        "verticalRise": 157,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7064, 45.9342],
+          [7.7017, 45.9317]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furggsattel",
+        "name": "Furggsattel",
+        "type": "t_bar",
+        "bottomElevation": 3365,
+        "topElevation": 3492,
+        "verticalRise": 127,
+        "capacity": 1200,
+        "duration": 6,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.7186, 45.9303],
+          [7.7108, 45.9283]
+        ]
+      }
+    }
+  ]
+}
