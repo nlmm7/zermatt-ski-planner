@@ -122,15 +122,22 @@ export default function Home() {
 
       {/* Save Modal */}
       {showSaveModal && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-6 w-full max-w-sm">
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
+          style={{ zIndex: 10000 }}
+          onClick={() => setShowSaveModal(false)}
+        >
+          <div
+            className="bg-white rounded-lg p-6 w-full max-w-sm shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <h3 className="text-lg font-bold mb-4">Save Route</h3>
             <input
               type="text"
               placeholder="Route name..."
               value={routeName}
               onChange={(e) => setRouteName(e.target.value)}
-              className="w-full p-2 border rounded mb-4"
+              className="w-full p-2 border rounded mb-4 text-base"
               autoFocus
             />
             <div className="flex gap-2">
@@ -153,8 +160,15 @@ export default function Home() {
 
       {/* Saved Routes Modal */}
       {showSavedRoutes && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg p-6 w-full max-w-md max-h-[80vh] overflow-auto">
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
+          style={{ zIndex: 10000 }}
+          onClick={() => setShowSavedRoutes(false)}
+        >
+          <div
+            className="bg-white rounded-lg p-6 w-full max-w-md max-h-[80vh] overflow-auto shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-lg font-bold">Saved Routes</h3>
               <button
