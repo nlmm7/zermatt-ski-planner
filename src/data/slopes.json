@@ -13,7 +13,7 @@
         "toLift": "sunnegga",
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
-        "toStation": "sunnegga"
+        "toStation": "sunnegga-express-top"
       },
       "geometry": {
         "type": "LineString",
@@ -63,8 +63,8 @@
             45.985
           ],
           [
-            7.7542,
-            45.9928
+            7.7543,
+            45.9929
           ]
         ]
       }
@@ -81,7 +81,7 @@
         "toLift": "patrullarve",
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
-        "toStation": "patrullarve-base"
+        "toStation": "tufteren"
       },
       "geometry": {
         "type": "LineString",
@@ -99,8 +99,8 @@
             46.0025
           ],
           [
-            7.7603,
-            46.0125
+            7.758,
+            46.015
           ]
         ]
       }
@@ -116,14 +116,14 @@
         "fromLift": "matterhorn-glacier-paradise",
         "toLift": "trockener-steg",
         "sector": "Matterhorn",
-        "fromStation": "klein-matterhorn",
+        "fromStation": "klein-matterhorn-lower",
         "toStation": "furgg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7286,
+            7.7295,
             45.9263
           ],
           [
@@ -232,7 +232,7 @@
         "fromLift": "gornergrat-bahn",
         "toLift": "riffelberg-express",
         "sector": "Gornergrat",
-        "fromStation": "gornergrat",
+        "fromStation": "riffelberg-bahn",
         "toStation": "riffelberg"
       },
       "geometry": {
@@ -296,15 +296,15 @@
         "fromLift": "trockener-steg",
         "toLift": "furi-schwarzsee",
         "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
+        "fromStation": "klein-matterhorn",
         "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7306,
-            45.9394
+            7.7286,
+            45.9393
           ],
           [
             7.7267,
@@ -333,14 +333,14 @@
         "toLift": "trockener-steg",
         "sector": "Matterhorn",
         "fromStation": "theodul",
-        "toStation": "trockener-steg"
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7064,
-            45.9342
+            7.708,
+            45.9343
           ],
           [
             7.715,
@@ -351,8 +351,8 @@
             45.9383
           ],
           [
-            7.7306,
-            45.9394
+            7.7286,
+            45.9393
           ]
         ]
       }
@@ -368,7 +368,7 @@
         "fromLift": "gornergrat-bahn",
         "toLift": "gant",
         "sector": "Gornergrat",
-        "fromStation": "gornergrat",
+        "fromStation": "riffelberg-bahn",
         "toStation": "gant"
       },
       "geometry": {
@@ -404,7 +404,7 @@
         "fromLift": "sunnegga",
         "toLift": "findelbahn",
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "sunnegga",
+        "fromStation": "sunnegga-express-top",
         "toStation": "findeln"
       },
       "geometry": {
@@ -436,8 +436,8 @@
         "fromLift": "sunnegga",
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "sunnegga",
-        "toStation": "zermatt-sunnegga"
+        "fromStation": "sunnegga-express-top",
+        "toStation": "zermatt-village"
       },
       "geometry": {
         "type": "LineString",
@@ -455,8 +455,8 @@
             46.0167
           ],
           [
-            7.7528,
-            46.0217
+            7.7481,
+            46.0242
           ]
         ]
       }
@@ -509,14 +509,14 @@
         "toLift": "sunnegga",
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
-        "toStation": "sunnegga"
+        "toStation": "sunnegga-express-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9928
+            7.7543,
+            45.9929
           ],
           [
             7.76,
@@ -540,15 +540,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "untere-national-7267-top",
+        "fromStation": "ried",
         "toStation": "untere-national-7267-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7687861,
-            46.0261125
+            7.7688,
+            46.026
           ],
           [
             7.7686028,
@@ -624,15 +624,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "brunnjeschbord-7270-top",
-        "toStation": "brunnjeschbord-7270-bottom"
+        "fromStation": "zermatt-gbahn",
+        "toStation": "ried"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7693307,
-            46.0171311
+            7.7701,
+            46.0173
           ],
           [
             7.7692766,
@@ -803,8 +803,8 @@
             46.0257465
           ],
           [
-            7.76895,
-            46.026031
+            7.7688,
+            46.026
           ]
         ]
       }
@@ -820,15 +820,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "gornergrat-1635-top",
-        "toStation": "gornergrat-1635-bottom"
+        "fromStation": "gifthittli",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7751537,
-            45.9861436
+            7.7752,
+            45.9861
           ],
           [
             7.7753548,
@@ -995,8 +995,8 @@
             45.9937015
           ],
           [
-            7.7557992,
-            45.9937167
+            7.7543,
+            45.9931
           ]
         ]
       }
@@ -1012,15 +1012,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "kelle-1637-top",
+        "fromStation": "gifthittli",
         "toStation": "kelle-1637-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7753548,
-            45.9860265
+            7.7752,
+            45.9861
           ],
           [
             7.7754821,
@@ -1116,15 +1116,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "gifthittli-1641-top",
+        "fromStation": "gifthittli",
         "toStation": "gifthittli-1641-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7777762,
-            45.9875425
+            7.7752,
+            45.9861
           ],
           [
             7.7772802,
@@ -1228,15 +1228,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "riffelhorn-1642-top",
-        "toStation": "riffelhorn-1642-bottom"
+        "fromStation": "gifthittli",
+        "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7726958,
-            45.98564
+            7.7752,
+            45.9861
           ],
           [
             7.7716613,
@@ -1315,8 +1315,8 @@
             45.991918
           ],
           [
-            7.7567862,
-            45.9926138
+            7.7543,
+            45.9929
           ]
         ]
       }
@@ -1332,15 +1332,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "riffelalp-1836-top",
+        "fromStation": "riffelberg",
         "toStation": "riffelalp-1836-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7548617,
-            45.9938814
+            7.7543,
+            45.9931
           ],
           [
             7.7547407,
@@ -1641,7 +1641,7 @@
         "toLift": null,
         "sector": "Matterhorn",
         "fromStation": "furgg-furi-8342-top",
-        "toStation": "furgg-furi-8342-bottom"
+        "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
@@ -1855,8 +1855,8 @@
             46.0017109
           ],
           [
-            7.7292374,
-            46.0017635
+            7.7321,
+            46.0013
           ]
         ]
       }
@@ -2076,15 +2076,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "theodulgletscher-8590-top",
+        "fromStation": "furggsattel",
         "toStation": "theodulgletscher-8590-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7051109,
-            45.9511473
+            7.7043,
+            45.9507
           ],
           [
             7.7052619,
@@ -2204,15 +2204,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "testa-grigia-8593-top",
-        "toStation": "testa-grigia-8593-bottom"
+        "fromStation": "theodul",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7091061,
-            45.933609
+            7.708,
+            45.9343
           ],
           [
             7.7092996,
@@ -2247,8 +2247,8 @@
             45.9366321
           ],
           [
-            7.7090023,
-            45.9366893
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -2264,15 +2264,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "testa-ii-9484-top",
-        "toStation": "testa-ii-9484-bottom"
+        "fromStation": "furggsattel-lower",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.717655,
-            45.9303012
+            7.7186,
+            45.9303
           ],
           [
             7.7166254,
@@ -2311,8 +2311,8 @@
             45.9334815
           ],
           [
-            7.7091061,
-            45.933609
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -2328,15 +2328,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "theodulsee-0215-top",
-        "toStation": "theodulsee-0215-bottom"
+        "fromStation": "trockener-steg",
+        "toStation": "furgg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7223898,
-            45.9704745
+            7.7222,
+            45.971
           ],
           [
             7.7220275,
@@ -2391,8 +2391,8 @@
             45.9764963
           ],
           [
-            7.7183214,
-            45.9769052
+            7.7186,
+            45.9776
           ]
         ]
       }
@@ -2408,15 +2408,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "rennstrecke-0216-top",
-        "toStation": "rennstrecke-0216-bottom"
+        "fromStation": "furgg",
+        "toStation": "furgg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7183214,
-            45.9769052
+            7.7186,
+            45.9776
           ],
           [
             7.7185297,
@@ -2447,8 +2447,8 @@
             45.9797693
           ],
           [
-            7.7180112,
-            45.9807321
+            7.7186,
+            45.9776
           ]
         ]
       }
@@ -2464,15 +2464,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "sandiger-boden-0217-top",
+        "fromStation": "furgg",
         "toStation": "sandiger-boden-0217-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7180112,
-            45.9807321
+            7.7186,
+            45.9776
           ],
           [
             7.718153,
@@ -2545,7 +2545,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "allalin-fis-8032-top",
-        "toStation": "allalin-fis-8032-bottom"
+        "toStation": "mittelallalin-skiing"
       },
       "geometry": {
         "type": "LineString",
@@ -2599,8 +2599,8 @@
             46.0580949
           ],
           [
-            7.896965,
-            46.0584682
+            7.9015,
+            46.0582
           ]
         ]
       }
@@ -2616,15 +2616,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "oberer-spielboden-8035-top",
-        "toStation": "oberer-spielboden-8035-bottom"
+        "fromStation": "spielboden",
+        "toStation": "spielboden"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8945474,
-            46.0902623
+            7.8995,
+            46.092
           ],
           [
             7.8949918,
@@ -2659,8 +2659,8 @@
             46.0904527
           ],
           [
-            7.8975058,
-            46.0919846
+            7.8995,
+            46.092
           ]
         ]
       }
@@ -2676,15 +2676,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "l-ngfluh-8038-top",
-        "toStation": "l-ngfluh-8038-bottom"
+        "fromStation": "langfluh",
+        "toStation": "langfluh"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8946774,
-            46.0804417
+            7.8949,
+            46.0826
           ],
           [
             7.8944454,
@@ -2699,8 +2699,8 @@
             46.0816705
           ],
           [
-            7.8951075,
-            46.0822667
+            7.8949,
+            46.0826
           ]
         ]
       }
@@ -2716,15 +2716,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "metro-8039-top",
-        "toStation": "metro-8039-bottom"
+        "fromStation": "mittelallalin-skiing",
+        "toStation": "mittelallalin"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9035361,
-            46.0565359
+            7.9015,
+            46.0582
           ],
           [
             7.9029092,
@@ -2815,8 +2815,8 @@
             46.0622502
           ],
           [
-            7.8970681,
-            46.0631123
+            7.8971,
+            46.0631
           ]
         ]
       }
@@ -2832,15 +2832,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "skistar-8041-top",
-        "toStation": "skistar-8041-bottom"
+        "fromStation": "allalin-glacier",
+        "toStation": "mittelallalin"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9021024,
-            46.0590921
+            7.9023,
+            46.0589
           ],
           [
             7.9024717,
@@ -2887,8 +2887,8 @@
             46.063057
           ],
           [
-            7.8970681,
-            46.0631123
+            7.8971,
+            46.0631
           ]
         ]
       }
@@ -2945,7 +2945,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "eiskristall-8046-top",
-        "toStation": "eiskristall-8046-bottom"
+        "toStation": "felskinn"
       },
       "geometry": {
         "type": "LineString",
@@ -2991,8 +2991,8 @@
             46.0777181
           ],
           [
-            7.9142583,
-            46.0781814
+            7.9177,
+            46.0817
           ]
         ]
       }
@@ -3008,15 +3008,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "morenia-8048-top",
-        "toStation": "morenia-8048-bottom"
+        "fromStation": "felskinn",
+        "toStation": "morenia"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9142583,
-            46.0781814
+            7.9177,
+            46.0817
           ],
           [
             7.9140538,
@@ -3051,8 +3051,8 @@
             46.0851682
           ],
           [
-            7.9137644,
-            46.0854295
+            7.9134,
+            46.0855
           ]
         ]
       }
@@ -3156,15 +3156,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-bontadini-0389-top",
-        "toStation": "plateau-rosa-bontadini-0389-bottom"
+        "fromStation": "bontadini-top",
+        "toStation": "furggsattel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7074684,
-            45.9443919
+            7.7085,
+            45.9449
           ],
           [
             7.7072696,
@@ -3199,8 +3199,8 @@
             45.9472977
           ],
           [
-            7.7040946,
-            45.9479271
+            7.7043,
+            45.9507
           ]
         ]
       }
@@ -3216,15 +3216,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "landtunnel-2019-top",
-        "toStation": "landtunnel-2019-bottom"
+        "fromStation": "patrullarve",
+        "toStation": "patrullarve"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7454231,
-            46.0002965
+            7.7467,
+            46.003
           ],
           [
             7.7450147,
@@ -3263,8 +3263,8 @@
             46.0017394
           ],
           [
-            7.7435349,
-            46.0015247
+            7.7467,
+            46.003
           ]
         ]
       }
@@ -3281,7 +3281,7 @@
         "toLift": null,
         "sector": "Schwarzsee",
         "fromStation": "iglupiste-2021-top",
-        "toStation": "iglupiste-2021-bottom"
+        "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
@@ -3327,8 +3327,8 @@
             45.9912882
           ],
           [
-            7.7581434,
-            45.9920139
+            7.7543,
+            45.9929
           ]
         ]
       }
@@ -3345,7 +3345,7 @@
         "toLift": null,
         "sector": "Schwarzsee",
         "fromStation": "rotenboden-2022-top",
-        "toStation": "rotenboden-2022-bottom"
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
@@ -3491,8 +3491,8 @@
             45.9937073
           ],
           [
-            7.7548617,
-            45.9938814
+            7.7543,
+            45.9931
           ]
         ]
       }
@@ -3508,15 +3508,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "stafelalp-1183-top",
+        "fromStation": "schwarzsee",
         "toStation": "stafelalp-1183-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7094725,
-            45.9912184
+            7.7091,
+            45.9922
           ],
           [
             7.709395,
@@ -3620,15 +3620,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-1377-top",
-        "toStation": "plateau-rosa-1377-bottom"
+        "fromStation": "furggsattel-lower",
+        "toStation": "plateau-rosa"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7207207,
-            45.9290918
+            7.7186,
+            45.9303
           ],
           [
             7.720419,
@@ -3655,8 +3655,8 @@
             45.9359956
           ],
           [
-            7.7164092,
-            45.9368485
+            7.7162,
+            45.9364
           ]
         ]
       }
@@ -3673,7 +3673,7 @@
         "toLift": null,
         "sector": "Matterhorn",
         "fromStation": "h-rnli-1487-top",
-        "toStation": "h-rnli-1487-bottom"
+        "toStation": "schweigmatten"
       },
       "geometry": {
         "type": "LineString",
@@ -3755,8 +3755,8 @@
             46.001877
           ],
           [
-            7.7020899,
-            46.0022175
+            7.705,
+            46.002
           ]
         ]
       }
@@ -3888,15 +3888,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "derbyschuss-2666-top",
-        "toStation": "derbyschuss-2666-bottom"
+        "fromStation": "mittelallalin-skiing",
+        "toStation": "mittelallalin"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8966523,
-            46.0577449
+            7.9015,
+            46.0582
           ],
           [
             7.8966168,
@@ -3919,8 +3919,8 @@
             46.0626566
           ],
           [
-            7.8970681,
-            46.0631123
+            7.8971,
+            46.0631
           ]
         ]
       }
@@ -3937,7 +3937,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "mittaghorn-4098-top",
-        "toStation": "mittaghorn-4098-bottom"
+        "toStation": "felskinn"
       },
       "geometry": {
         "type": "LineString",
@@ -3987,8 +3987,8 @@
             46.0850691
           ],
           [
-            7.9183861,
-            46.0849888
+            7.9177,
+            46.0817
           ]
         ]
       }
@@ -4004,15 +4004,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "spielboden-4103-top",
+        "fromStation": "spielboden",
         "toStation": "spielboden-4103-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8975058,
-            46.0919846
+            7.8995,
+            46.092
           ],
           [
             7.8976457,
@@ -4152,15 +4152,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "ritzi-4106-top",
-        "toStation": "ritzi-4106-bottom"
+        "fromStation": "morenia",
+        "toStation": "morenia"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9137644,
-            46.0854295
+            7.9134,
+            46.0855
           ],
           [
             7.91394,
@@ -4291,8 +4291,8 @@
             46.086838
           ],
           [
-            7.9167655,
-            46.0869063
+            7.9134,
+            46.0855
           ]
         ]
       }
@@ -4308,15 +4308,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "galen-4110-top",
+        "fromStation": "plattjen",
         "toStation": "galen-4110-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9407664,
-            46.09124
+            7.935,
+            46.09
           ],
           [
             7.9399871,
@@ -4377,7 +4377,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "obere-national-3002-top",
-        "toStation": "obere-national-3002-bottom"
+        "toStation": "ried"
       },
       "geometry": {
         "type": "LineString",
@@ -4463,8 +4463,8 @@
             46.0255342
           ],
           [
-            7.7688925,
-            46.0257465
+            7.7688,
+            46.026
           ]
         ]
       }
@@ -4480,15 +4480,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "tuftern-3424-top",
+        "fromStation": "gant-blauherd",
         "toStation": "tuftern-3424-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7868786,
-            46.0191729
+            7.7883,
+            46.0166
           ],
           [
             7.7862112,
@@ -4748,15 +4748,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Schwarzsee",
-        "fromStation": "hoht-lli-3430-top",
-        "toStation": "hoht-lli-3430-bottom"
+        "fromStation": "gifthittli",
+        "toStation": "gifthittli"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7787675,
-            45.9833382
+            7.7752,
+            45.9861
           ],
           [
             7.7786946,
@@ -4791,8 +4791,8 @@
             45.9874023
           ],
           [
-            7.7777762,
-            45.9875425
+            7.7752,
+            45.9861
           ]
         ]
       }
@@ -4808,15 +4808,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "ventina-glacier-3441-top",
-        "toStation": "ventina-glacier-3441-bottom"
+        "fromStation": "testa-2",
+        "toStation": "plateau-rosa"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7207341,
-            45.924145
+            7.7185,
+            45.923
           ],
           [
             7.72128,
@@ -4847,8 +4847,8 @@
             45.9360782
           ],
           [
-            7.7163004,
-            45.9364078
+            7.7162,
+            45.9364
           ]
         ]
       }
@@ -4864,15 +4864,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gran-sometta-3-gran-sometta-3-3743-top",
-        "toStation": "gran-sometta-3-gran-sometta-3-3743-bottom"
+        "fromStation": "gran-sometta-top",
+        "toStation": "gran-sometta-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6901931,
-            45.9190065
+            7.6909,
+            45.9188
           ],
           [
             7.6904263,
@@ -4899,8 +4899,8 @@
             45.9200275
           ],
           [
-            7.6908631,
-            45.9205076
+            7.6909,
+            45.9188
           ]
         ]
       }
@@ -4916,15 +4916,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "du-col-3745-top",
-        "toStation": "du-col-3745-bottom"
+        "fromStation": "gran-sometta",
+        "toStation": "gran-sometta"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6776301,
-            45.9095082
+            7.6808,
+            45.9109
           ],
           [
             7.6779631,
@@ -4959,8 +4959,8 @@
             45.9106211
           ],
           [
-            7.6808195,
-            45.9109064
+            7.6808,
+            45.9109
           ]
         ]
       }
@@ -4977,7 +4977,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "plattjen-3582-top",
-        "toStation": "plattjen-3582-bottom"
+        "toStation": "plattjen"
       },
       "geometry": {
         "type": "LineString",
@@ -5091,8 +5091,8 @@
             46.0939521
           ],
           [
-            7.9354591,
-            46.0939052
+            7.935,
+            46.09
           ]
         ]
       }
@@ -5108,15 +5108,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "kanonenrohr-5869-top",
+        "fromStation": "morenia",
         "toStation": "kanonenrohr-5869-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.91394,
-            46.0856456
+            7.9134,
+            46.0855
           ],
           [
             7.9137409,
@@ -5176,15 +5176,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "feechatz-3857-top",
-        "toStation": "feechatz-3857-bottom"
+        "fromStation": "mittelallalin",
+        "toStation": "langfluh"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8970681,
-            46.0631123
+            7.8971,
+            46.0631
           ],
           [
             7.8971015,
@@ -5223,8 +5223,8 @@
             46.0824968
           ],
           [
-            7.8948081,
-            46.0828341
+            7.8949,
+            46.0826
           ]
         ]
       }
@@ -5240,15 +5240,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "weisse-meile-3858-top",
+        "fromStation": "mittelallalin",
         "toStation": "weisse-meile-3858-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8971015,
-            46.06454
+            7.8971,
+            46.0631
           ],
           [
             7.8975177,
@@ -5292,15 +5292,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "gletscherpromenade-6800-top",
+        "fromStation": "mittelallalin-skiing",
         "toStation": "gletscherpromenade-6800-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9003375,
-            46.0581225
+            7.9015,
+            46.0582
           ],
           [
             7.900412,
@@ -5364,15 +5364,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "altes-kanonenrohr-6905-top",
-        "toStation": "altes-kanonenrohr-6905-bottom"
+        "fromStation": "morenia",
+        "toStation": "morenia"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9122086,
-            46.0856144
+            7.9134,
+            46.0855
           ],
           [
             7.9121521,
@@ -5399,8 +5399,8 @@
             46.089572
           ],
           [
-            7.9120943,
-            46.0898988
+            7.9134,
+            46.0855
           ]
         ]
       }
@@ -5460,15 +5460,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gran-sometta-2-7061-top",
-        "toStation": "gran-sometta-2-7061-bottom"
+        "fromStation": "gran-sometta-top",
+        "toStation": "gran-sometta-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6912968,
-            45.9193293
+            7.6909,
+            45.9188
           ],
           [
             7.6913413,
@@ -5495,8 +5495,8 @@
             45.9212635
           ],
           [
-            7.6906314,
-            45.9211681
+            7.6909,
+            45.9188
           ]
         ]
       }
@@ -5588,15 +5588,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gran-sometta-1-1527-top",
+        "fromStation": "gran-sometta-top",
         "toStation": "gran-sometta-1-1527-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6929841,
-            45.9215612
+            7.6909,
+            45.9188
           ],
           [
             7.6930071,
@@ -5740,15 +5740,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gran-sometta-3-6497-top",
+        "fromStation": "gran-sometta-top",
         "toStation": "gran-sometta-3-6497-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6891731,
-            45.9209389
+            7.6909,
+            45.9188
           ],
           [
             7.6884697,
@@ -5885,7 +5885,7 @@
         "toLift": null,
         "sector": "Cervinia",
         "fromStation": "ventina-bardoney-1-7151-top",
-        "toStation": "ventina-bardoney-1-7151-bottom"
+        "toStation": "cervinia-village"
       },
       "geometry": {
         "type": "LineString",
@@ -6047,8 +6047,8 @@
             45.9345579
           ],
           [
-            7.6363867,
-            45.9345614
+            7.6314,
+            45.9371
           ]
         ]
       }
@@ -6440,15 +6440,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "castore-1497-top",
-        "toStation": "castore-1497-bottom"
+        "fromStation": "gabiet",
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8477294,
-            45.8524587
+            7.8449,
+            45.8556
           ],
           [
             7.8479172,
@@ -6539,8 +6539,8 @@
             45.8554957
           ],
           [
-            7.8453479,
-            45.8554153
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -6556,15 +6556,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "castore-ricka-1532-top",
-        "toStation": "castore-ricka-1532-bottom"
+        "fromStation": "gabiet",
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8477294,
-            45.8524587
+            7.8449,
+            45.8556
           ],
           [
             7.8473977,
@@ -6647,8 +6647,8 @@
             45.8545389
           ],
           [
-            7.8425047,
-            45.8547034
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -6665,7 +6665,7 @@
         "toLift": null,
         "sector": "Cervinia",
         "fromStation": "collegamento-gabiet-1549-top",
-        "toStation": "collegamento-gabiet-1549-bottom"
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
@@ -6767,8 +6767,8 @@
             45.8537499
           ],
           [
-            7.8436631,
-            45.8539107
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -6853,7 +6853,7 @@
         "toLift": null,
         "sector": "Cervinia",
         "fromStation": "moos-1608-top",
-        "toStation": "moos-1608-bottom"
+        "toStation": "staffal"
       },
       "geometry": {
         "type": "LineString",
@@ -7223,8 +7223,8 @@
             45.8605493
           ],
           [
-            7.8124143,
-            45.8604725
+            7.812,
+            45.8579
           ]
         ]
       }
@@ -7756,15 +7756,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "bontadini-3268-top",
-        "toStation": "bontadini-3268-bottom"
+        "fromStation": "bontadini-top",
+        "toStation": "furggsattel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7085973,
-            45.9448287
+            7.7085,
+            45.9449
           ],
           [
             7.7086682,
@@ -7815,8 +7815,8 @@
             45.9481409
           ],
           [
-            7.7049862,
-            45.948154
+            7.7043,
+            45.9507
           ]
         ]
       }
@@ -7832,15 +7832,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "verbindungspiste-4073-top",
-        "toStation": "verbindungspiste-4073-bottom"
+        "fromStation": "theodul",
+        "toStation": "plateau-rosa"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7091061,
-            45.933609
+            7.708,
+            45.9343
           ],
           [
             7.7097301,
@@ -7859,8 +7859,8 @@
             45.9354109
           ],
           [
-            7.7164573,
-            45.9358496
+            7.7162,
+            45.9364
           ]
         ]
       }
@@ -7876,15 +7876,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gobba-di-rollin-4079-top",
+        "fromStation": "klein-matterhorn-lower",
         "toStation": "gobba-di-rollin-4079-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7347218,
-            45.9246345
+            7.7295,
+            45.9263
           ],
           [
             7.7344444,
@@ -8412,15 +8412,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "stockhorn-0045-top",
+        "fromStation": "stockhorn",
         "toStation": "stockhorn-0045-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8230569,
-            45.9867877
+            7.823,
+            45.9868
           ],
           [
             7.8228497,
@@ -8496,15 +8496,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "moosstrasse-4721-top",
+        "fromStation": "furi",
         "toStation": "moosstrasse-4721-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7371456,
-            46.0013288
+            7.7321,
+            46.0013
           ],
           [
             7.7373036,
@@ -8828,15 +8828,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "gandegg-2032-top",
+        "fromStation": "bontadini-top",
         "toStation": "gandegg-2032-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7116432,
-            45.9457954
+            7.7085,
+            45.9449
           ],
           [
             7.7123416,
@@ -8904,15 +8904,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "furggsattel-9456-top",
+        "fromStation": "furggsattel",
         "toStation": "furggsattel-9456-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.704321,
-            45.950733
+            7.7043,
+            45.9507
           ],
           [
             7.7045367,
@@ -8980,15 +8980,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "gr-nsee-7348-top",
+        "fromStation": "breitenboden",
         "toStation": "gr-nsee-7348-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7709296,
-            46.0028616
+            7.7727,
+            46.0018
           ],
           [
             7.770885,
@@ -9332,15 +9332,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "zen-steckenstrasse-0282-top",
-        "toStation": "zen-steckenstrasse-0282-bottom"
+        "fromStation": "blatten",
+        "toStation": "blatten"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7407169,
-            46.0125932
+            7.7407,
+            46.0125
           ],
           [
             7.7408157,
@@ -9371,8 +9371,8 @@
             46.0143354
           ],
           [
-            7.7414305,
-            46.0144044
+            7.7407,
+            46.0125
           ]
         ]
       }
@@ -9388,15 +9388,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "blatten-4421-top",
-        "toStation": "blatten-4421-bottom"
+        "fromStation": "furi",
+        "toStation": "blatten"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7318626,
-            46.0018448
+            7.7321,
+            46.0013
           ],
           [
             7.7318028,
@@ -9623,8 +9623,8 @@
             46.0123454
           ],
           [
-            7.7405986,
-            46.0125453
+            7.7407,
+            46.0125
           ]
         ]
       }
@@ -9641,7 +9641,7 @@
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "berter-3001-top",
-        "toStation": "berter-3001-bottom"
+        "toStation": "findeln"
       },
       "geometry": {
         "type": "LineString",
@@ -9707,8 +9707,8 @@
             46.0098256
           ],
           [
-            7.7694857,
-            46.0098717
+            7.7695,
+            46.0099
           ]
         ]
       }
@@ -9724,15 +9724,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "tumigu-4158-top",
+        "fromStation": "furgg",
         "toStation": "tumigu-4158-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7134864,
-            45.9800928
+            7.7186,
+            45.9776
           ],
           [
             7.7126861,
@@ -9785,7 +9785,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "felskinn-0753-top",
-        "toStation": "felskinn-0753-bottom"
+        "toStation": "morenia"
       },
       "geometry": {
         "type": "LineString",
@@ -9843,8 +9843,8 @@
             46.0831299
           ],
           [
-            7.917287,
-            46.0849627
+            7.9134,
+            46.0855
           ]
         ]
       }
@@ -9861,7 +9861,7 @@
         "toLift": null,
         "sector": "Schwarzsee",
         "fromStation": "riffelboden-0352-top",
-        "toStation": "riffelboden-0352-bottom"
+        "toStation": "riffelalp"
       },
       "geometry": {
         "type": "LineString",
@@ -9939,8 +9939,8 @@
             46.0056807
           ],
           [
-            7.7566609,
-            46.0054122
+            7.755,
+            46.005
           ]
         ]
       }
@@ -9956,15 +9956,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "aroleid-0358-top",
+        "fromStation": "schwarzsee",
         "toStation": "aroleid-0358-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7108727,
-            45.9911238
+            7.7091,
+            45.9922
           ],
           [
             7.711007,
@@ -10137,7 +10137,7 @@
         "toLift": null,
         "sector": "Matterhorn",
         "fromStation": "momatt-5066-top",
-        "toStation": "momatt-5066-bottom"
+        "toStation": "stafel"
       },
       "geometry": {
         "type": "LineString",
@@ -10195,8 +10195,8 @@
             46.0032967
           ],
           [
-            7.7169684,
-            46.0038469
+            7.718,
+            46.005
           ]
         ]
       }
@@ -10212,15 +10212,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Matterhorn",
-        "fromStation": "tiefbach-5068-top",
-        "toStation": "tiefbach-5068-bottom"
+        "fromStation": "schweigmatten",
+        "toStation": "stafel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7049769,
-            45.9983429
+            7.705,
+            46.002
           ],
           [
             7.7056715,
@@ -10275,8 +10275,8 @@
             46.0046998
           ],
           [
-            7.71463,
-            46.0049277
+            7.718,
+            46.005
           ]
         ]
       }
@@ -10293,7 +10293,7 @@
         "toLift": null,
         "sector": "Matterhorn",
         "fromStation": "hermetje-5069-top",
-        "toStation": "hermetje-5069-bottom"
+        "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
@@ -10339,8 +10339,8 @@
             46.0014745
           ],
           [
-            7.728757,
-            46.0016132
+            7.7321,
+            46.0013
           ]
         ]
       }
@@ -10357,7 +10357,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "fontanone-4351-top",
-        "toStation": "fontanone-4351-bottom"
+        "toStation": "pecetto"
       },
       "geometry": {
         "type": "LineString",
@@ -10419,8 +10419,8 @@
             45.9709705
           ],
           [
-            7.9504089,
-            45.9709198
+            7.9511,
+            45.9709
           ]
         ]
       }
@@ -10437,7 +10437,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "scoiattoli-4622-top",
-        "toStation": "scoiattoli-4622-bottom"
+        "toStation": "pecetto"
       },
       "geometry": {
         "type": "LineString",
@@ -10487,8 +10487,8 @@
             45.9707542
           ],
           [
-            7.9513432,
-            45.9708561
+            7.9511,
+            45.9709
           ]
         ]
       }
@@ -10504,15 +10504,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "white-hare-9299-top",
+        "fromStation": "hohtalli",
         "toStation": "white-hare-9299-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8005966,
-            45.9907922
+            7.8021,
+            45.989
           ],
           [
             7.800563,
@@ -10904,15 +10904,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "balmbrunnen-9301-top",
-        "toStation": "balmbrunnen-9301-bottom"
+        "fromStation": "breitenboden",
+        "toStation": "sunnegga-express-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7685076,
-            46.0039582
+            7.7727,
+            46.0018
           ],
           [
             7.7683481,
@@ -10959,8 +10959,8 @@
             46.0050942
           ],
           [
-            7.7604394,
-            46.0055532
+            7.7647,
+            46.0075
           ]
         ]
       }
@@ -10977,7 +10977,7 @@
         "toLift": null,
         "sector": "Matterhorn",
         "fromStation": "oberer-tiefbach-6186-top",
-        "toStation": "oberer-tiefbach-6186-bottom"
+        "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
@@ -11131,8 +11131,8 @@
             45.992908
           ],
           [
-            7.7041304,
-            45.9934869
+            7.7091,
+            45.9922
           ]
         ]
       }
@@ -11148,15 +11148,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "ried-7978-top",
+        "fromStation": "ried",
         "toStation": "ried-7978-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7686028,
-            46.0261952
+            7.7688,
+            46.026
           ],
           [
             7.7685336,
@@ -11441,7 +11441,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "allalin-sommer-3199-top",
-        "toStation": "allalin-sommer-3199-bottom"
+        "toStation": "mittelallalin"
       },
       "geometry": {
         "type": "LineString",
@@ -11523,8 +11523,8 @@
             46.0631123
           ],
           [
-            7.8975392,
-            46.0631424
+            7.8971,
+            46.0631
           ]
         ]
       }
@@ -11764,15 +11764,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "fillar-6389-top",
+        "fromStation": "belvedere",
         "toStation": "fillar-6389-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9320101,
-            45.9668593
+            7.932,
+            45.9669
           ],
           [
             7.9324827,
@@ -11916,15 +11916,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "bielti-6346-top",
-        "toStation": "bielti-6346-bottom"
+        "fromStation": "furi",
+        "toStation": "zum-see"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7268342,
-            46.0037547
+            7.7321,
+            46.0013
           ],
           [
             7.7279321,
@@ -11959,8 +11959,8 @@
             46.0061331
           ],
           [
-            7.7334638,
-            46.006229
+            7.735,
+            46.009
           ]
         ]
       }
@@ -12036,15 +12036,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "skiweg-ritzi-2741-top",
+        "fromStation": "morenia",
         "toStation": "skiweg-ritzi-2741-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9166319,
-            46.086838
+            7.9134,
+            46.0855
           ],
           [
             7.9166012,
@@ -12680,15 +12680,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "wang-2745-top",
+        "fromStation": "plattjen",
         "toStation": "wang-2745-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9354591,
-            46.0939052
+            7.935,
+            46.09
           ],
           [
             7.9346773,
@@ -12800,15 +12800,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Gornergrat",
-        "fromStation": "bachpiste-2751-top",
+        "fromStation": "morenia",
         "toStation": "bachpiste-2751-bottom"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9120943,
-            46.0898988
+            7.9134,
+            46.0855
           ],
           [
             7.9124666,
@@ -12905,7 +12905,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "trainingspiste-sommer-8491-top",
-        "toStation": "trainingspiste-sommer-8491-bottom"
+        "toStation": "mittelallalin-skiing"
       },
       "geometry": {
         "type": "LineString",
@@ -12931,8 +12931,8 @@
             46.0554315
           ],
           [
-            7.8966523,
-            46.0577449
+            7.9015,
+            46.0582
           ]
         ]
       }
@@ -12948,15 +12948,15 @@
         "fromLift": null,
         "toLift": null,
         "sector": "Cervinia",
-        "fromStation": "fiererpiste-6101-top",
-        "toStation": "fiererpiste-6101-bottom"
+        "fromStation": "plateau-rosa",
+        "toStation": "bontadini-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7164092,
-            45.9368485
+            7.7162,
+            45.9364
           ],
           [
             7.7161343,
@@ -12995,8 +12995,8 @@
             45.9454772
           ],
           [
-            7.7130771,
-            45.947353
+            7.7085,
+            45.9449
           ]
         ]
       }
@@ -13013,7 +13013,7 @@
         "toLift": null,
         "sector": "Gornergrat",
         "fromStation": "grieschumme-8644-top",
-        "toStation": "grieschumme-8644-bottom"
+        "toStation": "gant"
       },
       "geometry": {
         "type": "LineString",
@@ -13091,8 +13091,8 @@
             46.0076778
           ],
           [
-            7.7902293,
-            46.0079163
+            7.7875,
+            46.0085
           ]
         ]
       }

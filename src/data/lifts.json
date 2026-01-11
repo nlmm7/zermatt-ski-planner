@@ -13,18 +13,18 @@
         "capacity": 2000,
         "duration": 9,
         "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
-        "toStation": "klein-matterhorn"
+        "fromStation": "klein-matterhorn",
+        "toStation": "klein-matterhorn-lower"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7306,
-            45.9394
+            7.7286,
+            45.9393
           ],
           [
-            7.7286,
+            7.7295,
             45.9263
           ]
         ]
@@ -43,7 +43,7 @@
         "duration": 8,
         "sector": "Matterhorn",
         "fromStation": "furgg",
-        "toStation": "trockener-steg"
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
@@ -53,8 +53,8 @@
             45.9728
           ],
           [
-            7.7306,
-            45.9394
+            7.7286,
+            45.9393
           ]
         ]
       }
@@ -100,15 +100,15 @@
         "capacity": 2800,
         "duration": 4,
         "sector": "Matterhorn",
-        "fromStation": "zermatt-matterhorn",
+        "fromStation": "zermatt-village",
         "toStation": "furi"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7478,
-            46.0208
+            7.7481,
+            46.0242
           ],
           [
             7.7483,
@@ -129,15 +129,15 @@
         "capacity": 3000,
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "zermatt-sunnegga",
-        "toStation": "sunnegga"
+        "fromStation": "zermatt-village",
+        "toStation": "sunnegga-express-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7528,
-            46.0217
+            7.7481,
+            46.0242
           ],
           [
             7.7647,
@@ -158,7 +158,7 @@
         "capacity": 2400,
         "duration": 5,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "sunnegga",
+        "fromStation": "sunnegga-express-top",
         "toStation": "blauherd"
       },
       "geometry": {
@@ -169,8 +169,8 @@
             46.0075
           ],
           [
-            7.7542,
-            45.9928
+            7.7543,
+            45.9929
           ]
         ]
       }
@@ -194,8 +194,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9928
+            7.7543,
+            45.9929
           ],
           [
             7.7503,
@@ -216,8 +216,8 @@
         "capacity": 1500,
         "duration": 33,
         "sector": "Gornergrat",
-        "fromStation": "zermatt-gornergrat",
-        "toStation": "gornergrat"
+        "fromStation": "zermatt-village",
+        "toStation": "riffelberg-bahn"
       },
       "geometry": {
         "type": "LineString",
@@ -304,7 +304,7 @@
         "duration": 5,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "findeln",
-        "toStation": "sunnegga"
+        "toStation": "sunnegga-express-top"
       },
       "geometry": {
         "type": "LineString",
@@ -332,19 +332,19 @@
         "capacity": 2400,
         "duration": 6,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "patrullarve-base",
+        "fromStation": "tufteren",
         "toStation": "blauherd"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7603,
-            46.0125
+            7.758,
+            46.015
           ],
           [
-            7.7542,
-            45.9928
+            7.7543,
+            45.9929
           ]
         ]
       }
@@ -361,19 +361,19 @@
         "capacity": 2400,
         "duration": 7,
         "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
+        "fromStation": "klein-matterhorn",
         "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7306,
-            45.9394
+            7.7286,
+            45.9393
           ],
           [
-            7.7064,
-            45.9342
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -397,8 +397,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7064,
-            45.9342
+            7.708,
+            45.9343
           ],
           [
             7.7017,
@@ -419,7 +419,7 @@
         "capacity": 1200,
         "duration": 6,
         "sector": "Matterhorn",
-        "fromStation": "furggsattel-base",
+        "fromStation": "furggsattel-lower",
         "toStation": "furggsattel"
       },
       "geometry": {
@@ -448,23 +448,23 @@
         "capacity": 2550,
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "zermatt-sunnegga-funicular-0086-bottom",
-        "toStation": "zermatt-sunnegga-funicular-0086-top"
+        "fromStation": "zermatt-village",
+        "toStation": "zermatt-gbahn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7531707,
-            46.0220822
+            7.7481,
+            46.0242
           ],
           [
             7.7542211,
             46.0217398
           ],
           [
-            7.7700623,
-            46.0172947
+            7.7701,
+            46.0173
           ]
         ]
       }
@@ -481,15 +481,15 @@
         "capacity": 1800,
         "duration": 3,
         "sector": "Gornergrat",
-        "fromStation": "hublot-express-gant-blauherd-0668-bottom",
-        "toStation": "hublot-express-gant-blauherd-0668-top"
+        "fromStation": "gant",
+        "toStation": "gant-blauherd"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7882817,
-            46.0085293
+            7.7875,
+            46.0085
           ],
           [
             7.7882874,
@@ -520,8 +520,8 @@
             46.0162373
           ],
           [
-            7.7883167,
-            46.0165985
+            7.7883,
+            46.0166
           ]
         ]
       }
@@ -538,15 +538,15 @@
         "capacity": 1000,
         "duration": 6,
         "sector": "Gornergrat",
-        "fromStation": "gant-hoht-lli-0670-bottom",
-        "toStation": "gant-hoht-lli-0670-top"
+        "fromStation": "gant",
+        "toStation": "hohtalli"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7875235,
-            46.0090146
+            7.7875,
+            46.0085
           ],
           [
             7.787837,
@@ -565,8 +565,8 @@
             45.9916056
           ],
           [
-            7.8021025,
-            45.989012
+            7.8021,
+            45.989
           ]
         ]
       }
@@ -583,15 +583,15 @@
         "capacity": 2400,
         "duration": 7,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "riffelberg-express-7636-bottom",
-        "toStation": "riffelberg-express-7636-top"
+        "fromStation": "furi",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.732298,
-            46.0013446
+            7.7321,
+            46.0013
           ],
           [
             7.7352235,
@@ -646,8 +646,8 @@
             45.9933097
           ],
           [
-            7.7543034,
-            45.9930873
+            7.7543,
+            45.9931
           ]
         ]
       }
@@ -664,15 +664,15 @@
         "capacity": 800,
         "duration": 7,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "furi-trockener-steg-7638-bottom",
-        "toStation": "furi-trockener-steg-7638-top"
+        "fromStation": "furi",
+        "toStation": "trockener-steg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7320541,
-            46.0012251
+            7.7321,
+            46.0013
           ],
           [
             7.7296909,
@@ -691,8 +691,8 @@
             45.9754387
           ],
           [
-            7.7222445,
-            45.9718055
+            7.7222,
+            45.971
           ]
         ]
       }
@@ -709,15 +709,15 @@
         "capacity": 3200,
         "duration": 5,
         "sector": "Schwarzsee",
-        "fromStation": "gifthittli-8265-bottom",
-        "toStation": "gifthittli-8265-top"
+        "fromStation": "riffelberg",
+        "toStation": "gifthittli"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7548434,
-            45.9941222
+            7.7543,
+            45.9931
           ],
           [
             7.7550355,
@@ -784,8 +784,8 @@
             45.9862676
           ],
           [
-            7.7751537,
-            45.9861436
+            7.7752,
+            45.9861
           ]
         ]
       }
@@ -803,7 +803,7 @@
         "duration": 4,
         "sector": "Matterhorn",
         "fromStation": "furgg-sandiger-boden-1536-bottom",
-        "toStation": "furgg-sandiger-boden-1536-top"
+        "toStation": "sandiger-boden"
       },
       "geometry": {
         "type": "LineString",
@@ -869,8 +869,8 @@
             45.9778389
           ],
           [
-            7.7198981,
-            45.9775004
+            7.7198,
+            45.9776
           ]
         ]
       }
@@ -887,15 +887,15 @@
         "capacity": 2400,
         "duration": 9,
         "sector": "Schwarzsee",
-        "fromStation": "furggsattel-gletscherbahn-1538-bottom",
-        "toStation": "furggsattel-gletscherbahn-1538-top"
+        "fromStation": "trockener-steg",
+        "toStation": "furggsattel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7215556,
-            45.9701554
+            7.7222,
+            45.971
           ],
           [
             7.7213131,
@@ -966,8 +966,8 @@
             45.9513524
           ],
           [
-            7.704321,
-            45.950733
+            7.7043,
+            45.9507
           ]
         ]
       }
@@ -984,15 +984,15 @@
         "capacity": 600,
         "duration": 8,
         "sector": "Schwarzsee",
-        "fromStation": "trockener-steg-matterhorn-glac-1540-bottom",
-        "toStation": "trockener-steg-matterhorn-glac-1540-top"
+        "fromStation": "trockener-steg",
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7223483,
-            45.9709313
+            7.7222,
+            45.971
           ],
           [
             7.7229923,
@@ -1007,8 +1007,8 @@
             45.9632963
           ],
           [
-            7.7295015,
-            45.9392676
+            7.7286,
+            45.9393
           ]
         ]
       }
@@ -1025,19 +1025,19 @@
         "capacity": 2000,
         "duration": 11,
         "sector": "Cervinia",
-        "fromStation": "funivia-del-plateau-rosa-1544-bottom",
-        "toStation": "funivia-del-plateau-rosa-1544-top"
+        "fromStation": "laghi-cime-bianche",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6805819,
-            45.9299726
+            7.6801,
+            45.9301
           ],
           [
-            7.7076533,
-            45.9344658
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -1055,7 +1055,7 @@
         "duration": 11,
         "sector": "Cervinia",
         "fromStation": "plan-maison-1545-bottom",
-        "toStation": "plan-maison-1545-top"
+        "toStation": "fornet"
       },
       "geometry": {
         "type": "LineString",
@@ -1153,8 +1153,8 @@
             45.9452011
           ],
           [
-            7.6847874,
-            45.9452222
+            7.6844,
+            45.9447
           ]
         ]
       }
@@ -1171,15 +1171,15 @@
         "capacity": 2000,
         "duration": 5,
         "sector": "Cervinia",
-        "fromStation": "fornet-1546-bottom",
-        "toStation": "fornet-1546-top"
+        "fromStation": "fornet",
+        "toStation": "bontadini"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6843977,
-            45.9446928
+            7.6844,
+            45.9447
           ],
           [
             7.6849311,
@@ -1218,8 +1218,8 @@
             45.9475852
           ],
           [
-            7.6953253,
-            45.947643
+            7.695,
+            45.948
           ]
         ]
       }
@@ -1236,15 +1236,15 @@
         "capacity": 2000,
         "duration": 5,
         "sector": "Cervinia",
-        "fromStation": "bontadini-1547-bottom",
-        "toStation": "bontadini-1547-top"
+        "fromStation": "bontadini",
+        "toStation": "bontadini-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6950197,
-            45.9479524
+            7.695,
+            45.948
           ],
           [
             7.695548,
@@ -1283,8 +1283,8 @@
             45.945238
           ],
           [
-            7.708477,
-            45.9448843
+            7.7085,
+            45.9449
           ]
         ]
       }
@@ -1301,15 +1301,15 @@
         "capacity": 2000,
         "duration": 8,
         "sector": "Cervinia",
-        "fromStation": "cretaz-1549-bottom",
-        "toStation": "cretaz-1549-top"
+        "fromStation": "cervinia-village",
+        "toStation": "plan-maison"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6313722,
-            45.9371279
+            7.6314,
+            45.9371
           ],
           [
             7.6321741,
@@ -1372,8 +1372,8 @@
             45.9452343
           ],
           [
-            7.6485868,
-            45.9456655
+            7.6486,
+            45.9457
           ]
         ]
       }
@@ -1390,15 +1390,15 @@
         "capacity": 2000,
         "duration": 4,
         "sector": "Gornergrat",
-        "fromStation": "l-ngfluh-6092-bottom",
-        "toStation": "l-ngfluh-6092-top"
+        "fromStation": "spielboden",
+        "toStation": "langfluh"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8993575,
-            46.0919918
+            7.8995,
+            46.092
           ],
           [
             7.8987796,
@@ -1409,8 +1409,8 @@
             46.0852533
           ],
           [
-            7.8957889,
-            46.0845339
+            7.8949,
+            46.0826
           ]
         ]
       }
@@ -1427,15 +1427,15 @@
         "capacity": 2000,
         "duration": 4,
         "sector": "Gornergrat",
-        "fromStation": "mittelallalin-3-6093-bottom",
+        "fromStation": "mittelallalin-skiing",
         "toStation": "mittelallalin-3-6093-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.896965,
-            46.0584682
+            7.9015,
+            46.0582
           ],
           [
             7.8972224,
@@ -1480,15 +1480,15 @@
         "capacity": 2000,
         "duration": 4,
         "sector": "Gornergrat",
-        "fromStation": "mittelallalin-2-6094-bottom",
+        "fromStation": "mittelallalin-skiing",
         "toStation": "mittelallalin-2-6094-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8972919,
-            46.058454
+            7.9015,
+            46.0582
           ],
           [
             7.8974947,
@@ -1529,15 +1529,15 @@
         "capacity": 2000,
         "duration": 11,
         "sector": "Gornergrat",
-        "fromStation": "panoramalift-6095-bottom",
-        "toStation": "panoramalift-6095-top"
+        "fromStation": "langfluh",
+        "toStation": "mittelallalin"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8948081,
-            46.0828341
+            7.8949,
+            46.0826
           ],
           [
             7.8948855,
@@ -1592,8 +1592,8 @@
             46.0629118
           ],
           [
-            7.8966544,
-            46.0626591
+            7.8971,
+            46.0631
           ]
         ]
       }
@@ -1610,15 +1610,15 @@
         "capacity": 2000,
         "duration": 6,
         "sector": "Gornergrat",
-        "fromStation": "l-ngfluh-sessel-6097-bottom",
-        "toStation": "l-ngfluh-sessel-6097-top"
+        "fromStation": "spielboden",
+        "toStation": "langfluh"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8944144,
-            46.0906108
+            7.8995,
+            46.092
           ],
           [
             7.8944445,
@@ -1653,8 +1653,8 @@
             46.0812117
           ],
           [
-            7.8946774,
-            46.0804417
+            7.8949,
+            46.0826
           ]
         ]
       }
@@ -1671,15 +1671,15 @@
         "capacity": 2000,
         "duration": 7,
         "sector": "Gornergrat",
-        "fromStation": "morenia-6098-bottom",
+        "fromStation": "morenia",
         "toStation": "morenia-6098-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9134455,
-            46.0854018
+            7.9134,
+            46.0855
           ],
           [
             7.9133725,
@@ -1777,15 +1777,15 @@
         "capacity": 827,
         "duration": 6,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "eisfluh-1221-bottom",
-        "toStation": "eisfluh-1221-top"
+        "fromStation": "zermatt-gbahn",
+        "toStation": "zermatt-gbahn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7639443,
-            46.0174217
+            7.7701,
+            46.0173
           ],
           [
             7.7642428,
@@ -1816,8 +1816,8 @@
             46.0164553
           ],
           [
-            7.7682858,
-            46.0164066
+            7.7701,
+            46.0173
           ]
         ]
       }
@@ -1834,15 +1834,15 @@
         "capacity": 2000,
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "findelbahn-eja-breitenboden-1394-bottom",
-        "toStation": "findelbahn-eja-breitenboden-1394-top"
+        "fromStation": "findeln",
+        "toStation": "breitenboden"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7694857,
-            46.0098717
+            7.7695,
+            46.0099
           ],
           [
             7.7700359,
@@ -1869,8 +1869,8 @@
             46.0022242
           ],
           [
-            7.7726576,
-            46.0018254
+            7.7727,
+            46.0018
           ]
         ]
       }
@@ -1887,15 +1887,15 @@
         "capacity": 3000,
         "duration": 5,
         "sector": "Cervinia",
-        "fromStation": "campetto-7875-bottom",
-        "toStation": "campetto-7875-top"
+        "fromStation": "cervinia-village",
+        "toStation": "cervinia-village"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6313934,
-            45.9373654
+            7.6314,
+            45.9371
           ],
           [
             7.6318796,
@@ -1922,8 +1922,8 @@
             45.9399194
           ],
           [
-            7.63529,
-            45.9402537
+            7.6314,
+            45.9371
           ]
         ]
       }
@@ -1969,15 +1969,15 @@
         "capacity": 2000,
         "duration": 11,
         "sector": "Gornergrat",
-        "fromStation": "alpin-express-i-4095-bottom",
-        "toStation": "alpin-express-i-4095-top"
+        "fromStation": "saas-fee",
+        "toStation": "felskinn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.928166,
-            46.106062
+            7.9291,
+            46.1075
           ],
           [
             7.9273428,
@@ -2008,8 +2008,8 @@
             46.0821017
           ],
           [
-            7.9178614,
-            46.081595
+            7.9177,
+            46.0817
           ]
         ]
       }
@@ -2026,15 +2026,15 @@
         "capacity": 2000,
         "duration": 5,
         "sector": "Gornergrat",
-        "fromStation": "mittaghorn-4097-bottom",
+        "fromStation": "felskinn",
         "toStation": "mittaghorn-4097-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9183861,
-            46.0849888
+            7.9177,
+            46.0817
           ],
           [
             7.9212094,
@@ -2056,7 +2056,7 @@
         "duration": 8,
         "sector": "Gornergrat",
         "fromStation": "felskinn-4108-bottom",
-        "toStation": "felskinn-4108-top"
+        "toStation": "felskinn"
       },
       "geometry": {
         "type": "LineString",
@@ -2078,8 +2078,8 @@
             46.0856412
           ],
           [
-            7.9177347,
-            46.0818204
+            7.9177,
+            46.0817
           ]
         ]
       }
@@ -2096,15 +2096,15 @@
         "capacity": 1000,
         "duration": 6,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-2-3440-bottom",
-        "toStation": "plateau-rosa-2-3440-top"
+        "fromStation": "plateau-rosa",
+        "toStation": "testa-2"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7159522,
-            45.9363028
+            7.7162,
+            45.9364
           ],
           [
             7.7163358,
@@ -2151,8 +2151,8 @@
             45.924145
           ],
           [
-            7.720952,
-            45.923591
+            7.7185,
+            45.923
           ]
         ]
       }
@@ -2336,7 +2336,7 @@
         "duration": 10,
         "sector": "Cervinia",
         "fromStation": "bec-carr-3739-bottom",
-        "toStation": "bec-carr-3739-top"
+        "toStation": "gran-sometta"
       },
       "geometry": {
         "type": "LineString",
@@ -2406,8 +2406,8 @@
             45.9096411
           ],
           [
-            7.6775384,
-            45.9097012
+            7.6808,
+            45.9109
           ]
         ]
       }
@@ -2424,15 +2424,15 @@
         "capacity": 2002,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "du-col-3740-bottom",
-        "toStation": "du-col-3740-top"
+        "fromStation": "gran-sometta",
+        "toStation": "gran-sometta"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6802269,
-            45.9103743
+            7.6808,
+            45.9109
           ],
           [
             7.6800383,
@@ -2447,8 +2447,8 @@
             45.9095675
           ],
           [
-            7.6778494,
-            45.909475
+            7.6808,
+            45.9109
           ]
         ]
       }
@@ -2465,15 +2465,15 @@
         "capacity": 2400,
         "duration": 4,
         "sector": "Cervinia",
-        "fromStation": "gran-sometta-3742-bottom",
-        "toStation": "gran-sometta-3742-top"
+        "fromStation": "gran-sometta",
+        "toStation": "gran-sometta-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6808195,
-            45.9109064
+            7.6808,
+            45.9109
           ],
           [
             7.6813914,
@@ -2520,8 +2520,8 @@
             45.9187716
           ],
           [
-            7.6908697,
-            45.9188212
+            7.6909,
+            45.9188
           ]
         ]
       }
@@ -2580,7 +2580,7 @@
         "duration": 5,
         "sector": "Cervinia",
         "fromStation": "pianalunga-cimalegna-salati-3519-bottom",
-        "toStation": "pianalunga-cimalegna-salati-3519-top"
+        "toStation": "passo-salati"
       },
       "geometry": {
         "type": "LineString",
@@ -2614,8 +2614,8 @@
             45.8763876
           ],
           [
-            7.8694649,
-            45.8779683
+            7.8677,
+            45.8769
           ]
         ]
       }
@@ -2705,15 +2705,15 @@
         "capacity": 2400,
         "duration": 11,
         "sector": "Cervinia",
-        "fromStation": "gabiet-passo-dei-salati-3550-bottom",
-        "toStation": "gabiet-passo-dei-salati-3550-top"
+        "fromStation": "gabiet",
+        "toStation": "passo-salati"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8449016,
-            45.8554525
+            7.8449,
+            45.8556
           ],
           [
             7.8451532,
@@ -2824,8 +2824,8 @@
             45.8766449
           ],
           [
-            7.8676885,
-            45.8768672
+            7.8677,
+            45.8769
           ]
         ]
       }
@@ -2842,15 +2842,15 @@
         "capacity": 1400,
         "duration": 11,
         "sector": "Cervinia",
-        "fromStation": "alagna-pianalunga-3558-bottom",
+        "fromStation": "alagna",
         "toStation": "alagna-pianalunga-3558-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9351294,
-            45.8532948
+            7.935,
+            45.855
           ],
           [
             7.9344111,
@@ -2939,15 +2939,15 @@
         "capacity": 1200,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "gabiet-lago-3561-bottom",
-        "toStation": "gabiet-lago-3561-top"
+        "fromStation": "gabiet",
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8453479,
-            45.8554153
+            7.8449,
+            45.8556
           ],
           [
             7.8457651,
@@ -2974,8 +2974,8 @@
             45.8526058
           ],
           [
-            7.8477294,
-            45.8524587
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -3065,15 +3065,15 @@
         "capacity": 1000,
         "duration": 1,
         "sector": "Cervinia",
-        "fromStation": "stafal-sant-anna-0843-bottom",
+        "fromStation": "staffal",
         "toStation": "stafal-sant-anna-0843-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8119092,
-            45.8574426
+            7.812,
+            45.8579
           ],
           [
             7.80504,
@@ -3211,15 +3211,15 @@
         "capacity": 2400,
         "duration": 7,
         "sector": "Cervinia",
-        "fromStation": "stafal-gabiet-1067-bottom",
-        "toStation": "stafal-gabiet-1067-top"
+        "fromStation": "staffal",
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8119959,
-            45.8578732
+            7.812,
+            45.8579
           ],
           [
             7.813459,
@@ -3278,8 +3278,8 @@
             45.8556892
           ],
           [
-            7.8445418,
-            45.8556443
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -3296,15 +3296,15 @@
         "capacity": 800,
         "duration": 15,
         "sector": "Gornergrat",
-        "fromStation": "seggiovia-pecetto-alpe-burki-7255-bottom",
-        "toStation": "seggiovia-pecetto-alpe-burki-7255-top"
+        "fromStation": "pecetto",
+        "toStation": "belvedere"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9516001,
-            45.9707621
+            7.9511,
+            45.9709
           ],
           [
             7.9514406,
@@ -3387,8 +3387,8 @@
             45.9669726
           ],
           [
-            7.9319417,
-            45.9669334
+            7.932,
+            45.9669
           ]
         ]
       }
@@ -3405,15 +3405,15 @@
         "capacity": 720,
         "duration": 7,
         "sector": "Gornergrat",
-        "fromStation": "seggiovia-alpe-burki-belvedere-7256-bottom",
+        "fromStation": "belvedere",
         "toStation": "seggiovia-alpe-burki-belvedere-7256-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9319417,
-            45.9669334
+            7.932,
+            45.9669
           ],
           [
             7.9317829,
@@ -3502,15 +3502,15 @@
         "capacity": 1000,
         "duration": 3,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-3-4074-bottom",
-        "toStation": "plateau-rosa-3-4074-top"
+        "fromStation": "plateau-rosa",
+        "toStation": "furggsattel-lower"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7156328,
-            45.9363698
+            7.7162,
+            45.9364
           ],
           [
             7.7158983,
@@ -3533,8 +3533,8 @@
             45.931542
           ],
           [
-            7.7177811,
-            45.9306788
+            7.7186,
+            45.9303
           ]
         ]
       }
@@ -3551,15 +3551,15 @@
         "capacity": 1000,
         "duration": 7,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-1-4075-bottom",
-        "toStation": "plateau-rosa-1-4075-top"
+        "fromStation": "plateau-rosa",
+        "toStation": "testa-2"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7163004,
-            45.9364078
+            7.7162,
+            45.9364
           ],
           [
             7.7166927,
@@ -3606,8 +3606,8 @@
             45.9243394
           ],
           [
-            7.7218606,
-            45.9236427
+            7.7185,
+            45.923
           ]
         ]
       }
@@ -3624,15 +3624,15 @@
         "capacity": 2800,
         "duration": 6,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "matterhorn-express-5051-bottom",
-        "toStation": "matterhorn-express-5051-top"
+        "fromStation": "furi",
+        "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7319625,
-            46.0016707
+            7.7321,
+            46.0013
           ],
           [
             7.7314249,
@@ -3719,8 +3719,8 @@
             45.9921541
           ],
           [
-            7.7089094,
-            45.9920782
+            7.7091,
+            45.9922
           ]
         ]
       }
@@ -3737,15 +3737,15 @@
         "capacity": 2000,
         "duration": 9,
         "sector": "Cervinia",
-        "fromStation": "pancheron-5289-bottom",
+        "fromStation": "plan-maison",
         "toStation": "pancheron-5289-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6494205,
-            45.9478282
+            7.6486,
+            45.9457
           ],
           [
             7.6501859,
@@ -3895,15 +3895,15 @@
         "capacity": 2000,
         "duration": 7,
         "sector": "Gornergrat",
-        "fromStation": "alpin-express-ii-3219-bottom",
+        "fromStation": "felskinn",
         "toStation": "alpin-express-ii-3219-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.917525,
-            46.0816289
+            7.9177,
+            46.0817
           ],
           [
             7.9174001,
@@ -4094,15 +4094,15 @@
         "capacity": 2000,
         "duration": 3,
         "sector": "Gornergrat",
-        "fromStation": "mittelallalin-5-4854-bottom",
-        "toStation": "mittelallalin-5-4854-top"
+        "fromStation": "mittelallalin",
+        "toStation": "allalin-glacier"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8973401,
-            46.0633307
+            7.8971,
+            46.0631
           ],
           [
             7.8975392,
@@ -4125,8 +4125,8 @@
             46.0589795
           ],
           [
-            7.9023099,
-            46.0586893
+            7.9023,
+            46.0589
           ]
         ]
       }
@@ -4172,15 +4172,15 @@
         "capacity": 520,
         "duration": 2,
         "sector": "Gornergrat",
-        "fromStation": "rote-nase-0257-bottom",
+        "fromStation": "hohtalli",
         "toStation": "rote-nase-0257-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.80247,
-            45.9887116
+            7.8021,
+            45.989
           ],
           [
             7.8112058,
@@ -4202,7 +4202,7 @@
         "duration": 3,
         "sector": "Cervinia",
         "fromStation": "plateau-breithorn-2030-bottom",
-        "toStation": "plateau-breithorn-2030-top"
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
@@ -4232,8 +4232,8 @@
             45.936509
           ],
           [
-            7.7296367,
-            45.9373761
+            7.7286,
+            45.9393
           ]
         ]
       }
@@ -4251,7 +4251,7 @@
         "duration": 7,
         "sector": "Cervinia",
         "fromStation": "pianalunga-bocchetta-0312-bottom",
-        "toStation": "pianalunga-bocchetta-0312-top"
+        "toStation": "bocchetta"
       },
       "geometry": {
         "type": "LineString",
@@ -4313,8 +4313,8 @@
             45.8738834
           ],
           [
-            7.9022187,
-            45.8750452
+            7.9015,
+            45.8751
           ]
         ]
       }
@@ -4331,15 +4331,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "plateau-rosa-6687-bottom",
-        "toStation": "plateau-rosa-6687-top"
+        "fromStation": "theodul",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7074589,
-            45.9343907
+            7.708,
+            45.9343
           ],
           [
             7.7074782,
@@ -4378,8 +4378,8 @@
             45.9344081
           ],
           [
-            7.7074589,
-            45.9343907
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -4396,15 +4396,15 @@
         "capacity": 740,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "funivia-passo-dei-salati-punta-3921-bottom",
+        "fromStation": "passo-salati",
         "toStation": "funivia-passo-dei-salati-punta-3921-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8641054,
-            45.8774554
+            7.8677,
+            45.8769
           ],
           [
             7.8594457,
@@ -4495,7 +4495,7 @@
         "duration": 4,
         "sector": "Cervinia",
         "fromStation": "lago-goillet-1014-bottom",
-        "toStation": "lago-goillet-1014-top"
+        "toStation": "gran-sometta-top"
       },
       "geometry": {
         "type": "LineString",
@@ -4569,8 +4569,8 @@
             45.9193504
           ],
           [
-            7.6901931,
-            45.9190065
+            7.6909,
+            45.9188
           ]
         ]
       }
@@ -4676,15 +4676,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "cime-bianche-laghi-1952-bottom",
-        "toStation": "cime-bianche-laghi-1952-top"
+        "fromStation": "laghi-cime-bianche",
+        "toStation": "laghi-cime-bianche"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6798829,
-            45.9301441
+            7.6801,
+            45.9301
           ],
           [
             7.6799299,
@@ -4767,8 +4767,8 @@
             45.9301238
           ],
           [
-            7.6798829,
-            45.9301441
+            7.6801,
+            45.9301
           ]
         ]
       }
@@ -4785,15 +4785,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "gondola-staffal-gabiet-1203-bottom",
-        "toStation": "gondola-staffal-gabiet-1203-top"
+        "fromStation": "gabiet",
+        "toStation": "gabiet"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8445314,
-            45.8556962
+            7.8449,
+            45.8556
           ],
           [
             7.8446696,
@@ -4856,8 +4856,8 @@
             45.855707
           ],
           [
-            7.8445314,
-            45.8556962
+            7.8449,
+            45.8556
           ]
         ]
       }
@@ -4992,15 +4992,15 @@
         "capacity": 1000,
         "duration": 6,
         "sector": "Cervinia",
-        "fromStation": "testa-0202-bottom",
-        "toStation": "testa-0202-top"
+        "fromStation": "bontadini-top",
+        "toStation": "theodul"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7118118,
-            45.9453085
+            7.7085,
+            45.9449
           ],
           [
             7.7114145,
@@ -5035,8 +5035,8 @@
             45.9356863
           ],
           [
-            7.7086469,
-            45.9343025
+            7.708,
+            45.9343
           ]
         ]
       }
@@ -5094,15 +5094,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "findelbahn-eja-sunnegga-4364-bottom",
-        "toStation": "findelbahn-eja-sunnegga-4364-top"
+        "fromStation": "findeln",
+        "toStation": "zermatt-gbahn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7694857,
-            46.0098717
+            7.7695,
+            46.0099
           ],
           [
             7.7695791,
@@ -5133,8 +5133,8 @@
             46.015855
           ],
           [
-            7.770939,
-            46.017051
+            7.7701,
+            46.0173
           ]
         ]
       }
@@ -5151,15 +5151,15 @@
         "capacity": 2200,
         "duration": 7,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "sunnegga-blauherd-4366-bottom",
-        "toStation": "sunnegga-blauherd-4366-top"
+        "fromStation": "zermatt-gbahn",
+        "toStation": "gant-blauherd"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7699137,
-            46.0173784
+            7.7701,
+            46.0173
           ],
           [
             7.7707801,
@@ -5198,8 +5198,8 @@
             46.017097
           ],
           [
-            7.7852456,
-            46.0170697
+            7.7883,
+            46.0166
           ]
         ]
       }
@@ -5216,15 +5216,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "ex-cestovia-balma-7300-bottom",
-        "toStation": "ex-cestovia-balma-7300-top"
+        "fromStation": "bocchetta",
+        "toStation": "bocchetta"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9013076,
-            45.8750328
+            7.9015,
+            45.8751
           ],
           [
             7.9013822,
@@ -5243,8 +5243,8 @@
             45.8748835
           ],
           [
-            7.9013076,
-            45.8750328
+            7.9015,
+            45.8751
           ]
         ]
       }
@@ -5261,15 +5261,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "ex-funivia-bocchetta-delle-pis-7302-bottom",
-        "toStation": "ex-funivia-bocchetta-delle-pis-7302-top"
+        "fromStation": "bocchetta",
+        "toStation": "bocchetta"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.9013658,
-            45.8750853
+            7.9015,
+            45.8751
           ],
           [
             7.9014041,
@@ -5292,8 +5292,8 @@
             45.8750685
           ],
           [
-            7.9013658,
-            45.8750853
+            7.9015,
+            45.8751
           ]
         ]
       }
@@ -5412,15 +5412,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Gornergrat",
-        "fromStation": "bergstation-spielbodenbahn-7949-bottom",
-        "toStation": "bergstation-spielbodenbahn-7949-top"
+        "fromStation": "spielboden",
+        "toStation": "spielboden"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8996093,
-            46.092028
+            7.8995,
+            46.092
           ],
           [
             7.8996268,
@@ -5463,8 +5463,8 @@
             46.0920556
           ],
           [
-            7.8996093,
-            46.092028
+            7.8995,
+            46.092
           ]
         ]
       }
@@ -5481,15 +5481,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Schwarzsee",
-        "fromStation": "riffelberg-5979-bottom",
-        "toStation": "riffelberg-5979-top"
+        "fromStation": "riffelberg",
+        "toStation": "riffelberg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7548171,
-            45.9941684
+            7.7543,
+            45.9931
           ],
           [
             7.7548275,
@@ -5552,8 +5552,8 @@
             45.9941665
           ],
           [
-            7.7548171,
-            45.9941684
+            7.7543,
+            45.9931
           ]
         ]
       }
@@ -5570,15 +5570,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Matterhorn",
-        "fromStation": "schwarzsee-paradise-5310-bottom",
-        "toStation": "schwarzsee-paradise-5310-top"
+        "fromStation": "schwarzsee",
+        "toStation": "schwarzsee"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7092179,
-            45.9922935
+            7.7091,
+            45.9922
           ],
           [
             7.7092509,
@@ -5625,8 +5625,8 @@
             45.9921974
           ],
           [
-            7.7092179,
-            45.9922935
+            7.7091,
+            45.9922
           ]
         ]
       }
@@ -5712,15 +5712,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Matterhorn",
-        "fromStation": "sandiger-boden-9774-bottom",
-        "toStation": "sandiger-boden-9774-top"
+        "fromStation": "sandiger-boden",
+        "toStation": "sandiger-boden"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7197262,
-            45.9776557
+            7.7198,
+            45.9776
           ],
           [
             7.7198069,
@@ -5751,8 +5751,8 @@
             45.9776859
           ],
           [
-            7.7197262,
-            45.9776557
+            7.7198,
+            45.9776
           ]
         ]
       }
@@ -5770,7 +5770,7 @@
         "duration": 5,
         "sector": "Gornergrat",
         "fromStation": "burki-3-8912-bottom",
-        "toStation": "burki-3-8912-top"
+        "toStation": "belvedere"
       },
       "geometry": {
         "type": "LineString",
@@ -5784,8 +5784,8 @@
             45.968631
           ],
           [
-            7.9305928,
-            45.9684075
+            7.932,
+            45.9669
           ]
         ]
       }
@@ -5868,15 +5868,15 @@
         "capacity": 2000,
         "duration": 12,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "zmutt-5048-bottom",
-        "toStation": "zmutt-5048-top"
+        "fromStation": "blatten",
+        "toStation": "stafel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7408637,
-            46.0123069
+            7.7407,
+            46.0125
           ],
           [
             7.7323157,
@@ -5899,8 +5899,8 @@
             46.0048779
           ],
           [
-            7.7127541,
-            46.0069559
+            7.718,
+            46.005
           ]
         ]
       }
@@ -5917,15 +5917,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Gornergrat",
-        "fromStation": "hoht-lli-2537-bottom",
-        "toStation": "hoht-lli-2537-top"
+        "fromStation": "hohtalli",
+        "toStation": "hohtalli"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8021325,
-            45.989143
+            7.8021,
+            45.989
           ],
           [
             7.8022746,
@@ -5960,8 +5960,8 @@
             45.9891175
           ],
           [
-            7.8021325,
-            45.989143
+            7.8021,
+            45.989
           ]
         ]
       }
@@ -5978,15 +5978,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Gornergrat",
-        "fromStation": "stockhorn-2540-bottom",
-        "toStation": "stockhorn-2540-top"
+        "fromStation": "stockhorn",
+        "toStation": "stockhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8229124,
-            45.9867322
+            7.823,
+            45.9868
           ],
           [
             7.8231097,
@@ -6005,8 +6005,8 @@
             45.9866989
           ],
           [
-            7.8229124,
-            45.9867322
+            7.823,
+            45.9868
           ]
         ]
       }
@@ -6154,7 +6154,7 @@
         "duration": 9,
         "sector": "Gornergrat",
         "fromStation": "spielbodenbahm-6992-bottom",
-        "toStation": "spielbodenbahm-6992-top"
+        "toStation": "spielboden"
       },
       "geometry": {
         "type": "LineString",
@@ -6192,8 +6192,8 @@
             46.0921328
           ],
           [
-            7.8996703,
-            46.091975
+            7.8995,
+            46.092
           ]
         ]
       }
@@ -6210,15 +6210,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Gornergrat",
-        "fromStation": "talstation-l-ngfluh-6996-bottom",
-        "toStation": "talstation-l-ngfluh-6996-top"
+        "fromStation": "spielboden",
+        "toStation": "spielboden"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.899395,
-            46.0918662
+            7.8995,
+            46.092
           ],
           [
             7.8991749,
@@ -6237,8 +6237,8 @@
             46.0920391
           ],
           [
-            7.899395,
-            46.0918662
+            7.8995,
+            46.092
           ]
         ]
       }
@@ -6255,15 +6255,15 @@
         "capacity": 2000,
         "duration": 9,
         "sector": "Cervinia",
-        "fromStation": "trockener-steg-klein-matterhor-1791-bottom",
-        "toStation": "trockener-steg-klein-matterhor-1791-top"
+        "fromStation": "klein-matterhorn",
+        "toStation": "trockener-steg"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7291957,
-            45.9384214
+            7.7286,
+            45.9393
           ],
           [
             7.7289416,
@@ -6278,8 +6278,8 @@
             45.9681942
           ],
           [
-            7.7213653,
-            45.9715549
+            7.7222,
+            45.971
           ]
         ]
       }
@@ -6296,15 +6296,15 @@
         "capacity": 2000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "stazione-inermedia-funifor-9522-bottom",
-        "toStation": "stazione-inermedia-funifor-9522-top"
+        "fromStation": "pianalunga",
+        "toStation": "pianalunga"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.887453,
-            45.8716292
+            7.8872,
+            45.8715
           ],
           [
             7.8875499,
@@ -6327,8 +6327,8 @@
             45.8715484
           ],
           [
-            7.887453,
-            45.8716292
+            7.8872,
+            45.8715
           ]
         ]
       }
@@ -6345,15 +6345,15 @@
         "capacity": 2000,
         "duration": 6,
         "sector": "Cervinia",
-        "fromStation": "cimalegna-passo-salati-0243-bottom",
-        "toStation": "cimalegna-passo-salati-0243-top"
+        "fromStation": "pianalunga",
+        "toStation": "passo-salati"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8871716,
-            45.8713595
+            7.8872,
+            45.8715
           ],
           [
             7.8857115,
@@ -6416,8 +6416,8 @@
             45.8781788
           ],
           [
-            7.8675438,
-            45.878335
+            7.8677,
+            45.8769
           ]
         ]
       }
@@ -6434,23 +6434,23 @@
         "capacity": 1300,
         "duration": 4,
         "sector": "Cervinia",
-        "fromStation": "matterhorn-glacier-ride-ii-0310-bottom",
-        "toStation": "matterhorn-glacier-ride-ii-0310-top"
+        "fromStation": "theodul",
+        "toStation": "klein-matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.707585,
-            45.9348107
+            7.708,
+            45.9343
           ],
           [
             7.7289627,
             45.9381914
           ],
           [
-            7.7291449,
-            45.9382183
+            7.7286,
+            45.9393
           ]
         ]
       }
@@ -6467,19 +6467,19 @@
         "capacity": 2000,
         "duration": 8,
         "sector": "Gornergrat",
-        "fromStation": "hoht-lli-stockhorn-geplant-3035-bottom",
-        "toStation": "hoht-lli-stockhorn-geplant-3035-top"
+        "fromStation": "stockhorn",
+        "toStation": "hohtalli"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8230569,
-            45.9867877
+            7.823,
+            45.9868
           ],
           [
-            7.8026131,
-            45.9888533
+            7.8021,
+            45.989
           ]
         ]
       }
@@ -6545,15 +6545,15 @@
         "capacity": 2000,
         "duration": 3,
         "sector": "Gornergrat",
-        "fromStation": "mittelallalin-4-7088-bottom",
-        "toStation": "mittelallalin-4-7088-top"
+        "fromStation": "mittelallalin",
+        "toStation": "allalin-glacier"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8976809,
-            46.0636696
+            7.8971,
+            46.0631
           ],
           [
             7.8981139,
@@ -6576,8 +6576,8 @@
             46.0590921
           ],
           [
-            7.9023859,
-            46.0587922
+            7.9023,
+            46.0589
           ]
         ]
       }
@@ -6594,19 +6594,19 @@
         "capacity": 1000,
         "duration": 2,
         "sector": "Cervinia",
-        "fromStation": "moos-5376-bottom",
-        "toStation": "moos-5376-top"
+        "fromStation": "staffal",
+        "toStation": "staffal"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8126136,
-            45.8609521
+            7.812,
+            45.8579
           ],
           [
-            7.8084845,
-            45.859975
+            7.812,
+            45.8579
           ]
         ]
       }
@@ -6623,15 +6623,15 @@
         "capacity": 1000,
         "duration": 8,
         "sector": "Cervinia",
-        "fromStation": "grenzlift-stillgelegt-0336-bottom",
-        "toStation": "grenzlift-stillgelegt-0336-top"
+        "fromStation": "testa-2",
+        "toStation": "klein-matterhorn-lower"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7186497,
-            45.923177
+            7.7185,
+            45.923
           ],
           [
             7.7192735,
@@ -6642,8 +6642,8 @@
             45.9239872
           ],
           [
-            7.7349519,
-            45.9240243
+            7.7295,
+            45.9263
           ]
         ]
       }
@@ -6660,15 +6660,15 @@
         "capacity": 2400,
         "duration": 7,
         "sector": "Sunnegga-Rothorn",
-        "fromStation": "breitboden-rosenritz-0825-bottom",
+        "fromStation": "breitenboden",
         "toStation": "breitboden-rosenritz-0825-top"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7723024,
-            46.001753
+            7.7727,
+            46.0018
           ],
           [
             7.7810465,

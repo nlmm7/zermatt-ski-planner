@@ -1,0 +1,488 @@
+{
+  "_comment": "Station connection points - edit coordinates here and run 'node scripts/snap_to_stations.js' to update lifts/slopes",
+  "stations": [
+    {
+      "id": "zermatt-village",
+      "name": "Zermatt Village",
+      "coordinates": [7.7481, 46.0242],
+      "elevation": 1620,
+      "sector": "Zermatt"
+    },
+    {
+      "id": "zermatt-gbahn",
+      "name": "Zermatt Gornergrat Bahn",
+      "coordinates": [7.7701, 46.0173],
+      "elevation": 1604,
+      "sector": "Zermatt"
+    },
+    {
+      "id": "furi",
+      "name": "Furi",
+      "coordinates": [7.7321, 46.0013],
+      "elevation": 1867,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "schwarzsee",
+      "name": "Schwarzsee",
+      "coordinates": [7.7091, 45.9922],
+      "elevation": 2583,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "hirli",
+      "name": "Hirli",
+      "coordinates": [7.7395, 45.9850],
+      "elevation": 2769,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "furgg",
+      "name": "Furgg",
+      "coordinates": [7.7186, 45.9776],
+      "elevation": 2432,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "trockener-steg",
+      "name": "Trockener Steg",
+      "coordinates": [7.7222, 45.9710],
+      "elevation": 2939,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "klein-matterhorn",
+      "name": "Klein Matterhorn / Matterhorn Glacier Paradise",
+      "coordinates": [7.7286, 45.9393],
+      "elevation": 3883,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "klein-matterhorn-lower",
+      "name": "Klein Matterhorn Lower Station",
+      "coordinates": [7.7295, 45.9263],
+      "elevation": 3820,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "plateau-rosa",
+      "name": "Plateau Rosa / Testa Grigia",
+      "coordinates": [7.7162, 45.9364],
+      "elevation": 3480,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "furggsattel",
+      "name": "Furggsattel",
+      "coordinates": [7.7043, 45.9507],
+      "elevation": 3365,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "furggsattel-lower",
+      "name": "Furggsattel Lower",
+      "coordinates": [7.7186, 45.9303],
+      "elevation": 3150,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "theodul",
+      "name": "Theodulpass",
+      "coordinates": [7.7080, 45.9343],
+      "elevation": 3301,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "gobba-di-rollin",
+      "name": "Gobba di Rollin",
+      "coordinates": [7.6912, 45.9283],
+      "elevation": 3899,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "testa-2",
+      "name": "Testa II / Ventina",
+      "coordinates": [7.7185, 45.9230],
+      "elevation": 3450,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "sunnegga",
+      "name": "Sunnegga",
+      "coordinates": [7.7701, 46.0173],
+      "elevation": 2288,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "sunnegga-express-top",
+      "name": "Sunnegga Express Top",
+      "coordinates": [7.7647, 46.0075],
+      "elevation": 2288,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "findeln",
+      "name": "Findeln / Eja",
+      "coordinates": [7.7695, 46.0099],
+      "elevation": 2100,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "breitenboden",
+      "name": "Breitenboden",
+      "coordinates": [7.7727, 46.0018],
+      "elevation": 2004,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "blauherd",
+      "name": "Blauherd",
+      "coordinates": [7.7543, 45.9929],
+      "elevation": 2571,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "rothorn",
+      "name": "Rothorn",
+      "coordinates": [7.7503, 45.9772],
+      "elevation": 3103,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "gant",
+      "name": "Gant",
+      "coordinates": [7.7875, 46.0085],
+      "elevation": 2223,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "gant-blauherd",
+      "name": "Gant-Blauherd Junction",
+      "coordinates": [7.7883, 46.0166],
+      "elevation": 2200,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "riffelberg",
+      "name": "Riffelberg",
+      "coordinates": [7.7543, 45.9931],
+      "elevation": 2582,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "riffelberg-bahn",
+      "name": "Riffelberg Bahn Station",
+      "coordinates": [7.7847, 45.9831],
+      "elevation": 2582,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "gifthittli",
+      "name": "Gifthittli",
+      "coordinates": [7.7752, 45.9861],
+      "elevation": 2781,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "hohtalli",
+      "name": "Hohtalli",
+      "coordinates": [7.8021, 45.9890],
+      "elevation": 3286,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "stockhorn",
+      "name": "Stockhorn",
+      "coordinates": [7.8230, 45.9868],
+      "elevation": 3532,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "gornergrat",
+      "name": "Gornergrat",
+      "coordinates": [7.7847, 45.9831],
+      "elevation": 3089,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "riffelalp",
+      "name": "Riffelalp",
+      "coordinates": [7.7550, 46.0050],
+      "elevation": 2211,
+      "sector": "Gornergrat"
+    },
+    {
+      "id": "blatten",
+      "name": "Blatten",
+      "coordinates": [7.7407, 46.0125],
+      "elevation": 1750,
+      "sector": "Zermatt"
+    },
+    {
+      "id": "zum-see",
+      "name": "Zum See",
+      "coordinates": [7.7350, 46.0090],
+      "elevation": 1766,
+      "sector": "Zermatt"
+    },
+    {
+      "id": "stafel",
+      "name": "Stafel",
+      "coordinates": [7.7180, 46.0050],
+      "elevation": 2199,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "sandiger-boden",
+      "name": "Sandiger Boden",
+      "coordinates": [7.7198, 45.9776],
+      "elevation": 2693,
+      "sector": "Matterhorn"
+    },
+    {
+      "id": "stafelalp",
+      "name": "Stafelalp",
+      "coordinates": [7.7395, 45.9850],
+      "elevation": 2200,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "aroleid",
+      "name": "Aroleid",
+      "coordinates": [7.7180, 45.9920],
+      "elevation": 2320,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "schweigmatten",
+      "name": "Schweigmatten",
+      "coordinates": [7.7050, 46.0020],
+      "elevation": 2286,
+      "sector": "Schwarzsee"
+    },
+    {
+      "id": "tufteren",
+      "name": "Tufteren",
+      "coordinates": [7.7580, 46.0150],
+      "elevation": 2215,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "ried",
+      "name": "Ried",
+      "coordinates": [7.7688, 46.0260],
+      "elevation": 1900,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "patrullarve",
+      "name": "Patrullarve",
+      "coordinates": [7.7467, 46.0030],
+      "elevation": 1910,
+      "sector": "Sunnegga-Rothorn"
+    },
+    {
+      "id": "plan-maison",
+      "name": "Plan Maison",
+      "coordinates": [7.6486, 45.9457],
+      "elevation": 2561,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "fornet",
+      "name": "Fornet",
+      "coordinates": [7.6844, 45.9447],
+      "elevation": 2700,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "bontadini",
+      "name": "Bontadini",
+      "coordinates": [7.6950, 45.9480],
+      "elevation": 2800,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "bontadini-top",
+      "name": "Bontadini Top",
+      "coordinates": [7.7085, 45.9449],
+      "elevation": 2950,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "laghi-cime-bianche",
+      "name": "Laghi Cime Bianche",
+      "coordinates": [7.6801, 45.9301],
+      "elevation": 2814,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "gran-sometta",
+      "name": "Gran Sometta Bottom",
+      "coordinates": [7.6808, 45.9109],
+      "elevation": 2650,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "gran-sometta-top",
+      "name": "Gran Sometta Top",
+      "coordinates": [7.6909, 45.9188],
+      "elevation": 2980,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "cervinia-village",
+      "name": "Cervinia / Breuil-Cervinia",
+      "coordinates": [7.6314, 45.9371],
+      "elevation": 2006,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "cretaz",
+      "name": "Cretaz",
+      "coordinates": [7.6486, 45.9457],
+      "elevation": 2100,
+      "sector": "Cervinia"
+    },
+    {
+      "id": "saas-fee",
+      "name": "Saas-Fee",
+      "coordinates": [7.9291, 46.1075],
+      "elevation": 1800,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "felskinn",
+      "name": "Felskinn",
+      "coordinates": [7.9177, 46.0817],
+      "elevation": 2989,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "mittelallalin",
+      "name": "Mittelallalin",
+      "coordinates": [7.8971, 46.0631],
+      "elevation": 3457,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "mittelallalin-skiing",
+      "name": "Mittelallalin Skiing Area",
+      "coordinates": [7.9015, 46.0582],
+      "elevation": 3200,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "langfluh",
+      "name": "Langfluh",
+      "coordinates": [7.8949, 46.0826],
+      "elevation": 2867,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "spielboden",
+      "name": "Spielboden",
+      "coordinates": [7.8995, 46.0920],
+      "elevation": 2448,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "morenia",
+      "name": "Morenia",
+      "coordinates": [7.9134, 46.0855],
+      "elevation": 2550,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "plattjen",
+      "name": "Plattjen",
+      "coordinates": [7.9350, 46.0900],
+      "elevation": 2571,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "hannig",
+      "name": "Hannig",
+      "coordinates": [7.9100, 46.1010],
+      "elevation": 2336,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "allalin-glacier",
+      "name": "Allalin Glacier Top",
+      "coordinates": [7.9023, 46.0589],
+      "elevation": 3100,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "panorama",
+      "name": "Panorama Station",
+      "coordinates": [7.8971, 46.0631],
+      "elevation": 2800,
+      "sector": "Saas-Fee"
+    },
+    {
+      "id": "gabiet",
+      "name": "Gabiet",
+      "coordinates": [7.8449, 45.8556],
+      "elevation": 2340,
+      "sector": "Gressoney"
+    },
+    {
+      "id": "passo-salati",
+      "name": "Passo dei Salati",
+      "coordinates": [7.8677, 45.8769],
+      "elevation": 2936,
+      "sector": "Gressoney"
+    },
+    {
+      "id": "staffal",
+      "name": "Staffal / Stafal",
+      "coordinates": [7.8120, 45.8579],
+      "elevation": 1830,
+      "sector": "Gressoney"
+    },
+    {
+      "id": "alagna",
+      "name": "Alagna",
+      "coordinates": [7.9350, 45.8550],
+      "elevation": 1200,
+      "sector": "Alagna"
+    },
+    {
+      "id": "pianalunga",
+      "name": "Pianalunga",
+      "coordinates": [7.8872, 45.8715],
+      "elevation": 2050,
+      "sector": "Alagna"
+    },
+    {
+      "id": "indren",
+      "name": "Punta Indren",
+      "coordinates": [7.8800, 45.9000],
+      "elevation": 3260,
+      "sector": "Alagna"
+    },
+    {
+      "id": "bocchetta",
+      "name": "Bocchetta delle Pisse",
+      "coordinates": [7.9015, 45.8751],
+      "elevation": 2410,
+      "sector": "Alagna"
+    },
+    {
+      "id": "belvedere",
+      "name": "Belvedere",
+      "coordinates": [7.9320, 45.9669],
+      "elevation": 2100,
+      "sector": "Alagna"
+    },
+    {
+      "id": "pecetto",
+      "name": "Pecetto",
+      "coordinates": [7.9511, 45.9709],
+      "elevation": 1500,
+      "sector": "Macugnaga"
+    }
+  ]
+}
