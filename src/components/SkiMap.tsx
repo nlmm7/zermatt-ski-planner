@@ -42,6 +42,35 @@ interface SkiMapProps {
 function MapEventHandler({ selectedRoute }: { selectedRoute: RouteSegment[] }) {
   const map = useMap();
 
+  // Fix for mobile: invalidate size when map container might have changed
+  useEffect(() => {
+    // Initial size fix with delay to ensure container is fully rendered
+    const timer = setTimeout(() => {
+      map.invalidateSize();
+    }, 100);
+
+    // Also fix on window resize
+    const handleResize = () => {
+      map.invalidateSize();
+    };
+    window.addEventListener('resize', handleResize);
+
+    // Fix on visibility change (when switching from sidebar to map on mobile)
+    const observer = new ResizeObserver(() => {
+      map.invalidateSize();
+    });
+    const container = map.getContainer();
+    if (container) {
+      observer.observe(container);
+    }
+
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('resize', handleResize);
+      observer.disconnect();
+    };
+  }, [map]);
+
   useEffect(() => {
     // Fit to route if exists
     if (selectedRoute.length > 0) {
