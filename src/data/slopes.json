@@ -68,7 +68,7 @@
         "number": "3",
         "name": "Howette",
         "difficulty": "red",
-        "length": 2975,
+        "length": 1213,
         "verticalDrop": 283,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -83,8 +83,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.77,
@@ -160,7 +160,7 @@
         "number": "6",
         "name": "Easy run",
         "difficulty": "blue",
-        "length": 2975,
+        "length": 1213,
         "verticalDrop": 283,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -174,8 +174,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.77,
@@ -191,7 +191,7 @@
         "number": "7",
         "name": "Standard",
         "difficulty": "blue",
-        "length": 2975,
+        "length": 1213,
         "verticalDrop": 283,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -205,8 +205,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.77,
@@ -222,7 +222,7 @@
         "number": "8",
         "name": "Obere National",
         "difficulty": "red",
-        "length": 1772,
+        "length": 1014,
         "verticalDrop": 532,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
@@ -237,12 +237,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7503,
-            45.9772
+            7.7975,
+            46.021
           ],
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ]
         ]
       }
@@ -284,7 +284,7 @@
         "number": "10",
         "name": "Paradise",
         "difficulty": "blue",
-        "length": 1264,
+        "length": 3390,
         "verticalDrop": 571,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -297,8 +297,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.7467,
@@ -314,7 +314,7 @@
         "number": "11",
         "name": "Rotweng",
         "difficulty": "red",
-        "length": 1772,
+        "length": 1014,
         "verticalDrop": 532,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
@@ -328,12 +328,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7503,
-            45.9772
+            7.7975,
+            46.021
           ],
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ]
         ]
       }
@@ -345,7 +345,7 @@
         "number": "12",
         "name": "Schneehuhn",
         "difficulty": "red",
-        "length": 1772,
+        "length": 1014,
         "verticalDrop": 532,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
@@ -359,12 +359,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7503,
-            45.9772
+            7.7975,
+            46.021
           ],
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ]
         ]
       }
@@ -376,7 +376,7 @@
         "number": "13",
         "name": "Downhill",
         "difficulty": "black",
-        "length": 2882,
+        "length": 4404,
         "verticalDrop": 1103,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "rothorn",
@@ -389,8 +389,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7503,
-            45.9772
+            7.7975,
+            46.021
           ],
           [
             7.7467,
@@ -406,7 +406,7 @@
         "number": "14",
         "name": "Kumme",
         "difficulty": "red",
-        "length": 926,
+        "length": 1507,
         "verticalDrop": 89,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "kumme",
@@ -420,12 +420,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.758,
-            45.985
+            7.805,
+            46.015
           ],
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ]
         ]
       }
@@ -437,7 +437,7 @@
         "number": "15",
         "name": "Tufternkumme",
         "difficulty": "red",
-        "length": 3336,
+        "length": 3629,
         "verticalDrop": 445,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "kumme",
@@ -450,8 +450,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.758,
-            45.985
+            7.805,
+            46.015
           ],
           [
             7.758,
@@ -467,7 +467,7 @@
         "number": "15b",
         "name": "Murmelbodmen",
         "difficulty": "black",
-        "length": 3336,
+        "length": 3629,
         "verticalDrop": 445,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "kumme",
@@ -480,8 +480,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.758,
-            45.985
+            7.805,
+            46.015
           ],
           [
             7.758,
@@ -497,7 +497,7 @@
         "number": "16",
         "name": "Chamois",
         "difficulty": "red",
-        "length": 2319,
+        "length": 1793,
         "verticalDrop": 348,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -510,8 +510,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.7818,
@@ -527,7 +527,7 @@
         "number": "17",
         "name": "Marmotte",
         "difficulty": "red",
-        "length": 2319,
+        "length": 1793,
         "verticalDrop": 348,
         "sector": "Sunnegga-Rothorn",
         "fromStation": "blauherd",
@@ -540,8 +540,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            7.7542,
-            45.9929
+            7.7857,
+            46.017
           ],
           [
             7.7818,

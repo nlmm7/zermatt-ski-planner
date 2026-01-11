@@ -23,14 +23,14 @@ const stations = [
 
   // === SUNNEGGA-ROTHORN SECTOR ===
   { id: "sunnegga", name: "Sunnegga", elevation: 2288, coordinates: [7.7700, 46.0173], sector: "Sunnegga-Rothorn" },
-  { id: "blauherd", name: "Blauherd", elevation: 2571, coordinates: [7.7542, 45.9929], sector: "Sunnegga-Rothorn" },
-  { id: "rothorn", name: "Rothorn", elevation: 3103, coordinates: [7.7503, 45.9772], sector: "Sunnegga-Rothorn" },
-  { id: "kumme", name: "Kumme", elevation: 2660, coordinates: [7.7580, 45.9850], sector: "Sunnegga-Rothorn" },
+  { id: "blauherd", name: "Blauherd", elevation: 2571, coordinates: [7.7857, 46.0170], sector: "Sunnegga-Rothorn" },
+  { id: "rothorn", name: "Rothorn", elevation: 3103, coordinates: [7.7975, 46.0210], sector: "Sunnegga-Rothorn" },
+  { id: "kumme", name: "Kumme", elevation: 2660, coordinates: [7.8050, 46.0150], sector: "Sunnegga-Rothorn" },
   { id: "patrullarve", name: "Patrullarve", elevation: 2000, coordinates: [7.7467, 46.0030], sector: "Sunnegga-Rothorn" },
   { id: "tuftern", name: "Tuftern", elevation: 2215, coordinates: [7.7580, 46.0150], sector: "Sunnegga-Rothorn" },
   { id: "ried", name: "Ried", elevation: 1900, coordinates: [7.7688, 46.0260], sector: "Sunnegga-Rothorn" },
   { id: "findeln", name: "Findeln / Eja", elevation: 2051, coordinates: [7.7695, 46.0099], sector: "Sunnegga-Rothorn" },
-  { id: "fluhalp", name: "Fluhalp", elevation: 2616, coordinates: [7.7850, 45.9950], sector: "Sunnegga-Rothorn" },
+  { id: "fluhalp", name: "Fluhalp", elevation: 2616, coordinates: [7.7980, 46.0080], sector: "Sunnegga-Rothorn" },
   { id: "breitboden", name: "Breitboden", elevation: 2514, coordinates: [7.7727, 46.0018], sector: "Sunnegga-Rothorn" },
   { id: "grunsee", name: "Grünsee", elevation: 2300, coordinates: [7.7800, 46.0050], sector: "Sunnegga-Rothorn" },
 
