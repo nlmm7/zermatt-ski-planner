@@ -19,8 +19,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7306, 45.9394],
-          [7.7286, 45.9263]
+          [
+            7.7306,
+            45.9394
+          ],
+          [
+            7.7286,
+            45.9263
+          ]
         ]
       }
     },
@@ -42,8 +48,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7469, 45.9728],
-          [7.7306, 45.9394]
+          [
+            7.7469,
+            45.9728
+          ],
+          [
+            7.7306,
+            45.9394
+          ]
         ]
       }
     },
@@ -65,8 +77,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7483, 46.0078],
-          [7.7233, 45.9828]
+          [
+            7.7483,
+            46.0078
+          ],
+          [
+            7.7233,
+            45.9828
+          ]
         ]
       }
     },
@@ -88,8 +106,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7478, 46.0208],
-          [7.7483, 46.0078]
+          [
+            7.7478,
+            46.0208
+          ],
+          [
+            7.7483,
+            46.0078
+          ]
         ]
       }
     },
@@ -111,8 +135,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7528, 46.0217],
-          [7.7647, 46.0075]
+          [
+            7.7528,
+            46.0217
+          ],
+          [
+            7.7647,
+            46.0075
+          ]
         ]
       }
     },
@@ -134,8 +164,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7647, 46.0075],
-          [7.7542, 45.9928]
+          [
+            7.7647,
+            46.0075
+          ],
+          [
+            7.7542,
+            45.9928
+          ]
         ]
       }
     },
@@ -157,8 +193,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7542, 45.9928],
-          [7.7503, 45.9772]
+          [
+            7.7542,
+            45.9928
+          ],
+          [
+            7.7503,
+            45.9772
+          ]
         ]
       }
     },
@@ -180,8 +222,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7481, 46.0242],
-          [7.7847, 45.9831]
+          [
+            7.7481,
+            46.0242
+          ],
+          [
+            7.7847,
+            45.9831
+          ]
         ]
       }
     },
@@ -203,8 +251,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7483, 46.0078],
-          [7.7678, 45.9933]
+          [
+            7.7483,
+            46.0078
+          ],
+          [
+            7.7678,
+            45.9933
+          ]
         ]
       }
     },
@@ -226,8 +280,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7817, 46.0011],
-          [7.7678, 45.9933]
+          [
+            7.7817,
+            46.0011
+          ],
+          [
+            7.7678,
+            45.9933
+          ]
         ]
       }
     },
@@ -249,8 +309,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7789, 46.0089],
-          [7.7647, 46.0075]
+          [
+            7.7789,
+            46.0089
+          ],
+          [
+            7.7647,
+            46.0075
+          ]
         ]
       }
     },
@@ -272,8 +338,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7603, 46.0125],
-          [7.7542, 45.9928]
+          [
+            7.7603,
+            46.0125
+          ],
+          [
+            7.7542,
+            45.9928
+          ]
         ]
       }
     },
@@ -295,8 +367,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7306, 45.9394],
-          [7.7064, 45.9342]
+          [
+            7.7306,
+            45.9394
+          ],
+          [
+            7.7064,
+            45.9342
+          ]
         ]
       }
     },
@@ -318,8 +396,14 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7064, 45.9342],
-          [7.7017, 45.9317]
+          [
+            7.7064,
+            45.9342
+          ],
+          [
+            7.7017,
+            45.9317
+          ]
         ]
       }
     },
@@ -341,8 +425,6255 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [7.7186, 45.9303],
-          [7.7108, 45.9283]
+          [
+            7.7186,
+            45.9303
+          ],
+          [
+            7.7108,
+            45.9283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zermatt-sunnegga-funicular-0086",
+        "name": "Zermatt–Sunnegga funicular",
+        "type": "funicular",
+        "bottomElevation": 1568,
+        "topElevation": 1688,
+        "verticalRise": 120,
+        "capacity": 2550,
+        "duration": 3,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "zermatt-sunnegga-funicular-0086-bottom",
+        "toStation": "zermatt-sunnegga-funicular-0086-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7531707,
+            46.0220822
+          ],
+          [
+            7.7542211,
+            46.0217398
+          ],
+          [
+            7.7700623,
+            46.0172947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hublot-express-gant-blauherd-0668",
+        "name": "Hublot-Express (Gant - Blauherd)",
+        "type": "chairlift",
+        "bottomElevation": 1907,
+        "topElevation": 1705,
+        "verticalRise": 0,
+        "capacity": 1800,
+        "duration": 3,
+        "sector": "Gornergrat",
+        "fromStation": "hublot-express-gant-blauherd-0668-bottom",
+        "toStation": "hublot-express-gant-blauherd-0668-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7882817,
+            46.0085293
+          ],
+          [
+            7.7882874,
+            46.0098355
+          ],
+          [
+            7.7882918,
+            46.0108553
+          ],
+          [
+            7.788296,
+            46.0118224
+          ],
+          [
+            7.7883144,
+            46.0127976
+          ],
+          [
+            7.7883079,
+            46.0145778
+          ],
+          [
+            7.7883133,
+            46.015817
+          ],
+          [
+            7.7883151,
+            46.0162373
+          ],
+          [
+            7.7883167,
+            46.0165985
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gant-hoht-lli-0670",
+        "name": "Gant - Hohtälli",
+        "type": "cable_car",
+        "bottomElevation": 1895,
+        "topElevation": 2395,
+        "verticalRise": 500,
+        "capacity": 1000,
+        "duration": 6,
+        "sector": "Gornergrat",
+        "fromStation": "gant-hoht-lli-0670-bottom",
+        "toStation": "gant-hoht-lli-0670-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7875235,
+            46.0090146
+          ],
+          [
+            7.787837,
+            46.0085837
+          ],
+          [
+            7.7889086,
+            46.0071104
+          ],
+          [
+            7.7947097,
+            45.9991521
+          ],
+          [
+            7.8002117,
+            45.9916056
+          ],
+          [
+            7.8021025,
+            45.989012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "riffelberg-express-7636",
+        "name": "Riffelberg-Express",
+        "type": "gondola",
+        "bottomElevation": 2086,
+        "topElevation": 2293,
+        "verticalRise": 207,
+        "capacity": 2400,
+        "duration": 7,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "riffelberg-express-7636-bottom",
+        "toStation": "riffelberg-express-7636-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.732298,
+            46.0013446
+          ],
+          [
+            7.7352235,
+            46.0002733
+          ],
+          [
+            7.7359576,
+            45.999997
+          ],
+          [
+            7.7379826,
+            45.999235
+          ],
+          [
+            7.7398523,
+            45.9985314
+          ],
+          [
+            7.7400652,
+            45.9984512
+          ],
+          [
+            7.7432846,
+            45.9972397
+          ],
+          [
+            7.7456718,
+            45.9963413
+          ],
+          [
+            7.7470513,
+            45.9958221
+          ],
+          [
+            7.7488394,
+            45.9951448
+          ],
+          [
+            7.7515953,
+            45.994101
+          ],
+          [
+            7.7528683,
+            45.9936094
+          ],
+          [
+            7.7536868,
+            45.9933147
+          ],
+          [
+            7.7537007,
+            45.9933097
+          ],
+          [
+            7.7543034,
+            45.9930873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furi-trockener-steg-7638",
+        "name": "Furi - Trockener Steg",
+        "type": "cable_car",
+        "bottomElevation": 2089,
+        "topElevation": 2825,
+        "verticalRise": 736,
+        "capacity": 800,
+        "duration": 7,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "furi-trockener-steg-7638-bottom",
+        "toStation": "furi-trockener-steg-7638-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7320541,
+            46.0012251
+          ],
+          [
+            7.7296909,
+            45.9940391
+          ],
+          [
+            7.7258439,
+            45.9823394
+          ],
+          [
+            7.7241182,
+            45.9770902
+          ],
+          [
+            7.7235753,
+            45.9754387
+          ],
+          [
+            7.7222445,
+            45.9718055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gifthittli-8265",
+        "name": "Gifthittli",
+        "type": "chairlift",
+        "bottomElevation": 2267,
+        "topElevation": 2466,
+        "verticalRise": 199,
+        "capacity": 3200,
+        "duration": 5,
+        "sector": "Schwarzsee",
+        "fromStation": "gifthittli-8265-bottom",
+        "toStation": "gifthittli-8265-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7548434,
+            45.9941222
+          ],
+          [
+            7.7550355,
+            45.9940467
+          ],
+          [
+            7.7555948,
+            45.9938298
+          ],
+          [
+            7.7569478,
+            45.9932956
+          ],
+          [
+            7.7587459,
+            45.9925892
+          ],
+          [
+            7.7591097,
+            45.9924507
+          ],
+          [
+            7.7608306,
+            45.9917703
+          ],
+          [
+            7.7617281,
+            45.9914178
+          ],
+          [
+            7.7632873,
+            45.9908053
+          ],
+          [
+            7.7640242,
+            45.9905158
+          ],
+          [
+            7.7658024,
+            45.9898173
+          ],
+          [
+            7.7668337,
+            45.9894121
+          ],
+          [
+            7.7683543,
+            45.9888148
+          ],
+          [
+            7.7702036,
+            45.9880883
+          ],
+          [
+            7.7715501,
+            45.9875593
+          ],
+          [
+            7.772619,
+            45.9871394
+          ],
+          [
+            7.7748381,
+            45.9862676
+          ],
+          [
+            7.7751537,
+            45.9861436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furgg-sandiger-boden-1536",
+        "name": "Furgg - Sandiger Boden",
+        "type": "chairlift",
+        "bottomElevation": 2421,
+        "topElevation": 2682,
+        "verticalRise": 261,
+        "capacity": 2400,
+        "duration": 4,
+        "sector": "Matterhorn",
+        "fromStation": "furgg-sandiger-boden-1536-bottom",
+        "toStation": "furgg-sandiger-boden-1536-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7140316,
+            45.9879614
+          ],
+          [
+            7.7143668,
+            45.9873637
+          ],
+          [
+            7.7146085,
+            45.9869328
+          ],
+          [
+            7.7152461,
+            45.9859339
+          ],
+          [
+            7.7158168,
+            45.9848837
+          ],
+          [
+            7.7159822,
+            45.9845793
+          ],
+          [
+            7.7162383,
+            45.9841168
+          ],
+          [
+            7.7168506,
+            45.9830108
+          ],
+          [
+            7.7170523,
+            45.9826246
+          ],
+          [
+            7.717642,
+            45.9815529
+          ],
+          [
+            7.7177313,
+            45.9813863
+          ],
+          [
+            7.7183307,
+            45.9802956
+          ],
+          [
+            7.7189091,
+            45.9792641
+          ],
+          [
+            7.7195051,
+            45.9782012
+          ],
+          [
+            7.7197083,
+            45.9778389
+          ],
+          [
+            7.7198981,
+            45.9775004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furggsattel-gletscherbahn-1538",
+        "name": "Furggsattel Gletscherbahn",
+        "type": "chairlift",
+        "bottomElevation": 2866,
+        "topElevation": 3352,
+        "verticalRise": 486,
+        "capacity": 2400,
+        "duration": 9,
+        "sector": "Schwarzsee",
+        "fromStation": "furggsattel-gletscherbahn-1538-bottom",
+        "toStation": "furggsattel-gletscherbahn-1538-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7215556,
+            45.9701554
+          ],
+          [
+            7.7213131,
+            45.969882
+          ],
+          [
+            7.7201811,
+            45.9686066
+          ],
+          [
+            7.7195041,
+            45.9678437
+          ],
+          [
+            7.7177594,
+            45.9658778
+          ],
+          [
+            7.7172807,
+            45.9653384
+          ],
+          [
+            7.7160352,
+            45.963935
+          ],
+          [
+            7.7150278,
+            45.9627997
+          ],
+          [
+            7.713992,
+            45.9616325
+          ],
+          [
+            7.7128244,
+            45.9603166
+          ],
+          [
+            7.7117095,
+            45.9590602
+          ],
+          [
+            7.7106977,
+            45.9579199
+          ],
+          [
+            7.7097727,
+            45.9568775
+          ],
+          [
+            7.7085143,
+            45.9554592
+          ],
+          [
+            7.7072692,
+            45.9540559
+          ],
+          [
+            7.7063305,
+            45.9529979
+          ],
+          [
+            7.7057037,
+            45.9522914
+          ],
+          [
+            7.7048705,
+            45.9513524
+          ],
+          [
+            7.704321,
+            45.950733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trockener-steg-matterhorn-glac-1540",
+        "name": "Trockener Steg - Matterhorn glacier paradise",
+        "type": "cable_car",
+        "bottomElevation": 2847,
+        "topElevation": 3638,
+        "verticalRise": 791,
+        "capacity": 600,
+        "duration": 8,
+        "sector": "Schwarzsee",
+        "fromStation": "trockener-steg-matterhorn-glac-1540-bottom",
+        "toStation": "trockener-steg-matterhorn-glac-1540-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7223483,
+            45.9709313
+          ],
+          [
+            7.7229923,
+            45.9680803
+          ],
+          [
+            7.7237267,
+            45.964829
+          ],
+          [
+            7.7240729,
+            45.9632963
+          ],
+          [
+            7.7295015,
+            45.9392676
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "funivia-del-plateau-rosa-1544",
+        "name": "Funivia del Plateau Rosa",
+        "type": "cable_car",
+        "bottomElevation": 3871,
+        "topElevation": 3758,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 11,
+        "sector": "Cervinia",
+        "fromStation": "funivia-del-plateau-rosa-1544-bottom",
+        "toStation": "funivia-del-plateau-rosa-1544-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6805819,
+            45.9299726
+          ],
+          [
+            7.7076533,
+            45.9344658
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plan-maison-1545",
+        "name": "Plan Maison",
+        "type": "chairlift",
+        "bottomElevation": 3576,
+        "topElevation": 3489,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 11,
+        "sector": "Cervinia",
+        "fromStation": "plan-maison-1545-bottom",
+        "toStation": "plan-maison-1545-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6564531,
+            45.941745
+          ],
+          [
+            7.6567413,
+            45.9417804
+          ],
+          [
+            7.6575837,
+            45.9418838
+          ],
+          [
+            7.6588631,
+            45.9420409
+          ],
+          [
+            7.6601385,
+            45.9421975
+          ],
+          [
+            7.6617064,
+            45.94239
+          ],
+          [
+            7.6627374,
+            45.9425166
+          ],
+          [
+            7.6644918,
+            45.942732
+          ],
+          [
+            7.6666179,
+            45.942993
+          ],
+          [
+            7.6678946,
+            45.9431497
+          ],
+          [
+            7.6685045,
+            45.9432246
+          ],
+          [
+            7.6698285,
+            45.9433872
+          ],
+          [
+            7.6719398,
+            45.9436464
+          ],
+          [
+            7.673154,
+            45.9437954
+          ],
+          [
+            7.6740611,
+            45.9439068
+          ],
+          [
+            7.6757266,
+            45.9441113
+          ],
+          [
+            7.6766542,
+            45.9442251
+          ],
+          [
+            7.6780371,
+            45.9443949
+          ],
+          [
+            7.6790452,
+            45.9445187
+          ],
+          [
+            7.680259,
+            45.9446677
+          ],
+          [
+            7.681021,
+            45.9447613
+          ],
+          [
+            7.6824052,
+            45.9449312
+          ],
+          [
+            7.6845841,
+            45.9452011
+          ],
+          [
+            7.6847874,
+            45.9452222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fornet-1546",
+        "name": "Fornet",
+        "type": "chairlift",
+        "bottomElevation": 3503,
+        "topElevation": 3429,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "fornet-1546-bottom",
+        "toStation": "fornet-1546-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6843977,
+            45.9446928
+          ],
+          [
+            7.6849311,
+            45.9448479
+          ],
+          [
+            7.6862307,
+            45.9451996
+          ],
+          [
+            7.6874975,
+            45.9455424
+          ],
+          [
+            7.6888896,
+            45.9459096
+          ],
+          [
+            7.690011,
+            45.946212
+          ],
+          [
+            7.6913511,
+            45.9465735
+          ],
+          [
+            7.6929638,
+            45.9470099
+          ],
+          [
+            7.6939656,
+            45.9472803
+          ],
+          [
+            7.6950891,
+            45.9475852
+          ],
+          [
+            7.6953253,
+            45.947643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bontadini-1547",
+        "name": "Bontadini",
+        "type": "chairlift",
+        "bottomElevation": 3421,
+        "topElevation": 3498,
+        "verticalRise": 77,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "bontadini-1547-bottom",
+        "toStation": "bontadini-1547-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6950197,
+            45.9479524
+          ],
+          [
+            7.695548,
+            45.9478264
+          ],
+          [
+            7.6966642,
+            45.9475705
+          ],
+          [
+            7.6983476,
+            45.9471819
+          ],
+          [
+            7.6998319,
+            45.9468398
+          ],
+          [
+            7.7012585,
+            45.946521
+          ],
+          [
+            7.701881,
+            45.9463873
+          ],
+          [
+            7.7028977,
+            45.946152
+          ],
+          [
+            7.7053499,
+            45.9455848
+          ],
+          [
+            7.7068379,
+            45.945238
+          ],
+          [
+            7.708477,
+            45.9448843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cretaz-1549",
+        "name": "Cretaz",
+        "type": "chairlift",
+        "bottomElevation": 3692,
+        "topElevation": 3478,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 8,
+        "sector": "Cervinia",
+        "fromStation": "cretaz-1549-bottom",
+        "toStation": "cretaz-1549-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6313722,
+            45.9371279
+          ],
+          [
+            7.6321741,
+            45.9375187
+          ],
+          [
+            7.6332664,
+            45.9380549
+          ],
+          [
+            7.6344319,
+            45.9386411
+          ],
+          [
+            7.6355931,
+            45.9392183
+          ],
+          [
+            7.6364715,
+            45.9396525
+          ],
+          [
+            7.6376637,
+            45.9402471
+          ],
+          [
+            7.6387587,
+            45.9407828
+          ],
+          [
+            7.6397482,
+            45.9412821
+          ],
+          [
+            7.641014,
+            45.9419099
+          ],
+          [
+            7.6417361,
+            45.942268
+          ],
+          [
+            7.6423298,
+            45.9425625
+          ],
+          [
+            7.6435406,
+            45.943163
+          ],
+          [
+            7.644623,
+            45.9436998
+          ],
+          [
+            7.6459719,
+            45.9443687
+          ],
+          [
+            7.6477173,
+            45.9452343
+          ],
+          [
+            7.6485868,
+            45.9456655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "l-ngfluh-6092",
+        "name": "Längfluh",
+        "type": "cable_car",
+        "bottomElevation": -180,
+        "topElevation": 7,
+        "verticalRise": 187,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Gornergrat",
+        "fromStation": "l-ngfluh-6092-bottom",
+        "toStation": "l-ngfluh-6092-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8993575,
+            46.0919918
+          ],
+          [
+            7.8987796,
+            46.0907842
+          ],
+          [
+            7.8961331,
+            46.0852533
+          ],
+          [
+            7.8957889,
+            46.0845339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mittelallalin-3-6093",
+        "name": "Mittelallalin 3",
+        "type": "t_bar",
+        "bottomElevation": 658,
+        "topElevation": 835,
+        "verticalRise": 177,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Gornergrat",
+        "fromStation": "mittelallalin-3-6093-bottom",
+        "toStation": "mittelallalin-3-6093-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.896965,
+            46.0584682
+          ],
+          [
+            7.8972224,
+            46.0568594
+          ],
+          [
+            7.8975986,
+            46.0543669
+          ],
+          [
+            7.89776,
+            46.0532978
+          ],
+          [
+            7.8979493,
+            46.0520429
+          ],
+          [
+            7.8979708,
+            46.0519007
+          ],
+          [
+            7.8980088,
+            46.051649
+          ],
+          [
+            7.8980482,
+            46.0513879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mittelallalin-2-6094",
+        "name": "Mittelallalin 2",
+        "type": "t_bar",
+        "bottomElevation": 659,
+        "topElevation": 834,
+        "verticalRise": 175,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Gornergrat",
+        "fromStation": "mittelallalin-2-6094-bottom",
+        "toStation": "mittelallalin-2-6094-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8972919,
+            46.058454
+          ],
+          [
+            7.8974947,
+            46.0569086
+          ],
+          [
+            7.8977968,
+            46.0544025
+          ],
+          [
+            7.8979149,
+            46.0534232
+          ],
+          [
+            7.8980976,
+            46.0519079
+          ],
+          [
+            7.8981267,
+            46.0516663
+          ],
+          [
+            7.898154,
+            46.05144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "panoramalift-6095",
+        "name": "Panoramalift",
+        "type": "t_bar",
+        "bottomElevation": 49,
+        "topElevation": 554,
+        "verticalRise": 505,
+        "capacity": 2000,
+        "duration": 11,
+        "sector": "Gornergrat",
+        "fromStation": "panoramalift-6095-bottom",
+        "toStation": "panoramalift-6095-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8948081,
+            46.0828341
+          ],
+          [
+            7.8948855,
+            46.0819885
+          ],
+          [
+            7.8949916,
+            46.0808294
+          ],
+          [
+            7.8951645,
+            46.0789407
+          ],
+          [
+            7.8953795,
+            46.0765906
+          ],
+          [
+            7.8955766,
+            46.0744372
+          ],
+          [
+            7.8957492,
+            46.0725512
+          ],
+          [
+            7.8958917,
+            46.0709942
+          ],
+          [
+            7.8960494,
+            46.0692705
+          ],
+          [
+            7.8961852,
+            46.0677864
+          ],
+          [
+            7.8963267,
+            46.0662402
+          ],
+          [
+            7.8964765,
+            46.064603
+          ],
+          [
+            7.8965643,
+            46.0636443
+          ],
+          [
+            7.8966313,
+            46.0629118
+          ],
+          [
+            7.8966544,
+            46.0626591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "l-ngfluh-sessel-6097",
+        "name": "Längfluh Sessel",
+        "type": "chairlift",
+        "bottomElevation": -145,
+        "topElevation": 109,
+        "verticalRise": 254,
+        "capacity": 2000,
+        "duration": 6,
+        "sector": "Gornergrat",
+        "fromStation": "l-ngfluh-sessel-6097-bottom",
+        "toStation": "l-ngfluh-sessel-6097-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8944144,
+            46.0906108
+          ],
+          [
+            7.8944445,
+            46.0894455
+          ],
+          [
+            7.8944735,
+            46.0883252
+          ],
+          [
+            7.8945255,
+            46.0863136
+          ],
+          [
+            7.8945526,
+            46.0852676
+          ],
+          [
+            7.8945708,
+            46.0845644
+          ],
+          [
+            7.8945945,
+            46.0836485
+          ],
+          [
+            7.8946299,
+            46.0822791
+          ],
+          [
+            7.8946575,
+            46.0812117
+          ],
+          [
+            7.8946774,
+            46.0804417
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "morenia-6098",
+        "name": "Morenia",
+        "type": "chairlift",
+        "bottomElevation": -15,
+        "topElevation": 301,
+        "verticalRise": 316,
+        "capacity": 2000,
+        "duration": 7,
+        "sector": "Gornergrat",
+        "fromStation": "morenia-6098-bottom",
+        "toStation": "morenia-6098-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9134455,
+            46.0854018
+          ],
+          [
+            7.9133725,
+            46.084799
+          ],
+          [
+            7.9132326,
+            46.083645
+          ],
+          [
+            7.9131018,
+            46.0825656
+          ],
+          [
+            7.9129703,
+            46.08148
+          ],
+          [
+            7.9128384,
+            46.0803912
+          ],
+          [
+            7.9126938,
+            46.0791982
+          ],
+          [
+            7.9126024,
+            46.0784439
+          ],
+          [
+            7.9124746,
+            46.0773887
+          ],
+          [
+            7.9123485,
+            46.0763477
+          ],
+          [
+            7.9121806,
+            46.0749617
+          ],
+          [
+            7.9120322,
+            46.0737371
+          ],
+          [
+            7.9119522,
+            46.073077
+          ],
+          [
+            7.9119122,
+            46.0727465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "egginerjoch-6100",
+        "name": "Egginerjoch",
+        "type": "t_bar",
+        "bottomElevation": 296,
+        "topElevation": 445,
+        "verticalRise": 149,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Gornergrat",
+        "fromStation": "egginerjoch-6100-bottom",
+        "toStation": "egginerjoch-6100-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9194419,
+            46.0729587
+          ],
+          [
+            7.9251469,
+            46.0670107
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "eisfluh-1221",
+        "name": "Eisfluh",
+        "type": "chairlift",
+        "bottomElevation": 1684,
+        "topElevation": 1710,
+        "verticalRise": 26,
+        "capacity": 827,
+        "duration": 6,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "eisfluh-1221-bottom",
+        "toStation": "eisfluh-1221-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7639443,
+            46.0174217
+          ],
+          [
+            7.7642428,
+            46.0173501
+          ],
+          [
+            7.7645567,
+            46.0172619
+          ],
+          [
+            7.7649464,
+            46.0171748
+          ],
+          [
+            7.7653627,
+            46.0170786
+          ],
+          [
+            7.7659651,
+            46.0169466
+          ],
+          [
+            7.7670818,
+            46.0166852
+          ],
+          [
+            7.7680774,
+            46.0164553
+          ],
+          [
+            7.7682858,
+            46.0164066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "findelbahn-eja-breitenboden-1394",
+        "name": "Findelbahn (Eja-Breitenboden)",
+        "type": "chairlift",
+        "bottomElevation": 1873,
+        "topElevation": 2074,
+        "verticalRise": 201,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "findelbahn-eja-breitenboden-1394-bottom",
+        "toStation": "findelbahn-eja-breitenboden-1394-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7694857,
+            46.0098717
+          ],
+          [
+            7.7700359,
+            46.0085052
+          ],
+          [
+            7.7707809,
+            46.0066071
+          ],
+          [
+            7.7713674,
+            46.0051128
+          ],
+          [
+            7.771878,
+            46.0038117
+          ],
+          [
+            7.7720852,
+            46.0032837
+          ],
+          [
+            7.7725011,
+            46.0022242
+          ],
+          [
+            7.7726576,
+            46.0018254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campetto-7875",
+        "name": "Campetto",
+        "type": "chairlift",
+        "bottomElevation": 3686,
+        "topElevation": 3614,
+        "verticalRise": 0,
+        "capacity": 3000,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "campetto-7875-bottom",
+        "toStation": "campetto-7875-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6313934,
+            45.9373654
+          ],
+          [
+            7.6318796,
+            45.9377211
+          ],
+          [
+            7.6324674,
+            45.9381566
+          ],
+          [
+            7.6332014,
+            45.9387056
+          ],
+          [
+            7.633577,
+            45.9389914
+          ],
+          [
+            7.6343052,
+            45.9395238
+          ],
+          [
+            7.634851,
+            45.9399194
+          ],
+          [
+            7.63529,
+            45.9402537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "baby-la-vieille-9098",
+        "name": "Baby La Vieille",
+        "type": "drag_lift",
+        "bottomElevation": 3584,
+        "topElevation": 3573,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "baby-la-vieille-9098-bottom",
+        "toStation": "baby-la-vieille-9098-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6570777,
+            45.9414313
+          ],
+          [
+            7.6632039,
+            45.941892
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alpin-express-i-4095",
+        "name": "Alpin Express I",
+        "type": "gondola",
+        "bottomElevation": -532,
+        "topElevation": 80,
+        "verticalRise": 612,
+        "capacity": 2000,
+        "duration": 11,
+        "sector": "Gornergrat",
+        "fromStation": "alpin-express-i-4095-bottom",
+        "toStation": "alpin-express-i-4095-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.928166,
+            46.106062
+          ],
+          [
+            7.9273428,
+            46.104022
+          ],
+          [
+            7.9272316,
+            46.1037581
+          ],
+          [
+            7.9261746,
+            46.1012495
+          ],
+          [
+            7.9230616,
+            46.0938611
+          ],
+          [
+            7.9216964,
+            46.0905974
+          ],
+          [
+            7.9202934,
+            46.0872432
+          ],
+          [
+            7.9180802,
+            46.0821017
+          ],
+          [
+            7.9178614,
+            46.081595
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mittaghorn-4097",
+        "name": "Mittaghorn",
+        "type": "drag_lift",
+        "bottomElevation": -5,
+        "topElevation": 192,
+        "verticalRise": 197,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Gornergrat",
+        "fromStation": "mittaghorn-4097-bottom",
+        "toStation": "mittaghorn-4097-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9183861,
+            46.0849888
+          ],
+          [
+            7.9212094,
+            46.0771283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "felskinn-4108",
+        "name": "Felskinn",
+        "type": "cable_car",
+        "bottomElevation": -375,
+        "topElevation": 74,
+        "verticalRise": 449,
+        "capacity": 2000,
+        "duration": 8,
+        "sector": "Gornergrat",
+        "fromStation": "felskinn-4108-bottom",
+        "toStation": "felskinn-4108-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9199314,
+            46.0998064
+          ],
+          [
+            7.9189466,
+            46.0915669
+          ],
+          [
+            7.9188541,
+            46.0907289
+          ],
+          [
+            7.9182125,
+            46.0856412
+          ],
+          [
+            7.9177347,
+            46.0818204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plateau-rosa-2-3440",
+        "name": "Plateau Rosa 2",
+        "type": "t_bar",
+        "bottomElevation": 3712,
+        "topElevation": 4030,
+        "verticalRise": 318,
+        "capacity": 1000,
+        "duration": 6,
+        "sector": "Cervinia",
+        "fromStation": "plateau-rosa-2-3440-bottom",
+        "toStation": "plateau-rosa-2-3440-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7159522,
+            45.9363028
+          ],
+          [
+            7.7163358,
+            45.9353275
+          ],
+          [
+            7.7169087,
+            45.933871
+          ],
+          [
+            7.7172438,
+            45.9330193
+          ],
+          [
+            7.7175834,
+            45.9321558
+          ],
+          [
+            7.717917,
+            45.9313077
+          ],
+          [
+            7.7186016,
+            45.9295671
+          ],
+          [
+            7.7192254,
+            45.9279811
+          ],
+          [
+            7.719628,
+            45.9269575
+          ],
+          [
+            7.720218,
+            45.9254573
+          ],
+          [
+            7.7206753,
+            45.9242945
+          ],
+          [
+            7.7207341,
+            45.924145
+          ],
+          [
+            7.720952,
+            45.923591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "salette-3737",
+        "name": "Salette",
+        "type": "gondola",
+        "bottomElevation": 4914,
+        "topElevation": 4791,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 9,
+        "sector": "Cervinia",
+        "fromStation": "salette-3737-bottom",
+        "toStation": "salette-3737-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6239952,
+            45.8882336
+          ],
+          [
+            7.6273616,
+            45.8889437
+          ],
+          [
+            7.6287427,
+            45.889235
+          ],
+          [
+            7.6308851,
+            45.8896869
+          ],
+          [
+            7.6319181,
+            45.8899048
+          ],
+          [
+            7.6332705,
+            45.89019
+          ],
+          [
+            7.6355787,
+            45.8906769
+          ],
+          [
+            7.637465,
+            45.8910748
+          ],
+          [
+            7.6385727,
+            45.8913084
+          ],
+          [
+            7.6400688,
+            45.891624
+          ],
+          [
+            7.6424412,
+            45.8921244
+          ],
+          [
+            7.6431872,
+            45.8922817
+          ],
+          [
+            7.6439235,
+            45.892437
+          ],
+          [
+            7.6447687,
+            45.8926153
+          ],
+          [
+            7.6460293,
+            45.8928812
+          ],
+          [
+            7.6472901,
+            45.8931471
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "motta-3738",
+        "name": "Motta",
+        "type": "chairlift",
+        "bottomElevation": 4757,
+        "topElevation": 4525,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 6,
+        "sector": "Cervinia",
+        "fromStation": "motta-3738-bottom",
+        "toStation": "motta-3738-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6463916,
+            45.8945248
+          ],
+          [
+            7.6467092,
+            45.8949269
+          ],
+          [
+            7.6473189,
+            45.8956989
+          ],
+          [
+            7.6480247,
+            45.8965924
+          ],
+          [
+            7.6487584,
+            45.8975213
+          ],
+          [
+            7.6494163,
+            45.8983541
+          ],
+          [
+            7.6500188,
+            45.899117
+          ],
+          [
+            7.6503251,
+            45.8995047
+          ],
+          [
+            7.6508003,
+            45.900114
+          ],
+          [
+            7.6515014,
+            45.901013
+          ],
+          [
+            7.6516789,
+            45.9012406
+          ],
+          [
+            7.6522143,
+            45.9019392
+          ],
+          [
+            7.6529286,
+            45.9028456
+          ],
+          [
+            7.6535064,
+            45.903625
+          ],
+          [
+            7.6536514,
+            45.9038142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bec-carr-3739",
+        "name": "Bec Carré",
+        "type": "chairlift",
+        "bottomElevation": 4476,
+        "topElevation": 4377,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 10,
+        "sector": "Cervinia",
+        "fromStation": "bec-carr-3739-bottom",
+        "toStation": "bec-carr-3739-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6525975,
+            45.9057589
+          ],
+          [
+            7.6537483,
+            45.9059408
+          ],
+          [
+            7.655422,
+            45.9062055
+          ],
+          [
+            7.6567756,
+            45.9064195
+          ],
+          [
+            7.6583864,
+            45.9066741
+          ],
+          [
+            7.6600815,
+            45.9069422
+          ],
+          [
+            7.661346,
+            45.9071421
+          ],
+          [
+            7.6630904,
+            45.9074179
+          ],
+          [
+            7.6650757,
+            45.9077317
+          ],
+          [
+            7.6666905,
+            45.907987
+          ],
+          [
+            7.6685138,
+            45.9082753
+          ],
+          [
+            7.6719084,
+            45.908812
+          ],
+          [
+            7.6735246,
+            45.9090675
+          ],
+          [
+            7.6753942,
+            45.9093631
+          ],
+          [
+            7.6769015,
+            45.9096014
+          ],
+          [
+            7.6771528,
+            45.9096411
+          ],
+          [
+            7.6775384,
+            45.9097012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "du-col-3740",
+        "name": "Du Col",
+        "type": "chairlift",
+        "bottomElevation": 4361,
+        "topElevation": 4383,
+        "verticalRise": 22,
+        "capacity": 2002,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "du-col-3740-bottom",
+        "toStation": "du-col-3740-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6802269,
+            45.9103743
+          ],
+          [
+            7.6800383,
+            45.9103007
+          ],
+          [
+            7.6793769,
+            45.9100428
+          ],
+          [
+            7.6780994,
+            45.9095675
+          ],
+          [
+            7.6778494,
+            45.909475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gran-sometta-3742",
+        "name": "Gran Sometta",
+        "type": "chairlift",
+        "bottomElevation": 4347,
+        "topElevation": 4149,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 4,
+        "sector": "Cervinia",
+        "fromStation": "gran-sometta-3742-bottom",
+        "toStation": "gran-sometta-3742-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6808195,
+            45.9109064
+          ],
+          [
+            7.6813914,
+            45.9113568
+          ],
+          [
+            7.6823655,
+            45.912124
+          ],
+          [
+            7.6837959,
+            45.9132505
+          ],
+          [
+            7.6850173,
+            45.9142124
+          ],
+          [
+            7.6854062,
+            45.9145187
+          ],
+          [
+            7.6866301,
+            45.9154825
+          ],
+          [
+            7.6878993,
+            45.916482
+          ],
+          [
+            7.6890947,
+            45.9174234
+          ],
+          [
+            7.6901268,
+            45.9182362
+          ],
+          [
+            7.6906123,
+            45.9186184
+          ],
+          [
+            7.6908068,
+            45.9187716
+          ],
+          [
+            7.6908697,
+            45.9188212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bifig-kalbermatten-1-3261",
+        "name": "Bifig/Kalbermatten 1",
+        "type": "drag_lift",
+        "bottomElevation": -458,
+        "topElevation": -358,
+        "verticalRise": 100,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Gornergrat",
+        "fromStation": "bifig-kalbermatten-1-3261-bottom",
+        "toStation": "bifig-kalbermatten-1-3261-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9236367,
+            46.1031157
+          ],
+          [
+            7.9232149,
+            46.1025481
+          ],
+          [
+            7.9225468,
+            46.101649
+          ],
+          [
+            7.9212043,
+            46.0998423
+          ],
+          [
+            7.9206609,
+            46.0991109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pianalunga-cimalegna-salati-3519",
+        "name": "Pianalunga - Cimalegna - Salati",
+        "type": "cable_car",
+        "bottomElevation": 5477,
+        "topElevation": 5171,
+        "verticalRise": 0,
+        "capacity": 800,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "pianalunga-cimalegna-salati-3519-bottom",
+        "toStation": "pianalunga-cimalegna-salati-3519-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9039305,
+            45.8657078
+          ],
+          [
+            7.9021834,
+            45.8663164
+          ],
+          [
+            7.888736,
+            45.8710927
+          ],
+          [
+            7.8874798,
+            45.8715623
+          ],
+          [
+            7.8851026,
+            45.8724324
+          ],
+          [
+            7.8795586,
+            45.8743549
+          ],
+          [
+            7.8739562,
+            45.8763876
+          ],
+          [
+            7.8694649,
+            45.8779683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lago-ciarcerio-belvedere-3533",
+        "name": "Lago Ciarcerio - Belvedere",
+        "type": "chairlift",
+        "bottomElevation": 5895,
+        "topElevation": 5777,
+        "verticalRise": 0,
+        "capacity": 900,
+        "duration": 4,
+        "sector": "Cervinia",
+        "fromStation": "lago-ciarcerio-belvedere-3533-bottom",
+        "toStation": "lago-ciarcerio-belvedere-3533-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.754646,
+            45.8489948
+          ],
+          [
+            7.7546972,
+            45.8490642
+          ],
+          [
+            7.755457,
+            45.8500929
+          ],
+          [
+            7.7556266,
+            45.8503225
+          ],
+          [
+            7.7557139,
+            45.8504408
+          ],
+          [
+            7.7558246,
+            45.8505907
+          ],
+          [
+            7.7558824,
+            45.8506689
+          ],
+          [
+            7.7564218,
+            45.8513993
+          ],
+          [
+            7.7566863,
+            45.8517574
+          ],
+          [
+            7.7573716,
+            45.8526853
+          ],
+          [
+            7.7577747,
+            45.853231
+          ],
+          [
+            7.7579817,
+            45.8535113
+          ],
+          [
+            7.7581264,
+            45.8537072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gabiet-passo-dei-salati-3550",
+        "name": "Gabiet - Passo dei Salati",
+        "type": "gondola",
+        "bottomElevation": 5734,
+        "topElevation": 5198,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 11,
+        "sector": "Cervinia",
+        "fromStation": "gabiet-passo-dei-salati-3550-bottom",
+        "toStation": "gabiet-passo-dei-salati-3550-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8449016,
+            45.8554525
+          ],
+          [
+            7.8451532,
+            45.8557057
+          ],
+          [
+            7.8452073,
+            45.8557533
+          ],
+          [
+            7.845705,
+            45.8561978
+          ],
+          [
+            7.846672,
+            45.8571605
+          ],
+          [
+            7.8477058,
+            45.858103
+          ],
+          [
+            7.84896,
+            45.8592817
+          ],
+          [
+            7.849689,
+            45.8599853
+          ],
+          [
+            7.8505431,
+            45.8607854
+          ],
+          [
+            7.8514949,
+            45.8617002
+          ],
+          [
+            7.8527354,
+            45.8628429
+          ],
+          [
+            7.8540302,
+            45.8640366
+          ],
+          [
+            7.8550906,
+            45.8650359
+          ],
+          [
+            7.8558182,
+            45.8656725
+          ],
+          [
+            7.856369,
+            45.8662437
+          ],
+          [
+            7.8575386,
+            45.8673395
+          ],
+          [
+            7.8586186,
+            45.8683513
+          ],
+          [
+            7.8599488,
+            45.8695974
+          ],
+          [
+            7.8611127,
+            45.8706884
+          ],
+          [
+            7.8619357,
+            45.8714587
+          ],
+          [
+            7.8629146,
+            45.8723424
+          ],
+          [
+            7.8636035,
+            45.8730114
+          ],
+          [
+            7.8650446,
+            45.8744183
+          ],
+          [
+            7.8658641,
+            45.8751268
+          ],
+          [
+            7.8667269,
+            45.8759467
+          ],
+          [
+            7.8673479,
+            45.8765188
+          ],
+          [
+            7.8674015,
+            45.8765695
+          ],
+          [
+            7.8674741,
+            45.8766449
+          ],
+          [
+            7.8676885,
+            45.8768672
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alagna-pianalunga-3558",
+        "name": "Alagna - Pianalunga",
+        "type": "gondola",
+        "bottomElevation": 5788,
+        "topElevation": 5483,
+        "verticalRise": 0,
+        "capacity": 1400,
+        "duration": 11,
+        "sector": "Cervinia",
+        "fromStation": "alagna-pianalunga-3558-bottom",
+        "toStation": "alagna-pianalunga-3558-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9351294,
+            45.8532948
+          ],
+          [
+            7.9344111,
+            45.8535698
+          ],
+          [
+            7.9328634,
+            45.8541623
+          ],
+          [
+            7.9314423,
+            45.8547063
+          ],
+          [
+            7.9303977,
+            45.8551062
+          ],
+          [
+            7.9277906,
+            45.8561042
+          ],
+          [
+            7.9261863,
+            45.8567183
+          ],
+          [
+            7.9232455,
+            45.8578441
+          ],
+          [
+            7.9224828,
+            45.858136
+          ],
+          [
+            7.9221788,
+            45.8582524
+          ],
+          [
+            7.9199582,
+            45.8591024
+          ],
+          [
+            7.9178196,
+            45.859921
+          ],
+          [
+            7.9165125,
+            45.8604214
+          ],
+          [
+            7.9148892,
+            45.8610427
+          ],
+          [
+            7.9137063,
+            45.8614955
+          ],
+          [
+            7.9104319,
+            45.8627488
+          ],
+          [
+            7.9081193,
+            45.863634
+          ],
+          [
+            7.9062612,
+            45.8643452
+          ],
+          [
+            7.9032927,
+            45.8654814
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gabiet-lago-3561",
+        "name": "Gabiet - Lago",
+        "type": "chairlift",
+        "bottomElevation": 5735,
+        "topElevation": 5809,
+        "verticalRise": 74,
+        "capacity": 1200,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "gabiet-lago-3561-bottom",
+        "toStation": "gabiet-lago-3561-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8453479,
+            45.8554153
+          ],
+          [
+            7.8457651,
+            45.8548863
+          ],
+          [
+            7.8461488,
+            45.8544033
+          ],
+          [
+            7.8465646,
+            45.8539063
+          ],
+          [
+            7.8468635,
+            45.8535117
+          ],
+          [
+            7.8472381,
+            45.8530133
+          ],
+          [
+            7.8475992,
+            45.8526058
+          ],
+          [
+            7.8477294,
+            45.8524587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alpe-mandria-9968",
+        "name": "Alpe Mandria",
+        "type": "chairlift",
+        "bottomElevation": 5730,
+        "topElevation": 5617,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "alpe-mandria-9968-bottom",
+        "toStation": "alpe-mandria-9968-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7428581,
+            45.8556046
+          ],
+          [
+            7.7440905,
+            45.8559343
+          ],
+          [
+            7.745166,
+            45.8562221
+          ],
+          [
+            7.7464366,
+            45.856562
+          ],
+          [
+            7.7475928,
+            45.8568714
+          ],
+          [
+            7.7489153,
+            45.8572252
+          ],
+          [
+            7.7505686,
+            45.8576675
+          ],
+          [
+            7.7522535,
+            45.8581183
+          ],
+          [
+            7.7537721,
+            45.8585246
+          ],
+          [
+            7.7551809,
+            45.8589025
+          ],
+          [
+            7.7572667,
+            45.8594619
+          ],
+          [
+            7.7592683,
+            45.8599987
+          ],
+          [
+            7.7597309,
+            45.8601228
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stafal-sant-anna-0843",
+        "name": "Stafal - Sant'Anna",
+        "type": "cable_car",
+        "bottomElevation": 5684,
+        "topElevation": 5735,
+        "verticalRise": 51,
+        "capacity": 1000,
+        "duration": 1,
+        "sector": "Cervinia",
+        "fromStation": "stafal-sant-anna-0843-bottom",
+        "toStation": "stafal-sant-anna-0843-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8119092,
+            45.8574426
+          ],
+          [
+            7.80504,
+            45.8556928
+          ],
+          [
+            7.8038941,
+            45.8554028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sant-anna-colle-betta-0858",
+        "name": "Sant'Anna - Colle Betta",
+        "type": "chairlift",
+        "bottomElevation": 5741,
+        "topElevation": 5369,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 8,
+        "sector": "Cervinia",
+        "fromStation": "sant-anna-colle-betta-0858-bottom",
+        "toStation": "sant-anna-colle-betta-0858-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8026048,
+            45.8551522
+          ],
+          [
+            7.801929,
+            45.8556402
+          ],
+          [
+            7.8010864,
+            45.8562575
+          ],
+          [
+            7.8005609,
+            45.8566425
+          ],
+          [
+            7.7994812,
+            45.8574335
+          ],
+          [
+            7.7989023,
+            45.8578576
+          ],
+          [
+            7.7981381,
+            45.8584175
+          ],
+          [
+            7.7970666,
+            45.8592024
+          ],
+          [
+            7.7961391,
+            45.8598818
+          ],
+          [
+            7.7952657,
+            45.8605217
+          ],
+          [
+            7.7937791,
+            45.8616107
+          ],
+          [
+            7.7925411,
+            45.8625176
+          ],
+          [
+            7.7911101,
+            45.8635658
+          ],
+          [
+            7.7896148,
+            45.8646612
+          ],
+          [
+            7.7885615,
+            45.8654327
+          ],
+          [
+            7.7871466,
+            45.8664691
+          ],
+          [
+            7.7856236,
+            45.8675847
+          ],
+          [
+            7.784534,
+            45.8683827
+          ],
+          [
+            7.7840687,
+            45.8687235
+          ],
+          [
+            7.7832425,
+            45.8693287
+          ],
+          [
+            7.7826637,
+            45.8698308
+          ],
+          [
+            7.7826357,
+            45.8698537
+          ],
+          [
+            7.7823583,
+            45.8700581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stafal-gabiet-1067",
+        "name": "Stafal - Gabiet",
+        "type": "gondola",
+        "bottomElevation": 5673,
+        "topElevation": 5729,
+        "verticalRise": 56,
+        "capacity": 2400,
+        "duration": 7,
+        "sector": "Cervinia",
+        "fromStation": "stafal-gabiet-1067-bottom",
+        "toStation": "stafal-gabiet-1067-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8119959,
+            45.8578732
+          ],
+          [
+            7.813459,
+            45.8577741
+          ],
+          [
+            7.8147758,
+            45.8576833
+          ],
+          [
+            7.8170437,
+            45.8575269
+          ],
+          [
+            7.8197894,
+            45.8573376
+          ],
+          [
+            7.823847,
+            45.8570579
+          ],
+          [
+            7.8252974,
+            45.8569578
+          ],
+          [
+            7.8272543,
+            45.8568229
+          ],
+          [
+            7.8298005,
+            45.8566474
+          ],
+          [
+            7.8320526,
+            45.8564921
+          ],
+          [
+            7.8340105,
+            45.8563571
+          ],
+          [
+            7.8396097,
+            45.855971
+          ],
+          [
+            7.8412955,
+            45.8558696
+          ],
+          [
+            7.8423762,
+            45.8558013
+          ],
+          [
+            7.8439553,
+            45.8556892
+          ],
+          [
+            7.8445418,
+            45.8556443
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seggiovia-pecetto-alpe-burki-7255",
+        "name": "Seggiovia Pecetto - Alpe Burki",
+        "type": "chairlift",
+        "bottomElevation": 2851,
+        "topElevation": 2947,
+        "verticalRise": 96,
+        "capacity": 800,
+        "duration": 15,
+        "sector": "Gornergrat",
+        "fromStation": "seggiovia-pecetto-alpe-burki-7255-bottom",
+        "toStation": "seggiovia-pecetto-alpe-burki-7255-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9516001,
+            45.9707621
+          ],
+          [
+            7.9514406,
+            45.970731
+          ],
+          [
+            7.9509017,
+            45.9706259
+          ],
+          [
+            7.9492136,
+            45.9702967
+          ],
+          [
+            7.9478208,
+            45.9700248
+          ],
+          [
+            7.9463768,
+            45.9697437
+          ],
+          [
+            7.9450986,
+            45.9694945
+          ],
+          [
+            7.9440907,
+            45.969298
+          ],
+          [
+            7.9430326,
+            45.9690917
+          ],
+          [
+            7.9419405,
+            45.9688788
+          ],
+          [
+            7.9403455,
+            45.9685678
+          ],
+          [
+            7.9393441,
+            45.9683726
+          ],
+          [
+            7.9386044,
+            45.9682283
+          ],
+          [
+            7.9376785,
+            45.9680478
+          ],
+          [
+            7.936723,
+            45.9678615
+          ],
+          [
+            7.9361708,
+            45.9677538
+          ],
+          [
+            7.9349831,
+            45.9675223
+          ],
+          [
+            7.9337289,
+            45.9672777
+          ],
+          [
+            7.9333806,
+            45.9672098
+          ],
+          [
+            7.9323844,
+            45.9670184
+          ],
+          [
+            7.9321459,
+            45.9669726
+          ],
+          [
+            7.9319417,
+            45.9669334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seggiovia-alpe-burki-belvedere-7256",
+        "name": "Seggiovia Alpe Burki - Belvedere",
+        "type": "chairlift",
+        "bottomElevation": 2947,
+        "topElevation": 2977,
+        "verticalRise": 30,
+        "capacity": 720,
+        "duration": 7,
+        "sector": "Gornergrat",
+        "fromStation": "seggiovia-alpe-burki-belvedere-7256-bottom",
+        "toStation": "seggiovia-alpe-burki-belvedere-7256-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9319417,
+            45.9669334
+          ],
+          [
+            7.9317829,
+            45.9669123
+          ],
+          [
+            7.9317322,
+            45.9669056
+          ],
+          [
+            7.931674,
+            45.9668979
+          ],
+          [
+            7.9313339,
+            45.9668528
+          ],
+          [
+            7.9302582,
+            45.9667102
+          ],
+          [
+            7.9296512,
+            45.9666404
+          ],
+          [
+            7.9287875,
+            45.9665411
+          ],
+          [
+            7.9278785,
+            45.9664365
+          ],
+          [
+            7.9267805,
+            45.966309
+          ],
+          [
+            7.9258325,
+            45.9661989
+          ],
+          [
+            7.9256052,
+            45.9661725
+          ],
+          [
+            7.9239802,
+            45.9659839
+          ],
+          [
+            7.9239133,
+            45.9659761
+          ],
+          [
+            7.9238377,
+            45.9659676
+          ],
+          [
+            7.9224627,
+            45.9658127
+          ],
+          [
+            7.9224012,
+            45.9658058
+          ],
+          [
+            7.9223347,
+            45.9657983
+          ],
+          [
+            7.9219383,
+            45.9657354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plateau-rosa-3-4074",
+        "name": "Plateau Rosa 3",
+        "type": "t_bar",
+        "bottomElevation": 3711,
+        "topElevation": 3853,
+        "verticalRise": 142,
+        "capacity": 1000,
+        "duration": 3,
+        "sector": "Cervinia",
+        "fromStation": "plateau-rosa-3-4074-bottom",
+        "toStation": "plateau-rosa-3-4074-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7156328,
+            45.9363698
+          ],
+          [
+            7.7158983,
+            45.9356666
+          ],
+          [
+            7.7165079,
+            45.9340518
+          ],
+          [
+            7.7168117,
+            45.9332469
+          ],
+          [
+            7.7171294,
+            45.9324052
+          ],
+          [
+            7.7174553,
+            45.931542
+          ],
+          [
+            7.7177811,
+            45.9306788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plateau-rosa-1-4075",
+        "name": "Plateau Rosa 1",
+        "type": "t_bar",
+        "bottomElevation": 3710,
+        "topElevation": 4029,
+        "verticalRise": 319,
+        "capacity": 1000,
+        "duration": 7,
+        "sector": "Cervinia",
+        "fromStation": "plateau-rosa-1-4075-bottom",
+        "toStation": "plateau-rosa-1-4075-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7163004,
+            45.9364078
+          ],
+          [
+            7.7166927,
+            45.935506
+          ],
+          [
+            7.7172538,
+            45.9342161
+          ],
+          [
+            7.717611,
+            45.9333951
+          ],
+          [
+            7.7178908,
+            45.9327518
+          ],
+          [
+            7.7181411,
+            45.9321764
+          ],
+          [
+            7.7189536,
+            45.9303086
+          ],
+          [
+            7.7198573,
+            45.9282308
+          ],
+          [
+            7.7202484,
+            45.9273317
+          ],
+          [
+            7.7209101,
+            45.9258105
+          ],
+          [
+            7.7214747,
+            45.9245122
+          ],
+          [
+            7.7215489,
+            45.9243394
+          ],
+          [
+            7.7218606,
+            45.9236427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "matterhorn-express-5051",
+        "name": "Matterhorn Express",
+        "type": "gondola",
+        "bottomElevation": 2078,
+        "topElevation": 2318,
+        "verticalRise": 240,
+        "capacity": 2800,
+        "duration": 6,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "matterhorn-express-5051-bottom",
+        "toStation": "matterhorn-express-5051-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7319625,
+            46.0016707
+          ],
+          [
+            7.7314249,
+            46.0014471
+          ],
+          [
+            7.7301363,
+            46.0009112
+          ],
+          [
+            7.7276885,
+            45.9998932
+          ],
+          [
+            7.7268806,
+            45.9995572
+          ],
+          [
+            7.7257755,
+            45.9990975
+          ],
+          [
+            7.7237927,
+            45.9982729
+          ],
+          [
+            7.7214086,
+            45.9972813
+          ],
+          [
+            7.7198453,
+            45.9966311
+          ],
+          [
+            7.7194012,
+            45.9964464
+          ],
+          [
+            7.7190305,
+            45.9962931
+          ],
+          [
+            7.7188565,
+            45.9962212
+          ],
+          [
+            7.7181687,
+            45.9959369
+          ],
+          [
+            7.7178046,
+            45.9957864
+          ],
+          [
+            7.7163098,
+            45.9951684
+          ],
+          [
+            7.7158047,
+            45.9949596
+          ],
+          [
+            7.7129952,
+            45.9937982
+          ],
+          [
+            7.7119126,
+            45.9933506
+          ],
+          [
+            7.7101427,
+            45.9926189
+          ],
+          [
+            7.7095948,
+            45.9924069
+          ],
+          [
+            7.7095177,
+            45.992375
+          ],
+          [
+            7.7089463,
+            45.9921541
+          ],
+          [
+            7.7089094,
+            45.9920782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pancheron-5289",
+        "name": "Pancheron",
+        "type": "chairlift",
+        "bottomElevation": 3424,
+        "topElevation": 3201,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 9,
+        "sector": "Cervinia",
+        "fromStation": "pancheron-5289-bottom",
+        "toStation": "pancheron-5289-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6494205,
+            45.9478282
+          ],
+          [
+            7.6501859,
+            45.9481787
+          ],
+          [
+            7.651086,
+            45.9485909
+          ],
+          [
+            7.6517877,
+            45.9489123
+          ],
+          [
+            7.6532718,
+            45.9495919
+          ],
+          [
+            7.6545365,
+            45.9501711
+          ],
+          [
+            7.6552137,
+            45.9504812
+          ],
+          [
+            7.6564282,
+            45.9510373
+          ],
+          [
+            7.6576008,
+            45.9515743
+          ],
+          [
+            7.6590555,
+            45.9522405
+          ],
+          [
+            7.6603482,
+            45.9528324
+          ],
+          [
+            7.6612666,
+            45.953253
+          ],
+          [
+            7.6629786,
+            45.9540369
+          ],
+          [
+            7.6639114,
+            45.9544641
+          ],
+          [
+            7.665278,
+            45.9550899
+          ],
+          [
+            7.6663879,
+            45.9555981
+          ],
+          [
+            7.6676143,
+            45.9561596
+          ],
+          [
+            7.6689236,
+            45.9567593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cieloalto-9647",
+        "name": "Cieloalto",
+        "type": "chairlift",
+        "bottomElevation": 3887,
+        "topElevation": 4064,
+        "verticalRise": 177,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "cieloalto-9647-bottom",
+        "toStation": "cieloalto-9647-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6332569,
+            45.9293396
+          ],
+          [
+            7.6360286,
+            45.9269503
+          ],
+          [
+            7.6362197,
+            45.9267855
+          ],
+          [
+            7.6373323,
+            45.9258263
+          ],
+          [
+            7.6380835,
+            45.9251788
+          ],
+          [
+            7.6383616,
+            45.924939
+          ],
+          [
+            7.6397905,
+            45.9237071
+          ],
+          [
+            7.6400024,
+            45.9235244
+          ],
+          [
+            7.6402095,
+            45.9233459
+          ],
+          [
+            7.6413189,
+            45.9223894
+          ],
+          [
+            7.6415029,
+            45.9222308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alpin-express-ii-3219",
+        "name": "Alpin Express II",
+        "type": "gondola",
+        "bottomElevation": 79,
+        "topElevation": 405,
+        "verticalRise": 326,
+        "capacity": 2000,
+        "duration": 7,
+        "sector": "Gornergrat",
+        "fromStation": "alpin-express-ii-3219-bottom",
+        "toStation": "alpin-express-ii-3219-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.917525,
+            46.0816289
+          ],
+          [
+            7.9174001,
+            46.0809004
+          ],
+          [
+            7.9168646,
+            46.0777238
+          ],
+          [
+            7.9154009,
+            46.0689896
+          ],
+          [
+            7.9153433,
+            46.0686047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plattjen-5158",
+        "name": "Plattjen",
+        "type": "gondola",
+        "bottomElevation": -443,
+        "topElevation": -145,
+        "verticalRise": 298,
+        "capacity": 2000,
+        "duration": 9,
+        "sector": "Gornergrat",
+        "fromStation": "plattjen-5158-bottom",
+        "toStation": "plattjen-5158-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9263821,
+            46.1025338
+          ],
+          [
+            7.9284213,
+            46.1010749
+          ],
+          [
+            7.9297275,
+            46.1001404
+          ],
+          [
+            7.932276,
+            46.098317
+          ],
+          [
+            7.9334688,
+            46.0974636
+          ],
+          [
+            7.9344714,
+            46.0967462
+          ],
+          [
+            7.9355081,
+            46.0960044
+          ],
+          [
+            7.9364145,
+            46.0953559
+          ],
+          [
+            7.9381617,
+            46.0941058
+          ],
+          [
+            7.9394808,
+            46.0931619
+          ],
+          [
+            7.9409142,
+            46.0921363
+          ],
+          [
+            7.9426181,
+            46.090917
+          ],
+          [
+            7.9430361,
+            46.0906179
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bettaforca-8856",
+        "name": "Bettaforca",
+        "type": "chairlift",
+        "bottomElevation": 5453,
+        "topElevation": 5374,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "bettaforca-8856-bottom",
+        "toStation": "bettaforca-8856-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7611702,
+            45.8666819
+          ],
+          [
+            7.7619185,
+            45.8667758
+          ],
+          [
+            7.7627266,
+            45.8669084
+          ],
+          [
+            7.7643402,
+            45.867173
+          ],
+          [
+            7.7661438,
+            45.8674689
+          ],
+          [
+            7.7677713,
+            45.8677359
+          ],
+          [
+            7.7697477,
+            45.8680601
+          ],
+          [
+            7.7715081,
+            45.8683488
+          ],
+          [
+            7.7733547,
+            45.8686517
+          ],
+          [
+            7.7749697,
+            45.8689166
+          ],
+          [
+            7.7759328,
+            45.8690746
+          ],
+          [
+            7.7776173,
+            45.8693509
+          ],
+          [
+            7.7781879,
+            45.8694445
+          ],
+          [
+            7.7798066,
+            45.86971
+          ],
+          [
+            7.7803554,
+            45.8697674
+          ],
+          [
+            7.7807082,
+            45.8698351
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mittelallalin-5-4854",
+        "name": "Mittelallalin 5",
+        "type": "t_bar",
+        "bottomElevation": 537,
+        "topElevation": 653,
+        "verticalRise": 116,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Gornergrat",
+        "fromStation": "mittelallalin-5-4854-bottom",
+        "toStation": "mittelallalin-5-4854-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8973401,
+            46.0633307
+          ],
+          [
+            7.8975392,
+            46.0631424
+          ],
+          [
+            7.8980368,
+            46.0626718
+          ],
+          [
+            7.8995809,
+            46.0612327
+          ],
+          [
+            7.9018241,
+            46.059142
+          ],
+          [
+            7.9019985,
+            46.0589795
+          ],
+          [
+            7.9023099,
+            46.0586893
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "baby-salette-0849",
+        "name": "Baby Salette",
+        "type": "drag_lift",
+        "bottomElevation": 4752,
+        "topElevation": 4772,
+        "verticalRise": 20,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "baby-salette-0849-bottom",
+        "toStation": "baby-salette-0849-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6478559,
+            45.89472
+          ],
+          [
+            7.6479325,
+            45.8939327
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rote-nase-0257",
+        "name": "Rote Nase",
+        "type": "cable_car",
+        "bottomElevation": 2402,
+        "topElevation": 2449,
+        "verticalRise": 47,
+        "capacity": 520,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "rote-nase-0257-bottom",
+        "toStation": "rote-nase-0257-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.80247,
+            45.9887116
+          ],
+          [
+            7.8112058,
+            45.9868381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plateau-breithorn-2030",
+        "name": "Plateau Breithorn",
+        "type": "drag_lift",
+        "bottomElevation": 3806,
+        "topElevation": 3686,
+        "verticalRise": 0,
+        "capacity": 920,
+        "duration": 3,
+        "sector": "Cervinia",
+        "fromStation": "plateau-breithorn-2030-bottom",
+        "toStation": "plateau-breithorn-2030-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7315456,
+            45.9325751
+          ],
+          [
+            7.7314463,
+            45.932825
+          ],
+          [
+            7.7311539,
+            45.9335603
+          ],
+          [
+            7.7305849,
+            45.9349914
+          ],
+          [
+            7.7302676,
+            45.9357894
+          ],
+          [
+            7.7299815,
+            45.936509
+          ],
+          [
+            7.7296367,
+            45.9373761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pianalunga-bocchetta-0312",
+        "name": "Pianalunga - Bocchetta",
+        "type": "chairlift",
+        "bottomElevation": 5491,
+        "topElevation": 5244,
+        "verticalRise": 0,
+        "capacity": 1200,
+        "duration": 7,
+        "sector": "Cervinia",
+        "fromStation": "pianalunga-bocchetta-0312-bottom",
+        "toStation": "pianalunga-bocchetta-0312-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9055426,
+            45.8651499
+          ],
+          [
+            7.9053657,
+            45.865672
+          ],
+          [
+            7.9051979,
+            45.8661681
+          ],
+          [
+            7.9047657,
+            45.8674456
+          ],
+          [
+            7.9044031,
+            45.8685175
+          ],
+          [
+            7.9041766,
+            45.869187
+          ],
+          [
+            7.904006,
+            45.8696912
+          ],
+          [
+            7.9037441,
+            45.8704653
+          ],
+          [
+            7.9034825,
+            45.8712384
+          ],
+          [
+            7.9034488,
+            45.8713379
+          ],
+          [
+            7.9030859,
+            45.8724106
+          ],
+          [
+            7.9028088,
+            45.8732295
+          ],
+          [
+            7.902689,
+            45.8735836
+          ],
+          [
+            7.9025876,
+            45.8738834
+          ],
+          [
+            7.9022187,
+            45.8750452
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plateau-rosa-6687",
+        "name": "Plateau Rosa",
+        "type": "chairlift",
+        "bottomElevation": 3480,
+        "topElevation": 3760,
+        "verticalRise": 280,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "plateau-rosa-6687-bottom",
+        "toStation": "plateau-rosa-6687-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7074589,
+            45.9343907
+          ],
+          [
+            7.7074782,
+            45.9343404
+          ],
+          [
+            7.7077818,
+            45.9344021
+          ],
+          [
+            7.7077674,
+            45.9344417
+          ],
+          [
+            7.7077304,
+            45.9345482
+          ],
+          [
+            7.7077145,
+            45.93459
+          ],
+          [
+            7.7074038,
+            45.9345315
+          ],
+          [
+            7.7074236,
+            45.9344818
+          ],
+          [
+            7.7075047,
+            45.9344958
+          ],
+          [
+            7.7075388,
+            45.9344081
+          ],
+          [
+            7.7074589,
+            45.9343907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "funivia-passo-dei-salati-punta-3921",
+        "name": "Funivia Passo dei Salati-Punta Indren",
+        "type": "cable_car",
+        "bottomElevation": 5184,
+        "topElevation": 4857,
+        "verticalRise": 0,
+        "capacity": 740,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "funivia-passo-dei-salati-punta-3921-bottom",
+        "toStation": "funivia-passo-dei-salati-punta-3921-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8641054,
+            45.8774554
+          ],
+          [
+            7.8594457,
+            45.8865396
+          ],
+          [
+            7.8571703,
+            45.890507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "becca-d-aran-7599",
+        "name": "Becca d'Aran",
+        "type": "chairlift",
+        "bottomElevation": 4840,
+        "topElevation": 4697,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Cervinia",
+        "fromStation": "becca-d-aran-7599-bottom",
+        "toStation": "becca-d-aran-7599-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6511119,
+            45.8911933
+          ],
+          [
+            7.6516251,
+            45.8915988
+          ],
+          [
+            7.6524599,
+            45.8922585
+          ],
+          [
+            7.6530721,
+            45.8927422
+          ],
+          [
+            7.653908,
+            45.8934027
+          ],
+          [
+            7.6548553,
+            45.8941511
+          ],
+          [
+            7.6558159,
+            45.8949101
+          ],
+          [
+            7.6562395,
+            45.8952448
+          ],
+          [
+            7.6567966,
+            45.895685
+          ],
+          [
+            7.657974,
+            45.8966152
+          ],
+          [
+            7.6583474,
+            45.8969103
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lago-goillet-1014",
+        "name": "Lago Goillet",
+        "type": "chairlift",
+        "bottomElevation": 4051,
+        "topElevation": 4145,
+        "verticalRise": 94,
+        "capacity": 2800,
+        "duration": 4,
+        "sector": "Cervinia",
+        "fromStation": "lago-goillet-1014-bottom",
+        "toStation": "lago-goillet-1014-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6729597,
+            45.9227681
+          ],
+          [
+            7.6741123,
+            45.9225165
+          ],
+          [
+            7.6746755,
+            45.9223936
+          ],
+          [
+            7.6754184,
+            45.9222314
+          ],
+          [
+            7.6767253,
+            45.9219462
+          ],
+          [
+            7.6778352,
+            45.9217039
+          ],
+          [
+            7.6784366,
+            45.9215727
+          ],
+          [
+            7.6791492,
+            45.9214171
+          ],
+          [
+            7.6802439,
+            45.9211782
+          ],
+          [
+            7.6809059,
+            45.9210337
+          ],
+          [
+            7.6819802,
+            45.9207992
+          ],
+          [
+            7.6837715,
+            45.9204082
+          ],
+          [
+            7.6845787,
+            45.920232
+          ],
+          [
+            7.6853859,
+            45.9200558
+          ],
+          [
+            7.6863884,
+            45.919837
+          ],
+          [
+            7.6869279,
+            45.9197192
+          ],
+          [
+            7.6886177,
+            45.9193504
+          ],
+          [
+            7.6901931,
+            45.9190065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "falin-re-3184",
+        "name": "Falinére",
+        "type": "chairlift",
+        "bottomElevation": 5822,
+        "topElevation": 5900,
+        "verticalRise": 78,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia",
+        "fromStation": "falin-re-3184-bottom",
+        "toStation": "falin-re-3184-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6447028,
+            45.851908
+          ],
+          [
+            7.6443943,
+            45.8518209
+          ],
+          [
+            7.6443188,
+            45.8518011
+          ],
+          [
+            7.642933,
+            45.8514374
+          ],
+          [
+            7.6418294,
+            45.8511478
+          ],
+          [
+            7.6411599,
+            45.8509722
+          ],
+          [
+            7.6398923,
+            45.8506395
+          ],
+          [
+            7.6397565,
+            45.8506039
+          ],
+          [
+            7.6388638,
+            45.8503696
+          ],
+          [
+            7.6376897,
+            45.8500615
+          ],
+          [
+            7.637495,
+            45.8500104
+          ],
+          [
+            7.6367736,
+            45.8498211
+          ],
+          [
+            7.6360598,
+            45.8496338
+          ],
+          [
+            7.6345788,
+            45.8492452
+          ],
+          [
+            7.6342176,
+            45.8491504
+          ],
+          [
+            7.633618,
+            45.848993
+          ],
+          [
+            7.6328743,
+            45.8487979
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cime-bianche-laghi-1952",
+        "name": "Cime Bianche Laghi",
+        "type": "chairlift",
+        "bottomElevation": 2812,
+        "topElevation": 3866,
+        "verticalRise": 1054,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "cime-bianche-laghi-1952-bottom",
+        "toStation": "cime-bianche-laghi-1952-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6798829,
+            45.9301441
+          ],
+          [
+            7.6799299,
+            45.9301939
+          ],
+          [
+            7.6799628,
+            45.9302264
+          ],
+          [
+            7.6800003,
+            45.9302327
+          ],
+          [
+            7.6802717,
+            45.9301184
+          ],
+          [
+            7.6803053,
+            45.9301309
+          ],
+          [
+            7.6803919,
+            45.9300879
+          ],
+          [
+            7.6803812,
+            45.930064
+          ],
+          [
+            7.6804053,
+            45.9300513
+          ],
+          [
+            7.6804191,
+            45.9300202
+          ],
+          [
+            7.6804739,
+            45.9300287
+          ],
+          [
+            7.6804667,
+            45.9300598
+          ],
+          [
+            7.6808089,
+            45.9301319
+          ],
+          [
+            7.680851,
+            45.930011
+          ],
+          [
+            7.6808973,
+            45.9298823
+          ],
+          [
+            7.6805243,
+            45.9298261
+          ],
+          [
+            7.6804931,
+            45.9298368
+          ],
+          [
+            7.6804646,
+            45.929904
+          ],
+          [
+            7.6802378,
+            45.9298674
+          ],
+          [
+            7.6801997,
+            45.9300057
+          ],
+          [
+            7.679926,
+            45.9301238
+          ],
+          [
+            7.6798829,
+            45.9301441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gondola-staffal-gabiet-1203",
+        "name": "Gondola Staffal-Gabiet",
+        "type": "chairlift",
+        "bottomElevation": 2319,
+        "topElevation": 5728,
+        "verticalRise": 3409,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "gondola-staffal-gabiet-1203-bottom",
+        "toStation": "gondola-staffal-gabiet-1203-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8445314,
+            45.8556962
+          ],
+          [
+            7.8446696,
+            45.8557096
+          ],
+          [
+            7.8446881,
+            45.8557114
+          ],
+          [
+            7.8448498,
+            45.8557271
+          ],
+          [
+            7.8448627,
+            45.8556624
+          ],
+          [
+            7.8448913,
+            45.855501
+          ],
+          [
+            7.8450817,
+            45.8556934
+          ],
+          [
+            7.8451687,
+            45.8556528
+          ],
+          [
+            7.8449162,
+            45.8553948
+          ],
+          [
+            7.8449618,
+            45.8551664
+          ],
+          [
+            7.8447718,
+            45.855148
+          ],
+          [
+            7.8447564,
+            45.8551465
+          ],
+          [
+            7.8446436,
+            45.8551355
+          ],
+          [
+            7.8445522,
+            45.8555923
+          ],
+          [
+            7.8443461,
+            45.8556042
+          ],
+          [
+            7.8443593,
+            45.855707
+          ],
+          [
+            7.8445314,
+            45.8556962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "triftji-stillgelegt-2999",
+        "name": "Triftji (stillgelegt)",
+        "type": "t_bar",
+        "bottomElevation": 2132,
+        "topElevation": 2450,
+        "verticalRise": 318,
+        "capacity": 1200,
+        "duration": 7,
+        "sector": "Gornergrat",
+        "fromStation": "triftji-stillgelegt-2999-bottom",
+        "toStation": "triftji-stillgelegt-2999-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.808217,
+            45.9995221
+          ],
+          [
+            7.8082233,
+            45.9994924
+          ],
+          [
+            7.8108753,
+            45.9869439
+          ],
+          [
+            7.8109072,
+            45.9867931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ex-funivia-punta-indren-2631",
+        "name": "Ex Funivia Punta Indren",
+        "type": "chairlift",
+        "bottomElevation": 3260,
+        "topElevation": 4902,
+        "verticalRise": 1642,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "ex-funivia-punta-indren-2631-bottom",
+        "toStation": "ex-funivia-punta-indren-2631-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8658471,
+            45.8887399
+          ],
+          [
+            7.8658733,
+            45.8887441
+          ],
+          [
+            7.86586,
+            45.8888536
+          ],
+          [
+            7.8659418,
+            45.8888706
+          ],
+          [
+            7.8659548,
+            45.8888193
+          ],
+          [
+            7.8659814,
+            45.8887124
+          ],
+          [
+            7.8660079,
+            45.8885328
+          ],
+          [
+            7.8660594,
+            45.8885428
+          ],
+          [
+            7.8660611,
+            45.8884985
+          ],
+          [
+            7.86613,
+            45.8884719
+          ],
+          [
+            7.8661038,
+            45.8884123
+          ],
+          [
+            7.8660704,
+            45.8883739
+          ],
+          [
+            7.8658329,
+            45.8884577
+          ],
+          [
+            7.8658731,
+            45.8885033
+          ],
+          [
+            7.8658471,
+            45.8887399
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "testa-0202",
+        "name": "Testa",
+        "type": "t_bar",
+        "bottomElevation": 3487,
+        "topElevation": 3762,
+        "verticalRise": 275,
+        "capacity": 1000,
+        "duration": 6,
+        "sector": "Cervinia",
+        "fromStation": "testa-0202-bottom",
+        "toStation": "testa-0202-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7118118,
+            45.9453085
+          ],
+          [
+            7.7114145,
+            45.9440357
+          ],
+          [
+            7.7109765,
+            45.9424941
+          ],
+          [
+            7.7105637,
+            45.9410413
+          ],
+          [
+            7.7101825,
+            45.9396995
+          ],
+          [
+            7.7098109,
+            45.9383914
+          ],
+          [
+            7.7095889,
+            45.9375569
+          ],
+          [
+            7.709389,
+            45.9369061
+          ],
+          [
+            7.7090385,
+            45.9356863
+          ],
+          [
+            7.7086469,
+            45.9343025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "seggiovia-plan-maison-0776",
+        "name": "Seggiovia Plan Maison",
+        "type": "chairlift",
+        "bottomElevation": 3577,
+        "topElevation": 3577,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "seggiovia-plan-maison-0776-bottom",
+        "toStation": "seggiovia-plan-maison-0776-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6564142,
+            45.9417065
+          ],
+          [
+            7.6564044,
+            45.9417653
+          ],
+          [
+            7.6566794,
+            45.9417876
+          ],
+          [
+            7.6566892,
+            45.9417287
+          ],
+          [
+            7.6564142,
+            45.9417065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "findelbahn-eja-sunnegga-4364",
+        "name": "Findelbahn (Eja-Sunnegga)",
+        "type": "chairlift",
+        "bottomElevation": 1873,
+        "topElevation": 1694,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "findelbahn-eja-sunnegga-4364-bottom",
+        "toStation": "findelbahn-eja-sunnegga-4364-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7694857,
+            46.0098717
+          ],
+          [
+            7.7695791,
+            46.0103335
+          ],
+          [
+            7.7698374,
+            46.0116092
+          ],
+          [
+            7.7700621,
+            46.0127195
+          ],
+          [
+            7.7702239,
+            46.0135184
+          ],
+          [
+            7.7703508,
+            46.0141454
+          ],
+          [
+            7.7705134,
+            46.0149484
+          ],
+          [
+            7.7706969,
+            46.015855
+          ],
+          [
+            7.770939,
+            46.017051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sunnegga-blauherd-4366",
+        "name": "Sunnegga-Blauherd",
+        "type": "chairlift",
+        "bottomElevation": 1686,
+        "topElevation": 1693,
+        "verticalRise": 7,
+        "capacity": 2200,
+        "duration": 7,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "sunnegga-blauherd-4366-bottom",
+        "toStation": "sunnegga-blauherd-4366-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7699137,
+            46.0173784
+          ],
+          [
+            7.7707801,
+            46.017361
+          ],
+          [
+            7.7725383,
+            46.0173256
+          ],
+          [
+            7.7741751,
+            46.0172926
+          ],
+          [
+            7.7751106,
+            46.0172738
+          ],
+          [
+            7.7765736,
+            46.0172443
+          ],
+          [
+            7.7779232,
+            46.0172171
+          ],
+          [
+            7.7795001,
+            46.0171854
+          ],
+          [
+            7.7815979,
+            46.0171431
+          ],
+          [
+            7.7838878,
+            46.017097
+          ],
+          [
+            7.7852456,
+            46.0170697
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ex-cestovia-balma-7300",
+        "name": "Ex-Cestovia balma",
+        "type": "chairlift",
+        "bottomElevation": 5244,
+        "topElevation": 5244,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "ex-cestovia-balma-7300-bottom",
+        "toStation": "ex-cestovia-balma-7300-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9013076,
+            45.8750328
+          ],
+          [
+            7.9013822,
+            45.8750685
+          ],
+          [
+            7.9014514,
+            45.8749977
+          ],
+          [
+            7.901529,
+            45.874919
+          ],
+          [
+            7.9014548,
+            45.8748835
+          ],
+          [
+            7.9013076,
+            45.8750328
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ex-funivia-bocchetta-delle-pis-7302",
+        "name": "Ex Funivia Bocchetta delle Pisse",
+        "type": "chairlift",
+        "bottomElevation": 5243,
+        "topElevation": 5243,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "ex-funivia-bocchetta-delle-pis-7302-bottom",
+        "toStation": "ex-funivia-bocchetta-delle-pis-7302-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9013658,
+            45.8750853
+          ],
+          [
+            7.9014041,
+            45.8751316
+          ],
+          [
+            7.9014394,
+            45.8751741
+          ],
+          [
+            7.9015581,
+            45.8751264
+          ],
+          [
+            7.9014514,
+            45.8749977
+          ],
+          [
+            7.9013822,
+            45.8750685
+          ],
+          [
+            7.9013658,
+            45.8750853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stazione-di-ovovia-dismessa-0146",
+        "name": "Stazione di ovovia dismessa",
+        "type": "chairlift",
+        "bottomElevation": 5859,
+        "topElevation": 5859,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "stazione-di-ovovia-dismessa-0146-bottom",
+        "toStation": "stazione-di-ovovia-dismessa-0146-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9241792,
+            45.8504463
+          ],
+          [
+            7.9242954,
+            45.8504707
+          ],
+          [
+            7.9243073,
+            45.8504434
+          ],
+          [
+            7.9245384,
+            45.850492
+          ],
+          [
+            7.9245658,
+            45.8504286
+          ],
+          [
+            7.9243299,
+            45.850379
+          ],
+          [
+            7.9243463,
+            45.8503413
+          ],
+          [
+            7.9242349,
+            45.8503178
+          ],
+          [
+            7.9241792,
+            45.8504463
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rothorn-vs-7562",
+        "name": "Rothorn VS",
+        "type": "chairlift",
+        "bottomElevation": 3103,
+        "topElevation": 1582,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "rothorn-vs-7562-bottom",
+        "toStation": "rothorn-vs-7562-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7971481,
+            46.0215205
+          ],
+          [
+            7.7974278,
+            46.0216188
+          ],
+          [
+            7.7975334,
+            46.0214739
+          ],
+          [
+            7.7972536,
+            46.0213756
+          ],
+          [
+            7.7972059,
+            46.0214472
+          ],
+          [
+            7.7971481,
+            46.0215205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bergstation-spielbodenbahn-7949",
+        "name": "Bergstation Spielbodenbahn",
+        "type": "chairlift",
+        "bottomElevation": -181,
+        "topElevation": -181,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "bergstation-spielbodenbahn-7949-bottom",
+        "toStation": "bergstation-spielbodenbahn-7949-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8996093,
+            46.092028
+          ],
+          [
+            7.8996268,
+            46.092035
+          ],
+          [
+            7.8996949,
+            46.092062
+          ],
+          [
+            7.8996781,
+            46.0920824
+          ],
+          [
+            7.8998158,
+            46.0921372
+          ],
+          [
+            7.8998327,
+            46.0921168
+          ],
+          [
+            7.8999422,
+            46.0919842
+          ],
+          [
+            7.8995592,
+            46.091832
+          ],
+          [
+            7.899395,
+            46.0918662
+          ],
+          [
+            7.8994697,
+            46.0920391
+          ],
+          [
+            7.8994768,
+            46.0920556
+          ],
+          [
+            7.8996093,
+            46.092028
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "riffelberg-5979",
+        "name": "Riffelberg",
+        "type": "chairlift",
+        "bottomElevation": 2582,
+        "topElevation": 2266,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Schwarzsee",
+        "fromStation": "riffelberg-5979-bottom",
+        "toStation": "riffelberg-5979-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7548171,
+            45.9941684
+          ],
+          [
+            7.7548275,
+            45.9941673
+          ],
+          [
+            7.7549926,
+            45.9941025
+          ],
+          [
+            7.7550018,
+            45.9940957
+          ],
+          [
+            7.7550048,
+            45.9940875
+          ],
+          [
+            7.755001,
+            45.9940793
+          ],
+          [
+            7.7549708,
+            45.9940421
+          ],
+          [
+            7.7549644,
+            45.9940376
+          ],
+          [
+            7.7549528,
+            45.9940354
+          ],
+          [
+            7.7549394,
+            45.9940386
+          ],
+          [
+            7.7547753,
+            45.994103
+          ],
+          [
+            7.7547696,
+            45.9941073
+          ],
+          [
+            7.7547671,
+            45.9941128
+          ],
+          [
+            7.7547692,
+            45.99412
+          ],
+          [
+            7.7548036,
+            45.9941623
+          ],
+          [
+            7.7548091,
+            45.9941665
+          ],
+          [
+            7.7548171,
+            45.9941684
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "schwarzsee-paradise-5310",
+        "name": "Schwarzsee paradise",
+        "type": "chairlift",
+        "bottomElevation": 2583,
+        "topElevation": 2313,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Matterhorn",
+        "fromStation": "schwarzsee-paradise-5310-bottom",
+        "toStation": "schwarzsee-paradise-5310-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7092179,
+            45.9922935
+          ],
+          [
+            7.7092509,
+            45.9922514
+          ],
+          [
+            7.7090028,
+            45.9921509
+          ],
+          [
+            7.7089849,
+            45.9921303
+          ],
+          [
+            7.708951,
+            45.992117
+          ],
+          [
+            7.708944,
+            45.9920991
+          ],
+          [
+            7.7090285,
+            45.9918643
+          ],
+          [
+            7.7089528,
+            45.9918498
+          ],
+          [
+            7.7088617,
+            45.9920996
+          ],
+          [
+            7.7088899,
+            45.9921512
+          ],
+          [
+            7.7089145,
+            45.9921645
+          ],
+          [
+            7.7089738,
+            45.9921974
+          ],
+          [
+            7.7092179,
+            45.9922935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "furgg-5315",
+        "name": "Furgg",
+        "type": "chairlift",
+        "bottomElevation": 2432,
+        "topElevation": 2417,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Matterhorn",
+        "fromStation": "furgg-5315-bottom",
+        "toStation": "furgg-5315-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7134245,
+            45.9881002
+          ],
+          [
+            7.7132694,
+            45.9879823
+          ],
+          [
+            7.7135689,
+            45.9877692
+          ],
+          [
+            7.7138106,
+            45.9878143
+          ],
+          [
+            7.7138648,
+            45.9877391
+          ],
+          [
+            7.7142085,
+            45.9878229
+          ],
+          [
+            7.7143014,
+            45.9878469
+          ],
+          [
+            7.7141895,
+            45.9880776
+          ],
+          [
+            7.7138395,
+            45.9879923
+          ],
+          [
+            7.7137096,
+            45.9880951
+          ],
+          [
+            7.7135725,
+            45.9879848
+          ],
+          [
+            7.7134245,
+            45.9881002
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sandiger-boden-9774",
+        "name": "Sandiger Boden",
+        "type": "chairlift",
+        "bottomElevation": 2679,
+        "topElevation": 2679,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Matterhorn",
+        "fromStation": "sandiger-boden-9774-bottom",
+        "toStation": "sandiger-boden-9774-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7197262,
+            45.9776557
+          ],
+          [
+            7.7198069,
+            45.9774829
+          ],
+          [
+            7.7197746,
+            45.9772966
+          ],
+          [
+            7.7198843,
+            45.9772848
+          ],
+          [
+            7.7199943,
+            45.9772629
+          ],
+          [
+            7.7200459,
+            45.9774964
+          ],
+          [
+            7.719949,
+            45.9777208
+          ],
+          [
+            7.7198291,
+            45.9776859
+          ],
+          [
+            7.7197262,
+            45.9776557
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "burki-3-8912",
+        "name": "Burki 3°",
+        "type": "drag_lift",
+        "bottomElevation": 2884,
+        "topElevation": 2910,
+        "verticalRise": 26,
+        "capacity": 720,
+        "duration": 5,
+        "sector": "Gornergrat",
+        "fromStation": "burki-3-8912-bottom",
+        "toStation": "burki-3-8912-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.937341,
+            45.9694522
+          ],
+          [
+            7.9319548,
+            45.968631
+          ],
+          [
+            7.9305928,
+            45.9684075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wold-2-7863",
+        "name": "Wold 2",
+        "type": "drag_lift",
+        "bottomElevation": 5471,
+        "topElevation": 5510,
+        "verticalRise": 39,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "wold-2-7863-bottom",
+        "toStation": "wold-2-7863-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9379825,
+            45.865946
+          ],
+          [
+            7.9408416,
+            45.86468
+          ],
+          [
+            7.9414332,
+            45.864418
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wold-1-7864",
+        "name": "Wold 1",
+        "type": "drag_lift",
+        "bottomElevation": 5473,
+        "topElevation": 5511,
+        "verticalRise": 38,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "wold-1-7864-bottom",
+        "toStation": "wold-1-7864-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9379188,
+            45.8658893
+          ],
+          [
+            7.9408043,
+            45.86462
+          ],
+          [
+            7.9413978,
+            45.8643589
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zmutt-5048",
+        "name": "Zmutt",
+        "type": "chairlift",
+        "bottomElevation": 1812,
+        "topElevation": 1946,
+        "verticalRise": 134,
+        "capacity": 2000,
+        "duration": 12,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "zmutt-5048-bottom",
+        "toStation": "zmutt-5048-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7408637,
+            46.0123069
+          ],
+          [
+            7.7323157,
+            46.0084096
+          ],
+          [
+            7.7266457,
+            46.005838
+          ],
+          [
+            7.7248641,
+            46.0050299
+          ],
+          [
+            7.7235466,
+            46.0049773
+          ],
+          [
+            7.7180386,
+            46.0048779
+          ],
+          [
+            7.7127541,
+            46.0069559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hoht-lli-2537",
+        "name": "Hohtälli",
+        "type": "chairlift",
+        "bottomElevation": 3286,
+        "topElevation": 2391,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "hoht-lli-2537-bottom",
+        "toStation": "hoht-lli-2537-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8021325,
+            45.989143
+          ],
+          [
+            7.8022746,
+            45.9889403
+          ],
+          [
+            7.802245,
+            45.9889308
+          ],
+          [
+            7.8022632,
+            45.9889033
+          ],
+          [
+            7.8022047,
+            45.9888847
+          ],
+          [
+            7.8021871,
+            45.9889114
+          ],
+          [
+            7.8020803,
+            45.9888774
+          ],
+          [
+            7.8019441,
+            45.9890835
+          ],
+          [
+            7.8020507,
+            45.9891175
+          ],
+          [
+            7.8021325,
+            45.989143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stockhorn-2540",
+        "name": "Stockhorn",
+        "type": "chairlift",
+        "bottomElevation": 2452,
+        "topElevation": 2452,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "stockhorn-2540-bottom",
+        "toStation": "stockhorn-2540-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8229124,
+            45.9867322
+          ],
+          [
+            7.8231097,
+            45.9867244
+          ],
+          [
+            7.823102,
+            45.9866313
+          ],
+          [
+            7.8229047,
+            45.9866392
+          ],
+          [
+            7.8229081,
+            45.9866989
+          ],
+          [
+            7.8229124,
+            45.9867322
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bifig-kalbermatten-2-8692",
+        "name": "Bifig/Kalbermatten 2",
+        "type": "t_bar",
+        "bottomElevation": -459,
+        "topElevation": -358,
+        "verticalRise": 101,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Gornergrat",
+        "fromStation": "bifig-kalbermatten-2-8692-bottom",
+        "toStation": "bifig-kalbermatten-2-8692-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9235489,
+            46.1031429
+          ],
+          [
+            7.9231354,
+            46.1025833
+          ],
+          [
+            7.9211215,
+            46.0998572
+          ],
+          [
+            7.9205901,
+            46.0991379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hirli-8541",
+        "name": "Hirli",
+        "type": "chairlift",
+        "bottomElevation": 1941,
+        "topElevation": 2391,
+        "verticalRise": 450,
+        "capacity": 2000,
+        "duration": 6,
+        "sector": "Matterhorn",
+        "fromStation": "hirli-8541-bottom",
+        "toStation": "hirli-8541-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6974468,
+            46.0071612
+          ],
+          [
+            7.6974666,
+            46.0069442
+          ],
+          [
+            7.6975415,
+            46.0061265
+          ],
+          [
+            7.6976224,
+            46.0052417
+          ],
+          [
+            7.697744,
+            46.0039132
+          ],
+          [
+            7.6978596,
+            46.0026497
+          ],
+          [
+            7.6979719,
+            46.0014222
+          ],
+          [
+            7.6981188,
+            45.9998162
+          ],
+          [
+            7.6982728,
+            45.9981333
+          ],
+          [
+            7.6983766,
+            45.9969984
+          ],
+          [
+            7.6984824,
+            45.9958421
+          ],
+          [
+            7.6986007,
+            45.9945484
+          ],
+          [
+            7.6987449,
+            45.9929719
+          ],
+          [
+            7.6988679,
+            45.9916279
+          ],
+          [
+            7.698996,
+            45.9902271
+          ],
+          [
+            7.6990226,
+            45.9899362
+          ],
+          [
+            7.6990735,
+            45.9893797
+          ],
+          [
+            7.6990929,
+            45.9891673
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "spielbodenbahm-6992",
+        "name": "Spielbodenbahm",
+        "type": "gondola",
+        "bottomElevation": -382,
+        "topElevation": -179,
+        "verticalRise": 203,
+        "capacity": 1400,
+        "duration": 9,
+        "sector": "Gornergrat",
+        "fromStation": "spielbodenbahm-6992-bottom",
+        "toStation": "spielbodenbahm-6992-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.9200253,
+            46.1000906
+          ],
+          [
+            7.9179949,
+            46.0992791
+          ],
+          [
+            7.9110882,
+            46.0964916
+          ],
+          [
+            7.9096903,
+            46.0959386
+          ],
+          [
+            7.9073282,
+            46.0950043
+          ],
+          [
+            7.9046014,
+            46.0939257
+          ],
+          [
+            7.9017369,
+            46.0927925
+          ],
+          [
+            7.9000692,
+            46.0921328
+          ],
+          [
+            7.8996703,
+            46.091975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "talstation-l-ngfluh-6996",
+        "name": "Talstation Längfluh",
+        "type": "chairlift",
+        "bottomElevation": -177,
+        "topElevation": -177,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Gornergrat",
+        "fromStation": "talstation-l-ngfluh-6996-bottom",
+        "toStation": "talstation-l-ngfluh-6996-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.899395,
+            46.0918662
+          ],
+          [
+            7.8991749,
+            46.0919157
+          ],
+          [
+            7.8992541,
+            46.0920871
+          ],
+          [
+            7.8993888,
+            46.0920571
+          ],
+          [
+            7.8994697,
+            46.0920391
+          ],
+          [
+            7.899395,
+            46.0918662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trockener-steg-klein-matterhor-1791",
+        "name": "Trockener Steg - Klein Matterhorn Glacier Ride",
+        "type": "gondola",
+        "bottomElevation": 3659,
+        "topElevation": 2831,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 9,
+        "sector": "Cervinia",
+        "fromStation": "trockener-steg-klein-matterhor-1791-bottom",
+        "toStation": "trockener-steg-klein-matterhor-1791-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7291957,
+            45.9384214
+          ],
+          [
+            7.7289416,
+            45.9394969
+          ],
+          [
+            7.7234397,
+            45.9627791
+          ],
+          [
+            7.7221597,
+            45.9681942
+          ],
+          [
+            7.7213653,
+            45.9715549
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stazione-inermedia-funifor-9522",
+        "name": "Stazione Inermedia Funifor",
+        "type": "chairlift",
+        "bottomElevation": 2650,
+        "topElevation": 5329,
+        "verticalRise": 2679,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "stazione-inermedia-funifor-9522-bottom",
+        "toStation": "stazione-inermedia-funifor-9522-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.887453,
+            45.8716292
+          ],
+          [
+            7.8875499,
+            45.8715899
+          ],
+          [
+            7.8875263,
+            45.8715617
+          ],
+          [
+            7.8875868,
+            45.8715371
+          ],
+          [
+            7.8875527,
+            45.8714964
+          ],
+          [
+            7.8873853,
+            45.8715484
+          ],
+          [
+            7.887453,
+            45.8716292
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cimalegna-passo-salati-0243",
+        "name": "Cimalegna-Passo Salati",
+        "type": "chairlift",
+        "bottomElevation": 5336,
+        "topElevation": 5162,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 6,
+        "sector": "Cervinia",
+        "fromStation": "cimalegna-passo-salati-0243-bottom",
+        "toStation": "cimalegna-passo-salati-0243-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8871716,
+            45.8713595
+          ],
+          [
+            7.8857115,
+            45.87188
+          ],
+          [
+            7.8847268,
+            45.872231
+          ],
+          [
+            7.883636,
+            45.8726199
+          ],
+          [
+            7.8821974,
+            45.8731327
+          ],
+          [
+            7.8808796,
+            45.8736024
+          ],
+          [
+            7.8792425,
+            45.874186
+          ],
+          [
+            7.8778604,
+            45.8746787
+          ],
+          [
+            7.8760286,
+            45.8753317
+          ],
+          [
+            7.8747567,
+            45.8757851
+          ],
+          [
+            7.8738415,
+            45.8761113
+          ],
+          [
+            7.8722759,
+            45.8766693
+          ],
+          [
+            7.8709166,
+            45.8771539
+          ],
+          [
+            7.8698294,
+            45.8775414
+          ],
+          [
+            7.8684536,
+            45.8780318
+          ],
+          [
+            7.868042,
+            45.8781788
+          ],
+          [
+            7.8675438,
+            45.878335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "matterhorn-glacier-ride-ii-0310",
+        "name": "Matterhorn Glacier Ride II",
+        "type": "gondola",
+        "bottomElevation": 3750,
+        "topElevation": 3665,
+        "verticalRise": 0,
+        "capacity": 1300,
+        "duration": 4,
+        "sector": "Cervinia",
+        "fromStation": "matterhorn-glacier-ride-ii-0310-bottom",
+        "toStation": "matterhorn-glacier-ride-ii-0310-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.707585,
+            45.9348107
+          ],
+          [
+            7.7289627,
+            45.9381914
+          ],
+          [
+            7.7291449,
+            45.9382183
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hoht-lli-stockhorn-geplant-3035",
+        "name": "Hohtälli - Stockhorn (geplant)",
+        "type": "cable_car",
+        "bottomElevation": 2450,
+        "topElevation": 2399,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 8,
+        "sector": "Gornergrat",
+        "fromStation": "hoht-lli-stockhorn-geplant-3035-bottom",
+        "toStation": "hoht-lli-stockhorn-geplant-3035-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8230569,
+            45.9867877
+          ],
+          [
+            7.8026131,
+            45.9888533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kumme-3038",
+        "name": "Kumme",
+        "type": "gondola",
+        "bottomElevation": 1230,
+        "topElevation": 1213,
+        "verticalRise": 0,
+        "capacity": 1500,
+        "duration": 4,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "kumme-3038-bottom",
+        "toStation": "kumme-3038-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7730786,
+            46.035609
+          ],
+          [
+            7.7743883,
+            46.0356622
+          ],
+          [
+            7.7772842,
+            46.0357799
+          ],
+          [
+            7.7800569,
+            46.0358925
+          ],
+          [
+            7.7844948,
+            46.0360728
+          ],
+          [
+            7.7875727,
+            46.0361979
+          ],
+          [
+            7.7893702,
+            46.0362709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mittelallalin-4-7088",
+        "name": "Mittelallalin 4",
+        "type": "t_bar",
+        "bottomElevation": 528,
+        "topElevation": 650,
+        "verticalRise": 122,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Gornergrat",
+        "fromStation": "mittelallalin-4-7088-bottom",
+        "toStation": "mittelallalin-4-7088-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8976809,
+            46.0636696
+          ],
+          [
+            7.8981139,
+            46.0632545
+          ],
+          [
+            7.898689,
+            46.0627031
+          ],
+          [
+            7.8997112,
+            46.0616219
+          ],
+          [
+            7.9019795,
+            46.0592222
+          ],
+          [
+            7.9021024,
+            46.0590921
+          ],
+          [
+            7.9023859,
+            46.0587922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moos-5376",
+        "name": "Moos",
+        "type": "chairlift",
+        "bottomElevation": 5596,
+        "topElevation": 5621,
+        "verticalRise": 25,
+        "capacity": 1000,
+        "duration": 2,
+        "sector": "Cervinia",
+        "fromStation": "moos-5376-bottom",
+        "toStation": "moos-5376-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8126136,
+            45.8609521
+          ],
+          [
+            7.8084845,
+            45.859975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "grenzlift-stillgelegt-0336",
+        "name": "Grenzlift (stillgelegt)",
+        "type": "t_bar",
+        "bottomElevation": 4041,
+        "topElevation": 4019,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 8,
+        "sector": "Cervinia",
+        "fromStation": "grenzlift-stillgelegt-0336-bottom",
+        "toStation": "grenzlift-stillgelegt-0336-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7186497,
+            45.923177
+          ],
+          [
+            7.7192735,
+            45.9232095
+          ],
+          [
+            7.734239,
+            45.9239872
+          ],
+          [
+            7.7349519,
+            45.9240243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "breitboden-rosenritz-0825",
+        "name": "Breitboden - Rosenritz",
+        "type": "chairlift",
+        "bottomElevation": 2076,
+        "topElevation": 2353,
+        "verticalRise": 277,
+        "capacity": 2400,
+        "duration": 7,
+        "sector": "Sunnegga-Rothorn",
+        "fromStation": "breitboden-rosenritz-0825-bottom",
+        "toStation": "breitboden-rosenritz-0825-top"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7723024,
+            46.001753
+          ],
+          [
+            7.7810465,
+            45.990675
+          ]
         ]
       }
     }
