@@ -23,14 +23,14 @@ export interface LiftProperties {
 export interface SlopeProperties {
   id: string;
   name: string;
+  number?: string; // official piste number from map
   difficulty: Difficulty;
   length: number; // meters
   verticalDrop: number;
-  fromLift: string;
-  toLift: string | null;
   sector: Sector;
   fromStation: string;
   toStation: string;
+  connectsTo?: string[]; // array of lift/slope IDs this piste connects to at the bottom
   isOpen?: boolean;
 }
 
