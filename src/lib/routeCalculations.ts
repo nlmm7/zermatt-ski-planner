@@ -13,6 +13,9 @@ import {
 const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
 
+// Connection threshold in meters (for checking if two points are connected)
+const CONNECTION_THRESHOLD = 50;
+
 // Average speeds for time estimation
 const AVERAGE_SPEEDS = {
   green: 25, // km/h
@@ -20,6 +23,20 @@ const AVERAGE_SPEEDS = {
   red: 35,
   black: 40,
 };
+
+// Haversine distance in meters
+function haversineDistance(coord1: number[], coord2: number[]): number {
+  const R = 6371000;
+  const lat1 = coord1[1] * Math.PI / 180;
+  const lat2 = coord2[1] * Math.PI / 180;
+  const dLat = (coord2[1] - coord1[1]) * Math.PI / 180;
+  const dLon = (coord2[0] - coord1[0]) * Math.PI / 180;
+
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(lat1) * Math.cos(lat2) *
+            Math.sin(dLon/2) * Math.sin(dLon/2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
 
 export function calculateRouteStats(route: RouteSegment[]): RouteStats {
   let totalVerticalUp = 0;
@@ -82,25 +99,66 @@ export function formatTime(minutes: number): string {
   return `${mins}m`;
 }
 
-// Get the end station of a segment
-function getSegmentEndStation(segment: RouteSegment): string | null {
+// Get the end coordinates of a segment
+function getSegmentEndCoords(segment: RouteSegment): number[] | null {
   if (segment.type === 'lift') {
     const lift = getLiftById(segment.id);
-    return lift?.properties.toStation || null;
+    if (!lift) return null;
+    const coords = lift.geometry.coordinates;
+    return coords[coords.length - 1];
   } else {
     const slope = getSlopeById(segment.id);
-    return slope?.properties.toStation || null;
+    if (!slope) return null;
+    const coords = slope.geometry.coordinates;
+    return coords[coords.length - 1];
   }
 }
 
-// Get the start station of a segment
-function getSegmentStartStation(segment: RouteSegment): string | null {
+// Get the start coordinates of a segment
+function getSegmentStartCoords(segment: RouteSegment): number[] | null {
   if (segment.type === 'lift') {
     const lift = getLiftById(segment.id);
-    return lift?.properties.fromStation || null;
+    if (!lift) return null;
+    return lift.geometry.coordinates[0];
   } else {
     const slope = getSlopeById(segment.id);
-    return slope?.properties.fromStation || null;
+    if (!slope) return null;
+    return slope.geometry.coordinates[0];
+  }
+}
+
+// Get what a segment connects to (what you can reach from its end)
+function getSegmentConnections(segment: RouteSegment): string[] {
+  if (segment.type === 'slope') {
+    const slope = getSlopeById(segment.id);
+    return slope?.properties.connectsTo || [];
+  } else {
+    // For lifts, we need to find what's reachable from the top
+    // This means finding pistes/lifts whose start is near the lift's end
+    const lift = getLiftById(segment.id);
+    if (!lift) return [];
+
+    const liftEnd = lift.geometry.coordinates[lift.geometry.coordinates.length - 1];
+    const connections: string[] = [];
+
+    // Find slopes that start near the lift top
+    for (const slope of slopes.features) {
+      const slopeStart = slope.geometry.coordinates[0];
+      if (haversineDistance(liftEnd, slopeStart) <= CONNECTION_THRESHOLD) {
+        connections.push(slope.properties.id);
+      }
+    }
+
+    // Find other lifts that start near this lift's top
+    for (const otherLift of lifts.features) {
+      if (otherLift.properties.id === lift.properties.id) continue;
+      const otherStart = otherLift.geometry.coordinates[0];
+      if (haversineDistance(liftEnd, otherStart) <= CONNECTION_THRESHOLD) {
+        connections.push(otherLift.properties.id);
+      }
+    }
+
+    return connections;
   }
 }
 
@@ -115,14 +173,18 @@ export function validateConnection(
   }
 
   const lastSegment = currentRoute[currentRoute.length - 1];
-  const lastEndStation = getSegmentEndStation(lastSegment);
-  const newStartStation = getSegmentStartStation(newSegment);
+  const connections = getSegmentConnections(lastSegment);
 
-  if (!lastEndStation || !newStartStation) {
-    return { isValid: true }; // Can't validate, allow it
+  // Check if new segment is in the connections list
+  if (connections.includes(newSegment.id)) {
+    return { isValid: true };
   }
 
-  if (lastEndStation === newStartStation) {
+  // Also check geometric proximity as a fallback
+  const lastEnd = getSegmentEndCoords(lastSegment);
+  const newStart = getSegmentStartCoords(newSegment);
+
+  if (lastEnd && newStart && haversineDistance(lastEnd, newStart) <= CONNECTION_THRESHOLD) {
     return { isValid: true };
   }
 
@@ -132,7 +194,7 @@ export function validateConnection(
 
   return {
     isValid: false,
-    message: `"${newName}" doesn't connect to "${lastName}". You need to be at ${newStartStation} but you're at ${lastEndStation}.`,
+    message: `"${newName}" doesn't connect to "${lastName}". These segments are not adjacent.`,
   };
 }
 
@@ -150,22 +212,10 @@ export function getValidNextSegments(currentRoute: RouteSegment[]): {
   }
 
   const lastSegment = currentRoute[currentRoute.length - 1];
-  const currentStation = getSegmentEndStation(lastSegment);
+  const connections = getSegmentConnections(lastSegment);
 
-  if (!currentStation) {
-    return {
-      lifts: lifts.features.map((f) => f.properties.id),
-      slopes: slopes.features.map((f) => f.properties.id),
-    };
-  }
-
-  const validLifts = lifts.features
-    .filter((f) => f.properties.fromStation === currentStation)
-    .map((f) => f.properties.id);
-
-  const validSlopes = slopes.features
-    .filter((f) => f.properties.fromStation === currentStation)
-    .map((f) => f.properties.id);
+  const validLifts = connections.filter(id => id.startsWith('lift-'));
+  const validSlopes = connections.filter(id => id.startsWith('piste-'));
 
   return { lifts: validLifts, slopes: validSlopes };
 }

@@ -4,28 +4,31 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "sunnegga-express",
-        "name": "Sunnegga Express",
+        "id": "lift-22330086",
+        "osmId": 22330086,
+        "name": "Zermatt–Sunnegga funicular",
         "type": "funicular",
-        "bottomElevation": 1620,
-        "topElevation": 2288,
-        "verticalRise": 668,
-        "capacity": 2400,
-        "duration": 4,
-        "sector": "Zermatt",
-        "fromStation": "zermatt",
-        "toStation": "sunnegga"
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2550,
+        "duration": 3,
+        "sector": "Sunnegga-Rothorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7516,
-            46.0207
+            7.7531707,
+            46.0220822
           ],
           [
-            7.77,
-            46.0173
+            7.7542211,
+            46.0217398
+          ],
+          [
+            7.7700623,
+            46.0172947
           ]
         ]
       }
@@ -33,115 +36,115 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "sunnegga-blauherd",
-        "name": "Sunnegga - Blauherd",
-        "type": "gondola",
-        "bottomElevation": 2288,
-        "topElevation": 2571,
-        "verticalRise": 283,
-        "capacity": 2800,
-        "duration": 6,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "sunnegga",
-        "toStation": "blauherd"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.77,
-            46.0173
-          ],
-          [
-            7.7857,
-            46.017
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "blauherd-rothorn",
-        "name": "Blauherd - Rothorn",
-        "type": "cable_car",
-        "bottomElevation": 2571,
-        "topElevation": 3103,
-        "verticalRise": 532,
-        "capacity": 2000,
-        "duration": 5,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "blauherd",
-        "toStation": "rothorn"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7857,
-            46.017
-          ],
-          [
-            7.7975,
-            46.021
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "findelbahn",
-        "name": "Findelbahn",
-        "type": "chairlift",
-        "bottomElevation": 2051,
-        "topElevation": 2288,
-        "verticalRise": 237,
-        "capacity": 2400,
-        "duration": 6,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "findeln",
-        "toStation": "sunnegga"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7695,
-            46.0099
-          ],
-          [
-            7.77,
-            46.0173
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "patrullarve",
+        "id": "lift-22330667",
+        "osmId": 22330667,
         "name": "Patrullarve",
         "type": "chairlift",
-        "bottomElevation": 2000,
-        "topElevation": 2571,
-        "verticalRise": 571,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 2400,
         "duration": 8,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "patrullarve",
-        "toStation": "blauherd"
+        "sector": "Sunnegga-Rothorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7467,
-            46.003
+            7.7680986,
+            46.026125
           ],
           [
-            7.7857,
-            46.017
+            7.7685551,
+            46.0259251
+          ],
+          [
+            7.7689582,
+            46.0257486
+          ],
+          [
+            7.7694954,
+            46.0255134
+          ],
+          [
+            7.7711057,
+            46.0248083
+          ],
+          [
+            7.7713252,
+            46.0247122
+          ],
+          [
+            7.771998,
+            46.0244176
+          ],
+          [
+            7.7726927,
+            46.0241134
+          ],
+          [
+            7.7733028,
+            46.0238463
+          ],
+          [
+            7.7745017,
+            46.0233213
+          ],
+          [
+            7.7759394,
+            46.0226918
+          ],
+          [
+            7.7773998,
+            46.0220523
+          ],
+          [
+            7.7779789,
+            46.0217987
+          ],
+          [
+            7.779202,
+            46.0212631
+          ],
+          [
+            7.7802817,
+            46.0207903
+          ],
+          [
+            7.7810861,
+            46.0204381
+          ],
+          [
+            7.7822973,
+            46.0199077
+          ],
+          [
+            7.7836795,
+            46.0193024
+          ],
+          [
+            7.7848876,
+            46.0187734
+          ],
+          [
+            7.7860101,
+            46.0182818
+          ],
+          [
+            7.7876916,
+            46.0175455
+          ],
+          [
+            7.7884648,
+            46.0172068
+          ],
+          [
+            7.7892338,
+            46.0168701
+          ],
+          [
+            7.7896254,
+            46.0166986
           ]
         ]
       }
@@ -149,57 +152,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "kumme",
-        "name": "Kumme",
+        "id": "lift-22330668",
+        "osmId": 22330668,
+        "name": "Hublot-Express (Gant - Blauherd)",
         "type": "chairlift",
-        "bottomElevation": 2571,
-        "topElevation": 2660,
-        "verticalRise": 89,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 1800,
-        "duration": 5,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "blauherd",
-        "toStation": "kumme"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7857,
-            46.017
-          ],
-          [
-            7.805,
-            46.015
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "tuftern-shuttle",
-        "name": "Tuftern Shuttle",
-        "type": "chairlift",
-        "bottomElevation": 2215,
-        "topElevation": 2288,
-        "verticalRise": 73,
-        "capacity": 1200,
         "duration": 4,
-        "sector": "Sunnegga-Rothorn",
-        "fromStation": "tuftern",
-        "toStation": "sunnegga"
+        "sector": "Gornergrat"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.758,
-            46.015
+            7.7882817,
+            46.0085293
           ],
           [
-            7.77,
-            46.0173
+            7.7882874,
+            46.0098355
+          ],
+          [
+            7.7882918,
+            46.0108553
+          ],
+          [
+            7.788296,
+            46.0118224
+          ],
+          [
+            7.7883144,
+            46.0127976
+          ],
+          [
+            7.7883079,
+            46.0145778
+          ],
+          [
+            7.7883133,
+            46.015817
+          ],
+          [
+            7.7883151,
+            46.0162373
+          ],
+          [
+            7.7883167,
+            46.0165985
           ]
         ]
       }
@@ -207,28 +208,35 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "gornergrat-bahn",
-        "name": "Gornergrat Bahn",
-        "type": "railway",
-        "bottomElevation": 1620,
-        "topElevation": 3089,
-        "verticalRise": 1469,
-        "capacity": 500,
-        "duration": 33,
-        "sector": "Zermatt",
-        "fromStation": "zermatt",
-        "toStation": "gornergrat"
+        "id": "lift-22330669",
+        "osmId": 22330669,
+        "name": "Blauherd - Rothorn",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1960,
+        "duration": 2,
+        "sector": "Gornergrat"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7516,
-            46.0207
+            7.7857112,
+            46.0170499
           ],
           [
-            7.7847,
-            45.9831
+            7.795772,
+            46.0208921
+          ],
+          [
+            7.7966587,
+            46.0212307
+          ],
+          [
+            7.7973501,
+            46.0214947
           ]
         ]
       }
@@ -236,57 +244,43 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "riffelberg-express",
-        "name": "Riffelberg Express",
-        "type": "gondola",
-        "bottomElevation": 1867,
-        "topElevation": 2582,
-        "verticalRise": 715,
-        "capacity": 2400,
-        "duration": 8,
-        "sector": "Matterhorn",
-        "fromStation": "furi",
-        "toStation": "riffelberg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7483,
-            46.0078
-          ],
-          [
-            7.7678,
-            45.9933
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "gant-hohtalli",
+        "id": "lift-22330670",
+        "osmId": 22330670,
         "name": "Gant - Hohtälli",
         "type": "cable_car",
-        "bottomElevation": 2223,
-        "topElevation": 3286,
-        "verticalRise": 1063,
-        "capacity": 1800,
-        "duration": 6,
-        "sector": "Gornergrat",
-        "fromStation": "gant",
-        "toStation": "hohtalli"
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 4,
+        "sector": "Gornergrat"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7818,
-            46.0011
+            7.7875235,
+            46.0090146
           ],
           [
-            7.8023,
-            45.989
+            7.787837,
+            46.0085837
+          ],
+          [
+            7.7889086,
+            46.0071104
+          ],
+          [
+            7.7947097,
+            45.9991521
+          ],
+          [
+            7.8002117,
+            45.9916056
+          ],
+          [
+            7.8021025,
+            45.989012
           ]
         ]
       }
@@ -294,28 +288,79 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "gifthittli",
-        "name": "Gifthittli",
-        "type": "chairlift",
-        "bottomElevation": 2582,
-        "topElevation": 2935,
-        "verticalRise": 353,
+        "id": "lift-22337636",
+        "osmId": 22337636,
+        "name": "Riffelberg-Express",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 2400,
         "duration": 5,
-        "sector": "Gornergrat",
-        "fromStation": "riffelberg",
-        "toStation": "gifthittli"
+        "sector": "Zermatt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7678,
-            45.9933
+            7.732298,
+            46.0013446
           ],
           [
-            7.7752,
-            45.9861
+            7.7352235,
+            46.0002733
+          ],
+          [
+            7.7359576,
+            45.999997
+          ],
+          [
+            7.7379826,
+            45.999235
+          ],
+          [
+            7.7398523,
+            45.9985314
+          ],
+          [
+            7.7400652,
+            45.9984512
+          ],
+          [
+            7.7432846,
+            45.9972397
+          ],
+          [
+            7.7456718,
+            45.9963413
+          ],
+          [
+            7.7470513,
+            45.9958221
+          ],
+          [
+            7.7488394,
+            45.9951448
+          ],
+          [
+            7.7515953,
+            45.994101
+          ],
+          [
+            7.7528683,
+            45.9936094
+          ],
+          [
+            7.7536868,
+            45.9933147
+          ],
+          [
+            7.7537007,
+            45.9933097
+          ],
+          [
+            7.7543034,
+            45.9930873
           ]
         ]
       }
@@ -323,202 +368,43 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "matterhorn-express-1",
-        "name": "Matterhorn Express I (Zermatt-Furi)",
-        "type": "gondola",
-        "bottomElevation": 1620,
-        "topElevation": 1867,
-        "verticalRise": 247,
-        "capacity": 2400,
-        "duration": 8,
-        "sector": "Zermatt",
-        "fromStation": "zermatt",
-        "toStation": "furi"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7516,
-            46.0207
-          ],
-          [
-            7.7483,
-            46.0078
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "matterhorn-express-2",
-        "name": "Matterhorn Express II (Furi-Schwarzsee)",
-        "type": "gondola",
-        "bottomElevation": 1867,
-        "topElevation": 2583,
-        "verticalRise": 716,
-        "capacity": 2400,
-        "duration": 10,
-        "sector": "Matterhorn",
-        "fromStation": "furi",
-        "toStation": "schwarzsee"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7483,
-            46.0078
-          ],
-          [
-            7.7091,
-            45.9922
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "schwarzsee-furgg",
-        "name": "Schwarzsee - Furgg",
-        "type": "chairlift",
-        "bottomElevation": 2583,
-        "topElevation": 2441,
-        "verticalRise": -142,
-        "capacity": 2400,
-        "duration": 6,
-        "sector": "Matterhorn",
-        "fromStation": "schwarzsee",
-        "toStation": "furgg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7091,
-            45.9922
-          ],
-          [
-            7.7137,
-            45.985
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "furgg-trockener-steg",
-        "name": "Furgg - Trockener Steg",
-        "type": "cable_car",
-        "bottomElevation": 2441,
-        "topElevation": 2939,
-        "verticalRise": 498,
-        "capacity": 2000,
-        "duration": 8,
-        "sector": "Matterhorn",
-        "fromStation": "furgg",
-        "toStation": "trockener-steg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7137,
-            45.985
-          ],
-          [
-            7.722,
-            45.971
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "furi-trockener-steg",
+        "id": "lift-22337638",
+        "osmId": 22337638,
         "name": "Furi - Trockener Steg",
         "type": "cable_car",
-        "bottomElevation": 1867,
-        "topElevation": 2939,
-        "verticalRise": 1072,
-        "capacity": 2000,
-        "duration": 12,
-        "sector": "Matterhorn",
-        "fromStation": "furi",
-        "toStation": "trockener-steg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.7483,
-            46.0078
-          ],
-          [
-            7.722,
-            45.971
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "glacier-ride-1",
-        "name": "Matterhorn Glacier Ride I",
-        "type": "cable_car",
-        "bottomElevation": 2939,
-        "topElevation": 3883,
-        "verticalRise": 944,
-        "capacity": 2000,
-        "duration": 9,
-        "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
-        "toStation": "matterhorn-glacier-paradise"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.722,
-            45.971
-          ],
-          [
-            7.7295,
-            45.9393
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "hirli-lift",
-        "name": "Hirli",
-        "type": "chairlift",
-        "bottomElevation": 2583,
-        "topElevation": 2769,
-        "verticalRise": 186,
-        "capacity": 2400,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 800,
         "duration": 6,
-        "sector": "Matterhorn",
-        "fromStation": "schwarzsee",
-        "toStation": "hirli"
+        "sector": "Zermatt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7091,
-            45.9922
+            7.7320541,
+            46.0012251
           ],
           [
-            7.6987,
-            45.989
+            7.7296909,
+            45.9940391
+          ],
+          [
+            7.7258439,
+            45.9823394
+          ],
+          [
+            7.7241182,
+            45.9770902
+          ],
+          [
+            7.7235753,
+            45.9754387
+          ],
+          [
+            7.7222445,
+            45.9718055
           ]
         ]
       }
@@ -526,28 +412,131 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "furggsattel",
-        "name": "Furggsattel",
+        "id": "lift-22338264",
+        "osmId": 22338264,
+        "name": "Zermatt - Furi",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1030,
+        "duration": 3,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7429893,
+            46.0147437
+          ],
+          [
+            7.7421823,
+            46.0137645
+          ],
+          [
+            7.7379104,
+            46.008514
+          ],
+          [
+            7.7336478,
+            46.0033012
+          ],
+          [
+            7.7321464,
+            46.0014694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-22338265",
+        "osmId": 22338265,
+        "name": "Gifthittli",
         "type": "chairlift",
-        "bottomElevation": 2939,
-        "topElevation": 3365,
-        "verticalRise": 426,
-        "capacity": 1800,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 3200,
         "duration": 8,
-        "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
-        "toStation": "furggsattel"
+        "sector": "Zermatt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.722,
-            45.971
+            7.7548434,
+            45.9941222
           ],
           [
-            7.7043,
-            45.9507
+            7.7550355,
+            45.9940467
+          ],
+          [
+            7.7555948,
+            45.9938298
+          ],
+          [
+            7.7569478,
+            45.9932956
+          ],
+          [
+            7.7587459,
+            45.9925892
+          ],
+          [
+            7.7591097,
+            45.9924507
+          ],
+          [
+            7.7608306,
+            45.9917703
+          ],
+          [
+            7.7617281,
+            45.9914178
+          ],
+          [
+            7.7632873,
+            45.9908053
+          ],
+          [
+            7.7640242,
+            45.9905158
+          ],
+          [
+            7.7658024,
+            45.9898173
+          ],
+          [
+            7.7668337,
+            45.9894121
+          ],
+          [
+            7.7683543,
+            45.9888148
+          ],
+          [
+            7.7702036,
+            45.9880883
+          ],
+          [
+            7.7715501,
+            45.9875593
+          ],
+          [
+            7.772619,
+            45.9871394
+          ],
+          [
+            7.7748381,
+            45.9862676
+          ],
+          [
+            7.7751537,
+            45.9861436
           ]
         ]
       }
@@ -555,28 +544,83 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "gandegg",
-        "name": "Gandegg",
+        "id": "lift-22341536",
+        "osmId": 22341536,
+        "name": "Furgg - Sandiger Boden",
         "type": "chairlift",
-        "bottomElevation": 2939,
-        "topElevation": 3030,
-        "verticalRise": 91,
-        "capacity": 1200,
-        "duration": 6,
-        "sector": "Matterhorn",
-        "fromStation": "trockener-steg",
-        "toStation": "gandegghutte"
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Zermatt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.722,
-            45.971
+            7.7140316,
+            45.9879614
           ],
           [
-            7.715,
-            45.96
+            7.7143668,
+            45.9873637
+          ],
+          [
+            7.7146085,
+            45.9869328
+          ],
+          [
+            7.7152461,
+            45.9859339
+          ],
+          [
+            7.7158168,
+            45.9848837
+          ],
+          [
+            7.7159822,
+            45.9845793
+          ],
+          [
+            7.7162383,
+            45.9841168
+          ],
+          [
+            7.7168506,
+            45.9830108
+          ],
+          [
+            7.7170523,
+            45.9826246
+          ],
+          [
+            7.717642,
+            45.9815529
+          ],
+          [
+            7.7177313,
+            45.9813863
+          ],
+          [
+            7.7183307,
+            45.9802956
+          ],
+          [
+            7.7189091,
+            45.9792641
+          ],
+          [
+            7.7195051,
+            45.9782012
+          ],
+          [
+            7.7197083,
+            45.9778389
+          ],
+          [
+            7.7198981,
+            45.9775004
           ]
         ]
       }
@@ -584,28 +628,163 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "glacier-ride-2",
-        "name": "Matterhorn Glacier Ride II",
+        "id": "lift-22341538",
+        "osmId": 22341538,
+        "name": "Furggsattel Gletscherbahn",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 11,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7215556,
+            45.9701554
+          ],
+          [
+            7.7213131,
+            45.969882
+          ],
+          [
+            7.7201811,
+            45.9686066
+          ],
+          [
+            7.7195041,
+            45.9678437
+          ],
+          [
+            7.7177594,
+            45.9658778
+          ],
+          [
+            7.7172807,
+            45.9653384
+          ],
+          [
+            7.7160352,
+            45.963935
+          ],
+          [
+            7.7150278,
+            45.9627997
+          ],
+          [
+            7.713992,
+            45.9616325
+          ],
+          [
+            7.7128244,
+            45.9603166
+          ],
+          [
+            7.7117095,
+            45.9590602
+          ],
+          [
+            7.7106977,
+            45.9579199
+          ],
+          [
+            7.7097727,
+            45.9568775
+          ],
+          [
+            7.7085143,
+            45.9554592
+          ],
+          [
+            7.7072692,
+            45.9540559
+          ],
+          [
+            7.7063305,
+            45.9529979
+          ],
+          [
+            7.7057037,
+            45.9522914
+          ],
+          [
+            7.7048705,
+            45.9513524
+          ],
+          [
+            7.704321,
+            45.950733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-22341540",
+        "osmId": 22341540,
+        "name": "Trockener Steg - Matterhorn glacier paradise",
         "type": "cable_car",
-        "bottomElevation": 3883,
-        "topElevation": 3480,
-        "verticalRise": -403,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 600,
+        "duration": 6,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7223483,
+            45.9709313
+          ],
+          [
+            7.7229923,
+            45.9680803
+          ],
+          [
+            7.7237267,
+            45.964829
+          ],
+          [
+            7.7240729,
+            45.9632963
+          ],
+          [
+            7.7295015,
+            45.9392676
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-22341544",
+        "osmId": 22341544,
+        "name": "Funivia del Plateau Rosa",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 2000,
         "duration": 4,
-        "sector": "Matterhorn",
-        "fromStation": "matterhorn-glacier-paradise",
-        "toStation": "plateau-rosa"
+        "sector": "Matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7295,
-            45.9393
+            7.6805819,
+            45.9299726
           ],
           [
-            7.7162,
-            45.9364
+            7.7076533,
+            45.9344658
           ]
         ]
       }
@@ -613,28 +792,115 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "plateau-rosa-cable",
-        "name": "Plateau Rosa Cable Car",
-        "type": "cable_car",
-        "bottomElevation": 2812,
-        "topElevation": 3480,
-        "verticalRise": 668,
-        "capacity": 1500,
-        "duration": 6,
-        "sector": "Cervinia",
-        "fromStation": "cime-bianche-laghi",
-        "toStation": "plateau-rosa"
+        "id": "lift-22341545",
+        "osmId": 22341545,
+        "name": "Plan Maison",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 9,
+        "sector": "Cervinia"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6801,
-            45.9301
+            7.6564531,
+            45.941745
           ],
           [
-            7.7162,
-            45.9364
+            7.6567413,
+            45.9417804
+          ],
+          [
+            7.6575837,
+            45.9418838
+          ],
+          [
+            7.6588631,
+            45.9420409
+          ],
+          [
+            7.6601385,
+            45.9421975
+          ],
+          [
+            7.6617064,
+            45.94239
+          ],
+          [
+            7.6627374,
+            45.9425166
+          ],
+          [
+            7.6644918,
+            45.942732
+          ],
+          [
+            7.6666179,
+            45.942993
+          ],
+          [
+            7.6678946,
+            45.9431497
+          ],
+          [
+            7.6685045,
+            45.9432246
+          ],
+          [
+            7.6698285,
+            45.9433872
+          ],
+          [
+            7.6719398,
+            45.9436464
+          ],
+          [
+            7.673154,
+            45.9437954
+          ],
+          [
+            7.6740611,
+            45.9439068
+          ],
+          [
+            7.6757266,
+            45.9441113
+          ],
+          [
+            7.6766542,
+            45.9442251
+          ],
+          [
+            7.6780371,
+            45.9443949
+          ],
+          [
+            7.6790452,
+            45.9445187
+          ],
+          [
+            7.680259,
+            45.9446677
+          ],
+          [
+            7.681021,
+            45.9447613
+          ],
+          [
+            7.6824052,
+            45.9449312
+          ],
+          [
+            7.6845841,
+            45.9452011
+          ],
+          [
+            7.6847874,
+            45.9452222
           ]
         ]
       }
@@ -642,57 +908,63 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "plan-maison-gondola",
-        "name": "Plan Maison Gondola",
-        "type": "gondola",
-        "bottomElevation": 2050,
-        "topElevation": 2555,
-        "verticalRise": 505,
-        "capacity": 2400,
-        "duration": 8,
-        "sector": "Cervinia",
-        "fromStation": "breuil-cervinia",
-        "toStation": "plan-maison"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.6314,
-            45.9371
-          ],
-          [
-            7.632,
-            45.933
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "fornet-chairlift",
+        "id": "lift-22341546",
+        "osmId": 22341546,
         "name": "Fornet",
         "type": "chairlift",
-        "bottomElevation": 2555,
-        "topElevation": 2800,
-        "verticalRise": 245,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 2000,
-        "duration": 6,
-        "sector": "Cervinia",
-        "fromStation": "plan-maison",
-        "toStation": "fornet"
+        "duration": 4,
+        "sector": "Matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.632,
-            45.933
+            7.6843977,
+            45.9446928
           ],
           [
-            7.675,
-            45.935
+            7.6849311,
+            45.9448479
+          ],
+          [
+            7.6862307,
+            45.9451996
+          ],
+          [
+            7.6874975,
+            45.9455424
+          ],
+          [
+            7.6888896,
+            45.9459096
+          ],
+          [
+            7.690011,
+            45.946212
+          ],
+          [
+            7.6913511,
+            45.9465735
+          ],
+          [
+            7.6929638,
+            45.9470099
+          ],
+          [
+            7.6939656,
+            45.9472803
+          ],
+          [
+            7.6950891,
+            45.9475852
+          ],
+          [
+            7.6953253,
+            45.947643
           ]
         ]
       }
@@ -700,28 +972,63 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "bontadini-chairlift",
+        "id": "lift-22341547",
+        "osmId": 22341547,
         "name": "Bontadini",
         "type": "chairlift",
-        "bottomElevation": 2800,
-        "topElevation": 2900,
-        "verticalRise": 100,
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
         "capacity": 2000,
         "duration": 5,
-        "sector": "Cervinia",
-        "fromStation": "fornet",
-        "toStation": "bontadini"
+        "sector": "Matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.675,
-            45.935
+            7.6950197,
+            45.9479524
           ],
           [
-            7.69,
-            45.938
+            7.695548,
+            45.9478264
+          ],
+          [
+            7.6966642,
+            45.9475705
+          ],
+          [
+            7.6983476,
+            45.9471819
+          ],
+          [
+            7.6998319,
+            45.9468398
+          ],
+          [
+            7.7012585,
+            45.946521
+          ],
+          [
+            7.701881,
+            45.9463873
+          ],
+          [
+            7.7028977,
+            45.946152
+          ],
+          [
+            7.7053499,
+            45.9455848
+          ],
+          [
+            7.7068379,
+            45.945238
+          ],
+          [
+            7.708477,
+            45.9448843
           ]
         ]
       }
@@ -729,28 +1036,471 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "cime-bianche-gondola",
-        "name": "Cime Bianche Laghi",
+        "id": "lift-22341548",
+        "osmId": 22341548,
+        "name": "Plan Maison",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6336407,
+            45.9341259
+          ],
+          [
+            7.640242,
+            45.9362089
+          ],
+          [
+            7.6454333,
+            45.9378434
+          ],
+          [
+            7.6494442,
+            45.9391062
+          ],
+          [
+            7.6538543,
+            45.9404947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-22341549",
+        "osmId": 22341549,
+        "name": "Cretaz",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 7,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6313722,
+            45.9371279
+          ],
+          [
+            7.6321741,
+            45.9375187
+          ],
+          [
+            7.6332664,
+            45.9380549
+          ],
+          [
+            7.6344319,
+            45.9386411
+          ],
+          [
+            7.6355931,
+            45.9392183
+          ],
+          [
+            7.6364715,
+            45.9396525
+          ],
+          [
+            7.6376637,
+            45.9402471
+          ],
+          [
+            7.6387587,
+            45.9407828
+          ],
+          [
+            7.6397482,
+            45.9412821
+          ],
+          [
+            7.641014,
+            45.9419099
+          ],
+          [
+            7.6417361,
+            45.942268
+          ],
+          [
+            7.6423298,
+            45.9425625
+          ],
+          [
+            7.6435406,
+            45.943163
+          ],
+          [
+            7.644623,
+            45.9436998
+          ],
+          [
+            7.6459719,
+            45.9443687
+          ],
+          [
+            7.6477173,
+            45.9452343
+          ],
+          [
+            7.6485868,
+            45.9456655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-28541221",
+        "osmId": 28541221,
+        "name": "Eisfluh",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 827,
+        "duration": 1,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7639443,
+            46.0174217
+          ],
+          [
+            7.7642428,
+            46.0173501
+          ],
+          [
+            7.7645567,
+            46.0172619
+          ],
+          [
+            7.7649464,
+            46.0171748
+          ],
+          [
+            7.7653627,
+            46.0170786
+          ],
+          [
+            7.7659651,
+            46.0169466
+          ],
+          [
+            7.7670818,
+            46.0166852
+          ],
+          [
+            7.7680774,
+            46.0164553
+          ],
+          [
+            7.7682858,
+            46.0164066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-28541394",
+        "osmId": 28541394,
+        "name": "Findelbahn (Eja-Breitenboden)",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7694857,
+            46.0098717
+          ],
+          [
+            7.7700359,
+            46.0085052
+          ],
+          [
+            7.7707809,
+            46.0066071
+          ],
+          [
+            7.7713674,
+            46.0051128
+          ],
+          [
+            7.771878,
+            46.0038117
+          ],
+          [
+            7.7720852,
+            46.0032837
+          ],
+          [
+            7.7725011,
+            46.0022242
+          ],
+          [
+            7.7726576,
+            46.0018254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-29997875",
+        "osmId": 29997875,
+        "name": "Campetto",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 3000,
+        "duration": 2,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6313934,
+            45.9373654
+          ],
+          [
+            7.6318796,
+            45.9377211
+          ],
+          [
+            7.6324674,
+            45.9381566
+          ],
+          [
+            7.6332014,
+            45.9387056
+          ],
+          [
+            7.633577,
+            45.9389914
+          ],
+          [
+            7.6343052,
+            45.9395238
+          ],
+          [
+            7.634851,
+            45.9399194
+          ],
+          [
+            7.63529,
+            45.9402537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-29999098",
+        "osmId": 29999098,
+        "name": "Baby La Vieille",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6570777,
+            45.9414313
+          ],
+          [
+            7.6632039,
+            45.941892
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-30833440",
+        "osmId": 30833440,
+        "name": "Plateau Rosa 2",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 8,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7159522,
+            45.9363028
+          ],
+          [
+            7.7163358,
+            45.9353275
+          ],
+          [
+            7.7169087,
+            45.933871
+          ],
+          [
+            7.7172438,
+            45.9330193
+          ],
+          [
+            7.7175834,
+            45.9321558
+          ],
+          [
+            7.717917,
+            45.9313077
+          ],
+          [
+            7.7186016,
+            45.9295671
+          ],
+          [
+            7.7192254,
+            45.9279811
+          ],
+          [
+            7.719628,
+            45.9269575
+          ],
+          [
+            7.720218,
+            45.9254573
+          ],
+          [
+            7.7206753,
+            45.9242945
+          ],
+          [
+            7.7207341,
+            45.924145
+          ],
+          [
+            7.720952,
+            45.923591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-30833737",
+        "osmId": 30833737,
+        "name": "Salette",
         "type": "gondola",
-        "bottomElevation": 2555,
-        "topElevation": 2812,
-        "verticalRise": 257,
-        "capacity": 2200,
-        "duration": 10,
-        "sector": "Cervinia",
-        "fromStation": "plan-maison",
-        "toStation": "cime-bianche-laghi"
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Cervinia"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.632,
-            45.933
+            7.6239952,
+            45.8882336
           ],
           [
-            7.6801,
-            45.9301
+            7.6273616,
+            45.8889437
+          ],
+          [
+            7.6287427,
+            45.889235
+          ],
+          [
+            7.6308851,
+            45.8896869
+          ],
+          [
+            7.6319181,
+            45.8899048
+          ],
+          [
+            7.6332705,
+            45.89019
+          ],
+          [
+            7.6355787,
+            45.8906769
+          ],
+          [
+            7.637465,
+            45.8910748
+          ],
+          [
+            7.6385727,
+            45.8913084
+          ],
+          [
+            7.6400688,
+            45.891624
+          ],
+          [
+            7.6424412,
+            45.8921244
+          ],
+          [
+            7.6431872,
+            45.8922817
+          ],
+          [
+            7.6439235,
+            45.892437
+          ],
+          [
+            7.6447687,
+            45.8926153
+          ],
+          [
+            7.6460293,
+            45.8928812
+          ],
+          [
+            7.6472901,
+            45.8931471
           ]
         ]
       }
@@ -758,28 +1508,2527 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "gran-sometta-chairlift",
+        "id": "lift-30833738",
+        "osmId": 30833738,
+        "name": "Motta",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6463916,
+            45.8945248
+          ],
+          [
+            7.6467092,
+            45.8949269
+          ],
+          [
+            7.6473189,
+            45.8956989
+          ],
+          [
+            7.6480247,
+            45.8965924
+          ],
+          [
+            7.6487584,
+            45.8975213
+          ],
+          [
+            7.6494163,
+            45.8983541
+          ],
+          [
+            7.6500188,
+            45.899117
+          ],
+          [
+            7.6503251,
+            45.8995047
+          ],
+          [
+            7.6508003,
+            45.900114
+          ],
+          [
+            7.6515014,
+            45.901013
+          ],
+          [
+            7.6516789,
+            45.9012406
+          ],
+          [
+            7.6522143,
+            45.9019392
+          ],
+          [
+            7.6529286,
+            45.9028456
+          ],
+          [
+            7.6535064,
+            45.903625
+          ],
+          [
+            7.6536514,
+            45.9038142
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-30833739",
+        "osmId": 30833739,
+        "name": "Bec Carré",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 8,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6525975,
+            45.9057589
+          ],
+          [
+            7.6537483,
+            45.9059408
+          ],
+          [
+            7.655422,
+            45.9062055
+          ],
+          [
+            7.6567756,
+            45.9064195
+          ],
+          [
+            7.6583864,
+            45.9066741
+          ],
+          [
+            7.6600815,
+            45.9069422
+          ],
+          [
+            7.661346,
+            45.9071421
+          ],
+          [
+            7.6630904,
+            45.9074179
+          ],
+          [
+            7.6650757,
+            45.9077317
+          ],
+          [
+            7.6666905,
+            45.907987
+          ],
+          [
+            7.6685138,
+            45.9082753
+          ],
+          [
+            7.6719084,
+            45.908812
+          ],
+          [
+            7.6735246,
+            45.9090675
+          ],
+          [
+            7.6753942,
+            45.9093631
+          ],
+          [
+            7.6769015,
+            45.9096014
+          ],
+          [
+            7.6771528,
+            45.9096411
+          ],
+          [
+            7.6775384,
+            45.9097012
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-30833740",
+        "osmId": 30833740,
+        "name": "Du Col",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2002,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6802269,
+            45.9103743
+          ],
+          [
+            7.6800383,
+            45.9103007
+          ],
+          [
+            7.6793769,
+            45.9100428
+          ],
+          [
+            7.6780994,
+            45.9095675
+          ],
+          [
+            7.6778494,
+            45.909475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-30833742",
+        "osmId": 30833742,
         "name": "Gran Sometta",
         "type": "chairlift",
-        "bottomElevation": 2812,
-        "topElevation": 3165,
-        "verticalRise": 353,
-        "capacity": 1800,
-        "duration": 8,
-        "sector": "Cervinia",
-        "fromStation": "cime-bianche-laghi",
-        "toStation": "gran-sometta"
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 5,
+        "sector": "Matterhorn"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6801,
-            45.9301
+            7.6808195,
+            45.9109064
           ],
           [
-            7.6808,
-            45.9109
+            7.6813914,
+            45.9113568
+          ],
+          [
+            7.6823655,
+            45.912124
+          ],
+          [
+            7.6837959,
+            45.9132505
+          ],
+          [
+            7.6850173,
+            45.9142124
+          ],
+          [
+            7.6854062,
+            45.9145187
+          ],
+          [
+            7.6866301,
+            45.9154825
+          ],
+          [
+            7.6878993,
+            45.916482
+          ],
+          [
+            7.6890947,
+            45.9174234
+          ],
+          [
+            7.6901268,
+            45.9182362
+          ],
+          [
+            7.6906123,
+            45.9186184
+          ],
+          [
+            7.6908068,
+            45.9187716
+          ],
+          [
+            7.6908697,
+            45.9188212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-44334074",
+        "osmId": 44334074,
+        "name": "Plateau Rosa 3",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 4,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7156328,
+            45.9363698
+          ],
+          [
+            7.7158983,
+            45.9356666
+          ],
+          [
+            7.7165079,
+            45.9340518
+          ],
+          [
+            7.7168117,
+            45.9332469
+          ],
+          [
+            7.7171294,
+            45.9324052
+          ],
+          [
+            7.7174553,
+            45.931542
+          ],
+          [
+            7.7177811,
+            45.9306788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-44334075",
+        "osmId": 44334075,
+        "name": "Plateau Rosa 1",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 8,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7163004,
+            45.9364078
+          ],
+          [
+            7.7166927,
+            45.935506
+          ],
+          [
+            7.7172538,
+            45.9342161
+          ],
+          [
+            7.717611,
+            45.9333951
+          ],
+          [
+            7.7178908,
+            45.9327518
+          ],
+          [
+            7.7181411,
+            45.9321764
+          ],
+          [
+            7.7189536,
+            45.9303086
+          ],
+          [
+            7.7198573,
+            45.9282308
+          ],
+          [
+            7.7202484,
+            45.9273317
+          ],
+          [
+            7.7209101,
+            45.9258105
+          ],
+          [
+            7.7214747,
+            45.9245122
+          ],
+          [
+            7.7215489,
+            45.9243394
+          ],
+          [
+            7.7218606,
+            45.9236427
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-46715051",
+        "osmId": 46715051,
+        "name": "Matterhorn Express",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2800,
+        "duration": 6,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7319625,
+            46.0016707
+          ],
+          [
+            7.7314249,
+            46.0014471
+          ],
+          [
+            7.7301363,
+            46.0009112
+          ],
+          [
+            7.7276885,
+            45.9998932
+          ],
+          [
+            7.7268806,
+            45.9995572
+          ],
+          [
+            7.7257755,
+            45.9990975
+          ],
+          [
+            7.7237927,
+            45.9982729
+          ],
+          [
+            7.7214086,
+            45.9972813
+          ],
+          [
+            7.7198453,
+            45.9966311
+          ],
+          [
+            7.7194012,
+            45.9964464
+          ],
+          [
+            7.7190305,
+            45.9962931
+          ],
+          [
+            7.7188565,
+            45.9962212
+          ],
+          [
+            7.7181687,
+            45.9959369
+          ],
+          [
+            7.7178046,
+            45.9957864
+          ],
+          [
+            7.7163098,
+            45.9951684
+          ],
+          [
+            7.7158047,
+            45.9949596
+          ],
+          [
+            7.7129952,
+            45.9937982
+          ],
+          [
+            7.7119126,
+            45.9933506
+          ],
+          [
+            7.7101427,
+            45.9926189
+          ],
+          [
+            7.7095948,
+            45.9924069
+          ],
+          [
+            7.7095177,
+            45.992375
+          ],
+          [
+            7.7089463,
+            45.9921541
+          ],
+          [
+            7.7089094,
+            45.9920782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-49884628",
+        "osmId": 49884628,
+        "name": "Cretaz",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6309194,
+            45.9373248
+          ],
+          [
+            7.63087,
+            45.9383049
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-49885289",
+        "osmId": 49885289,
+        "name": "Pancheron",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 8,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6494205,
+            45.9478282
+          ],
+          [
+            7.6501859,
+            45.9481787
+          ],
+          [
+            7.651086,
+            45.9485909
+          ],
+          [
+            7.6517877,
+            45.9489123
+          ],
+          [
+            7.6532718,
+            45.9495919
+          ],
+          [
+            7.6545365,
+            45.9501711
+          ],
+          [
+            7.6552137,
+            45.9504812
+          ],
+          [
+            7.6564282,
+            45.9510373
+          ],
+          [
+            7.6576008,
+            45.9515743
+          ],
+          [
+            7.6590555,
+            45.9522405
+          ],
+          [
+            7.6603482,
+            45.9528324
+          ],
+          [
+            7.6612666,
+            45.953253
+          ],
+          [
+            7.6629786,
+            45.9540369
+          ],
+          [
+            7.6639114,
+            45.9544641
+          ],
+          [
+            7.665278,
+            45.9550899
+          ],
+          [
+            7.6663879,
+            45.9555981
+          ],
+          [
+            7.6676143,
+            45.9561596
+          ],
+          [
+            7.6689236,
+            45.9567593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-50249647",
+        "osmId": 50249647,
+        "name": "Cieloalto",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6332569,
+            45.9293396
+          ],
+          [
+            7.6360286,
+            45.9269503
+          ],
+          [
+            7.6362197,
+            45.9267855
+          ],
+          [
+            7.6373323,
+            45.9258263
+          ],
+          [
+            7.6380835,
+            45.9251788
+          ],
+          [
+            7.6383616,
+            45.924939
+          ],
+          [
+            7.6397905,
+            45.9237071
+          ],
+          [
+            7.6400024,
+            45.9235244
+          ],
+          [
+            7.6402095,
+            45.9233459
+          ],
+          [
+            7.6413189,
+            45.9223894
+          ],
+          [
+            7.6415029,
+            45.9222308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-54470849",
+        "osmId": 54470849,
+        "name": "Baby Salette",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6478559,
+            45.89472
+          ],
+          [
+            7.6479325,
+            45.8939327
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-54880257",
+        "osmId": 54880257,
+        "name": "Rote Nase",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 520,
+        "duration": 1,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.80247,
+            45.9887116
+          ],
+          [
+            7.8112058,
+            45.9868381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-57372030",
+        "osmId": 57372030,
+        "name": "Plateau Breithorn",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 920,
+        "duration": 4,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7315456,
+            45.9325751
+          ],
+          [
+            7.7314463,
+            45.932825
+          ],
+          [
+            7.7311539,
+            45.9335603
+          ],
+          [
+            7.7305849,
+            45.9349914
+          ],
+          [
+            7.7302676,
+            45.9357894
+          ],
+          [
+            7.7299815,
+            45.936509
+          ],
+          [
+            7.7296367,
+            45.9373761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-93487599",
+        "osmId": 93487599,
+        "name": "Becca d'Aran",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 4,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6511119,
+            45.8911933
+          ],
+          [
+            7.6516251,
+            45.8915988
+          ],
+          [
+            7.6524599,
+            45.8922585
+          ],
+          [
+            7.6530721,
+            45.8927422
+          ],
+          [
+            7.653908,
+            45.8934027
+          ],
+          [
+            7.6548553,
+            45.8941511
+          ],
+          [
+            7.6558159,
+            45.8949101
+          ],
+          [
+            7.6562395,
+            45.8952448
+          ],
+          [
+            7.6567966,
+            45.895685
+          ],
+          [
+            7.657974,
+            45.8966152
+          ],
+          [
+            7.6583474,
+            45.8969103
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-95750716",
+        "osmId": 95750716,
+        "name": "Snowpark",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6484457,
+            45.894909
+          ],
+          [
+            7.6499462,
+            45.8950592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-95750742",
+        "osmId": 95750742,
+        "name": "Tappeto",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6470637,
+            45.8946071
+          ],
+          [
+            7.6478844,
+            45.8953967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-102661014",
+        "osmId": 102661014,
+        "name": "Lago Goillet",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2800,
+        "duration": 6,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6729597,
+            45.9227681
+          ],
+          [
+            7.6741123,
+            45.9225165
+          ],
+          [
+            7.6746755,
+            45.9223936
+          ],
+          [
+            7.6754184,
+            45.9222314
+          ],
+          [
+            7.6767253,
+            45.9219462
+          ],
+          [
+            7.6778352,
+            45.9217039
+          ],
+          [
+            7.6784366,
+            45.9215727
+          ],
+          [
+            7.6791492,
+            45.9214171
+          ],
+          [
+            7.6802439,
+            45.9211782
+          ],
+          [
+            7.6809059,
+            45.9210337
+          ],
+          [
+            7.6819802,
+            45.9207992
+          ],
+          [
+            7.6837715,
+            45.9204082
+          ],
+          [
+            7.6845787,
+            45.920232
+          ],
+          [
+            7.6853859,
+            45.9200558
+          ],
+          [
+            7.6863884,
+            45.919837
+          ],
+          [
+            7.6869279,
+            45.9197192
+          ],
+          [
+            7.6886177,
+            45.9193504
+          ],
+          [
+            7.6901931,
+            45.9190065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-114942017",
+        "osmId": 114942017,
+        "name": "Plan Maison",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6336586,
+            45.9342756
+          ],
+          [
+            7.6341413,
+            45.9344289
+          ],
+          [
+            7.6343203,
+            45.9344859
+          ],
+          [
+            7.6355374,
+            45.9348726
+          ],
+          [
+            7.6367238,
+            45.9352497
+          ],
+          [
+            7.6377876,
+            45.9355877
+          ],
+          [
+            7.6393208,
+            45.936075
+          ],
+          [
+            7.6403446,
+            45.9364003
+          ],
+          [
+            7.6408331,
+            45.9365555
+          ],
+          [
+            7.6413481,
+            45.9367192
+          ],
+          [
+            7.6421783,
+            45.936983
+          ],
+          [
+            7.644836,
+            45.9378276
+          ],
+          [
+            7.6452316,
+            45.9379533
+          ],
+          [
+            7.6459524,
+            45.9381823
+          ],
+          [
+            7.646689,
+            45.9384164
+          ],
+          [
+            7.6468022,
+            45.9384524
+          ],
+          [
+            7.6486285,
+            45.9390327
+          ],
+          [
+            7.6489405,
+            45.9391319
+          ],
+          [
+            7.6494074,
+            45.9392802
+          ],
+          [
+            7.6506354,
+            45.9396705
+          ],
+          [
+            7.6517887,
+            45.9400369
+          ],
+          [
+            7.6522116,
+            45.9401713
+          ],
+          [
+            7.6535165,
+            45.9405859
+          ],
+          [
+            7.6541766,
+            45.9407957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-148112999",
+        "osmId": 148112999,
+        "name": "Triftji (stillgelegt)",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1200,
+        "duration": 8,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.808217,
+            45.9995221
+          ],
+          [
+            7.8082233,
+            45.9994924
+          ],
+          [
+            7.8108753,
+            45.9869439
+          ],
+          [
+            7.8109072,
+            45.9867931
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-161430202",
+        "osmId": 161430202,
+        "name": "Testa",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 7,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7118118,
+            45.9453085
+          ],
+          [
+            7.7114145,
+            45.9440357
+          ],
+          [
+            7.7109765,
+            45.9424941
+          ],
+          [
+            7.7105637,
+            45.9410413
+          ],
+          [
+            7.7101825,
+            45.9396995
+          ],
+          [
+            7.7098109,
+            45.9383914
+          ],
+          [
+            7.7095889,
+            45.9375569
+          ],
+          [
+            7.709389,
+            45.9369061
+          ],
+          [
+            7.7090385,
+            45.9356863
+          ],
+          [
+            7.7086469,
+            45.9343025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-166320766",
+        "osmId": 166320766,
+        "name": "Plan Maison",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.65499,
+            45.9411341
+          ],
+          [
+            7.6551038,
+            45.941168
+          ],
+          [
+            7.6550892,
+            45.9411819
+          ],
+          [
+            7.6551931,
+            45.9412171
+          ],
+          [
+            7.655233,
+            45.9411698
+          ],
+          [
+            7.6553915,
+            45.9412226
+          ],
+          [
+            7.655839,
+            45.9410105
+          ],
+          [
+            7.6558052,
+            45.9409779
+          ],
+          [
+            7.6557671,
+            45.9409346
+          ],
+          [
+            7.6556132,
+            45.9410015
+          ],
+          [
+            7.6553843,
+            45.941105
+          ],
+          [
+            7.6553276,
+            45.9410893
+          ],
+          [
+            7.6552863,
+            45.9411337
+          ],
+          [
+            7.6550425,
+            45.9410541
+          ],
+          [
+            7.65499,
+            45.9411341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-166320776",
+        "osmId": 166320776,
+        "name": "Seggiovia Plan Maison",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6564142,
+            45.9417065
+          ],
+          [
+            7.6564044,
+            45.9417653
+          ],
+          [
+            7.6566794,
+            45.9417876
+          ],
+          [
+            7.6566892,
+            45.9417287
+          ],
+          [
+            7.6564142,
+            45.9417065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-171854364",
+        "osmId": 171854364,
+        "name": "Findelbahn (Eja-Sunnegga)",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7694857,
+            46.0098717
+          ],
+          [
+            7.7695791,
+            46.0103335
+          ],
+          [
+            7.7698374,
+            46.0116092
+          ],
+          [
+            7.7700621,
+            46.0127195
+          ],
+          [
+            7.7702239,
+            46.0135184
+          ],
+          [
+            7.7703508,
+            46.0141454
+          ],
+          [
+            7.7705134,
+            46.0149484
+          ],
+          [
+            7.7706969,
+            46.015855
+          ],
+          [
+            7.770939,
+            46.017051
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-171854366",
+        "osmId": 171854366,
+        "name": "Sunnegga-Blauherd",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2200,
+        "duration": 5,
+        "sector": "Sunnegga-Rothorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7699137,
+            46.0173784
+          ],
+          [
+            7.7707801,
+            46.017361
+          ],
+          [
+            7.7725383,
+            46.0173256
+          ],
+          [
+            7.7741751,
+            46.0172926
+          ],
+          [
+            7.7751106,
+            46.0172738
+          ],
+          [
+            7.7765736,
+            46.0172443
+          ],
+          [
+            7.7779232,
+            46.0172171
+          ],
+          [
+            7.7795001,
+            46.0171854
+          ],
+          [
+            7.7815979,
+            46.0171431
+          ],
+          [
+            7.7838878,
+            46.017097
+          ],
+          [
+            7.7852456,
+            46.0170697
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-262427221",
+        "osmId": 262427221,
+        "name": "Unnamed Lift",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6479857,
+            45.8948212
+          ],
+          [
+            7.6482807,
+            45.8936974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-322784212",
+        "osmId": 322784212,
+        "name": "Cime Bianche Laghi",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 6,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6558052,
+            45.9409779
+          ],
+          [
+            7.6560461,
+            45.9408701
+          ],
+          [
+            7.6567294,
+            45.9405802
+          ],
+          [
+            7.656951,
+            45.9404667
+          ],
+          [
+            7.6576871,
+            45.940135
+          ],
+          [
+            7.6592824,
+            45.9394212
+          ],
+          [
+            7.6609542,
+            45.9386849
+          ],
+          [
+            7.6627686,
+            45.937872
+          ],
+          [
+            7.6639265,
+            45.9373529
+          ],
+          [
+            7.6650579,
+            45.9368459
+          ],
+          [
+            7.6671038,
+            45.9359288
+          ],
+          [
+            7.6687038,
+            45.9352118
+          ],
+          [
+            7.6704479,
+            45.9344316
+          ],
+          [
+            7.6727223,
+            45.9334073
+          ],
+          [
+            7.6744886,
+            45.9326171
+          ],
+          [
+            7.6749318,
+            45.9324152
+          ],
+          [
+            7.6772827,
+            45.931367
+          ],
+          [
+            7.6784983,
+            45.9308225
+          ],
+          [
+            7.6795338,
+            45.9303601
+          ],
+          [
+            7.6802476,
+            45.9300505
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-322784409",
+        "osmId": 322784409,
+        "name": "Plan Maison",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Cervinia"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6550504,
+            45.9415179
+          ],
+          [
+            7.6548752,
+            45.9419781
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-332858459",
+        "osmId": 332858459,
+        "name": "Fornet",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6953075,
+            45.9476859
+          ],
+          [
+            7.6955684,
+            45.9477467
+          ],
+          [
+            7.695604,
+            45.9476728
+          ],
+          [
+            7.695343,
+            45.947612
+          ],
+          [
+            7.6953253,
+            45.947643
+          ],
+          [
+            7.6953075,
+            45.9476859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-332905047",
+        "osmId": 332905047,
+        "name": "Unnamed Lift",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 2,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7042047,
+            46.0075002
+          ],
+          [
+            7.7074737,
+            46.00983
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-332905048",
+        "osmId": 332905048,
+        "name": "Zmutt",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 10,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7408637,
+            46.0123069
+          ],
+          [
+            7.7323157,
+            46.0084096
+          ],
+          [
+            7.7266457,
+            46.005838
+          ],
+          [
+            7.7248641,
+            46.0050299
+          ],
+          [
+            7.7235466,
+            46.0049773
+          ],
+          [
+            7.7180386,
+            46.0048779
+          ],
+          [
+            7.7127541,
+            46.0069559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-332906111",
+        "osmId": 332906111,
+        "name": "Unnamed Lift",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6990139,
+            46.0128787
+          ],
+          [
+            7.6978086,
+            46.0071162
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-332911053",
+        "osmId": 332911053,
+        "name": "Unnamed Lift",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7230424,
+            45.9702973
+          ],
+          [
+            7.7228457,
+            45.9708249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-333301450",
+        "osmId": 333301450,
+        "name": "Matterhorn Express",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2800,
+        "duration": 5,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7106105,
+            45.9874879
+          ],
+          [
+            7.7112021,
+            45.9866351
+          ],
+          [
+            7.7121222,
+            45.9853086
+          ],
+          [
+            7.712955,
+            45.984108
+          ],
+          [
+            7.7137382,
+            45.9829788
+          ],
+          [
+            7.7151003,
+            45.981015
+          ],
+          [
+            7.7158214,
+            45.9799734
+          ],
+          [
+            7.7161123,
+            45.9795459
+          ],
+          [
+            7.7170373,
+            45.9782223
+          ],
+          [
+            7.7179412,
+            45.976919
+          ],
+          [
+            7.7187094,
+            45.9758113
+          ],
+          [
+            7.719375,
+            45.9748516
+          ],
+          [
+            7.7212269,
+            45.9721813
+          ],
+          [
+            7.7216331,
+            45.9716053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-333301451",
+        "osmId": 333301451,
+        "name": "Matterhorn Express",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2800,
+        "duration": 1,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7089094,
+            45.9920782
+          ],
+          [
+            7.7091327,
+            45.9914662
+          ],
+          [
+            7.709395,
+            45.9907347
+          ],
+          [
+            7.7095573,
+            45.9902975
+          ],
+          [
+            7.7098202,
+            45.989634
+          ],
+          [
+            7.7106105,
+            45.9874879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-399058541",
+        "osmId": 399058541,
+        "name": "Hirli",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 8,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.6974468,
+            46.0071612
+          ],
+          [
+            7.6974666,
+            46.0069442
+          ],
+          [
+            7.6975415,
+            46.0061265
+          ],
+          [
+            7.6976224,
+            46.0052417
+          ],
+          [
+            7.697744,
+            46.0039132
+          ],
+          [
+            7.6978596,
+            46.0026497
+          ],
+          [
+            7.6979719,
+            46.0014222
+          ],
+          [
+            7.6981188,
+            45.9998162
+          ],
+          [
+            7.6982728,
+            45.9981333
+          ],
+          [
+            7.6983766,
+            45.9969984
+          ],
+          [
+            7.6984824,
+            45.9958421
+          ],
+          [
+            7.6986007,
+            45.9945484
+          ],
+          [
+            7.6987449,
+            45.9929719
+          ],
+          [
+            7.6988679,
+            45.9916279
+          ],
+          [
+            7.698996,
+            45.9902271
+          ],
+          [
+            7.6990226,
+            45.9899362
+          ],
+          [
+            7.6990735,
+            45.9893797
+          ],
+          [
+            7.6990929,
+            45.9891673
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-519981791",
+        "osmId": 519981791,
+        "name": "Trockener Steg - Klein Matterhorn Glacier Ride",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 10,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7291957,
+            45.9384214
+          ],
+          [
+            7.7289416,
+            45.9394969
+          ],
+          [
+            7.7234397,
+            45.9627791
+          ],
+          [
+            7.7221597,
+            45.9681942
+          ],
+          [
+            7.7213653,
+            45.9715549
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-618950310",
+        "osmId": 618950310,
+        "name": "Matterhorn Glacier Ride II",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1300,
+        "duration": 5,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.707585,
+            45.9348107
+          ],
+          [
+            7.7289627,
+            45.9381914
+          ],
+          [
+            7.7291449,
+            45.9382183
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-660153034",
+        "osmId": 660153034,
+        "name": "Unnamed Lift",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8229363,
+            45.9868385
+          ],
+          [
+            7.8232285,
+            45.9868194
+          ],
+          [
+            7.8232212,
+            45.9867382
+          ],
+          [
+            7.8229272,
+            45.9867509
+          ],
+          [
+            7.8229363,
+            45.9868385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-660153035",
+        "osmId": 660153035,
+        "name": "Hohtälli - Stockhorn (geplant)",
+        "type": "cable_car",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 3,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.8230569,
+            45.9867877
+          ],
+          [
+            7.8026131,
+            45.9888533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-660153038",
+        "osmId": 660153038,
+        "name": "Kumme",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1500,
+        "duration": 4,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7730786,
+            46.035609
+          ],
+          [
+            7.7743883,
+            46.0356622
+          ],
+          [
+            7.7772842,
+            46.0357799
+          ],
+          [
+            7.7800569,
+            46.0358925
+          ],
+          [
+            7.7844948,
+            46.0360728
+          ],
+          [
+            7.7875727,
+            46.0361979
+          ],
+          [
+            7.7893702,
+            46.0362709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-803858803",
+        "osmId": 803858803,
+        "name": "Plateau Breithorn",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 920,
+        "duration": 5,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7325487,
+            45.9300522
+          ],
+          [
+            7.7332683,
+            45.9282421
+          ],
+          [
+            7.7337043,
+            45.9271455
+          ],
+          [
+            7.733854,
+            45.926769
+          ],
+          [
+            7.73411,
+            45.9261249
+          ],
+          [
+            7.7344921,
+            45.925164
+          ],
+          [
+            7.7347218,
+            45.9246345
+          ],
+          [
+            7.734999,
+            45.9239956
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-903540908",
+        "osmId": 903540908,
+        "name": "Kumme",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1500,
+        "duration": 5,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7893702,
+            46.0362709
+          ],
+          [
+            7.7899813,
+            46.0352259
+          ],
+          [
+            7.791424,
+            46.0327588
+          ],
+          [
+            7.7930027,
+            46.0300589
+          ],
+          [
+            7.7935109,
+            46.0291897
+          ],
+          [
+            7.7954772,
+            46.0258267
+          ],
+          [
+            7.7972611,
+            46.0227755
+          ],
+          [
+            7.7980011,
+            46.0215097
+          ],
+          [
+            7.7982811,
+            46.0210308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-903540909",
+        "osmId": 903540909,
+        "name": "Matterhorn Express",
+        "type": "gondola",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2800,
+        "duration": 5,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7426639,
+            46.0146424
+          ],
+          [
+            7.7421602,
+            46.0140319
+          ],
+          [
+            7.7421064,
+            46.0139668
+          ],
+          [
+            7.7409557,
+            46.0125721
+          ],
+          [
+            7.7397217,
+            46.0110764
+          ],
+          [
+            7.7385097,
+            46.0096072
+          ],
+          [
+            7.7371797,
+            46.0079951
+          ],
+          [
+            7.7362061,
+            46.006815
+          ],
+          [
+            7.734491,
+            46.0047359
+          ],
+          [
+            7.7334594,
+            46.0034853
+          ],
+          [
+            7.7324417,
+            46.0022516
+          ],
+          [
+            7.7319625,
+            46.0016707
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-964367292",
+        "osmId": 964367292,
+        "name": "Unnamed Lift",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 5,
+        "sector": "Zermatt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7532859,
+            45.9928209
+          ],
+          [
+            7.7540233,
+            45.9924281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-1305881378",
+        "osmId": 1305881378,
+        "name": "Testa Grigia",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2000,
+        "duration": 1,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7089906,
+            45.9338635
+          ],
+          [
+            7.708129,
+            45.934341
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-1396688413",
+        "osmId": 1396688413,
+        "name": "Plateau Breithorn",
+        "type": "drag_lift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 920,
+        "duration": 2,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7315456,
+            45.9325751
+          ],
+          [
+            7.7315937,
+            45.9324541
+          ],
+          [
+            7.7320096,
+            45.931408
+          ],
+          [
+            7.7325487,
+            45.9300522
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-1396690336",
+        "osmId": 1396690336,
+        "name": "Grenzlift (stillgelegt)",
+        "type": "t_bar",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 1000,
+        "duration": 7,
+        "sector": "Matterhorn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7186497,
+            45.923177
+          ],
+          [
+            7.7192735,
+            45.9232095
+          ],
+          [
+            7.734239,
+            45.9239872
+          ],
+          [
+            7.7349519,
+            45.9240243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lift-1418030825",
+        "osmId": 1418030825,
+        "name": "Breitboden - Rosenritz",
+        "type": "chairlift",
+        "bottomElevation": 0,
+        "topElevation": 0,
+        "verticalRise": 0,
+        "capacity": 2400,
+        "duration": 6,
+        "sector": "Gornergrat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.7723024,
+            46.001753
+          ],
+          [
+            7.7810465,
+            45.990675
           ]
         ]
       }

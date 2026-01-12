@@ -2,10 +2,11 @@ export type LiftType = 'cable_car' | 'gondola' | 'chairlift' | 'funicular' | 'ra
 
 export type Difficulty = 'green' | 'blue' | 'red' | 'black';
 
-export type Sector = 'Matterhorn' | 'Schwarzsee' | 'Sunnegga-Rothorn' | 'Gornergrat' | 'Cervinia';
+export type Sector = string; // Dynamic based on location
 
 export interface LiftProperties {
   id: string;
+  osmId?: number;
   name: string;
   type: LiftType;
   bottomElevation: number;
@@ -14,23 +15,20 @@ export interface LiftProperties {
   capacity: number;
   duration: number; // minutes
   sector: Sector;
-  fromStation: string;
-  toStation: string;
   isOpen?: boolean;
   lastRun?: string; // time like "16:30"
 }
 
 export interface SlopeProperties {
   id: string;
+  osmId?: number;
   name: string;
-  number?: string; // official piste number from map
+  number?: string | null; // official piste number from map
   difficulty: Difficulty;
   length: number; // meters
   verticalDrop: number;
   sector: Sector;
-  fromStation: string;
-  toStation: string;
-  connectsTo?: string[]; // array of lift/slope IDs this piste connects to at the bottom
+  connectsTo: string[]; // array of lift/slope IDs this piste connects to
   isOpen?: boolean;
 }
 
