@@ -21,6 +21,7 @@ export interface LiftProperties {
 
 export interface SlopeProperties {
   id: string;
+  originalId?: string; // original piste ID before segmentation
   osmId?: number;
   name: string;
   number?: string | null; // official piste number from map
@@ -28,7 +29,9 @@ export interface SlopeProperties {
   length: number; // meters
   verticalDrop: number;
   sector: Sector;
-  connectsTo: string[]; // array of lift/slope IDs this piste connects to
+  segmentIndex?: number; // which segment of the original piste (0-indexed)
+  totalSegments?: number; // how many segments the original piste was split into
+  connectsTo: string[]; // array of segment/lift IDs this connects to
   isOpen?: boolean;
 }
 
