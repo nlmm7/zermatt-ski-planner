@@ -811,7 +811,8 @@
         "duration": 4,
         "sector": "Matterhorn",
         "connectsTo": [
-          "piste-32119253-seg-0"
+          "piste-32119253-seg-0",
+          "piste-32202323-seg-0"
         ]
       },
       "geometry": {
@@ -964,6 +965,8 @@
         "connectsTo": [
           "piste-50249658-seg-0",
           "piste-399074834-seg-0",
+          "piste-399074834-seg-14",
+          "piste-399074836-seg-22",
           "lift-332858459"
         ]
       },
@@ -1233,7 +1236,9 @@
         "capacity": 827,
         "duration": 1,
         "sector": "Sunnegga-Rothorn",
-        "connectsTo": []
+        "connectsTo": [
+          "piste-903540910-seg-0"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -1291,6 +1296,7 @@
         "duration": 4,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-436291242-seg-6",
           "piste-905051086-seg-0",
           "piste-905056539-seg-0",
           "lift-1418030825"
@@ -1511,6 +1517,7 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-95750696-seg-0",
+          "piste-95750707-seg-3",
           "piste-95750707-seg-4"
         ]
       },
@@ -1600,6 +1607,8 @@
         "connectsTo": [
           "piste-54380657-seg-0",
           "piste-95750734-seg-0",
+          "piste-95750734-seg-27",
+          "piste-95750737-seg-11",
           "piste-1163384662-seg-0"
         ]
       },
@@ -1780,6 +1789,7 @@
         "connectsTo": [
           "piste-30833745-seg-0",
           "piste-30833746-seg-0",
+          "piste-95750718-seg-0",
           "piste-95750718-seg-1",
           "piste-95750718-seg-29",
           "piste-95750718-seg-30",
@@ -1827,8 +1837,10 @@
         "duration": 5,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-95751549-seg-0",
           "piste-95751549-seg-1",
-          "piste-95751555-seg-0"
+          "piste-95751555-seg-0",
+          "piste-95751555-seg-17"
         ]
       },
       "geometry": {
@@ -2028,6 +2040,7 @@
         "duration": 6,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-174277757-seg-0",
           "lift-333301451"
         ]
       },
@@ -2270,6 +2283,7 @@
         "duration": 4,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-50249649-seg-0",
           "piste-1100651987-seg-0"
         ]
       },
@@ -2402,6 +2416,7 @@
         "duration": 4,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-22341541-seg-0",
           "piste-22341541-seg-1",
           "piste-803858804-seg-0"
         ]
@@ -2460,7 +2475,8 @@
           "piste-95750705-seg-17",
           "piste-95750735-seg-0",
           "piste-95750735-seg-34",
-          "piste-95750735-seg-35"
+          "piste-95750735-seg-35",
+          "piste-95750745-seg-0"
         ]
       },
       "geometry": {
@@ -2556,6 +2572,7 @@
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-95750734-seg-11",
           "piste-95750734-seg-12"
         ]
       },
@@ -2904,6 +2921,7 @@
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-50243340-seg-33",
           "piste-50243340-seg-34"
         ]
       },
@@ -2987,8 +3005,11 @@
         "duration": 5,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399743-seg-21",
           "piste-23399747-seg-0",
+          "piste-50243340-seg-30",
           "piste-50243340-seg-31",
+          "piste-50243340-seg-34",
           "piste-50243340-seg-35",
           "lift-22341545"
         ]
@@ -3033,6 +3054,7 @@
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
+          "piste-22462843-seg-8",
           "piste-22462843-seg-9"
         ]
       },
@@ -3321,7 +3343,9 @@
         "sector": "Matterhorn",
         "connectsTo": [
           "piste-50249658-seg-0",
-          "piste-399074834-seg-0"
+          "piste-399074834-seg-0",
+          "piste-399074834-seg-14",
+          "piste-399074836-seg-22"
         ]
       },
       "geometry": {
@@ -3446,6 +3470,7 @@
         "duration": 3,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-399604694-seg-0",
           "lift-399058541"
         ]
       },
@@ -3587,7 +3612,9 @@
         "duration": 1,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-57372031-seg-2",
           "piste-57372031-seg-3",
+          "piste-101836841-seg-1",
           "piste-101836841-seg-2",
           "lift-333301450"
         ]
@@ -4153,7 +4180,8 @@
         "duration": 1,
         "sector": "Matterhorn",
         "connectsTo": [
-          "piste-32119253-seg-0"
+          "piste-32119253-seg-0",
+          "piste-32202323-seg-0"
         ]
       },
       "geometry": {

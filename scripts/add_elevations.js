@@ -125,11 +125,16 @@ function haversineDistance(coord1, coord2) {
 // SEGMENT PROCESSING
 // ============================================================================
 
+// Thresholds for bidirectional segments
+const BIDIRECTIONAL_LENGTH_THRESHOLD = 300; // meters - short segments
+const BIDIRECTIONAL_ELEVATION_THRESHOLD = 30; // meters - small elevation difference
+
 function updateSegmentElevations(segments, coordMap) {
   console.log('Updating segment elevations and directions...');
 
   let updatedCount = 0;
   let reversedCount = 0;
+  let bidirectionalCount = 0;
 
   for (const seg of segments) {
     const coords = seg.geometry.coordinates;
@@ -140,18 +145,33 @@ function updateSegmentElevations(segments, coordMap) {
     const endElev = coordMap.get(endKey)?.elevation;
 
     if (startElev !== null && endElev !== null) {
-      // Check if segment needs to be reversed (should go high to low)
-      if (startElev < endElev) {
+      const elevDiff = Math.abs(startElev - endElev);
+      const length = seg.properties.length || 0;
+
+      // Short segments with small elevation differences are bidirectional
+      const isBidirectional = length < BIDIRECTIONAL_LENGTH_THRESHOLD &&
+                              elevDiff < BIDIRECTIONAL_ELEVATION_THRESHOLD;
+
+      if (isBidirectional) {
+        // Keep original direction, mark as bidirectional
+        seg.properties.startElevation = startElev;
+        seg.properties.endElevation = endElev;
+        seg.properties.verticalDrop = Math.round(startElev - endElev);
+        seg.properties.bidirectional = true;
+        bidirectionalCount++;
+      } else if (startElev < endElev) {
         // Reverse the segment so it goes downhill
         seg.geometry.coordinates = coords.reverse();
         seg.properties.startElevation = endElev;
         seg.properties.endElevation = startElev;
         seg.properties.verticalDrop = Math.round(endElev - startElev);
+        seg.properties.bidirectional = false;
         reversedCount++;
       } else {
         seg.properties.startElevation = startElev;
         seg.properties.endElevation = endElev;
         seg.properties.verticalDrop = Math.round(startElev - endElev);
+        seg.properties.bidirectional = false;
       }
       updatedCount++;
     } else {
@@ -159,11 +179,13 @@ function updateSegmentElevations(segments, coordMap) {
       seg.properties.startElevation = startElev || 0;
       seg.properties.endElevation = endElev || 0;
       seg.properties.verticalDrop = 0;
+      seg.properties.bidirectional = false;
     }
   }
 
   console.log(`  Updated ${updatedCount} segments with elevation data`);
   console.log(`  Reversed ${reversedCount} segments to correct downhill direction`);
+  console.log(`  ${bidirectionalCount} short/flat segments marked as bidirectional`);
 }
 
 function updateLiftElevations(lifts, coordMap) {
@@ -207,9 +229,10 @@ function buildDirectionalConnections(segments, lifts) {
 
   // Index all segment and lift endpoints
   // For pistes: you exit at the BOTTOM (end) and can enter at the TOP (start) of another
+  // For bidirectional pistes: can enter from either end
   // For lifts: you BOARD at the start and EXIT at the end (regardless of elevation change)
 
-  const pisteStarts = []; // Where you can START skiing (top of piste)
+  const pisteStarts = []; // Where you can START skiing (top of piste, or either end if bidirectional)
   const liftStarts = []; // Where you can BOARD a lift (start of lift line)
 
   for (const seg of segments) {
@@ -219,6 +242,15 @@ function buildDirectionalConnections(segments, lifts) {
       coord: coords[0], // Start (top) of piste
       elevation: seg.properties.startElevation
     });
+
+    // For bidirectional segments, also add the end as an entry point
+    if (seg.properties.bidirectional) {
+      pisteStarts.push({
+        id: seg.properties.id,
+        coord: coords[coords.length - 1], // End of piste (can also enter here)
+        elevation: seg.properties.endElevation
+      });
+    }
   }
 
   for (const lift of lifts) {
@@ -233,31 +265,40 @@ function buildDirectionalConnections(segments, lifts) {
   let totalConnections = 0;
 
   // For each piste segment, find what you can reach from its END (bottom)
+  // For bidirectional segments, also find connections from the START
   for (const seg of segments) {
     const coords = seg.geometry.coordinates;
-    const endCoord = coords[coords.length - 1]; // Bottom of piste
-    const endElev = seg.properties.endElevation;
     const connections = new Set();
 
-    // Can connect to piste starts (tops) that are nearby and at similar or lower elevation
-    for (const ps of pisteStarts) {
-      if (ps.id === seg.properties.id) continue;
-
-      const dist = haversineDistance(endCoord, ps.coord);
-      if (dist <= CONNECTION_THRESHOLD) {
-        // Allow if the next piste start is at similar elevation (±50m) or lower
-        // This allows for small uphills between connecting pistes
-        if (ps.elevation <= endElev + 50) {
-          connections.add(ps.id);
-        }
-      }
+    // Exit points to check: always the end, plus the start if bidirectional
+    const exitPoints = [
+      { coord: coords[coords.length - 1], elev: seg.properties.endElevation }
+    ];
+    if (seg.properties.bidirectional) {
+      exitPoints.push({ coord: coords[0], elev: seg.properties.startElevation });
     }
 
-    // Can connect to lift boarding points that are nearby
-    for (const ls of liftStarts) {
-      const dist = haversineDistance(endCoord, ls.coord);
-      if (dist <= CONNECTION_THRESHOLD) {
-        connections.add(ls.id);
+    for (const exit of exitPoints) {
+      // Can connect to piste starts (tops) that are nearby and at similar or lower elevation
+      for (const ps of pisteStarts) {
+        if (ps.id === seg.properties.id) continue;
+
+        const dist = haversineDistance(exit.coord, ps.coord);
+        if (dist <= CONNECTION_THRESHOLD) {
+          // Allow if the next piste start is at similar elevation (±50m) or lower
+          // This allows for small uphills between connecting pistes
+          if (ps.elevation <= exit.elev + 50) {
+            connections.add(ps.id);
+          }
+        }
+      }
+
+      // Can connect to lift boarding points that are nearby
+      for (const ls of liftStarts) {
+        const dist = haversineDistance(exit.coord, ls.coord);
+        if (dist <= CONNECTION_THRESHOLD) {
+          connections.add(ls.id);
+        }
       }
     }
 

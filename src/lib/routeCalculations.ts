@@ -169,9 +169,20 @@ export function validateConnection(
   const lastName = lastSegment.name;
   const newName = newSegment.name;
 
+  // Try to determine why it doesn't connect
+  let reason = 'These segments are not adjacent.';
+
+  // Check if the new segment's END is near the last segment's end (wrong direction)
+  if (newSegment.type === 'slope') {
+    const newEnd = getSegmentEndCoords(newSegment);
+    if (lastEnd && newEnd && haversineDistance(lastEnd, newEnd) <= CONNECTION_THRESHOLD) {
+      reason = `"${newName}" goes the wrong direction from here (would need to ski uphill).`;
+    }
+  }
+
   return {
     isValid: false,
-    message: `"${newName}" doesn't connect to "${lastName}". These segments are not adjacent.`,
+    message: `"${newName}" doesn't connect to "${lastName}". ${reason}`,
   };
 }
 

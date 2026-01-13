@@ -34,7 +34,8 @@ export interface SlopeProperties {
   sector: Sector;
   segmentIndex?: number; // which segment of the original piste (0-indexed)
   totalSegments?: number; // how many segments the original piste was split into
-  connectsTo: string[]; // array of segment/lift IDs this connects to (downhill direction only)
+  bidirectional?: boolean; // true for short/flat segments that can be skied either way
+  connectsTo: string[]; // array of segment/lift IDs this connects to
   isOpen?: boolean;
 }
 
