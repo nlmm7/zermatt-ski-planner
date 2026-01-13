@@ -10,8 +10,8 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
-// Connection threshold in meters (75m to handle large station areas)
-const CONNECTION_THRESHOLD = 75;
+// Connection threshold in meters (150m to handle very large stations like Trockener Steg)
+const CONNECTION_THRESHOLD = 150;
 
 function haversineDistance(coord1, coord2) {
   const R = 6371000;
@@ -79,7 +79,9 @@ function buildDirectionalConnections(segments, lifts) {
 
         const dist = haversineDistance(exit.coord, ps.coord);
         if (dist <= CONNECTION_THRESHOLD) {
-          if (ps.elevation <= exit.elev + 50) {
+          // Allow up to 100m uphill to handle OSM elevation data errors
+          // (e.g., Klein Matterhorn area has 60m errors for points only 16m apart)
+          if (ps.elevation <= exit.elev + 100) {
             connections.add(ps.id);
           }
         }

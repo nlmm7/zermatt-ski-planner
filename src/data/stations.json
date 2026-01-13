@@ -223,104 +223,6 @@
     ]
   },
   {
-    "id": "station-3",
-    "name": "Becca d'Aran (2420m)",
-    "coordinates": [
-      7.6583474,
-      45.8969103
-    ],
-    "elevation": 2420,
-    "connectedLifts": [
-      {
-        "id": "lift-93487599",
-        "name": "Becca d'Aran",
-        "position": "end"
-      }
-    ],
-    "connectedSlopes": [
-      {
-        "id": "piste-93486892-seg-0",
-        "name": "Baracon",
-        "position": "start"
-      },
-      {
-        "id": "piste-93486892-seg-1",
-        "name": "Baracon",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750705-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750705-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750705-seg-16",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750705-seg-17",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-2",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-33",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750735-seg-34",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-35",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750745-seg-0",
-        "name": "Roisette",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750745-seg-1",
-        "name": "Roisette",
-        "position": "start"
-      },
-      {
-        "id": "piste-835160072-seg-0",
-        "name": "Trecar",
-        "position": "end"
-      },
-      {
-        "id": "piste-835160072-seg-1",
-        "name": "Trecar",
-        "position": "start"
-      }
-    ]
-  },
-  {
     "id": "station-4",
     "name": "Becca d'Aran (2234m)",
     "coordinates": [
@@ -439,6 +341,104 @@
       {
         "id": "piste-95750746-seg-11",
         "name": "Becca d'Aran",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-3",
+    "name": "Becca d'Aran (2420m)",
+    "coordinates": [
+      7.6583474,
+      45.8969103
+    ],
+    "elevation": 2420,
+    "connectedLifts": [
+      {
+        "id": "lift-93487599",
+        "name": "Becca d'Aran",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-93486892-seg-0",
+        "name": "Baracon",
+        "position": "start"
+      },
+      {
+        "id": "piste-93486892-seg-1",
+        "name": "Baracon",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750705-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750705-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750705-seg-16",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750705-seg-17",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-2",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-33",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750735-seg-34",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-35",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750745-seg-0",
+        "name": "Roisette",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750745-seg-1",
+        "name": "Roisette",
+        "position": "start"
+      },
+      {
+        "id": "piste-835160072-seg-0",
+        "name": "Trecar",
+        "position": "end"
+      },
+      {
+        "id": "piste-835160072-seg-1",
+        "name": "Trecar",
         "position": "start"
       }
     ]
@@ -690,44 +690,6 @@
     ]
   },
   {
-    "id": "station-9",
-    "name": "Cieloalto (2469m)",
-    "coordinates": [
-      7.6415029,
-      45.9222308
-    ],
-    "elevation": 2469,
-    "connectedLifts": [
-      {
-        "id": "lift-50249647",
-        "name": "Cieloalto",
-        "position": "end"
-      }
-    ],
-    "connectedSlopes": [
-      {
-        "id": "piste-50249649-seg-0",
-        "name": "Cieloalto 1",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249649-seg-1",
-        "name": "Cieloalto 1",
-        "position": "start"
-      },
-      {
-        "id": "piste-1100651987-seg-0",
-        "name": "Cieloalto 2",
-        "position": "start"
-      },
-      {
-        "id": "piste-1127634514-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      }
-    ]
-  },
-  {
     "id": "station-10",
     "name": "Cieloalto (2109m)",
     "coordinates": [
@@ -762,6 +724,44 @@
         "id": "piste-1100801638-seg-0",
         "name": "Ventina-Cieloalto",
         "position": "end"
+      }
+    ]
+  },
+  {
+    "id": "station-9",
+    "name": "Cieloalto (2469m)",
+    "coordinates": [
+      7.6415029,
+      45.9222308
+    ],
+    "elevation": 2469,
+    "connectedLifts": [
+      {
+        "id": "lift-50249647",
+        "name": "Cieloalto",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-50249649-seg-0",
+        "name": "Cieloalto 1",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249649-seg-1",
+        "name": "Cieloalto 1",
+        "position": "start"
+      },
+      {
+        "id": "piste-1100651987-seg-0",
+        "name": "Cieloalto 2",
+        "position": "start"
+      },
+      {
+        "id": "piste-1127634514-seg-0",
+        "name": "Unnamed",
+        "position": "start"
       }
     ]
   },
@@ -3052,5 +3052,28 @@
       }
     ],
     "connectedSlopes": []
+  },
+  {
+    "id": "station-zermatt-sunnegga",
+    "name": "Zermatt (Sunnegga)",
+    "coordinates": [
+      7.7531707,
+      46.0220822
+    ],
+    "elevation": 1620,
+    "connectedLifts": [
+      {
+        "id": "lift-22330086",
+        "name": "Zermatt–Sunnegga funicular",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-1459564618-seg-0",
+        "name": "Riedweg",
+        "position": "end"
+      }
+    ]
   }
 ]

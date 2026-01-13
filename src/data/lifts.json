@@ -15,12 +15,21 @@
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
+          "piste-22462843-seg-7",
           "piste-22462843-seg-8",
           "piste-22462843-seg-9",
           "piste-22467270-seg-0",
+          "piste-22467270-seg-1",
+          "piste-22467272-seg-0",
           "piste-22467272-seg-1",
           "piste-22467272-seg-2",
+          "piste-28541223-seg-0",
+          "piste-28541223-seg-1",
+          "piste-28541393-seg-0",
+          "piste-903540910-seg-0",
+          "piste-1047690132-seg-0",
           "piste-1421556618-seg-0",
+          "piste-1421556618-seg-1",
           "lift-171854366"
         ]
       },
@@ -56,7 +65,10 @@
         "duration": 8,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
-          "piste-30833423-seg-0"
+          "piste-22462841-seg-12",
+          "piste-30833423-seg-0",
+          "piste-905048250-seg-0",
+          "piste-905048252-seg-0"
         ]
       },
       "geometry": {
@@ -176,6 +188,8 @@
         "sector": "Gornergrat",
         "connectsTo": [
           "piste-22462841-seg-12",
+          "piste-22462843-seg-0",
+          "piste-30833423-seg-0",
           "piste-905048250-seg-0",
           "piste-905048252-seg-0"
         ]
@@ -237,10 +251,15 @@
         "sector": "Gornergrat",
         "connectsTo": [
           "piste-22467261-seg-0",
+          "piste-22467261-seg-1",
           "piste-30833426-seg-0",
           "piste-101847726-seg-0",
+          "piste-101847726-seg-1",
+          "piste-101847726-seg-11",
           "piste-101847726-seg-12",
-          "piste-101847726-seg-13"
+          "piste-101847726-seg-13",
+          "piste-905018122-seg-0",
+          "piste-905018122-seg-1"
         ]
       },
       "geometry": {
@@ -327,12 +346,25 @@
         "duration": 5,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-22941635-seg-9",
+          "piste-22941635-seg-10",
+          "piste-22941635-seg-11",
+          "piste-22941836-seg-0",
+          "piste-28542020-seg-0",
+          "piste-28542020-seg-1",
           "piste-28542020-seg-2",
           "piste-28542020-seg-3",
           "piste-28542020-seg-4",
           "piste-28542022-seg-2",
           "piste-28542022-seg-3",
-          "piste-905024744-seg-0"
+          "piste-101847662-seg-3",
+          "piste-101847662-seg-4",
+          "piste-332911417-seg-0",
+          "piste-332911417-seg-1",
+          "piste-905024744-seg-0",
+          "piste-905024744-seg-1",
+          "lift-22338265",
+          "lift-964367292"
         ]
       },
       "geometry": {
@@ -415,7 +447,13 @@
         "duration": 6,
         "sector": "Zermatt",
         "connectsTo": [
-          "piste-905169247-seg-0"
+          "piste-23400215-seg-0",
+          "piste-631955741-seg-0",
+          "piste-631955741-seg-1",
+          "piste-905169247-seg-0",
+          "piste-905169247-seg-1",
+          "piste-1386959391-seg-5",
+          "lift-22341540"
         ]
       },
       "geometry": {
@@ -463,8 +501,11 @@
         "sector": "Zermatt",
         "connectsTo": [
           "piste-23398081-seg-0",
+          "piste-23398081-seg-1",
           "piste-132624421-seg-0",
+          "piste-132624492-seg-0",
           "piste-311774720-seg-1",
+          "piste-1047690111-seg-0",
           "piste-1047690111-seg-1",
           "piste-1047690111-seg-2",
           "lift-22337636",
@@ -514,7 +555,9 @@
         "connectsTo": [
           "piste-22941635-seg-0",
           "piste-22941635-seg-1",
+          "piste-22941635-seg-2",
           "piste-22941637-seg-0",
+          "piste-30833429-seg-2",
           "piste-30833431-seg-0"
         ]
       },
@@ -610,6 +653,8 @@
         "duration": 5,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-23400216-seg-0",
+          "piste-23400216-seg-1",
           "piste-1047690120-seg-0",
           "piste-1047690120-seg-1"
         ]
@@ -698,10 +743,15 @@
         "duration": 11,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-23398590-seg-0",
           "piste-57372044-seg-0",
+          "piste-57372044-seg-1",
+          "piste-57372044-seg-9",
+          "piste-57372044-seg-10",
           "piste-57372044-seg-11",
           "piste-58069456-seg-0",
-          "piste-58069456-seg-1"
+          "piste-58069456-seg-1",
+          "piste-58069456-seg-2"
         ]
       },
       "geometry": {
@@ -800,7 +850,8 @@
         "duration": 6,
         "sector": "Zermatt",
         "connectsTo": [
-          "piste-22341541-seg-0"
+          "piste-22341541-seg-0",
+          "lift-519981791"
         ]
       },
       "geometry": {
@@ -843,9 +894,18 @@
         "duration": 4,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-23398593-seg-0",
+          "piste-23399484-seg-2",
+          "piste-23399485-seg-0",
           "piste-32119253-seg-0",
           "piste-32202323-seg-0",
-          "lift-618950310"
+          "piste-32202323-seg-1",
+          "piste-44334073-seg-0",
+          "piste-771890854-seg-0",
+          "piste-1145634190-seg-0",
+          "piste-1145634190-seg-1",
+          "lift-618950310",
+          "lift-1305881378"
         ]
       },
       "geometry": {
@@ -877,19 +937,40 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-23399743-seg-0",
+          "piste-23399743-seg-1",
           "piste-23399749-seg-0",
           "piste-23399749-seg-1",
           "piste-23399749-seg-2",
+          "piste-28531546-seg-5",
           "piste-28531546-seg-6",
+          "piste-29917614-seg-6",
+          "piste-29917614-seg-7",
+          "piste-29917614-seg-8",
+          "piste-29917614-seg-9",
+          "piste-44333270-seg-0",
           "piste-44333270-seg-1",
+          "piste-49885470-seg-12",
+          "piste-49885470-seg-13",
           "piste-49885470-seg-14",
           "piste-49885470-seg-15",
           "piste-49885470-seg-16",
+          "piste-49885470-seg-17",
           "piste-49885470-seg-18",
           "piste-49885470-seg-19",
           "piste-49885470-seg-20",
+          "piste-49885470-seg-21",
+          "piste-50249658-seg-8",
+          "piste-399074834-seg-6",
+          "piste-399074834-seg-7",
           "piste-399074836-seg-15",
           "piste-399074836-seg-16",
+          "piste-399074836-seg-17",
+          "piste-399074836-seg-32",
+          "piste-399074836-seg-33",
+          "piste-399074836-seg-34",
+          "piste-399074836-seg-51",
+          "piste-399074836-seg-52",
+          "piste-399074836-seg-53",
           "piste-1163429010-seg-0",
           "lift-22341546"
         ]
@@ -1012,16 +1093,35 @@
         "connectsTo": [
           "piste-23399750-seg-0",
           "piste-23399750-seg-1",
+          "piste-28531546-seg-0",
+          "piste-29917614-seg-0",
+          "piste-29917617-seg-0",
+          "piste-29917617-seg-1",
           "piste-44333269-seg-0",
           "piste-44333269-seg-1",
+          "piste-45408943-seg-0",
+          "piste-50243349-seg-3",
           "piste-50243349-seg-4",
+          "piste-50243350-seg-1",
           "piste-50249658-seg-0",
           "piste-50249658-seg-1",
+          "piste-50249658-seg-2",
           "piste-399074834-seg-0",
+          "piste-399074834-seg-1",
+          "piste-399074834-seg-2",
+          "piste-399074834-seg-12",
           "piste-399074834-seg-13",
           "piste-399074834-seg-14",
+          "piste-399074836-seg-9",
+          "piste-399074836-seg-10",
+          "piste-399074836-seg-11",
+          "piste-399074836-seg-20",
           "piste-399074836-seg-21",
           "piste-399074836-seg-22",
+          "piste-399074836-seg-23",
+          "piste-399074836-seg-24",
+          "piste-399074836-seg-26",
+          "piste-771890848-seg-1",
           "lift-22341547",
           "lift-332858459"
         ]
@@ -1090,10 +1190,21 @@
         "duration": 5,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-28540389-seg-0",
           "piste-44333268-seg-0",
+          "piste-399074836-seg-0",
+          "piste-399074836-seg-1",
           "piste-399074836-seg-2",
           "piste-399074836-seg-3",
-          "piste-1034277842-seg-0"
+          "piste-399074836-seg-4",
+          "piste-751001447-seg-0",
+          "piste-751001447-seg-1",
+          "piste-1034277842-seg-0",
+          "piste-1034277842-seg-1",
+          "piste-1383631731-seg-0",
+          "piste-1386965072-seg-0",
+          "piste-1386965072-seg-1",
+          "piste-1386965072-seg-2"
         ]
       },
       "geometry": {
@@ -1160,7 +1271,15 @@
         "duration": 3,
         "sector": "Cervinia",
         "connectsTo": [
-          "piste-771890849-seg-0"
+          "piste-23399747-seg-0",
+          "piste-29913676-seg-0",
+          "piste-50243340-seg-33",
+          "piste-50243340-seg-34",
+          "piste-771890849-seg-0",
+          "piste-771890849-seg-1",
+          "piste-771890851-seg-0",
+          "lift-166320766",
+          "lift-322784409"
         ]
       },
       "geometry": {
@@ -1207,12 +1326,21 @@
           "piste-29913352-seg-0",
           "piste-29913352-seg-1",
           "piste-32204465-seg-0",
+          "piste-50243347-seg-0",
+          "piste-50243347-seg-7",
+          "piste-50243347-seg-8",
+          "piste-50243347-seg-11",
           "piste-50243347-seg-12",
           "piste-50243347-seg-13",
           "piste-50243347-seg-14",
           "piste-50249650-seg-0",
           "piste-50249650-seg-1",
-          "piste-440720751-seg-0"
+          "piste-50249650-seg-35",
+          "piste-440720751-seg-0",
+          "piste-440720751-seg-1",
+          "piste-440725633-seg-4",
+          "piste-440725633-seg-5",
+          "piste-440725633-seg-6"
         ]
       },
       "geometry": {
@@ -1303,9 +1431,12 @@
         "duration": 1,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
+          "piste-22467270-seg-0",
+          "piste-22467272-seg-2",
           "piste-28541393-seg-0",
           "piste-903540910-seg-0",
           "piste-1047690132-seg-0",
+          "piste-1421556618-seg-0",
           "piste-1421556618-seg-1"
         ]
       },
@@ -1429,7 +1560,12 @@
         "connectsTo": [
           "piste-29998134-seg-0",
           "piste-29998134-seg-1",
+          "piste-29998134-seg-2",
+          "piste-29998134-seg-3",
           "piste-50249657-seg-0",
+          "piste-50249657-seg-1",
+          "piste-50249657-seg-10",
+          "piste-50249657-seg-11",
           "piste-50249657-seg-12",
           "piste-50249657-seg-13"
         ]
@@ -1486,11 +1622,17 @@
         "duration": 3,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399743-seg-18",
+          "piste-23399743-seg-19",
           "piste-29999109-seg-0",
           "piste-29999109-seg-1",
           "piste-44333271-seg-0",
+          "piste-50243340-seg-27",
+          "piste-50243340-seg-28",
           "piste-50243340-seg-36",
-          "piste-50243340-seg-37"
+          "piste-50243340-seg-37",
+          "piste-50243340-seg-38",
+          "piste-50243340-seg-39"
         ]
       },
       "geometry": {
@@ -1522,10 +1664,12 @@
         "sector": "Matterhorn",
         "connectsTo": [
           "piste-30833441-seg-0",
+          "piste-45840254-seg-0",
           "piste-45840256-seg-0",
           "piste-1305881375-seg-1",
           "piste-1305881375-seg-2",
           "piste-1396690339-seg-0",
+          "piste-1396690339-seg-1",
           "piste-1396690340-seg-0"
         ]
       },
@@ -1602,14 +1746,37 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-50243329-seg-0",
+          "piste-50243329-seg-1",
+          "piste-50243329-seg-2",
+          "piste-93487600-seg-6",
           "piste-95750696-seg-0",
           "piste-95750696-seg-1",
+          "piste-95750696-seg-2",
+          "piste-95750696-seg-3",
+          "piste-95750707-seg-0",
+          "piste-95750707-seg-1",
           "piste-95750707-seg-2",
           "piste-95750707-seg-3",
           "piste-95750707-seg-4",
           "piste-95750707-seg-5",
+          "piste-95750707-seg-6",
+          "piste-95750707-seg-7",
+          "piste-95750707-seg-8",
+          "piste-95750707-seg-9",
+          "piste-95750707-seg-11",
+          "piste-95750707-seg-12",
+          "piste-95750725-seg-6",
+          "piste-95750734-seg-14",
+          "piste-95750734-seg-15",
+          "piste-95750736-seg-0",
+          "piste-95750736-seg-1",
+          "piste-95750736-seg-9",
           "piste-95750736-seg-10",
           "piste-95750736-seg-11",
+          "piste-95751548-seg-0",
+          "piste-263293810-seg-15",
+          "piste-263293810-seg-16",
+          "piste-1163396662-seg-1",
           "piste-1163396662-seg-2"
         ]
       },
@@ -1700,21 +1867,41 @@
           "piste-50243327-seg-5",
           "piste-50243327-seg-6",
           "piste-54380657-seg-0",
+          "piste-54380657-seg-1",
           "piste-93487600-seg-0",
+          "piste-93487757-seg-0",
+          "piste-93487757-seg-1",
           "piste-95750695-seg-0",
           "piste-95750695-seg-1",
           "piste-95750734-seg-0",
           "piste-95750734-seg-1",
+          "piste-95750734-seg-2",
+          "piste-95750734-seg-24",
           "piste-95750734-seg-25",
           "piste-95750734-seg-26",
           "piste-95750734-seg-27",
+          "piste-95750737-seg-0",
+          "piste-95750737-seg-1",
           "piste-95750737-seg-3",
+          "piste-95750737-seg-4",
+          "piste-95750737-seg-9",
           "piste-95750737-seg-10",
           "piste-95750737-seg-11",
+          "piste-95750740-seg-0",
+          "piste-95750740-seg-1",
+          "piste-95750740-seg-4",
           "piste-95750740-seg-5",
           "piste-95750740-seg-6",
+          "piste-95750740-seg-7",
+          "piste-95751553-seg-5",
+          "piste-95751553-seg-6",
+          "piste-95751553-seg-7",
+          "piste-95751553-seg-8",
+          "piste-95751553-seg-9",
+          "piste-95751553-seg-10",
           "piste-263293810-seg-0",
           "piste-263293810-seg-1",
+          "piste-263293810-seg-2",
           "piste-1163384662-seg-0",
           "piste-1163384662-seg-1"
         ]
@@ -1800,16 +1987,29 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-30833745-seg-0",
+          "piste-30833745-seg-1",
           "piste-30833746-seg-0",
+          "piste-30833746-seg-1",
+          "piste-30833746-seg-2",
           "piste-50243336-seg-0",
+          "piste-50243336-seg-1",
+          "piste-50243336-seg-2",
+          "piste-95750701-seg-0",
+          "piste-95750701-seg-1",
+          "piste-95750701-seg-34",
+          "piste-95750701-seg-35",
           "piste-95750718-seg-0",
           "piste-95750718-seg-1",
           "piste-95750718-seg-2",
+          "piste-95750718-seg-3",
+          "piste-95750718-seg-27",
           "piste-95750718-seg-28",
           "piste-95750718-seg-29",
           "piste-95750718-seg-30",
+          "piste-95751552-seg-5",
           "piste-95751552-seg-6",
-          "piste-95751552-seg-7"
+          "piste-95751552-seg-7",
+          "piste-95751552-seg-8"
         ]
       },
       "geometry": {
@@ -1901,16 +2101,26 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-30833745-seg-0",
+          "piste-30833745-seg-1",
           "piste-30833746-seg-0",
+          "piste-30833746-seg-1",
           "piste-50243336-seg-0",
+          "piste-50243336-seg-1",
+          "piste-95750701-seg-0",
+          "piste-95750701-seg-34",
+          "piste-95750701-seg-35",
           "piste-95750718-seg-0",
           "piste-95750718-seg-1",
           "piste-95750718-seg-2",
+          "piste-95750718-seg-3",
+          "piste-95750718-seg-27",
           "piste-95750718-seg-28",
           "piste-95750718-seg-29",
           "piste-95750718-seg-30",
+          "piste-95751552-seg-5",
           "piste-95751552-seg-6",
-          "piste-95751552-seg-7"
+          "piste-95751552-seg-7",
+          "piste-95751552-seg-8"
         ]
       },
       "geometry": {
@@ -1965,6 +2175,8 @@
           "piste-95751550-seg-3",
           "piste-95751550-seg-4",
           "piste-95751555-seg-0",
+          "piste-95751555-seg-1",
+          "piste-95751555-seg-16",
           "piste-95751555-seg-17"
         ]
       },
@@ -2041,8 +2253,12 @@
         "sector": "Matterhorn",
         "connectsTo": [
           "piste-23399484-seg-0",
+          "piste-23399484-seg-1",
+          "piste-28561377-seg-1",
+          "piste-28561377-seg-2",
           "piste-30833441-seg-3",
           "piste-30833441-seg-4",
+          "piste-44334077-seg-0",
           "piste-45840256-seg-1",
           "piste-1461646628-seg-2",
           "piste-1461646629-seg-0",
@@ -2097,7 +2313,15 @@
         "capacity": 1000,
         "duration": 8,
         "sector": "Matterhorn",
-        "connectsTo": []
+        "connectsTo": [
+          "piste-30833441-seg-0",
+          "piste-45840254-seg-0",
+          "piste-45840256-seg-0",
+          "piste-1305881375-seg-1",
+          "piste-1305881375-seg-2",
+          "piste-1396690339-seg-0",
+          "piste-1396690340-seg-0"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -2171,7 +2395,10 @@
         "duration": 6,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-23398344-seg-0",
+          "piste-28561183-seg-0",
           "piste-174277757-seg-0",
+          "piste-174277757-seg-1",
           "lift-333301451"
         ]
       },
@@ -2287,10 +2514,28 @@
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-29912834-seg-2",
+          "piste-29998134-seg-5",
+          "piste-29998134-seg-6",
+          "piste-29998134-seg-7",
+          "piste-29998134-seg-8",
           "piste-49884629-seg-0",
+          "piste-50249657-seg-3",
+          "piste-50249657-seg-4",
+          "piste-50249657-seg-5",
+          "piste-50249657-seg-6",
+          "piste-50249657-seg-7",
+          "piste-50249657-seg-8",
+          "piste-50249657-seg-9",
+          "piste-54372355-seg-3",
           "piste-58641593-seg-0",
           "piste-58641593-seg-1",
-          "piste-58641593-seg-2"
+          "piste-58641593-seg-2",
+          "piste-1163317131-seg-0",
+          "piste-1163317131-seg-5",
+          "piste-1163317131-seg-6",
+          "lift-22341549",
+          "lift-29997875"
         ]
       },
       "geometry": {
@@ -2321,20 +2566,29 @@
         "duration": 8,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-50243340-seg-7",
           "piste-50243340-seg-8",
           "piste-50243340-seg-9",
           "piste-50243340-seg-10",
           "piste-50243340-seg-11",
           "piste-54378448-seg-0",
           "piste-54378448-seg-1",
+          "piste-54378448-seg-2",
+          "piste-54378448-seg-3",
+          "piste-86429069-seg-0",
+          "piste-86429069-seg-14",
           "piste-86429069-seg-15",
           "piste-86429069-seg-16",
           "piste-86429070-seg-0",
+          "piste-86429070-seg-1",
           "piste-101518898-seg-0",
+          "piste-101518898-seg-1",
+          "piste-101518898-seg-2",
           "piste-101518898-seg-11",
           "piste-101518898-seg-12",
           "piste-101518906-seg-0",
-          "piste-101518906-seg-1"
+          "piste-101518906-seg-1",
+          "piste-101518906-seg-2"
         ]
       },
       "geometry": {
@@ -2432,6 +2686,7 @@
           "piste-50249649-seg-0",
           "piste-50249649-seg-1",
           "piste-1100651987-seg-0",
+          "piste-1100651987-seg-1",
           "piste-1127634514-seg-0"
         ]
       },
@@ -2501,21 +2756,56 @@
         "connectsTo": [
           "piste-50243329-seg-0",
           "piste-50243329-seg-1",
+          "piste-50243329-seg-2",
+          "piste-93487600-seg-5",
           "piste-93487600-seg-6",
           "piste-95750696-seg-0",
           "piste-95750696-seg-1",
+          "piste-95750696-seg-2",
+          "piste-95750705-seg-10",
+          "piste-95750705-seg-11",
+          "piste-95750705-seg-12",
+          "piste-95750707-seg-0",
+          "piste-95750707-seg-1",
+          "piste-95750707-seg-2",
+          "piste-95750707-seg-3",
           "piste-95750707-seg-4",
           "piste-95750707-seg-5",
+          "piste-95750707-seg-6",
           "piste-95750707-seg-7",
           "piste-95750707-seg-8",
           "piste-95750707-seg-9",
           "piste-95750707-seg-10",
           "piste-95750707-seg-11",
           "piste-95750707-seg-12",
+          "piste-95750725-seg-5",
+          "piste-95750725-seg-6",
+          "piste-95750728-seg-0",
+          "piste-95750728-seg-1",
+          "piste-95750731-seg-3",
+          "piste-95750731-seg-4",
+          "piste-95750731-seg-5",
+          "piste-95750734-seg-12",
+          "piste-95750734-seg-13",
+          "piste-95750734-seg-14",
+          "piste-95750734-seg-15",
+          "piste-95750734-seg-16",
+          "piste-95750734-seg-17",
+          "piste-95750736-seg-0",
+          "piste-95750736-seg-10",
+          "piste-95750736-seg-11",
           "piste-95751548-seg-0",
           "piste-95751548-seg-1",
+          "piste-95751548-seg-2",
+          "piste-263293810-seg-14",
+          "piste-263293810-seg-15",
+          "piste-263293810-seg-16",
           "piste-1163396662-seg-1",
-          "piste-1163396662-seg-2"
+          "piste-1163396662-seg-2",
+          "lift-30833738",
+          "lift-95750716",
+          "lift-95750742",
+          "lift-262427221"
         ]
       },
       "geometry": {
@@ -2580,7 +2870,8 @@
         "connectsTo": [
           "piste-22341541-seg-0",
           "piste-22341541-seg-1",
-          "piste-803858804-seg-0"
+          "piste-803858804-seg-0",
+          "lift-519981791"
         ]
       },
       "geometry": {
@@ -2633,17 +2924,24 @@
         "connectsTo": [
           "piste-93486892-seg-0",
           "piste-93486892-seg-1",
+          "piste-93486892-seg-2",
           "piste-95750705-seg-0",
           "piste-95750705-seg-1",
+          "piste-95750705-seg-2",
           "piste-95750705-seg-16",
           "piste-95750705-seg-17",
           "piste-95750735-seg-0",
           "piste-95750735-seg-1",
+          "piste-95750735-seg-2",
+          "piste-95750735-seg-3",
+          "piste-95750735-seg-4",
+          "piste-95750735-seg-32",
           "piste-95750735-seg-33",
           "piste-95750735-seg-34",
           "piste-95750735-seg-35",
           "piste-95750745-seg-0",
           "piste-95750745-seg-1",
+          "piste-95750745-seg-2",
           "piste-835160072-seg-1"
         ]
       },
@@ -2713,9 +3011,19 @@
         "connectsTo": [
           "piste-93487600-seg-4",
           "piste-93487600-seg-5",
+          "piste-93487600-seg-6",
+          "piste-95750705-seg-10",
           "piste-95750705-seg-11",
           "piste-95750705-seg-12",
-          "piste-95750705-seg-13"
+          "piste-95750705-seg-13",
+          "piste-95750705-seg-14",
+          "piste-95750705-seg-15",
+          "piste-95750707-seg-0",
+          "piste-95750707-seg-12",
+          "piste-95750745-seg-10",
+          "piste-95751548-seg-0",
+          "piste-95751548-seg-1",
+          "piste-1163396662-seg-1"
         ]
       },
       "geometry": {
@@ -2746,18 +3054,42 @@
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-95750707-seg-6",
+          "piste-95750707-seg-7",
+          "piste-95750707-seg-9",
           "piste-95750707-seg-10",
           "piste-95750707-seg-11",
+          "piste-95750725-seg-3",
+          "piste-95750725-seg-4",
+          "piste-95750725-seg-5",
+          "piste-95750725-seg-6",
+          "piste-95750728-seg-0",
+          "piste-95750728-seg-1",
+          "piste-95750731-seg-1",
+          "piste-95750731-seg-2",
+          "piste-95750731-seg-3",
+          "piste-95750731-seg-4",
+          "piste-95750731-seg-5",
+          "piste-95750731-seg-6",
+          "piste-95750731-seg-7",
           "piste-95750734-seg-10",
           "piste-95750734-seg-11",
           "piste-95750734-seg-12",
           "piste-95750734-seg-13",
+          "piste-95750734-seg-14",
+          "piste-95750734-seg-16",
+          "piste-95750734-seg-17",
+          "piste-95750734-seg-18",
+          "piste-95751548-seg-0",
           "piste-95751548-seg-1",
           "piste-95751548-seg-2",
+          "piste-263293810-seg-11",
           "piste-263293810-seg-12",
           "piste-263293810-seg-13",
           "piste-263293810-seg-14",
           "piste-263293810-seg-15",
+          "piste-263293810-seg-16",
+          "lift-54470849",
           "lift-95750716",
           "lift-262427221"
         ]
@@ -2792,6 +3124,7 @@
         "connectsTo": [
           "piste-30833743-seg-0",
           "piste-30833743-seg-1",
+          "piste-32137061-seg-0",
           "piste-95751549-seg-0",
           "piste-95751549-seg-1",
           "piste-95751549-seg-2",
@@ -2898,8 +3231,16 @@
         "duration": 5,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399747-seg-0",
+          "piste-29913676-seg-0",
+          "piste-50243340-seg-31",
+          "piste-50243340-seg-32",
+          "piste-50243340-seg-33",
+          "piste-50243340-seg-34",
           "piste-771890849-seg-0",
-          "lift-166320766"
+          "lift-166320766",
+          "lift-322784212",
+          "lift-322784409"
         ]
       },
       "geometry": {
@@ -3058,11 +3399,18 @@
         "duration": 7,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-23398593-seg-0",
+          "piste-23399484-seg-2",
+          "piste-23399485-seg-0",
           "piste-32119253-seg-0",
           "piste-32202323-seg-0",
           "piste-32202323-seg-1",
+          "piste-44334073-seg-0",
+          "piste-771890854-seg-0",
+          "piste-771890854-seg-1",
           "piste-1145634190-seg-0",
           "piste-1145634190-seg-1",
+          "lift-618950310",
           "lift-1305881378"
         ]
       },
@@ -3126,11 +3474,19 @@
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399743-seg-21",
           "piste-23399747-seg-0",
           "piste-29913676-seg-0",
+          "piste-44333271-seg-1",
+          "piste-50243340-seg-30",
+          "piste-50243340-seg-31",
           "piste-50243340-seg-32",
           "piste-50243340-seg-33",
           "piste-50243340-seg-34",
+          "piste-50243340-seg-35",
+          "piste-771890849-seg-0",
+          "lift-22341545",
+          "lift-166320776",
           "lift-322784212",
           "lift-322784409"
         ]
@@ -3217,17 +3573,22 @@
         "connectsTo": [
           "piste-23399743-seg-21",
           "piste-23399747-seg-0",
+          "piste-29913676-seg-0",
           "piste-29999109-seg-2",
           "piste-29999109-seg-3",
           "piste-44333271-seg-1",
           "piste-50243340-seg-30",
           "piste-50243340-seg-31",
           "piste-50243340-seg-32",
+          "piste-50243340-seg-33",
           "piste-50243340-seg-34",
           "piste-50243340-seg-35",
           "piste-440725633-seg-0",
           "lift-22341545",
-          "lift-29999098"
+          "lift-29999098",
+          "lift-166320766",
+          "lift-322784212",
+          "lift-322784409"
         ]
       },
       "geometry": {
@@ -3270,9 +3631,18 @@
         "duration": 3,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
+          "piste-22462843-seg-7",
           "piste-22462843-seg-8",
           "piste-22462843-seg-9",
-          "piste-22467272-seg-1"
+          "piste-22467270-seg-0",
+          "piste-22467272-seg-0",
+          "piste-22467272-seg-1",
+          "piste-22467272-seg-2",
+          "piste-28541393-seg-0",
+          "piste-28541393-seg-1",
+          "piste-53762668-seg-0",
+          "piste-1421556618-seg-0",
+          "lift-171854366"
         ]
       },
       "geometry": {
@@ -3331,6 +3701,7 @@
         "duration": 5,
         "sector": "Sunnegga-Rothorn",
         "connectsTo": [
+          "piste-22462841-seg-12",
           "piste-22462843-seg-0",
           "piste-22462843-seg-1",
           "piste-905048248-seg-0",
@@ -3403,21 +3774,51 @@
         "sector": "Cervinia",
         "connectsTo": [
           "piste-50243329-seg-0",
+          "piste-50243329-seg-1",
+          "piste-50243329-seg-2",
+          "piste-93487600-seg-5",
           "piste-93487600-seg-6",
           "piste-95750696-seg-0",
           "piste-95750696-seg-1",
+          "piste-95750696-seg-2",
+          "piste-95750696-seg-3",
+          "piste-95750705-seg-10",
+          "piste-95750705-seg-11",
+          "piste-95750705-seg-12",
           "piste-95750707-seg-0",
           "piste-95750707-seg-1",
           "piste-95750707-seg-2",
+          "piste-95750707-seg-3",
+          "piste-95750707-seg-4",
+          "piste-95750707-seg-5",
+          "piste-95750707-seg-6",
+          "piste-95750707-seg-7",
           "piste-95750707-seg-8",
           "piste-95750707-seg-9",
+          "piste-95750707-seg-10",
           "piste-95750707-seg-11",
           "piste-95750707-seg-12",
+          "piste-95750725-seg-6",
+          "piste-95750734-seg-12",
+          "piste-95750734-seg-13",
+          "piste-95750734-seg-14",
+          "piste-95750734-seg-15",
           "piste-95750736-seg-0",
+          "piste-95750736-seg-1",
+          "piste-95750736-seg-9",
+          "piste-95750736-seg-10",
           "piste-95750736-seg-11",
           "piste-95751548-seg-0",
+          "piste-95751548-seg-1",
+          "piste-95751548-seg-2",
+          "piste-263293810-seg-14",
+          "piste-263293810-seg-15",
+          "piste-263293810-seg-16",
           "piste-1163396662-seg-1",
-          "piste-1163396662-seg-2"
+          "piste-1163396662-seg-2",
+          "lift-54470849",
+          "lift-95750716",
+          "lift-95750742"
         ]
       },
       "geometry": {
@@ -3448,6 +3849,7 @@
         "duration": 6,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399485-seg-5",
           "piste-23399485-seg-6",
           "piste-32201529-seg-0",
           "lift-22341544"
@@ -3553,8 +3955,22 @@
         "duration": 5,
         "sector": "Cervinia",
         "connectsTo": [
+          "piste-23399743-seg-21",
+          "piste-23399747-seg-0",
+          "piste-29913676-seg-0",
+          "piste-29913676-seg-1",
+          "piste-50243340-seg-30",
+          "piste-50243340-seg-31",
           "piste-50243340-seg-32",
-          "piste-50243340-seg-33"
+          "piste-50243340-seg-33",
+          "piste-50243340-seg-34",
+          "piste-50243340-seg-35",
+          "piste-440725633-seg-0",
+          "piste-440725633-seg-1",
+          "lift-22341545",
+          "lift-166320766",
+          "lift-166320776",
+          "lift-322784212"
         ]
       },
       "geometry": {
@@ -3587,16 +4003,36 @@
         "connectsTo": [
           "piste-23399750-seg-0",
           "piste-23399750-seg-1",
+          "piste-28531546-seg-0",
+          "piste-28531546-seg-1",
+          "piste-29917614-seg-0",
+          "piste-29917617-seg-0",
+          "piste-29917617-seg-1",
           "piste-44333269-seg-0",
           "piste-44333269-seg-1",
+          "piste-45408943-seg-0",
+          "piste-50243349-seg-3",
           "piste-50243349-seg-4",
+          "piste-50243350-seg-1",
           "piste-50249658-seg-0",
           "piste-50249658-seg-1",
+          "piste-50249658-seg-2",
           "piste-399074834-seg-0",
+          "piste-399074834-seg-1",
+          "piste-399074834-seg-2",
+          "piste-399074834-seg-12",
           "piste-399074834-seg-13",
           "piste-399074834-seg-14",
+          "piste-399074836-seg-9",
+          "piste-399074836-seg-10",
+          "piste-399074836-seg-11",
+          "piste-399074836-seg-20",
           "piste-399074836-seg-21",
           "piste-399074836-seg-22",
+          "piste-399074836-seg-23",
+          "piste-399074836-seg-24",
+          "piste-399074836-seg-26",
+          "piste-771890848-seg-1",
           "lift-22341547"
         ]
       },
@@ -3722,6 +4158,8 @@
         "duration": 3,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-237290009-seg-0",
+          "piste-399604692-seg-0",
           "piste-399604694-seg-0",
           "lift-399058541"
         ]
@@ -3757,9 +4195,12 @@
           "piste-23400215-seg-0",
           "piste-631955741-seg-0",
           "piste-631955741-seg-1",
+          "piste-631955741-seg-2",
           "piste-905169247-seg-0",
           "piste-905169247-seg-1",
+          "piste-1386959390-seg-4",
           "piste-1386959391-seg-5",
+          "lift-22341538",
           "lift-22341540"
         ]
       },
@@ -3791,7 +4232,13 @@
         "duration": 5,
         "sector": "Zermatt",
         "connectsTo": [
-          "piste-905169247-seg-0"
+          "piste-23400215-seg-0",
+          "piste-631955741-seg-0",
+          "piste-631955741-seg-1",
+          "piste-905169247-seg-0",
+          "piste-905169247-seg-1",
+          "piste-1386959391-seg-5",
+          "lift-22341540"
         ]
       },
       "geometry": {
@@ -3871,10 +4318,13 @@
         "sector": "Zermatt",
         "connectsTo": [
           "piste-23398344-seg-3",
+          "piste-54879553-seg-0",
+          "piste-54879553-seg-1",
           "piste-54879553-seg-2",
           "piste-54879553-seg-3",
           "piste-57372031-seg-2",
           "piste-57372031-seg-3",
+          "piste-101836841-seg-0",
           "piste-101836841-seg-1",
           "piste-101836841-seg-2",
           "lift-333301450"
@@ -3925,6 +4375,7 @@
         "sector": "Zermatt",
         "connectsTo": [
           "piste-399076186-seg-0",
+          "piste-399076186-seg-1",
           "piste-399076187-seg-0",
           "piste-399076190-seg-0",
           "piste-399076190-seg-1"
@@ -4022,7 +4473,13 @@
         "duration": 10,
         "sector": "Zermatt",
         "connectsTo": [
-          "piste-905169247-seg-0"
+          "piste-23400215-seg-0",
+          "piste-631955741-seg-0",
+          "piste-631955741-seg-1",
+          "piste-905169247-seg-0",
+          "piste-905169247-seg-1",
+          "piste-1386959391-seg-5",
+          "lift-22341540"
         ]
       },
       "geometry": {
@@ -4065,6 +4522,9 @@
         "duration": 5,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-22341541-seg-0",
+          "piste-22341541-seg-1",
+          "piste-803858804-seg-0",
           "lift-519981791"
         ]
       },
@@ -4229,7 +4689,11 @@
         "sector": "Matterhorn",
         "connectsTo": [
           "piste-44334079-seg-0",
-          "piste-1396690337-seg-0"
+          "piste-1305881375-seg-0",
+          "piste-1396688412-seg-0",
+          "piste-1396690337-seg-0",
+          "piste-1396690337-seg-1",
+          "piste-1461646632-seg-0"
         ]
       },
       "geometry": {
@@ -4286,9 +4750,14 @@
         "connectsTo": [
           "piste-22467261-seg-0",
           "piste-22467261-seg-1",
+          "piste-22467261-seg-2",
+          "piste-22467261-seg-3",
+          "piste-30833425-seg-0",
+          "piste-30833425-seg-1",
           "piste-30833426-seg-0",
           "piste-101847726-seg-0",
           "piste-101847726-seg-1",
+          "piste-101847726-seg-10",
           "piste-101847726-seg-11",
           "piste-101847726-seg-12",
           "piste-101847726-seg-13",
@@ -4355,7 +4824,10 @@
           "piste-23398081-seg-0",
           "piste-23398081-seg-1",
           "piste-132624421-seg-0",
+          "piste-132624492-seg-0",
+          "piste-311774720-seg-0",
           "piste-311774720-seg-1",
+          "piste-1047690111-seg-0",
           "piste-1047690111-seg-1",
           "piste-1047690111-seg-2",
           "lift-22337636",
@@ -4431,10 +4903,15 @@
         "duration": 5,
         "sector": "Zermatt",
         "connectsTo": [
+          "piste-28542020-seg-0",
           "piste-28542020-seg-1",
           "piste-28542020-seg-2",
           "piste-28542020-seg-3",
+          "piste-28542020-seg-4",
           "piste-28542022-seg-2",
+          "piste-28542022-seg-3",
+          "piste-101847662-seg-3",
+          "piste-101847662-seg-4",
           "piste-905024744-seg-0"
         ]
       },
@@ -4466,9 +4943,17 @@
         "duration": 1,
         "sector": "Matterhorn",
         "connectsTo": [
+          "piste-23398593-seg-0",
+          "piste-23399484-seg-2",
+          "piste-23399485-seg-0",
           "piste-32119253-seg-0",
           "piste-32202323-seg-0",
+          "piste-32202323-seg-1",
+          "piste-44334073-seg-0",
+          "piste-771890854-seg-0",
+          "piste-771890854-seg-1",
           "piste-1145634190-seg-0",
+          "piste-1145634190-seg-1",
           "lift-618950310"
         ]
       },
@@ -4540,7 +5025,11 @@
         "sector": "Matterhorn",
         "connectsTo": [
           "piste-44334079-seg-0",
-          "piste-1396690337-seg-0"
+          "piste-1305881375-seg-0",
+          "piste-1396688412-seg-0",
+          "piste-1396690337-seg-0",
+          "piste-1396690337-seg-1",
+          "piste-1461646632-seg-0"
         ]
       },
       "geometry": {

@@ -17,8 +17,8 @@ const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
 const stations = stationsData as Station[];
 
-// Connection threshold in meters (for checking if two points are connected)
-const CONNECTION_THRESHOLD = 75;
+// Connection threshold in meters (150m to handle very large stations like Trockener Steg)
+const CONNECTION_THRESHOLD = 150;
 
 // Average speeds for time estimation
 const AVERAGE_SPEEDS = {
