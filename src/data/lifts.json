@@ -2027,7 +2027,9 @@
         "capacity": 2800,
         "duration": 6,
         "sector": "Zermatt",
-        "connectsTo": []
+        "connectsTo": [
+          "lift-333301451"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -2361,26 +2363,27 @@
         "osmId": 54880257,
         "name": "Rote Nase",
         "type": "cable_car",
-        "bottomElevation": 3215,
-        "topElevation": 3268,
-        "verticalRise": 53,
+        "bottomElevation": 3268,
+        "topElevation": 3215,
+        "verticalRise": -53,
         "capacity": 520,
         "duration": 1,
         "sector": "Gornergrat",
         "connectsTo": [
-          "lift-660153035"
+          "piste-245285065-seg-0",
+          "piste-245285067-seg-0"
         ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8112058,
-            45.9868381
-          ],
-          [
             7.80247,
             45.9887116
+          ],
+          [
+            7.8112058,
+            45.9868381
           ]
         ]
       }
@@ -2799,8 +2802,7 @@
         "sector": "Gornergrat",
         "connectsTo": [
           "piste-245285065-seg-0",
-          "piste-245285067-seg-0",
-          "lift-54880257"
+          "piste-245285067-seg-0"
         ]
       },
       "geometry": {
@@ -3148,28 +3150,26 @@
         "osmId": 262427221,
         "name": "Unnamed Lift",
         "type": "drag_lift",
-        "bottomElevation": 2262,
-        "topElevation": 2284,
-        "verticalRise": 22,
+        "bottomElevation": 2284,
+        "topElevation": 2262,
+        "verticalRise": -22,
         "capacity": 2000,
         "duration": 1,
         "sector": "Cervinia",
         "connectsTo": [
-          "piste-95750734-seg-13",
-          "piste-95751548-seg-2",
-          "lift-54470849"
+          "piste-95751548-seg-0"
         ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6482807,
-            45.8936974
-          ],
-          [
             7.6479857,
             45.8948212
+          ],
+          [
+            7.6482807,
+            45.8936974
           ]
         ]
       }
@@ -3284,28 +3284,24 @@
         "osmId": 322784409,
         "name": "Plan Maison",
         "type": "drag_lift",
-        "bottomElevation": 2529,
-        "topElevation": 2531,
-        "verticalRise": 2,
+        "bottomElevation": 2531,
+        "topElevation": 2529,
+        "verticalRise": -2,
         "capacity": 2000,
         "duration": 5,
         "sector": "Cervinia",
-        "connectsTo": [
-          "piste-29913676-seg-0",
-          "piste-50243340-seg-33",
-          "piste-50243340-seg-34"
-        ]
+        "connectsTo": []
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6548752,
-            45.9419781
-          ],
-          [
             7.6550504,
             45.9415179
+          ],
+          [
+            7.6548752,
+            45.9419781
           ]
         ]
       }
@@ -3443,24 +3439,26 @@
         "osmId": 332906111,
         "name": "Unnamed Lift",
         "type": "chairlift",
-        "bottomElevation": 2059,
-        "topElevation": 2480,
-        "verticalRise": 421,
+        "bottomElevation": 2480,
+        "topElevation": 2059,
+        "verticalRise": -421,
         "capacity": 2000,
         "duration": 3,
         "sector": "Zermatt",
-        "connectsTo": []
+        "connectsTo": [
+          "lift-399058541"
+        ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.6978086,
-            46.0071162
-          ],
-          [
             7.6990139,
             46.0128787
+          ],
+          [
+            7.6978086,
+            46.0071162
           ]
         ]
       }
@@ -3510,8 +3508,7 @@
         "duration": 5,
         "sector": "Zermatt",
         "connectsTo": [
-          "piste-905169247-seg-0",
-          "lift-519981791"
+          "piste-905169247-seg-0"
         ]
       },
       "geometry": {
@@ -3583,40 +3580,44 @@
         "osmId": 333301451,
         "name": "Matterhorn Express",
         "type": "gondola",
-        "bottomElevation": 2472,
-        "topElevation": 2557,
-        "verticalRise": 85,
+        "bottomElevation": 2557,
+        "topElevation": 2472,
+        "verticalRise": -85,
         "capacity": 2800,
         "duration": 1,
         "sector": "Zermatt",
-        "connectsTo": []
+        "connectsTo": [
+          "piste-57372031-seg-3",
+          "piste-101836841-seg-2",
+          "lift-333301450"
+        ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7106105,
-            45.9874879
-          ],
-          [
-            7.7098202,
-            45.989634
-          ],
-          [
-            7.7095573,
-            45.9902975
-          ],
-          [
-            7.709395,
-            45.9907347
+            7.7089094,
+            45.9920782
           ],
           [
             7.7091327,
             45.9914662
           ],
           [
-            7.7089094,
-            45.9920782
+            7.709395,
+            45.9907347
+          ],
+          [
+            7.7095573,
+            45.9902975
+          ],
+          [
+            7.7098202,
+            45.989634
+          ],
+          [
+            7.7106105,
+            45.9874879
           ]
         ]
       }
@@ -3725,36 +3726,38 @@
         "osmId": 519981791,
         "name": "Trockener Steg - Klein Matterhorn Glacier Ride",
         "type": "gondola",
-        "bottomElevation": 2918,
-        "topElevation": 3736,
-        "verticalRise": 818,
+        "bottomElevation": 3736,
+        "topElevation": 2918,
+        "verticalRise": -818,
         "capacity": 2000,
         "duration": 10,
         "sector": "Zermatt",
-        "connectsTo": []
+        "connectsTo": [
+          "piste-905169247-seg-0"
+        ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.7213653,
-            45.9715549
-          ],
-          [
-            7.7221597,
-            45.9681942
-          ],
-          [
-            7.7234397,
-            45.9627791
+            7.7291957,
+            45.9384214
           ],
           [
             7.7289416,
             45.9394969
           ],
           [
-            7.7291957,
-            45.9384214
+            7.7234397,
+            45.9627791
+          ],
+          [
+            7.7221597,
+            45.9681942
+          ],
+          [
+            7.7213653,
+            45.9715549
           ]
         ]
       }
@@ -3772,7 +3775,9 @@
         "capacity": 1300,
         "duration": 5,
         "sector": "Matterhorn",
-        "connectsTo": []
+        "connectsTo": [
+          "lift-519981791"
+        ]
       },
       "geometry": {
         "type": "LineString",
@@ -3806,7 +3811,8 @@
         "duration": 5,
         "sector": "Gornergrat",
         "connectsTo": [
-          "piste-54880045-seg-0"
+          "piste-54880045-seg-0",
+          "lift-660153035"
         ]
       },
       "geometry": {
@@ -3842,27 +3848,26 @@
         "osmId": 660153035,
         "name": "Hohtälli - Stockhorn (geplant)",
         "type": "cable_car",
-        "bottomElevation": 3268,
-        "topElevation": 3396,
-        "verticalRise": 128,
+        "bottomElevation": 3396,
+        "topElevation": 3268,
+        "verticalRise": -128,
         "capacity": 2000,
         "duration": 3,
         "sector": "Gornergrat",
         "connectsTo": [
-          "piste-54880045-seg-0",
-          "lift-660153034"
+          "lift-54880257"
         ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.8026131,
-            45.9888533
-          ],
-          [
             7.8230569,
             45.9867877
+          ],
+          [
+            7.8026131,
+            45.9888533
           ]
         ]
       }
@@ -4141,32 +4146,26 @@
         "osmId": 1305881378,
         "name": "Testa Grigia",
         "type": "drag_lift",
-        "bottomElevation": 3441,
-        "topElevation": 3442,
-        "verticalRise": 1,
+        "bottomElevation": 3442,
+        "topElevation": 3441,
+        "verticalRise": -1,
         "capacity": 2000,
         "duration": 1,
         "sector": "Matterhorn",
         "connectsTo": [
-          "piste-23398593-seg-0",
-          "piste-23399485-seg-0",
-          "piste-32202323-seg-0",
-          "piste-32202323-seg-1",
-          "piste-44334073-seg-0",
-          "piste-771890854-seg-0",
-          "piste-1145634190-seg-1"
+          "piste-32119253-seg-0"
         ]
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            7.708129,
-            45.934341
-          ],
-          [
             7.7089906,
             45.9338635
+          ],
+          [
+            7.708129,
+            45.934341
           ]
         ]
       }

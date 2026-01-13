@@ -6615,7 +6615,8 @@
           "piste-23399485-seg-0",
           "piste-44334073-seg-0",
           "piste-771890854-seg-0",
-          "piste-1145634190-seg-1"
+          "piste-1145634190-seg-1",
+          "lift-1305881378"
         ],
         "totalSegments": 3,
         "startElevation": 3442,
@@ -8479,7 +8480,8 @@
         "segmentIndex": 0,
         "connectsTo": [
           "piste-29913676-seg-0",
-          "piste-50243340-seg-34"
+          "piste-50243340-seg-34",
+          "lift-322784409"
         ],
         "totalSegments": 1,
         "startElevation": 2531,
@@ -18703,8 +18705,7 @@
         "sector": "Matterhorn",
         "segmentIndex": 0,
         "connectsTo": [
-          "piste-32119253-seg-0",
-          "lift-1305881378"
+          "piste-32119253-seg-0"
         ],
         "totalSegments": 2,
         "startElevation": 3442,
@@ -18758,7 +18759,8 @@
           "piste-23399485-seg-0",
           "piste-44334073-seg-0",
           "piste-771890854-seg-0",
-          "piste-1145634190-seg-1"
+          "piste-1145634190-seg-1",
+          "lift-1305881378"
         ],
         "totalSegments": 2,
         "startElevation": 3442,
@@ -25192,7 +25194,8 @@
         "sector": "Cervinia",
         "segmentIndex": 32,
         "connectsTo": [
-          "piste-50243340-seg-33"
+          "piste-50243340-seg-33",
+          "lift-322784409"
         ],
         "totalSegments": 57,
         "startElevation": 2531,
@@ -25232,7 +25235,8 @@
         "connectsTo": [
           "piste-29913676-seg-0",
           "piste-50243340-seg-34",
-          "lift-166320766"
+          "lift-166320766",
+          "lift-322784409"
         ],
         "totalSegments": 57,
         "startElevation": 2531,
@@ -33210,8 +33214,7 @@
         "connectsTo": [
           "piste-57372031-seg-3",
           "piste-101836841-seg-2",
-          "lift-333301450",
-          "lift-333301451"
+          "lift-333301450"
         ],
         "totalSegments": 4,
         "startElevation": 2473,
@@ -44606,7 +44609,8 @@
         "connectsTo": [
           "piste-95750734-seg-13",
           "piste-95751548-seg-2",
-          "lift-54470849"
+          "lift-54470849",
+          "lift-262427221"
         ],
         "totalSegments": 13,
         "startElevation": 2284,
@@ -44646,7 +44650,8 @@
         "connectsTo": [
           "piste-95750734-seg-13",
           "piste-95751548-seg-2",
-          "lift-54470849"
+          "lift-54470849",
+          "lift-262427221"
         ],
         "totalSegments": 13,
         "startElevation": 2284,
@@ -52976,7 +52981,8 @@
         "segmentIndex": 12,
         "connectsTo": [
           "piste-95750734-seg-13",
-          "piste-95751548-seg-2"
+          "piste-95751548-seg-2",
+          "lift-262427221"
         ],
         "totalSegments": 28,
         "startElevation": 2267,
@@ -58619,7 +58625,8 @@
         "connectsTo": [
           "piste-95750734-seg-13",
           "piste-95751548-seg-2",
-          "lift-54470849"
+          "lift-54470849",
+          "lift-262427221"
         ],
         "totalSegments": 3,
         "startElevation": 2284,
@@ -63896,8 +63903,7 @@
         "connectsTo": [
           "piste-57372031-seg-3",
           "piste-101836841-seg-2",
-          "lift-333301450",
-          "lift-333301451"
+          "lift-333301450"
         ],
         "totalSegments": 3,
         "startElevation": 2472,
@@ -63936,8 +63942,7 @@
         "segmentIndex": 2,
         "connectsTo": [
           "piste-57372031-seg-3",
-          "lift-333301450",
-          "lift-333301451"
+          "lift-333301450"
         ],
         "totalSegments": 3,
         "startElevation": 2472,
@@ -68705,7 +68710,9 @@
         "verticalDrop": 12,
         "sector": "Zermatt",
         "segmentIndex": 0,
-        "connectsTo": [],
+        "connectsTo": [
+          "lift-333301451"
+        ],
         "totalSegments": 2,
         "startElevation": 2569,
         "endElevation": 2557
@@ -77678,7 +77685,6 @@
         "verticalDrop": 0,
         "sector": "Zermatt",
         "connectsTo": [
-          "lift-332906111",
           "lift-399058541"
         ],
         "originalId": "piste-399604694",
@@ -84564,7 +84570,8 @@
           "piste-32202323-seg-1",
           "piste-44334073-seg-0",
           "piste-771890854-seg-0",
-          "piste-1145634190-seg-1"
+          "piste-1145634190-seg-1",
+          "lift-1305881378"
         ],
         "totalSegments": 2,
         "startElevation": 3442,
@@ -84605,7 +84612,8 @@
           "piste-23398593-seg-0",
           "piste-23399485-seg-0",
           "piste-44334073-seg-0",
-          "piste-771890854-seg-0"
+          "piste-771890854-seg-0",
+          "lift-1305881378"
         ],
         "totalSegments": 2,
         "startElevation": 3442,

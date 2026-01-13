@@ -170,7 +170,7 @@ function updateLiftElevations(lifts, coordMap) {
   console.log('Updating lift elevations...');
 
   let updatedCount = 0;
-  let reversedCount = 0;
+  let flatOrDownhillCount = 0;
 
   for (const lift of lifts) {
     const coords = lift.geometry.coordinates;
@@ -181,25 +181,21 @@ function updateLiftElevations(lifts, coordMap) {
     const endElev = coordMap.get(endKey)?.elevation;
 
     if (startElev !== null && endElev !== null) {
-      // Lifts should go low to high (bottom to top)
-      if (startElev > endElev) {
-        // Reverse the lift so it goes uphill
-        lift.geometry.coordinates = coords.reverse();
-        lift.properties.bottomElevation = endElev;
-        lift.properties.topElevation = startElev;
-        lift.properties.verticalRise = Math.round(startElev - endElev);
-        reversedCount++;
-      } else {
-        lift.properties.bottomElevation = startElev;
-        lift.properties.topElevation = endElev;
-        lift.properties.verticalRise = Math.round(endElev - startElev);
+      // Keep original OSM direction - lifts go from boarding point to exit point
+      // Some connection lifts may be flat or even go slightly downhill
+      lift.properties.bottomElevation = startElev;
+      lift.properties.topElevation = endElev;
+      lift.properties.verticalRise = Math.round(endElev - startElev);
+
+      if (endElev <= startElev) {
+        flatOrDownhillCount++;
       }
       updatedCount++;
     }
   }
 
   console.log(`  Updated ${updatedCount} lifts with elevation data`);
-  console.log(`  Reversed ${reversedCount} lifts to correct uphill direction`);
+  console.log(`  ${flatOrDownhillCount} lifts are flat or connection lifts (not going uphill)`);
 }
 
 // ============================================================================
@@ -211,10 +207,10 @@ function buildDirectionalConnections(segments, lifts) {
 
   // Index all segment and lift endpoints
   // For pistes: you exit at the BOTTOM (end) and can enter at the TOP (start) of another
-  // For lifts: you enter at the BOTTOM and exit at the TOP
+  // For lifts: you BOARD at the start and EXIT at the end (regardless of elevation change)
 
   const pisteStarts = []; // Where you can START skiing (top of piste)
-  const liftBottoms = []; // Where you can BOARD a lift
+  const liftStarts = []; // Where you can BOARD a lift (start of lift line)
 
   for (const seg of segments) {
     const coords = seg.geometry.coordinates;
@@ -227,9 +223,9 @@ function buildDirectionalConnections(segments, lifts) {
 
   for (const lift of lifts) {
     const coords = lift.geometry.coordinates;
-    liftBottoms.push({
+    liftStarts.push({
       id: lift.properties.id,
-      coord: coords[0], // Bottom of lift
+      coord: coords[0], // Boarding point of lift
       elevation: lift.properties.bottomElevation
     });
   }
@@ -257,11 +253,11 @@ function buildDirectionalConnections(segments, lifts) {
       }
     }
 
-    // Can connect to lift bottoms that are nearby
-    for (const lb of liftBottoms) {
-      const dist = haversineDistance(endCoord, lb.coord);
+    // Can connect to lift boarding points that are nearby
+    for (const ls of liftStarts) {
+      const dist = haversineDistance(endCoord, ls.coord);
       if (dist <= CONNECTION_THRESHOLD) {
-        connections.add(lb.id);
+        connections.add(ls.id);
       }
     }
 
@@ -269,26 +265,26 @@ function buildDirectionalConnections(segments, lifts) {
     totalConnections += connections.size;
   }
 
-  // For lifts, find what pistes you can reach from the TOP
+  // For lifts, find what you can reach from the EXIT point (end of lift)
   for (const lift of lifts) {
     const coords = lift.geometry.coordinates;
-    const topCoord = coords[coords.length - 1]; // Top of lift
+    const exitCoord = coords[coords.length - 1]; // Exit point of lift
     const connections = new Set();
 
     // Can connect to piste starts (tops) that are nearby
     for (const ps of pisteStarts) {
-      const dist = haversineDistance(topCoord, ps.coord);
+      const dist = haversineDistance(exitCoord, ps.coord);
       if (dist <= CONNECTION_THRESHOLD) {
         connections.add(ps.id);
       }
     }
 
-    // Can also connect to other lift bottoms nearby (transfers)
-    for (const lb of liftBottoms) {
-      if (lb.id === lift.properties.id) continue;
-      const dist = haversineDistance(topCoord, lb.coord);
+    // Can also connect to other lift boarding points nearby (transfers)
+    for (const ls of liftStarts) {
+      if (ls.id === lift.properties.id) continue;
+      const dist = haversineDistance(exitCoord, ls.coord);
       if (dist <= CONNECTION_THRESHOLD) {
-        connections.add(lb.id);
+        connections.add(ls.id);
       }
     }
 

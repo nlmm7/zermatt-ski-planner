@@ -49,12 +49,14 @@ out body geom;`;
 async function queryOverpass(query) {
   const { execSync } = require('child_process');
 
-  // Use curl for more reliable requests
-  const escaped = query.replace(/'/g, "'\\''");
-  const cmd = `curl -s "https://overpass-api.de/api/interpreter" --data '${escaped}'`;
+  // Write query to temp file to avoid shell escaping issues
+  const tempFile = '/tmp/overpass_query.txt';
+  require('fs').writeFileSync(tempFile, query);
+
+  const cmd = `curl -s --data-urlencode "data@${tempFile}" "https://overpass-api.de/api/interpreter"`;
 
   try {
-    const result = execSync(cmd, { maxBuffer: 100 * 1024 * 1024, timeout: 120000 });
+    const result = execSync(cmd, { maxBuffer: 100 * 1024 * 1024, timeout: 180000 });
     return JSON.parse(result.toString());
   } catch (e) {
     throw new Error(`Overpass query failed: ${e.message}`);
