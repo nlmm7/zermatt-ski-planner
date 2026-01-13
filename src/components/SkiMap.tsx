@@ -166,6 +166,66 @@ export default function SkiMap({
 
       <MapEventHandler selectedRoute={selectedRoute} />
 
+      {/* Render connector lines between route segments */}
+      {selectedRoute.length > 1 && selectedRoute.map((segment, index) => {
+        if (index === 0) return null;
+
+        const prevSegment = selectedRoute[index - 1];
+
+        // Get end of previous segment
+        let prevEnd: [number, number] | null = null;
+        if (prevSegment.type === 'lift') {
+          const lift = lifts.features.find(f => f.properties.id === prevSegment.id);
+          if (lift) {
+            const coords = lift.geometry.coordinates;
+            prevEnd = [coords[coords.length - 1][1], coords[coords.length - 1][0]];
+          }
+        } else {
+          const slope = slopes.features.find(f => f.properties.id === prevSegment.id);
+          if (slope) {
+            const coords = slope.geometry.coordinates;
+            prevEnd = [coords[coords.length - 1][1], coords[coords.length - 1][0]];
+          }
+        }
+
+        // Get start of current segment
+        let currStart: [number, number] | null = null;
+        if (segment.type === 'lift') {
+          const lift = lifts.features.find(f => f.properties.id === segment.id);
+          if (lift) {
+            currStart = [lift.geometry.coordinates[0][1], lift.geometry.coordinates[0][0]];
+          }
+        } else {
+          const slope = slopes.features.find(f => f.properties.id === segment.id);
+          if (slope) {
+            currStart = [slope.geometry.coordinates[0][1], slope.geometry.coordinates[0][0]];
+          }
+        }
+
+        if (!prevEnd || !currStart) return null;
+
+        // Only draw connector if there's a gap (> 10m)
+        const latDiff = prevEnd[0] - currStart[0];
+        const lonDiff = prevEnd[1] - currStart[1];
+        const approxDist = Math.sqrt(latDiff * latDiff + lonDiff * lonDiff) * 111000;
+
+        if (approxDist < 10) return null;
+
+        return (
+          <Polyline
+            key={`connector-${index}`}
+            positions={[prevEnd, currStart]}
+            pathOptions={{
+              color: '#9ca3af',
+              weight: 2,
+              opacity: 0.7,
+              dashArray: '4, 8',
+            }}
+            interactive={false}
+          />
+        );
+      })}
+
       {/* Render slopes - reachable highlights first (underneath) */}
       {selectedRoute.length > 0 && slopes.features.map((feature) => {
         const { id } = feature.properties;
