@@ -32,10 +32,10 @@ const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
 const stations = stationsData as Station[];
 
-// Zermatt ski area bounds
-const ZERMATT_CENTER: [number, number] = [45.9850, 7.7400];
+// Zermatt + Cervinia + Valtournenche ski area bounds
+const ZERMATT_CENTER: [number, number] = [45.9500, 7.7200];
 const ZERMATT_BOUNDS: [[number, number], [number, number]] = [
-  [45.90, 7.60],
+  [45.83, 7.56],
   [46.05, 7.90],
 ];
 
