@@ -2,8 +2,8 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { RouteSegment, RoutePoint } from '@/types';
-import { calculateRouteStats, validateConnection } from '@/lib/routeCalculations';
+import { RouteSegment, RoutePoint, Difficulty } from '@/types';
+import { calculateRouteStats, validateConnection, findRoute } from '@/lib/routeCalculations';
 import { saveRoute, getSavedRoutes, deleteRoute } from '@/lib/storage';
 import RouteBuilder from '@/components/RouteBuilder';
 
@@ -21,6 +21,8 @@ export default function Home() {
   const [route, setRoute] = useState<RouteSegment[]>([]);
   const [startPoint, setStartPoint] = useState<RoutePoint | null>(null);
   const [endPoint, setEndPoint] = useState<RoutePoint | null>(null);
+  const [maxDifficulty, setMaxDifficulty] = useState<Difficulty | null>(null);
+  const [isCalculating, setIsCalculating] = useState(false);
   const [showSidebar, setShowSidebar] = useState(true);
   const [showSaveModal, setShowSaveModal] = useState(false);
   const [routeName, setRouteName] = useState('');
@@ -96,6 +98,28 @@ export default function Home() {
     setStartPoint(null);
     setEndPoint(null);
   }, []);
+
+  const handleFindRoute = useCallback(() => {
+    if (!startPoint || !endPoint) {
+      setToast({ message: 'Please set both start and end points', type: 'error' });
+      return;
+    }
+
+    setIsCalculating(true);
+
+    // Use setTimeout to allow UI to update before calculation
+    setTimeout(() => {
+      const result = findRoute(startPoint, endPoint, maxDifficulty);
+      setIsCalculating(false);
+
+      if (result.success) {
+        setRoute(result.route);
+        setToast({ message: `Route found: ${result.route.length} segments`, type: 'info' });
+      } else {
+        setToast({ message: result.message || 'No route found', type: 'error' });
+      }
+    }, 10);
+  }, [startPoint, endPoint, maxDifficulty]);
 
   const handleSaveRoute = useCallback(() => {
     setShowSaveModal(true);
@@ -195,9 +219,13 @@ export default function Home() {
             route={route}
             startPoint={startPoint}
             endPoint={endPoint}
+            maxDifficulty={maxDifficulty}
+            isCalculating={isCalculating}
             onRemoveSegment={handleRemoveSegment}
             onClearRoute={handleClearRoute}
             onClearPoints={handleClearPoints}
+            onSetMaxDifficulty={setMaxDifficulty}
+            onFindRoute={handleFindRoute}
             onSaveRoute={handleSaveRoute}
           />
         </div>

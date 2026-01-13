@@ -7,19 +7,36 @@ interface RouteBuilderProps {
   route: RouteSegment[];
   startPoint: RoutePoint | null;
   endPoint: RoutePoint | null;
+  maxDifficulty: Difficulty | null;
+  isCalculating: boolean;
   onRemoveSegment: (index: number) => void;
   onClearRoute: () => void;
   onClearPoints: () => void;
+  onSetMaxDifficulty: (difficulty: Difficulty | null) => void;
+  onFindRoute: () => void;
   onSaveRoute: () => void;
 }
+
+const DIFFICULTIES: (Difficulty | null)[] = [null, 'green', 'blue', 'red', 'black'];
+const DIFFICULTY_LABELS: Record<string, string> = {
+  null: 'Any',
+  green: 'Green',
+  blue: 'Blue',
+  red: 'Red',
+  black: 'Black',
+};
 
 export default function RouteBuilder({
   route,
   startPoint,
   endPoint,
+  maxDifficulty,
+  isCalculating,
   onRemoveSegment,
   onClearRoute,
   onClearPoints,
+  onSetMaxDifficulty,
+  onFindRoute,
   onSaveRoute,
 }: RouteBuilderProps) {
   const stats = calculateRouteStats(route);
@@ -72,6 +89,58 @@ export default function RouteBuilder({
               </div>
             </div>
           </div>
+
+          {/* Max Difficulty Selector */}
+          <div className="mt-3">
+            <div className="text-xs text-gray-500 mb-1">Max Difficulty</div>
+            <div className="flex gap-1">
+              {DIFFICULTIES.map((diff) => (
+                <button
+                  key={diff || 'any'}
+                  onClick={() => onSetMaxDifficulty(diff)}
+                  className={`flex-1 py-1 px-2 text-xs rounded transition-colors ${
+                    maxDifficulty === diff
+                      ? diff
+                        ? 'text-white'
+                        : 'bg-gray-700 text-white'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  }`}
+                  style={
+                    maxDifficulty === diff && diff
+                      ? { backgroundColor: DIFFICULTY_COLORS[diff] }
+                      : undefined
+                  }
+                >
+                  {DIFFICULTY_LABELS[String(diff)]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Find Route Button */}
+          {startPoint && endPoint && (
+            <button
+              onClick={onFindRoute}
+              disabled={isCalculating}
+              className={`mt-3 w-full py-2 px-4 rounded font-medium text-white transition-colors ${
+                isCalculating
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600'
+              }`}
+            >
+              {isCalculating ? (
+                <span className="flex items-center justify-center gap-2">
+                  <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  Calculating...
+                </span>
+              ) : (
+                'Find Route'
+              )}
+            </button>
+          )}
         </div>
       )}
 
