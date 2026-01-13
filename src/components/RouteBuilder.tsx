@@ -238,6 +238,9 @@ export default function RouteBuilder({
                         </>
                       ) : (
                         <>
+                          {props && 'number' in props && props.number && (
+                            <span className="font-semibold">#{props.number}</span>
+                          )}
                           <span
                             className="w-2 h-2 rounded-full"
                             style={{
