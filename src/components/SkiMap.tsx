@@ -6,6 +6,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import liftsData from '@/data/lifts.json';
 import slopesData from '@/data/slopes.json';
+import stationsData from '@/data/stations.json';
 import {
   LiftProperties,
   SlopeProperties,
@@ -14,6 +15,7 @@ import {
   LIFT_COLORS,
   RouteSegment,
   RoutePoint,
+  Station,
   Difficulty,
 } from '@/types';
 import { getValidNextSegments } from '@/lib/routeCalculations';
@@ -28,6 +30,7 @@ L.Icon.Default.mergeOptions({
 
 const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
+const stations = stationsData as Station[];
 
 // Zermatt ski area bounds
 const ZERMATT_CENTER: [number, number] = [45.9850, 7.7400];
@@ -452,8 +455,57 @@ export default function SkiMap({
         );
       })}
 
+      {/* Station Markers */}
+      {stations.map((station) => {
+        const isStart = startPoint?.type === 'station' && startPoint?.id === station.id;
+        const isEnd = endPoint?.type === 'station' && endPoint?.id === station.id;
+
+        return (
+          <CircleMarker
+            key={station.id}
+            center={[station.coordinates[1], station.coordinates[0]]}
+            radius={8}
+            pathOptions={{
+              color: isStart ? '#16a34a' : isEnd ? '#dc2626' : '#6366f1',
+              fillColor: isStart ? '#22c55e' : isEnd ? '#ef4444' : '#818cf8',
+              fillOpacity: 0.9,
+              weight: 2,
+            }}
+          >
+            <Popup>
+              <div className="text-sm">
+                <div className="font-bold">{station.name}</div>
+                {station.elevation && (
+                  <div className="text-gray-600">{station.elevation}m elevation</div>
+                )}
+                <div className="text-xs text-gray-500 mt-1">
+                  {station.connectedLifts.length} lifts, {station.connectedSlopes.length} slopes
+                </div>
+                <div className="flex gap-1 mt-2">
+                  <button
+                    onClick={() => onSetStartPoint({ type: 'station', id: station.id, name: station.name, position: 'start' })}
+                    className="flex-1 px-2 py-1 bg-green-500 text-white text-xs rounded hover:bg-green-600"
+                  >
+                    Set start
+                  </button>
+                  <button
+                    onClick={() => onSetEndPoint({ type: 'station', id: station.id, name: station.name, position: 'end' })}
+                    className="flex-1 px-2 py-1 bg-red-500 text-white text-xs rounded hover:bg-red-600"
+                  >
+                    Set end
+                  </button>
+                </div>
+              </div>
+            </Popup>
+            <Tooltip direction="top" offset={[0, -5]}>
+              <span className="text-xs">{station.name}</span>
+            </Tooltip>
+          </CircleMarker>
+        );
+      })}
+
       {/* Start/End Point Markers */}
-      {startPoint && (() => {
+      {startPoint && startPoint.type !== 'station' && (() => {
         const coords = getPointCoordinates(startPoint);
         if (!coords) return null;
         return (
@@ -474,7 +526,7 @@ export default function SkiMap({
         );
       })()}
 
-      {endPoint && (() => {
+      {endPoint && endPoint.type !== 'station' && (() => {
         const coords = getPointCoordinates(endPoint);
         if (!coords) return null;
         return (

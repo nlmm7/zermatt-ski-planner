@@ -65,10 +65,19 @@ export interface RouteSegment {
 }
 
 export interface RoutePoint {
-  type: 'lift' | 'slope';
+  type: 'lift' | 'slope' | 'station';
   id: string;
   name: string;
   position: 'start' | 'end'; // start = bottom of lift / top of slope, end = top of lift / bottom of slope
+}
+
+export interface Station {
+  id: string;
+  name: string;
+  coordinates: [number, number]; // [lon, lat]
+  elevation: number | null;
+  connectedLifts: { id: string; name: string; position: 'start' | 'end' }[];
+  connectedSlopes: { id: string; name: string; position: 'start' | 'end' }[];
 }
 
 export interface Route {

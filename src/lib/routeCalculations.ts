@@ -1,5 +1,6 @@
 import liftsData from '@/data/lifts.json';
 import slopesData from '@/data/slopes.json';
+import stationsData from '@/data/stations.json';
 import {
   LiftProperties,
   SlopeProperties,
@@ -7,12 +8,14 @@ import {
   RouteSegment,
   RoutePoint,
   RouteStats,
+  Station,
   Difficulty,
   ValidationResult,
 } from '@/types';
 
 const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
+const stations = stationsData as Station[];
 
 // Connection threshold in meters (for checking if two points are connected)
 const CONNECTION_THRESHOLD = 75;
@@ -222,7 +225,11 @@ const DIFFICULTY_ORDER: Record<Difficulty, number> = {
 
 // Get coordinates for a route point location
 function getPointLocation(point: RoutePoint): number[] | null {
-  if (point.type === 'lift') {
+  if (point.type === 'station') {
+    const station = stations.find(s => s.id === point.id);
+    if (!station) return null;
+    return station.coordinates;
+  } else if (point.type === 'lift') {
     const lift = getLiftById(point.id);
     if (!lift) return null;
     const coords = lift.geometry.coordinates;
