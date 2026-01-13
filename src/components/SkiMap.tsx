@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Polyline, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -15,6 +15,7 @@ import {
   RouteSegment,
   Difficulty,
 } from '@/types';
+import { getValidNextSegments } from '@/lib/routeCalculations';
 
 // Fix Leaflet default markers
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
@@ -91,12 +92,21 @@ function MapEventHandler({ selectedRoute }: { selectedRoute: RouteSegment[] }) {
   return null;
 }
 
+// Reachable segment highlight color
+const REACHABLE_HIGHLIGHT = '#00ff88';
+
 export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  // Calculate reachable segments based on current route
+  const reachableSegments = useMemo(() => {
+    const { lifts: reachableLifts, slopes: reachableSlopes } = getValidNextSegments(selectedRoute);
+    return new Set([...reachableLifts, ...reachableSlopes]);
+  }, [selectedRoute]);
 
   if (!mounted) {
     return (
@@ -108,6 +118,8 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
 
   const isInRoute = (type: 'lift' | 'slope', id: string) =>
     selectedRoute.some((s) => s.type === type && s.id === id);
+
+  const isReachable = (id: string) => reachableSegments.has(id);
 
   return (
     <MapContainer
@@ -125,6 +137,32 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
 
       <MapEventHandler selectedRoute={selectedRoute} />
 
+      {/* Render slopes - reachable highlights first (underneath) */}
+      {selectedRoute.length > 0 && slopes.features.map((feature) => {
+        const { id } = feature.properties;
+        const coords = feature.geometry.coordinates.map(
+          (c) => [c[1], c[0]] as [number, number]
+        );
+        const reachable = isReachable(id);
+        const inRoute = isInRoute('slope', id);
+
+        // Only render highlight for reachable, non-route segments
+        if (!reachable || inRoute) return null;
+
+        return (
+          <Polyline
+            key={`${id}-highlight`}
+            positions={coords}
+            pathOptions={{
+              color: REACHABLE_HIGHLIGHT,
+              weight: 8,
+              opacity: 0.4,
+            }}
+            interactive={false}
+          />
+        );
+      })}
+
       {/* Render slopes */}
       {slopes.features.map((feature) => {
         const { id, name, difficulty, length, verticalDrop, sector } = feature.properties;
@@ -132,6 +170,23 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
           (c) => [c[1], c[0]] as [number, number]
         );
         const inRoute = isInRoute('slope', id);
+        const reachable = isReachable(id);
+        const hasRoute = selectedRoute.length > 0;
+
+        // Determine visual style based on state
+        let weight = 4;
+        let opacity = 0.5;
+        let dashArray: string | undefined = '5, 10';
+
+        if (inRoute) {
+          weight = 6;
+          opacity = 1;
+          dashArray = undefined;
+        } else if (reachable && hasRoute) {
+          weight = 5;
+          opacity = 0.9;
+          dashArray = undefined;
+        }
 
         return (
           <Polyline
@@ -139,9 +194,9 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
             positions={coords}
             pathOptions={{
               color: DIFFICULTY_COLORS[difficulty as Difficulty],
-              weight: inRoute ? 6 : 4,
-              opacity: inRoute ? 1 : 0.7,
-              dashArray: inRoute ? undefined : '5, 10',
+              weight,
+              opacity,
+              dashArray,
             }}
             eventHandlers={{
               click: () => onSegmentClick({ type: 'slope', id, name }),
@@ -162,15 +217,52 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
                   <div>{verticalDrop}m drop</div>
                   <div className="text-xs">{sector}</div>
                 </div>
+                {hasRoute && !inRoute && (
+                  <div className={`mt-1 text-xs ${reachable ? 'text-green-600 font-medium' : 'text-gray-400'}`}>
+                    {reachable ? '✓ Reachable from current position' : '✗ Not reachable'}
+                  </div>
+                )}
                 <button
                   onClick={() => onSegmentClick({ type: 'slope', id, name })}
-                  className="mt-2 px-2 py-1 bg-blue-500 text-white text-xs rounded hover:bg-blue-600"
+                  className={`mt-2 px-2 py-1 text-white text-xs rounded ${
+                    inRoute
+                      ? 'bg-red-500 hover:bg-red-600'
+                      : reachable && hasRoute
+                      ? 'bg-green-500 hover:bg-green-600'
+                      : 'bg-blue-500 hover:bg-blue-600'
+                  }`}
                 >
                   {inRoute ? 'Remove from route' : 'Add to route'}
                 </button>
               </div>
             </Popup>
           </Polyline>
+        );
+      })}
+
+      {/* Render lifts - reachable highlights first (underneath) */}
+      {selectedRoute.length > 0 && lifts.features.map((feature) => {
+        const { id } = feature.properties;
+        const coords = feature.geometry.coordinates.map(
+          (c) => [c[1], c[0]] as [number, number]
+        );
+        const reachable = isReachable(id);
+        const inRoute = isInRoute('lift', id);
+
+        // Only render highlight for reachable, non-route lifts
+        if (!reachable || inRoute) return null;
+
+        return (
+          <Polyline
+            key={`${id}-highlight`}
+            positions={coords}
+            pathOptions={{
+              color: REACHABLE_HIGHLIGHT,
+              weight: 7,
+              opacity: 0.4,
+            }}
+            interactive={false}
+          />
         );
       })}
 
@@ -182,6 +274,20 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
           (c) => [c[1], c[0]] as [number, number]
         );
         const inRoute = isInRoute('lift', id);
+        const reachable = isReachable(id);
+        const hasRoute = selectedRoute.length > 0;
+
+        // Determine visual style based on state
+        let weight = 3;
+        let opacity = 0.6;
+
+        if (inRoute) {
+          weight = 5;
+          opacity = 1;
+        } else if (reachable && hasRoute) {
+          weight = 4;
+          opacity = 0.9;
+        }
 
         return (
           <Polyline
@@ -189,8 +295,8 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
             positions={coords}
             pathOptions={{
               color: LIFT_COLORS[type],
-              weight: inRoute ? 5 : 3,
-              opacity: inRoute ? 1 : 0.8,
+              weight,
+              opacity,
             }}
             eventHandlers={{
               click: () => onSegmentClick({ type: 'lift', id, name }),
@@ -202,13 +308,24 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
                 <div className="capitalize text-gray-600">{type.replace('_', ' ')}</div>
                 <div className="mt-1 text-gray-600">
                   <div>{bottomElevation}m - {topElevation}m</div>
-                  <div>+{verticalRise}m rise</div>
+                  <div>{verticalRise >= 0 ? '+' : ''}{verticalRise}m {verticalRise >= 0 ? 'rise' : 'drop'}</div>
                   <div>{duration} min ride</div>
                   <div className="text-xs">{sector}</div>
                 </div>
+                {hasRoute && !inRoute && (
+                  <div className={`mt-1 text-xs ${reachable ? 'text-green-600 font-medium' : 'text-gray-400'}`}>
+                    {reachable ? '✓ Reachable from current position' : '✗ Not reachable'}
+                  </div>
+                )}
                 <button
                   onClick={() => onSegmentClick({ type: 'lift', id, name })}
-                  className="mt-2 px-2 py-1 bg-purple-500 text-white text-xs rounded hover:bg-purple-600"
+                  className={`mt-2 px-2 py-1 text-white text-xs rounded ${
+                    inRoute
+                      ? 'bg-red-500 hover:bg-red-600'
+                      : reachable && hasRoute
+                      ? 'bg-green-500 hover:bg-green-600'
+                      : 'bg-purple-500 hover:bg-purple-600'
+                  }`}
                 >
                   {inRoute ? 'Remove from route' : 'Add to route'}
                 </button>
