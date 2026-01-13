@@ -15,7 +15,7 @@ const lifts = liftsData as GeoJSONFeatureCollection<LiftProperties>;
 const slopes = slopesData as GeoJSONFeatureCollection<SlopeProperties>;
 
 // Connection threshold in meters (for checking if two points are connected)
-const CONNECTION_THRESHOLD = 50;
+const CONNECTION_THRESHOLD = 75;
 
 // Average speeds for time estimation
 const AVERAGE_SPEEDS = {

@@ -17,8 +17,8 @@ const { execSync } = require('child_process');
 
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
-// Connection threshold in meters
-const CONNECTION_THRESHOLD = 30;
+// Connection threshold in meters (75m to handle large station areas)
+const CONNECTION_THRESHOLD = 75;
 
 // Batch size for elevation API requests
 const ELEVATION_BATCH_SIZE = 100;
