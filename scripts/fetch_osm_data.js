@@ -15,9 +15,9 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 
-// Zermatt + Cervinia bounding box
+// Zermatt + Cervinia + Valtournenche bounding box
 const BBOX = {
-  south: 45.88,
+  south: 45.85,
   west: 7.58,
   north: 46.10,
   east: 7.85
@@ -53,7 +53,8 @@ async function queryOverpass(query) {
   const tempFile = '/tmp/overpass_query.txt';
   require('fs').writeFileSync(tempFile, query);
 
-  const cmd = `curl -s --data-urlencode "data@${tempFile}" "https://overpass-api.de/api/interpreter"`;
+  // Use alternative endpoint if main one is busy
+  const cmd = `curl -s --data-urlencode "data@${tempFile}" "https://overpass.kumi.systems/api/interpreter"`;
 
   try {
     const result = execSync(cmd, { maxBuffer: 100 * 1024 * 1024, timeout: 180000 });

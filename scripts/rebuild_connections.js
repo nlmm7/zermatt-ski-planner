@@ -62,9 +62,14 @@ function buildDirectionalConnections(segments, lifts) {
   let totalConnections = 0;
 
   // For each piste segment, find what you can reach from its END
+  // Preserve existing slope-to-slope connections, only add lift connections
   for (const seg of segments) {
     const coords = seg.geometry.coordinates;
-    const connections = new Set();
+
+    // Start with existing connections (preserve slope-to-slope from segmentation)
+    const existingConns = seg.properties.connectsTo || [];
+    const connections = new Set(existingConns);
+    const initialSize = connections.size;
 
     const exitPoints = [
       { coord: coords[coords.length - 1], elev: seg.properties.endElevation }
@@ -74,8 +79,10 @@ function buildDirectionalConnections(segments, lifts) {
     }
 
     for (const exit of exitPoints) {
+      // Add slope-to-slope connections with elevation check
       for (const ps of pisteStarts) {
         if (ps.id === seg.properties.id) continue;
+        if (connections.has(ps.id)) continue; // Already connected
 
         const dist = haversineDistance(exit.coord, ps.coord);
         if (dist <= CONNECTION_THRESHOLD) {
@@ -87,6 +94,7 @@ function buildDirectionalConnections(segments, lifts) {
         }
       }
 
+      // Add slope-to-lift connections
       for (const ls of liftStarts) {
         const dist = haversineDistance(exit.coord, ls.coord);
         if (dist <= CONNECTION_THRESHOLD) {

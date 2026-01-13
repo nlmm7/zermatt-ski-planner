@@ -1,6 +1,112 @@
 [
   {
     "id": "station-0",
+    "name": "Alpe Mandria (2440m)",
+    "coordinates": [
+      7.7597309,
+      45.8601228
+    ],
+    "elevation": 2440,
+    "connectedLifts": [
+      {
+        "id": "lift-33119968",
+        "name": "Alpe Mandria",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33119997-seg-0-seg-0",
+        "name": "Del Monte",
+        "position": "start"
+      },
+      {
+        "id": "piste-33119997-seg-1-seg-0",
+        "name": "Del Monte",
+        "position": "start"
+      },
+      {
+        "id": "piste-33119997-seg-2-seg-0",
+        "name": "Del Monte",
+        "position": "start"
+      },
+      {
+        "id": "piste-33200331-seg-0-seg-0",
+        "name": "Del Lago",
+        "position": "start"
+      },
+      {
+        "id": "piste-87656313-seg-0-seg-0",
+        "name": "Pian de la Sal",
+        "position": "start"
+      },
+      {
+        "id": "piste-87656321-seg-0-seg-0",
+        "name": "Liason",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-1",
+    "name": "Alpe Mandria (1979m)",
+    "coordinates": [
+      7.7428581,
+      45.8556046
+    ],
+    "elevation": 1979,
+    "connectedLifts": [
+      {
+        "id": "lift-33119968",
+        "name": "Alpe Mandria",
+        "position": "start"
+      },
+      {
+        "id": "lift-322721709",
+        "name": "Baby Ciarcerio",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33053702-seg-1-seg-0",
+        "name": "Dei Larici",
+        "position": "end"
+      },
+      {
+        "id": "piste-33053702-seg-1-seg-1",
+        "name": "Dei Larici",
+        "position": "start"
+      },
+      {
+        "id": "piste-33053702-seg-2-seg-0",
+        "name": "Dei Larici",
+        "position": "start"
+      },
+      {
+        "id": "piste-33053727-seg-2-seg-0",
+        "name": "Del Lago",
+        "position": "end"
+      },
+      {
+        "id": "piste-33119997-seg-4-seg-0",
+        "name": "Del Monte",
+        "position": "end"
+      },
+      {
+        "id": "piste-33119997-seg-5-seg-0",
+        "name": "Del Monte",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671445-seg-0-seg-0",
+        "name": "Baby Ciarcerio",
+        "position": "end"
+      }
+    ]
+  },
+  {
+    "id": "station-2",
     "name": "Aroleid",
     "coordinates": [
       7.7194012,
@@ -10,14 +116,14 @@
     "connectedLifts": [],
     "connectedSlopes": [
       {
-        "id": "piste-54070470-seg-3",
+        "id": "piste-54070470-seg-3-seg-0",
         "name": "56",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-1",
+    "id": "station-3",
     "name": "Bec Carré (2420m)",
     "coordinates": [
       7.6525975,
@@ -33,89 +139,89 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-30833747-seg-10",
+        "id": "piste-30833747-seg-10-seg-0",
         "name": "E. Noussan",
         "position": "end"
       },
       {
-        "id": "piste-54380657-seg-1",
+        "id": "piste-54380657-seg-1-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-54380657-seg-2",
+        "id": "piste-54380657-seg-2-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-93487757-seg-2",
+        "id": "piste-93487757-seg-2-seg-0",
         "name": "Gran Collet",
         "position": "end"
       },
       {
-        "id": "piste-95750737-seg-4",
+        "id": "piste-95750737-seg-4-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750737-seg-5",
+        "id": "piste-95750737-seg-5-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-6",
+        "id": "piste-95750737-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-7",
+        "id": "piste-95750737-seg-7-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-8",
+        "id": "piste-95750737-seg-8-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-9",
+        "id": "piste-95750737-seg-9-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750743-seg-0",
+        "id": "piste-95750743-seg-0-seg-0",
         "name": "Crot",
         "position": "start"
       },
       {
-        "id": "piste-95751551-seg-0",
+        "id": "piste-95751551-seg-0-seg-0",
         "name": "E. Noussan",
         "position": "start"
       },
       {
-        "id": "piste-95751551-seg-1",
+        "id": "piste-95751551-seg-1-seg-0",
         "name": "E. Noussan",
         "position": "start"
       },
       {
-        "id": "piste-95751551-seg-2",
+        "id": "piste-95751551-seg-2-seg-0",
         "name": "E. Noussan",
         "position": "start"
       },
       {
-        "id": "piste-95751554-seg-5",
+        "id": "piste-95751554-seg-5-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95751554-seg-6",
+        "id": "piste-95751554-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-2",
+    "id": "station-4",
     "name": "Bec Carré (2892m)",
     "coordinates": [
       7.6775384,
@@ -136,217 +242,104 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-30833745-seg-0",
+        "id": "piste-30833745-seg-0-seg-0",
         "name": "Du Col",
         "position": "start"
       },
       {
-        "id": "piste-30833746-seg-0",
+        "id": "piste-30833746-seg-0-seg-0",
         "name": "Reine Bianche",
         "position": "start"
       },
       {
-        "id": "piste-30833746-seg-1",
+        "id": "piste-30833746-seg-1-seg-0",
         "name": "Reine Bianche",
         "position": "start"
       },
       {
-        "id": "piste-50243336-seg-0",
+        "id": "piste-50243336-seg-0-seg-0",
         "name": "S. Canestrini",
         "position": "start"
       },
       {
-        "id": "piste-50243336-seg-1",
+        "id": "piste-50243336-seg-1-seg-0",
         "name": "S. Canestrini",
         "position": "start"
       },
       {
-        "id": "piste-95750701-seg-0",
+        "id": "piste-95750701-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750701-seg-34",
+        "id": "piste-95750701-seg-34-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750701-seg-35",
+        "id": "piste-95750701-seg-35-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-0",
+        "id": "piste-95750718-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-1",
+        "id": "piste-95750718-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-2",
+        "id": "piste-95750718-seg-2-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-27",
+        "id": "piste-95750718-seg-27-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750718-seg-28",
+        "id": "piste-95750718-seg-28-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-29",
+        "id": "piste-95750718-seg-29-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750718-seg-30",
+        "id": "piste-95750718-seg-30-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-6",
+        "id": "piste-95751552-seg-6-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95751552-seg-6-seg-1",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-7",
+        "id": "piste-95751552-seg-7-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95751552-seg-7-seg-1",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-4",
-    "name": "Becca d'Aran (2234m)",
-    "coordinates": [
-      7.6511119,
-      45.8911933
-    ],
-    "elevation": 2234,
-    "connectedLifts": [
-      {
-        "id": "lift-93487599",
-        "name": "Becca d'Aran",
-        "position": "start"
-      }
-    ],
-    "connectedSlopes": [
-      {
-        "id": "piste-93486891-seg-19",
-        "name": "Gran Pista di Valtournenche",
-        "position": "end"
-      },
-      {
-        "id": "piste-93486891-seg-20",
-        "name": "Gran Pista di Valtournenche",
-        "position": "start"
-      },
-      {
-        "id": "piste-93486891-seg-21",
-        "name": "Gran Pista di Valtournenche",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750691-seg-0",
-        "name": "Gran Pista di Valtournenche",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750696-seg-4",
-        "name": "Salette",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750696-seg-5",
-        "name": "Salette",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750709-seg-9",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750709-seg-10",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750709-seg-11",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750735-seg-15",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750735-seg-16",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-17",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-18",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750736-seg-3",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750736-seg-4",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750736-seg-5",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750736-seg-6",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750736-seg-7",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750736-seg-8",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750746-seg-10",
-        "name": "Becca d'Aran",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750746-seg-11",
-        "name": "Becca d'Aran",
-        "position": "start"
-      }
-    ]
-  },
-  {
-    "id": "station-3",
+    "id": "station-5",
     "name": "Becca d'Aran (2420m)",
     "coordinates": [
       7.6583474,
@@ -362,89 +355,283 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-93486892-seg-0",
+        "id": "piste-93486892-seg-0-seg-0",
         "name": "Baracon",
         "position": "start"
       },
       {
-        "id": "piste-93486892-seg-1",
+        "id": "piste-93486892-seg-1-seg-0",
         "name": "Baracon",
         "position": "start"
       },
       {
-        "id": "piste-95750705-seg-0",
+        "id": "piste-95750705-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750705-seg-1",
+        "id": "piste-95750705-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750705-seg-16",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750705-seg-17",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-2",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750735-seg-33",
+        "id": "piste-95750705-seg-16-seg-7",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750735-seg-34",
+        "id": "piste-95750705-seg-16-seg-8",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750735-seg-35",
+        "id": "piste-95750705-seg-17-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750745-seg-0",
+        "id": "piste-95750735-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-2-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-33-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750735-seg-34-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-35-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750745-seg-0-seg-0",
         "name": "Roisette",
         "position": "start"
       },
       {
-        "id": "piste-95750745-seg-1",
+        "id": "piste-95750745-seg-1-seg-0",
         "name": "Roisette",
         "position": "start"
       },
       {
-        "id": "piste-835160072-seg-0",
+        "id": "piste-835160072-seg-0-seg-0",
         "name": "Trecar",
         "position": "end"
       },
       {
-        "id": "piste-835160072-seg-1",
+        "id": "piste-835160072-seg-1-seg-0",
         "name": "Trecar",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-5",
+    "id": "station-6",
+    "name": "Becca d'Aran (2234m)",
+    "coordinates": [
+      7.6511119,
+      45.8911933
+    ],
+    "elevation": 2234,
+    "connectedLifts": [
+      {
+        "id": "lift-93487599",
+        "name": "Becca d'Aran",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-93486891-seg-19-seg-0",
+        "name": "Gran Pista di Valtournenche",
+        "position": "end"
+      },
+      {
+        "id": "piste-93486891-seg-20-seg-0",
+        "name": "Gran Pista di Valtournenche",
+        "position": "start"
+      },
+      {
+        "id": "piste-93486891-seg-21-seg-0",
+        "name": "Gran Pista di Valtournenche",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750691-seg-0-seg-0",
+        "name": "Gran Pista di Valtournenche",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750696-seg-4-seg-0",
+        "name": "Salette",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750696-seg-5-seg-0",
+        "name": "Salette",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750709-seg-9-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750709-seg-10-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750709-seg-11-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-15-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750735-seg-16-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-17-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750735-seg-18-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-3-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750736-seg-4-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-5-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-6-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-7-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-8-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750746-seg-10-seg-0",
+        "name": "Becca d'Aran",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750746-seg-11-seg-0",
+        "name": "Becca d'Aran",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-7",
+    "name": "Bettaforca (2680m)",
+    "coordinates": [
+      7.7807082,
+      45.8698351
+    ],
+    "elevation": 2680,
+    "connectedLifts": [
+      {
+        "id": "lift-51988856",
+        "name": "Bettaforca",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-914671443-seg-0-seg-0",
+        "name": "Del colle",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671443-seg-1-seg-0",
+        "name": "Del colle",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-8",
+    "name": "Bettaforca (2309m)",
+    "coordinates": [
+      7.7611702,
+      45.8666819
+    ],
+    "elevation": 2309,
+    "connectedLifts": [
+      {
+        "id": "lift-51988856",
+        "name": "Bettaforca",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33053702-seg-0-seg-0",
+        "name": "Dei Larici",
+        "position": "start"
+      },
+      {
+        "id": "piste-87656321-seg-0-seg-0",
+        "name": "Liason",
+        "position": "end"
+      },
+      {
+        "id": "piste-87656321-seg-1-seg-0",
+        "name": "Liason",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671443-seg-4-seg-0",
+        "name": "Del colle",
+        "position": "end"
+      }
+    ]
+  },
+  {
+    "id": "station-9",
     "name": "Blauherd",
     "coordinates": [
       7.7864245,
@@ -465,34 +652,34 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22462841-seg-12",
+        "id": "piste-22462841-seg-12-seg-0",
         "name": "Rotweng",
         "position": "end"
       },
       {
-        "id": "piste-22462843-seg-0",
+        "id": "piste-22462843-seg-0-seg-0",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-22462843-seg-1",
+        "id": "piste-22462843-seg-1-seg-0",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-905048248-seg-0",
+        "id": "piste-905048248-seg-0-seg-0",
         "name": "9",
         "position": "start"
       },
       {
-        "id": "piste-905048251-seg-0",
+        "id": "piste-905048251-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-6",
+    "id": "station-10",
     "name": "Bontadini",
     "coordinates": [
       7.708477,
@@ -508,64 +695,69 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-28540389-seg-0",
+        "id": "piste-28540389-seg-0-seg-0",
         "name": "Plateau Rosa - Bontadini",
         "position": "start"
       },
       {
-        "id": "piste-44333268-seg-0",
+        "id": "piste-44333268-seg-0-seg-0",
         "name": "Bontadini",
         "position": "start"
       },
       {
-        "id": "piste-399074836-seg-2",
+        "id": "piste-399074836-seg-2-seg-0",
         "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-399074836-seg-3",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-399074836-seg-4",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-751001447-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-751001447-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-1034277842-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-1034277842-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-1383631731-seg-0",
-        "name": "6 Theodulhütte-Theodulpass (geplant)",
         "position": "end"
       },
       {
-        "id": "piste-1386965072-seg-2",
+        "id": "piste-399074836-seg-3-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-399074836-seg-3-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-399074836-seg-4-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-751001447-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-751001447-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1034277842-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1034277842-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1383631731-seg-0-seg-0",
+        "name": "6 Theodulhütte-Theodulpass (geplant)",
+        "position": "start"
+      },
+      {
+        "id": "piste-1386965072-seg-2-seg-0",
         "name": "Plateau Rosa - Bontadini (currently both ways)",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-7",
+    "id": "station-11",
     "name": "Breitboden",
     "coordinates": [
       7.7726576,
@@ -586,49 +778,49 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22941639-seg-0",
+        "id": "piste-22941639-seg-0-seg-0",
         "name": "Balmbrunnen",
+        "position": "start"
+      },
+      {
+        "id": "piste-28541395-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-436291242-seg-5-seg-0",
+        "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-28541395-seg-0",
+        "id": "piste-436291242-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-436291242-seg-5",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-436291242-seg-6",
+        "id": "piste-905051086-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905051086-seg-0",
+        "id": "piste-905051086-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905051086-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-905056539-seg-0",
+        "id": "piste-905056539-seg-0-seg-0",
         "name": "Grünsee",
         "position": "start"
       },
       {
-        "id": "piste-905056539-seg-1",
+        "id": "piste-905056539-seg-1-seg-0",
         "name": "Grünsee",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-8",
+    "id": "station-12",
     "name": "Campetto",
     "coordinates": [
       7.633341700000001,
@@ -638,97 +830,64 @@
     "connectedLifts": [],
     "connectedSlopes": [
       {
-        "id": "piste-29912834-seg-1",
+        "id": "piste-29912834-seg-1-seg-0",
         "name": "Pirovano-Cervinia",
         "position": "end"
       },
       {
-        "id": "piste-29912834-seg-2",
+        "id": "piste-29912834-seg-2-seg-0",
         "name": "Pirovano-Cervinia",
         "position": "start"
       },
       {
-        "id": "piste-29998134-seg-5",
+        "id": "piste-29998134-seg-5-seg-0",
         "name": "Cretaz",
         "position": "end"
       },
       {
-        "id": "piste-29998134-seg-6",
+        "id": "piste-29998134-seg-6-seg-0",
         "name": "Cretaz",
         "position": "start"
       },
       {
-        "id": "piste-29998134-seg-7",
+        "id": "piste-29998134-seg-7-seg-0",
         "name": "Cretaz",
         "position": "start"
       },
       {
-        "id": "piste-50249657-seg-3",
+        "id": "piste-50249657-seg-3-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50249657-seg-4",
+        "id": "piste-50249657-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50249657-seg-8",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249657-seg-9",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249657-seg-10",
+        "id": "piste-50249657-seg-8-seg-0",
         "name": "Unnamed",
         "position": "end"
+      },
+      {
+        "id": "piste-50249657-seg-9-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249657-seg-9-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249657-seg-10-seg-0",
+        "name": "Unnamed",
+        "position": "start"
       }
     ]
   },
   {
-    "id": "station-10",
-    "name": "Cieloalto (2109m)",
-    "coordinates": [
-      7.6332569,
-      45.9293396
-    ],
-    "elevation": 2109,
-    "connectedLifts": [
-      {
-        "id": "lift-50249647",
-        "name": "Cieloalto",
-        "position": "start"
-      }
-    ],
-    "connectedSlopes": [
-      {
-        "id": "piste-50249652-seg-0",
-        "name": "Cieloalto-Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249653-seg-0",
-        "name": "Cieloalto-Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249654-seg-0",
-        "name": "Cieloalto-Cervinia",
-        "position": "end"
-      },
-      {
-        "id": "piste-1100801638-seg-0",
-        "name": "Ventina-Cieloalto",
-        "position": "end"
-      }
-    ]
-  },
-  {
-    "id": "station-9",
+    "id": "station-13",
     "name": "Cieloalto (2469m)",
     "coordinates": [
       7.6415029,
@@ -744,29 +903,95 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-50249649-seg-0",
+        "id": "piste-50249649-seg-0-seg-0",
         "name": "Cieloalto 1",
         "position": "start"
       },
       {
-        "id": "piste-50249649-seg-1",
+        "id": "piste-50249649-seg-1-seg-0",
         "name": "Cieloalto 1",
         "position": "start"
       },
       {
-        "id": "piste-1100651987-seg-0",
+        "id": "piste-1100651987-seg-0-seg-0",
         "name": "Cieloalto 2",
         "position": "start"
       },
       {
-        "id": "piste-1127634514-seg-0",
+        "id": "piste-1127634514-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-11",
+    "id": "station-14",
+    "name": "Cieloalto (2109m)",
+    "coordinates": [
+      7.6332569,
+      45.9293396
+    ],
+    "elevation": 2109,
+    "connectedLifts": [
+      {
+        "id": "lift-50249647",
+        "name": "Cieloalto",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-50249652-seg-0-seg-0",
+        "name": "Cieloalto-Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249653-seg-0-seg-0",
+        "name": "Cieloalto-Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249654-seg-0-seg-0",
+        "name": "Cieloalto-Cervinia",
+        "position": "end"
+      },
+      {
+        "id": "piste-1100801638-seg-0-seg-0",
+        "name": "Ventina-Cieloalto",
+        "position": "end"
+      }
+    ]
+  },
+  {
+    "id": "station-15",
+    "name": "Colle Betta",
+    "coordinates": [
+      7.7823583,
+      45.8700581
+    ],
+    "elevation": 2710,
+    "connectedLifts": [
+      {
+        "id": "lift-33120858",
+        "name": "Sant'Anna - Colle Betta",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33201139-seg-0-seg-0",
+        "name": "Pistone Betta",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201175-seg-0-seg-0",
+        "name": "Betta 1",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-16",
     "name": "Colle Superiore delle Cime Bianche",
     "coordinates": [
       7.6908697,
@@ -787,84 +1012,84 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-30833743-seg-0",
+        "id": "piste-30833743-seg-0-seg-0",
         "name": "Gran Sometta 3 / Gran Sometta 3",
         "position": "start"
       },
       {
-        "id": "piste-30833743-seg-1",
+        "id": "piste-30833743-seg-1-seg-0",
         "name": "Gran Sometta 3 / Gran Sometta 3",
         "position": "start"
       },
       {
-        "id": "piste-32137061-seg-0",
+        "id": "piste-32137061-seg-0-seg-0",
         "name": "Gran Sometta 2",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-0",
+        "id": "piste-95751549-seg-0-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-1",
+        "id": "piste-95751549-seg-1-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-2",
+        "id": "piste-95751549-seg-2-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-0",
+        "id": "piste-95751550-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-1",
+        "id": "piste-95751550-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-2",
+        "id": "piste-95751550-seg-2-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-3",
+        "id": "piste-95751550-seg-3-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-4",
+        "id": "piste-95751550-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-0",
+        "id": "piste-95751555-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-1",
+        "id": "piste-95751555-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-16",
+        "id": "piste-95751555-seg-16-seg-0",
         "name": "Unnamed",
-        "position": "start"
+        "position": "end"
       },
       {
-        "id": "piste-95751555-seg-17",
+        "id": "piste-95751555-seg-17-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-12",
+    "id": "station-17",
     "name": "Cretaz (2022m)",
     "coordinates": [
       7.6313722,
@@ -890,99 +1115,99 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-29998134-seg-7",
+        "id": "piste-29998134-seg-7-seg-0",
         "name": "Cretaz",
         "position": "end"
       },
       {
-        "id": "piste-29998134-seg-8",
+        "id": "piste-29998134-seg-8-seg-0",
         "name": "Cretaz",
         "position": "start"
       },
       {
-        "id": "piste-49884629-seg-0",
+        "id": "piste-49884629-seg-0-seg-0",
         "name": "Baby Cretaz",
         "position": "end"
       },
       {
-        "id": "piste-50249657-seg-5",
+        "id": "piste-50249657-seg-5-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50249657-seg-6",
+        "id": "piste-50249657-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50249657-seg-7",
+        "id": "piste-50249657-seg-7-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50249657-seg-8",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-54372355-seg-1",
-        "name": "Pirovano - Cervinia",
-        "position": "end"
-      },
-      {
-        "id": "piste-54372355-seg-2",
-        "name": "Pirovano - Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-54372355-seg-3",
-        "name": "Pirovano - Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-58641593-seg-0",
+        "id": "piste-50249657-seg-8-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-58641593-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-58641593-seg-2",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-1163317131-seg-0",
-        "name": "Pirovano - Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-1163317131-seg-1",
-        "name": "Pirovano - Cervinia",
-        "position": "start"
-      },
-      {
-        "id": "piste-1163317131-seg-4",
+        "id": "piste-54372355-seg-1-seg-0",
         "name": "Pirovano - Cervinia",
         "position": "end"
       },
       {
-        "id": "piste-1163317131-seg-5",
+        "id": "piste-54372355-seg-2-seg-0",
         "name": "Pirovano - Cervinia",
         "position": "start"
       },
       {
-        "id": "piste-1163317131-seg-6",
+        "id": "piste-54372355-seg-3-seg-0",
+        "name": "Pirovano - Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-58641593-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-58641593-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-58641593-seg-2-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1163317131-seg-0-seg-0",
+        "name": "Pirovano - Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-1163317131-seg-1-seg-0",
+        "name": "Pirovano - Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-1163317131-seg-4-seg-0",
+        "name": "Pirovano - Cervinia",
+        "position": "end"
+      },
+      {
+        "id": "piste-1163317131-seg-5-seg-0",
+        "name": "Pirovano - Cervinia",
+        "position": "start"
+      },
+      {
+        "id": "piste-1163317131-seg-6-seg-0",
         "name": "Pirovano - Cervinia",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-13",
+    "id": "station-18",
     "name": "Cretaz (2467m)",
     "coordinates": [
       7.6485868,
@@ -998,99 +1223,99 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23399739-seg-0",
+        "id": "piste-23399739-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-29913352-seg-0",
+        "id": "piste-29913352-seg-0-seg-0",
         "name": "Plan Torrette",
         "position": "end"
       },
       {
-        "id": "piste-29913352-seg-1",
+        "id": "piste-29913352-seg-1-seg-0",
         "name": "Plan Torrette",
         "position": "start"
       },
       {
-        "id": "piste-32204465-seg-0",
+        "id": "piste-32204465-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243347-seg-0",
+        "id": "piste-50243347-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50243347-seg-7-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243347-seg-7",
+        "id": "piste-50243347-seg-8-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50243347-seg-11-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243347-seg-8",
+        "id": "piste-50243347-seg-12-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243347-seg-11",
+        "id": "piste-50243347-seg-13-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50243347-seg-14-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249650-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249650-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-50249650-seg-35-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243347-seg-12",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50243347-seg-13",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50243347-seg-14",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249650-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249650-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-50249650-seg-35",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-440720751-seg-0",
+        "id": "piste-440720751-seg-0-seg-0",
         "name": "Plan Torrette-Pre de Veau",
         "position": "start"
       },
       {
-        "id": "piste-440720751-seg-1",
+        "id": "piste-440720751-seg-1-seg-0",
         "name": "Plan Torrette-Pre de Veau",
         "position": "start"
       },
       {
-        "id": "piste-440725633-seg-5",
+        "id": "piste-440725633-seg-5-seg-0",
         "name": "Plan Maison-Cervinia",
         "position": "end"
       },
       {
-        "id": "piste-440725633-seg-6",
+        "id": "piste-440725633-seg-6-seg-0",
         "name": "Plan Maison-Cervinia",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-14",
+    "id": "station-19",
     "name": "Du Col",
     "coordinates": [
       7.679631933333334,
@@ -1106,74 +1331,74 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-30833745-seg-0",
+        "id": "piste-30833745-seg-0-seg-0",
         "name": "Du Col",
         "position": "end"
       },
       {
-        "id": "piste-30833745-seg-1",
+        "id": "piste-30833745-seg-1-seg-0",
         "name": "Du Col",
         "position": "start"
       },
       {
-        "id": "piste-30833745-seg-2",
+        "id": "piste-30833745-seg-2-seg-0",
         "name": "Du Col",
         "position": "start"
       },
       {
-        "id": "piste-30833745-seg-3",
+        "id": "piste-30833745-seg-3-seg-0",
         "name": "Du Col",
-        "position": "end"
+        "position": "start"
       },
       {
-        "id": "piste-32137057-seg-5",
+        "id": "piste-32137057-seg-5-seg-0",
         "name": "Gran Sometta",
         "position": "end"
       },
       {
-        "id": "piste-32137057-seg-6",
+        "id": "piste-32137057-seg-6-seg-0",
         "name": "Gran Sometta",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-4",
+        "id": "piste-95751552-seg-4-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95751552-seg-5",
+        "id": "piste-95751552-seg-5-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-6",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95751552-seg-7",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95751552-seg-8",
+        "id": "piste-95751552-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-9",
+        "id": "piste-95751552-seg-7-seg-1",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95751552-seg-8-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751552-seg-10",
+        "id": "piste-95751552-seg-9-seg-0",
         "name": "Unnamed",
-        "position": "end"
+        "position": "start"
+      },
+      {
+        "id": "piste-95751552-seg-10-seg-0",
+        "name": "Unnamed",
+        "position": "start"
       }
     ]
   },
   {
-    "id": "station-15",
+    "id": "station-20",
     "name": "Eisfluh",
     "coordinates": [
       7.7639443,
@@ -1189,24 +1414,24 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-28541223-seg-1",
+        "id": "piste-28541223-seg-1-seg-0",
         "name": "5",
         "position": "end"
       },
       {
-        "id": "piste-28541223-seg-2",
+        "id": "piste-28541223-seg-2-seg-0",
         "name": "5",
         "position": "start"
       },
       {
-        "id": "piste-1047690132-seg-0",
+        "id": "piste-1047690132-seg-0-seg-0",
         "name": "5",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-16",
+    "id": "station-21",
     "name": "Eja",
     "coordinates": [
       7.7694857,
@@ -1227,39 +1452,72 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-28541393-seg-5",
+        "id": "piste-28541393-seg-5-seg-0",
         "name": "6",
         "position": "end"
       },
       {
-        "id": "piste-148113001-seg-0",
+        "id": "piste-148113001-seg-0-seg-0",
         "name": "25",
         "position": "end"
       },
       {
-        "id": "piste-148113001-seg-1",
+        "id": "piste-148113001-seg-1-seg-0",
         "name": "25",
         "position": "start"
       },
       {
-        "id": "piste-148113001-seg-2",
+        "id": "piste-148113001-seg-2-seg-0",
         "name": "25",
         "position": "start"
       },
       {
-        "id": "piste-905067858-seg-0",
+        "id": "piste-905067858-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905067858-seg-1",
+        "id": "piste-905067858-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-17",
+    "id": "station-22",
+    "name": "Falinère",
+    "coordinates": [
+      7.6447028,
+      45.851908
+    ],
+    "elevation": 2478,
+    "connectedLifts": [
+      {
+        "id": "lift-113803184",
+        "name": "Falinére",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-769095201-seg-0-seg-0",
+        "name": "Fontanafredda",
+        "position": "start"
+      },
+      {
+        "id": "piste-769095201-seg-1-seg-0",
+        "name": "Fontanafredda",
+        "position": "start"
+      },
+      {
+        "id": "piste-769095202-seg-0-seg-0",
+        "name": "Libera",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-23",
     "name": "Furgg",
     "coordinates": [
       7.71232105,
@@ -1269,49 +1527,49 @@
     "connectedLifts": [],
     "connectedSlopes": [
       {
-        "id": "piste-23398344-seg-2",
+        "id": "piste-23398344-seg-2-seg-0",
         "name": "61",
         "position": "end"
       },
       {
-        "id": "piste-23398344-seg-3",
+        "id": "piste-23398344-seg-3-seg-0",
         "name": "61",
         "position": "start"
       },
       {
-        "id": "piste-23398344-seg-4",
+        "id": "piste-23398344-seg-4-seg-0",
         "name": "61",
         "position": "start"
       },
       {
-        "id": "piste-23398588-seg-3",
+        "id": "piste-23398588-seg-3-seg-1",
+        "name": "64",
+        "position": "end"
+      },
+      {
+        "id": "piste-23398588-seg-4-seg-0",
         "name": "64",
         "position": "start"
       },
       {
-        "id": "piste-23398588-seg-4",
+        "id": "piste-23398588-seg-5-seg-0",
         "name": "64",
         "position": "start"
       },
       {
-        "id": "piste-23398588-seg-5",
-        "name": "64",
-        "position": "start"
-      },
-      {
-        "id": "piste-30833436-seg-1",
+        "id": "piste-30833436-seg-1-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-57372031-seg-3",
+        "id": "piste-57372031-seg-3-seg-0",
         "name": "Matterhorn",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-18",
+    "id": "station-24",
     "name": "Furggsattel",
     "coordinates": [
       7.704321,
@@ -1327,39 +1585,49 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23398590-seg-0",
+        "id": "piste-23398590-seg-0-seg-0",
         "name": "Theodulgletscher",
         "position": "start"
       },
       {
-        "id": "piste-57372044-seg-0",
+        "id": "piste-57372044-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-57372044-seg-1",
+        "id": "piste-57372044-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-57372044-seg-11",
+        "id": "piste-57372044-seg-11-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-57372044-seg-11-seg-1",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-58069456-seg-0",
+        "id": "piste-57372044-seg-11-seg-2",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-58069456-seg-0-seg-0",
         "name": "Furggsattel",
         "position": "start"
       },
       {
-        "id": "piste-58069456-seg-1",
+        "id": "piste-58069456-seg-1-seg-0",
         "name": "Furggsattel",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-19",
+    "id": "station-25",
     "name": "Furi",
     "coordinates": [
       7.7321152500000006,
@@ -1395,39 +1663,127 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23398081-seg-0",
+        "id": "piste-23398081-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-23398081-seg-1",
+        "id": "piste-23398081-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-132624421-seg-0",
+        "id": "piste-132624421-seg-0-seg-0",
         "name": "Blatten",
         "position": "start"
       },
       {
-        "id": "piste-311774720-seg-1",
+        "id": "piste-311774720-seg-1-seg-0",
         "name": "62",
         "position": "end"
       },
       {
-        "id": "piste-1047690111-seg-1",
+        "id": "piste-1047690111-seg-1-seg-0",
         "name": "Blatten",
         "position": "end"
       },
       {
-        "id": "piste-1047690111-seg-2",
+        "id": "piste-1047690111-seg-2-seg-0",
         "name": "Blatten",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-20",
+    "id": "station-26",
+    "name": "Gabiet",
+    "coordinates": [
+      7.844930433333334,
+      45.85550403333334
+    ],
+    "elevation": 2307,
+    "connectedLifts": [
+      {
+        "id": "lift-33053550",
+        "name": "Gabiet - Passo dei Salati",
+        "position": "start"
+      },
+      {
+        "id": "lift-33053561",
+        "name": "Gabiet - Lago",
+        "position": "start"
+      },
+      {
+        "id": "lift-34131067",
+        "name": "Stafal - Gabiet",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33121007-seg-1-seg-0",
+        "name": "Salati",
+        "position": "end"
+      },
+      {
+        "id": "piste-33121007-seg-1-seg-1",
+        "name": "Salati",
+        "position": "start"
+      },
+      {
+        "id": "piste-33121007-seg-2-seg-0",
+        "name": "Salati",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201497-seg-2-seg-0",
+        "name": "Castore",
+        "position": "end"
+      },
+      {
+        "id": "piste-33201497-seg-3-seg-0",
+        "name": "Castore",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201513-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201513-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-44680817-seg-0-seg-0",
+        "name": "Alpe Ricka",
+        "position": "start"
+      },
+      {
+        "id": "piste-913828380-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-913828380-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671417-seg-0-seg-0",
+        "name": "Collegamento Gabiet",
+        "position": "end"
+      },
+      {
+        "id": "piste-914671417-seg-1-seg-0",
+        "name": "Collegamento Gabiet",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-27",
     "name": "Gant",
     "coordinates": [
       7.7879026,
@@ -1448,44 +1804,44 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22941634-seg-0",
+        "id": "piste-22941634-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-22941636-seg-0",
+        "id": "piste-22941636-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-229166837-seg-0",
+        "id": "piste-229166837-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-229166837-seg-1",
+        "id": "piste-229166837-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905048245-seg-0",
+        "id": "piste-905048245-seg-0-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-905048245-seg-1",
+        "id": "piste-905048245-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905048246-seg-0",
+        "id": "piste-905048246-seg-0-seg-0",
         "name": "Unnamed",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-21",
+    "id": "station-28",
     "name": "Gifthittli",
     "coordinates": [
       7.7751537,
@@ -1501,39 +1857,39 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22941635-seg-0",
+        "id": "piste-22941635-seg-0-seg-0",
         "name": "Gornergrat",
         "position": "start"
       },
       {
-        "id": "piste-22941635-seg-1",
+        "id": "piste-22941635-seg-1-seg-0",
         "name": "Gornergrat",
         "position": "start"
       },
       {
-        "id": "piste-22941637-seg-0",
+        "id": "piste-22941637-seg-0-seg-0",
         "name": "Kelle",
         "position": "start"
       },
       {
-        "id": "piste-30833429-seg-1",
+        "id": "piste-30833429-seg-1-seg-0",
         "name": "Gornergrat",
         "position": "end"
       },
       {
-        "id": "piste-30833429-seg-2",
+        "id": "piste-30833429-seg-2-seg-0",
         "name": "Gornergrat",
         "position": "start"
       },
       {
-        "id": "piste-30833431-seg-0",
+        "id": "piste-30833431-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-22",
+    "id": "station-29",
     "name": "Goillet",
     "coordinates": [
       7.6901931,
@@ -1554,84 +1910,84 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-30833743-seg-0",
+        "id": "piste-30833743-seg-0-seg-0",
         "name": "Gran Sometta 3 / Gran Sometta 3",
         "position": "start"
       },
       {
-        "id": "piste-30833743-seg-1",
+        "id": "piste-30833743-seg-1-seg-0",
         "name": "Gran Sometta 3 / Gran Sometta 3",
         "position": "start"
       },
       {
-        "id": "piste-32137061-seg-0",
+        "id": "piste-32137061-seg-0-seg-0",
         "name": "Gran Sometta 2",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-0",
+        "id": "piste-95751549-seg-0-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-1",
+        "id": "piste-95751549-seg-1-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751549-seg-2",
+        "id": "piste-95751549-seg-2-seg-0",
         "name": "Gran Lago",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-0",
+        "id": "piste-95751550-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-1",
+        "id": "piste-95751550-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-2",
+        "id": "piste-95751550-seg-2-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-3",
+        "id": "piste-95751550-seg-3-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751550-seg-4",
+        "id": "piste-95751550-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-0",
+        "id": "piste-95751555-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-1",
+        "id": "piste-95751555-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95751555-seg-16",
+        "id": "piste-95751555-seg-16-seg-0",
         "name": "Unnamed",
-        "position": "start"
+        "position": "end"
       },
       {
-        "id": "piste-95751555-seg-17",
+        "id": "piste-95751555-seg-17-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-23",
+    "id": "station-30",
     "name": "Hirli",
     "coordinates": [
       7.6990929,
@@ -1647,29 +2003,29 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-399076186-seg-0",
+        "id": "piste-399076186-seg-0-seg-0",
         "name": "53",
         "position": "start"
       },
       {
-        "id": "piste-399076187-seg-0",
+        "id": "piste-399076187-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-399076190-seg-0",
+        "id": "piste-399076190-seg-0-seg-0",
         "name": "Hörnli",
         "position": "start"
       },
       {
-        "id": "piste-399076190-seg-1",
+        "id": "piste-399076190-seg-1-seg-0",
         "name": "Hörnli",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-24",
+    "id": "station-31",
     "name": "Hohtälli",
     "coordinates": [
       7.80228625,
@@ -1695,14 +2051,14 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22941645-seg-0",
+        "id": "piste-22941645-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-25",
+    "id": "station-32",
     "name": "Joscht",
     "coordinates": [
       7.6974468,
@@ -1723,24 +2079,110 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-237290009-seg-0",
+        "id": "piste-237290009-seg-0-seg-0",
         "name": "52",
         "position": "start"
       },
       {
-        "id": "piste-399604692-seg-0",
+        "id": "piste-399604692-seg-0-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-399604694-seg-0",
+        "id": "piste-399604694-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-26",
+    "id": "station-33",
+    "name": "Lago",
+    "coordinates": [
+      7.8477294,
+      45.8524587
+    ],
+    "elevation": 2368,
+    "connectedLifts": [
+      {
+        "id": "lift-33053561",
+        "name": "Gabiet - Lago",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33201497-seg-0-seg-0",
+        "name": "Castore",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201497-seg-1-seg-0",
+        "name": "Castore",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201532-seg-0-seg-0",
+        "name": "Castore-Ricka",
+        "position": "start"
+      },
+      {
+        "id": "piste-33201532-seg-1-seg-0",
+        "name": "Castore-Ricka",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671409-seg-0-seg-0",
+        "name": "Castore",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671410-seg-0-seg-0",
+        "name": "Castore",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-34",
+    "name": "Lago Ciarcerio",
+    "coordinates": [
+      7.7581264,
+      45.8537072
+    ],
+    "elevation": 2385,
+    "connectedLifts": [
+      {
+        "id": "lift-33053533",
+        "name": "Lago Ciarcerio - Belvedere",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33053727-seg-0-seg-0",
+        "name": "Del Lago",
+        "position": "start"
+      },
+      {
+        "id": "piste-33199788-seg-0-seg-0",
+        "name": "Contenéry",
+        "position": "start"
+      },
+      {
+        "id": "piste-33200331-seg-1-seg-0",
+        "name": "Del Lago",
+        "position": "end"
+      },
+      {
+        "id": "piste-914671449-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-35",
     "name": "Lago Goillet",
     "coordinates": [
       7.6729597,
@@ -1756,34 +2198,39 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-32137063-seg-0",
+        "id": "piste-32137063-seg-0-seg-0",
+        "name": "Ventina Goillet",
+        "position": "end"
+      },
+      {
+        "id": "piste-32137063-seg-0-seg-1",
         "name": "Ventina Goillet",
         "position": "start"
       },
       {
-        "id": "piste-32137063-seg-1",
+        "id": "piste-32137063-seg-1-seg-0",
         "name": "Ventina Goillet",
         "position": "start"
       },
       {
-        "id": "piste-32206497-seg-0",
+        "id": "piste-32206497-seg-0-seg-0",
         "name": "Gran Sometta 3",
         "position": "end"
       },
       {
-        "id": "piste-32206497-seg-1",
+        "id": "piste-32206497-seg-1-seg-0",
         "name": "Gran Sometta 3",
         "position": "start"
       },
       {
-        "id": "piste-49884632-seg-0",
+        "id": "piste-49884632-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-27",
+    "id": "station-36",
     "name": "Matterhorn Glacier Paradise",
     "coordinates": [
       7.7292806999999994,
@@ -1809,14 +2256,47 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22341541-seg-0",
+        "id": "piste-22341541-seg-0-seg-0",
         "name": "Matterhorn Glacier Paradise",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-28",
+    "id": "station-37",
+    "name": "Moos",
+    "coordinates": [
+      7.8084845,
+      45.859975
+    ],
+    "elevation": 1896,
+    "connectedLifts": [
+      {
+        "id": "lift-1314725376",
+        "name": "Moos",
+        "position": "end"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33120069-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-33227169-seg-1-seg-0",
+        "name": "Diretta Staffal",
+        "position": "end"
+      },
+      {
+        "id": "piste-33227169-seg-2-seg-0",
+        "name": "Diretta Staffal",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-38",
     "name": "Motta (2267m)",
     "coordinates": [
       7.6463916,
@@ -1837,124 +2317,124 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-50243329-seg-0",
-        "name": "Campetto",
-        "position": "start"
-      },
-      {
-        "id": "piste-50243329-seg-1",
-        "name": "Campetto",
-        "position": "start"
-      },
-      {
-        "id": "piste-50243329-seg-2",
-        "name": "Campetto",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750707-seg-5",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750707-seg-6",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750707-seg-7",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750725-seg-5",
+        "id": "piste-50243329-seg-0-seg-0",
         "name": "Campetto",
         "position": "end"
       },
       {
-        "id": "piste-95750725-seg-6",
+        "id": "piste-50243329-seg-1-seg-0",
         "name": "Campetto",
         "position": "start"
       },
       {
-        "id": "piste-95750728-seg-0",
-        "name": "Unnamed",
+        "id": "piste-50243329-seg-2-seg-0",
+        "name": "Campetto",
         "position": "start"
       },
       {
-        "id": "piste-95750728-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750731-seg-3",
+        "id": "piste-95750707-seg-5-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750731-seg-4",
+        "id": "piste-95750707-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750731-seg-5",
+        "id": "piste-95750707-seg-7-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750731-seg-6",
+        "id": "piste-95750725-seg-5-seg-0",
+        "name": "Campetto",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750725-seg-6-seg-0",
+        "name": "Campetto",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750728-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-13",
+        "id": "piste-95750728-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750731-seg-3-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750734-seg-14",
+        "id": "piste-95750731-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-15",
+        "id": "piste-95750731-seg-5-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-16",
+        "id": "piste-95750731-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-17",
+        "id": "piste-95750734-seg-13-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95751548-seg-2",
+        "id": "piste-95750734-seg-14-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750734-seg-15-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750734-seg-16-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750734-seg-17-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95751548-seg-2-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-263293810-seg-14",
+        "id": "piste-263293810-seg-14-seg-0",
         "name": "Motta",
         "position": "end"
       },
       {
-        "id": "piste-263293810-seg-15",
+        "id": "piste-263293810-seg-15-seg-0",
         "name": "Motta",
         "position": "start"
       },
       {
-        "id": "piste-263293810-seg-16",
+        "id": "piste-263293810-seg-16-seg-0",
         "name": "Motta",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-29",
+    "id": "station-39",
     "name": "Motta (2420m)",
     "coordinates": [
       7.6536514,
@@ -1970,149 +2450,159 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-50243327-seg-5",
+        "id": "piste-50243327-seg-5-seg-0",
+        "name": "Rientro 1",
+        "position": "end"
+      },
+      {
+        "id": "piste-50243327-seg-6-seg-0",
         "name": "Rientro 1",
         "position": "start"
       },
       {
-        "id": "piste-50243327-seg-6",
+        "id": "piste-54380657-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-54380657-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-93487600-seg-0-seg-0",
         "name": "Rientro 1",
         "position": "start"
       },
       {
-        "id": "piste-54380657-seg-0",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-54380657-seg-1",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-93487600-seg-0",
-        "name": "Rientro 1",
-        "position": "start"
-      },
-      {
-        "id": "piste-95750695-seg-0",
+        "id": "piste-95750695-seg-0-seg-0",
         "name": "Motta",
         "position": "start"
       },
       {
-        "id": "piste-95750695-seg-1",
+        "id": "piste-95750695-seg-1-seg-0",
         "name": "Motta",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-0",
+        "id": "piste-95750734-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-1",
+        "id": "piste-95750734-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-24",
+        "id": "piste-95750734-seg-1-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750734-seg-24-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750734-seg-25",
+        "id": "piste-95750734-seg-25-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-26",
+        "id": "piste-95750734-seg-26-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750734-seg-27",
+        "id": "piste-95750734-seg-27-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-0",
+        "id": "piste-95750737-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-1",
+        "id": "piste-95750737-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-2",
+        "id": "piste-95750737-seg-2-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750737-seg-3",
+        "id": "piste-95750737-seg-2-seg-1",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750737-seg-10",
+        "id": "piste-95750737-seg-3-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750737-seg-10-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750737-seg-11",
+        "id": "piste-95750737-seg-11-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750740-seg-0",
+        "id": "piste-95750740-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750740-seg-1",
+        "id": "piste-95750740-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750740-seg-5",
+        "id": "piste-95750740-seg-5-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750740-seg-6",
+        "id": "piste-95750740-seg-6-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750740-seg-7",
+        "id": "piste-95750740-seg-7-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-263293810-seg-0",
+        "id": "piste-263293810-seg-0-seg-0",
         "name": "Motta",
         "position": "start"
       },
       {
-        "id": "piste-263293810-seg-1",
+        "id": "piste-263293810-seg-1-seg-0",
         "name": "Motta",
         "position": "start"
       },
       {
-        "id": "piste-1163384662-seg-0",
+        "id": "piste-1163384662-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-1163384662-seg-1",
+        "id": "piste-1163384662-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-30",
+    "id": "station-40",
     "name": "Pancheron",
     "coordinates": [
       7.6494205,
@@ -2128,79 +2618,84 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-29917191-seg-0",
+        "id": "piste-29917191-seg-0-seg-0",
         "name": "Gran Roc-Pre de Veau",
         "position": "start"
       },
       {
-        "id": "piste-50243347-seg-8",
+        "id": "piste-50243347-seg-8-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243347-seg-9",
+        "id": "piste-50243347-seg-9-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243347-seg-10",
+        "id": "piste-50243347-seg-10-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243347-seg-11",
+        "id": "piste-50243347-seg-11-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50249650-seg-4",
+        "id": "piste-50249650-seg-4-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-50249650-seg-5-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50249650-seg-5",
-        "name": "Unnamed",
-        "position": "start"
-      },
-      {
-        "id": "piste-57871629-seg-0",
+        "id": "piste-57871629-seg-0-seg-0",
         "name": "Plan Maison - Cervinia",
         "position": "start"
       },
       {
-        "id": "piste-57871629-seg-1",
+        "id": "piste-57871629-seg-1-seg-0",
         "name": "Plan Maison - Cervinia",
         "position": "start"
       },
       {
-        "id": "piste-86429062-seg-8",
+        "id": "piste-86429062-seg-8-seg-0",
         "name": "Rocce Bianche",
         "position": "end"
       },
       {
-        "id": "piste-101518901-seg-1",
+        "id": "piste-101518901-seg-1-seg-0",
         "name": "Pancheron",
         "position": "end"
       },
       {
-        "id": "piste-101518901-seg-2",
+        "id": "piste-101518901-seg-1-seg-1",
         "name": "Pancheron",
         "position": "start"
       },
       {
-        "id": "piste-440725633-seg-6",
+        "id": "piste-101518901-seg-2-seg-0",
+        "name": "Pancheron",
+        "position": "start"
+      },
+      {
+        "id": "piste-440725633-seg-6-seg-0",
         "name": "Plan Maison-Cervinia",
         "position": "end"
       },
       {
-        "id": "piste-440725633-seg-7",
+        "id": "piste-440725633-seg-7-seg-0",
         "name": "Plan Maison-Cervinia",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-31",
+    "id": "station-41",
     "name": "Patrullarve",
     "coordinates": [
       7.7680986,
@@ -2216,39 +2711,39 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22467267-seg-0",
+        "id": "piste-22467267-seg-0-seg-0",
         "name": "1",
         "position": "start"
       },
       {
-        "id": "piste-22467270-seg-1",
+        "id": "piste-22467270-seg-1-seg-0",
         "name": "4",
         "position": "end"
       },
       {
-        "id": "piste-22467270-seg-2",
+        "id": "piste-22467270-seg-2-seg-0",
         "name": "4",
         "position": "start"
       },
       {
-        "id": "piste-30833002-seg-0",
+        "id": "piste-30833002-seg-0-seg-0",
         "name": "Obere National",
         "position": "end"
       },
       {
-        "id": "piste-180243320-seg-1",
+        "id": "piste-180243320-seg-1-seg-1",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-399077978-seg-0",
+        "id": "piste-399077978-seg-0-seg-0",
         "name": "Ried",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-32",
+    "id": "station-42",
     "name": "Plan Maison (2025m)",
     "coordinates": [
       7.633649650000001,
@@ -2269,14 +2764,14 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-29913604-seg-8",
+        "id": "piste-29913604-seg-8-seg-0",
         "name": "Falliniere",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-33",
+    "id": "station-43",
     "name": "Plan Maison (2540m)",
     "coordinates": [
       7.6567654,
@@ -2302,94 +2797,94 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23399743-seg-20",
+        "id": "piste-23399743-seg-20-seg-0",
         "name": "Plan Maison 1",
         "position": "end"
       },
       {
-        "id": "piste-23399743-seg-21",
+        "id": "piste-23399743-seg-21-seg-0",
         "name": "Plan Maison 1",
         "position": "start"
       },
       {
-        "id": "piste-23399747-seg-0",
+        "id": "piste-23399747-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-29998316-seg-1",
+        "id": "piste-29998316-seg-1-seg-0",
         "name": "Alpe Giomein 2",
         "position": "end"
       },
       {
-        "id": "piste-29999109-seg-1",
+        "id": "piste-29999109-seg-1-seg-0",
         "name": "Baby La Vieille 1",
         "position": "end"
       },
       {
-        "id": "piste-29999109-seg-2",
+        "id": "piste-29999109-seg-2-seg-0",
         "name": "Baby La Vieille 1",
         "position": "start"
       },
       {
-        "id": "piste-29999109-seg-3",
+        "id": "piste-29999109-seg-3-seg-0",
         "name": "Baby La Vieille 1",
         "position": "start"
       },
       {
-        "id": "piste-44333271-seg-0",
+        "id": "piste-44333271-seg-0-seg-0",
         "name": "Baby La Vieille 2",
         "position": "end"
       },
       {
-        "id": "piste-44333271-seg-1",
+        "id": "piste-44333271-seg-1-seg-0",
         "name": "Baby La Vieille 2",
         "position": "start"
       },
       {
-        "id": "piste-50243340-seg-29",
+        "id": "piste-50243340-seg-29-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243340-seg-30",
+        "id": "piste-50243340-seg-30-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243340-seg-31",
+        "id": "piste-50243340-seg-31-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243340-seg-32",
+        "id": "piste-50243340-seg-32-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243340-seg-34",
+        "id": "piste-50243340-seg-34-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-50243340-seg-35",
+        "id": "piste-50243340-seg-35-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-50243340-seg-36",
+        "id": "piste-50243340-seg-36-seg-0",
         "name": "Unnamed",
-        "position": "end"
+        "position": "start"
       },
       {
-        "id": "piste-440725633-seg-0",
+        "id": "piste-440725633-seg-0-seg-0",
         "name": "Plan Maison-Cervinia",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-34",
+    "id": "station-44",
     "name": "Riffelberg",
     "coordinates": [
       7.7545734,
@@ -2410,64 +2905,69 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22941635-seg-11",
+        "id": "piste-22941635-seg-11-seg-0",
         "name": "Gornergrat",
         "position": "end"
       },
       {
-        "id": "piste-22941836-seg-0",
+        "id": "piste-22941836-seg-0-seg-0",
         "name": "39",
         "position": "start"
       },
       {
-        "id": "piste-28542020-seg-2",
+        "id": "piste-28542020-seg-2-seg-1",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-28542020-seg-3",
+        "id": "piste-28542020-seg-3-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-28542020-seg-4",
+        "id": "piste-28542020-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-28542022-seg-2",
+        "id": "piste-28542022-seg-2-seg-0",
         "name": "Rotenboden",
         "position": "end"
       },
       {
-        "id": "piste-28542022-seg-3",
+        "id": "piste-28542022-seg-3-seg-0",
         "name": "Rotenboden",
         "position": "start"
       },
       {
-        "id": "piste-332911417-seg-0",
+        "id": "piste-332911417-seg-0-seg-0",
         "name": "Gornergrat",
         "position": "start"
       },
       {
-        "id": "piste-332911417-seg-1",
+        "id": "piste-332911417-seg-1-seg-0",
         "name": "Gornergrat",
         "position": "start"
       },
       {
-        "id": "piste-905024744-seg-0",
+        "id": "piste-905024744-seg-0-seg-0",
         "name": "39",
         "position": "start"
       },
       {
-        "id": "piste-905024744-seg-1",
+        "id": "piste-905024744-seg-0-seg-1",
+        "name": "39",
+        "position": "start"
+      },
+      {
+        "id": "piste-905024744-seg-1-seg-0",
         "name": "39",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-35",
+    "id": "station-45",
     "name": "Rote Nase",
     "coordinates": [
       7.8112058,
@@ -2488,19 +2988,19 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-245285065-seg-0",
+        "id": "piste-245285065-seg-0-seg-0",
         "name": "Triftji",
         "position": "start"
       },
       {
-        "id": "piste-245285067-seg-0",
+        "id": "piste-245285067-seg-0-seg-0",
         "name": "Stockhorn",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-36",
+    "id": "station-46",
     "name": "Rothorn",
     "coordinates": [
       7.7978156,
@@ -2521,54 +3021,54 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22467261-seg-0",
+        "id": "piste-22467261-seg-0-seg-0",
         "name": "Kumme",
         "position": "start"
       },
       {
-        "id": "piste-22467261-seg-1",
+        "id": "piste-22467261-seg-1-seg-0",
         "name": "Kumme",
         "position": "start"
       },
       {
-        "id": "piste-30833426-seg-0",
+        "id": "piste-30833426-seg-0-seg-0",
         "name": "Schneehuhn",
         "position": "start"
       },
       {
-        "id": "piste-101847726-seg-0",
+        "id": "piste-101847726-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-101847726-seg-1",
+        "id": "piste-101847726-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-101847726-seg-12",
+        "id": "piste-101847726-seg-12-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-101847726-seg-13",
+        "id": "piste-101847726-seg-13-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905018122-seg-0",
+        "id": "piste-905018122-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905018122-seg-1",
+        "id": "piste-905018122-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-37",
+    "id": "station-47",
     "name": "Salette (1559m)",
     "coordinates": [
       7.6239952,
@@ -2584,14 +3084,14 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-32151659-seg-0",
+        "id": "piste-32151659-seg-0-seg-0",
         "name": "Gran Pista di Valtournenche",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-38",
+    "id": "station-48",
     "name": "Salette (2262m)",
     "coordinates": [
       7.6472901,
@@ -2612,79 +3112,84 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-50243329-seg-0",
+        "id": "piste-50243329-seg-0-seg-0",
         "name": "Campetto",
         "position": "start"
       },
       {
-        "id": "piste-50243329-seg-1",
+        "id": "piste-50243329-seg-1-seg-0",
         "name": "Campetto",
         "position": "start"
       },
       {
-        "id": "piste-95750696-seg-0",
+        "id": "piste-95750696-seg-0-seg-0",
         "name": "Salette",
         "position": "start"
       },
       {
-        "id": "piste-95750696-seg-1",
+        "id": "piste-95750696-seg-1-seg-0",
         "name": "Salette",
         "position": "start"
       },
       {
-        "id": "piste-95750696-seg-2",
+        "id": "piste-95750696-seg-2-seg-0",
         "name": "Salette",
         "position": "start"
       },
       {
-        "id": "piste-95750707-seg-2",
+        "id": "piste-95750707-seg-2-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-95750707-seg-3",
+        "id": "piste-95750707-seg-3-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750707-seg-4",
+        "id": "piste-95750707-seg-4-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-95750707-seg-5",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750707-seg-7",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750707-seg-8",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750736-seg-10",
-        "name": "Unnamed",
-        "position": "end"
-      },
-      {
-        "id": "piste-95750736-seg-11",
+        "id": "piste-95750707-seg-5-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-1163396662-seg-2",
+        "id": "piste-95750707-seg-7-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750707-seg-8-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750707-seg-8-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-95750736-seg-10-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      },
+      {
+        "id": "piste-95750736-seg-11-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1163396662-seg-2-seg-0",
         "name": "Tunnel",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-39",
+    "id": "station-49",
     "name": "Sandiger Boden",
     "coordinates": [
       7.7198981,
@@ -2700,29 +3205,112 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23400216-seg-0",
+        "id": "piste-23400216-seg-0-seg-0",
         "name": "Rennstrecke",
         "position": "end"
       },
       {
-        "id": "piste-23400216-seg-1",
+        "id": "piste-23400216-seg-0-seg-1",
         "name": "Rennstrecke",
         "position": "start"
       },
       {
-        "id": "piste-1047690120-seg-0",
+        "id": "piste-23400216-seg-1-seg-0",
+        "name": "Rennstrecke",
+        "position": "start"
+      },
+      {
+        "id": "piste-1047690120-seg-0-seg-0",
         "name": "Theodulsee",
         "position": "start"
       },
       {
-        "id": "piste-1047690120-seg-1",
+        "id": "piste-1047690120-seg-1-seg-0",
         "name": "Theodulsee",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-40",
+    "id": "station-50",
+    "name": "Sant'Anna",
+    "coordinates": [
+      7.80324945,
+      45.8552775
+    ],
+    "elevation": 2173,
+    "connectedLifts": [
+      {
+        "id": "lift-33120843",
+        "name": "Stafal - Sant'Anna",
+        "position": "end"
+      },
+      {
+        "id": "lift-33120858",
+        "name": "Sant'Anna - Colle Betta",
+        "position": "start"
+      },
+      {
+        "id": "lift-1094470238",
+        "name": "Tapis Roulant Sant'Anna 1",
+        "position": "start"
+      },
+      {
+        "id": "lift-1094470361",
+        "name": "Tapis Roulant Sant'Anna 2",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-33201205-seg-0-seg-0",
+        "name": "Delle Marmotte",
+        "position": "start"
+      },
+      {
+        "id": "piste-87656333-seg-1-seg-0",
+        "name": "Pistone Betta",
+        "position": "end"
+      },
+      {
+        "id": "piste-914671429-seg-0-seg-0",
+        "name": "Sant Anna",
+        "position": "end"
+      },
+      {
+        "id": "piste-914671429-seg-1-seg-0",
+        "name": "Sant Anna",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671430-seg-0-seg-0",
+        "name": "Sant Anna",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671430-seg-1-seg-0",
+        "name": "Sant Anna",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671431-seg-0-seg-0",
+        "name": "Sant Anna",
+        "position": "start"
+      },
+      {
+        "id": "piste-914671432-seg-0-seg-0",
+        "name": "Pistone Betta",
+        "position": "end"
+      },
+      {
+        "id": "piste-914671432-seg-1-seg-0",
+        "name": "Pistone Betta",
+        "position": "start"
+      }
+    ]
+  },
+  {
+    "id": "station-51",
     "name": "Schwarzsee",
     "coordinates": [
       7.7089094,
@@ -2743,24 +3331,29 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23398344-seg-0",
+        "id": "piste-23398344-seg-0-seg-0",
         "name": "61",
         "position": "start"
       },
       {
-        "id": "piste-174277757-seg-0",
+        "id": "piste-174277757-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-174277757-seg-1",
+        "id": "piste-174277757-seg-0-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-174277757-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-41",
+    "id": "station-52",
     "name": "Schweigmatten",
     "coordinates": [
       7.7352235,
@@ -2770,14 +3363,37 @@
     "connectedLifts": [],
     "connectedSlopes": [
       {
-        "id": "piste-1390418643-seg-9",
+        "id": "piste-1390418643-seg-9-seg-0",
         "name": "42",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-42",
+    "id": "station-53",
+    "name": "Stafal",
+    "coordinates": [
+      7.8121729,
+      45.85875596666667
+    ],
+    "elevation": 1819,
+    "connectedLifts": [
+      {
+        "id": "lift-34131067",
+        "name": "Stafal - Gabiet",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": [
+      {
+        "id": "piste-914671420-seg-0-seg-0",
+        "name": "Unnamed",
+        "position": "end"
+      }
+    ]
+  },
+  {
+    "id": "station-54",
     "name": "Sunegga",
     "coordinates": [
       7.7682858,
@@ -2793,39 +3409,39 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-28541223-seg-0",
+        "id": "piste-28541223-seg-0-seg-0",
         "name": "5",
-        "position": "end"
+        "position": "start"
       },
       {
-        "id": "piste-28541393-seg-0",
+        "id": "piste-28541393-seg-0-seg-0",
         "name": "6",
         "position": "start"
       },
       {
-        "id": "piste-903540910-seg-0",
+        "id": "piste-903540910-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-1047690132-seg-0",
+        "id": "piste-1047690132-seg-0-seg-0",
         "name": "5",
         "position": "start"
       },
       {
-        "id": "piste-1421556618-seg-0",
+        "id": "piste-1421556618-seg-0-seg-0",
         "name": "5",
         "position": "end"
       },
       {
-        "id": "piste-1421556618-seg-1",
+        "id": "piste-1421556618-seg-1-seg-0",
         "name": "5",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-43",
+    "id": "station-55",
     "name": "Sunnegga",
     "coordinates": [
       7.77042635,
@@ -2851,44 +3467,49 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22462843-seg-8",
+        "id": "piste-22462843-seg-8-seg-0",
         "name": "7",
         "position": "end"
       },
       {
-        "id": "piste-22462843-seg-9",
+        "id": "piste-22462843-seg-9-seg-0",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-22467270-seg-0",
+        "id": "piste-22467270-seg-0-seg-0",
         "name": "4",
         "position": "start"
       },
       {
-        "id": "piste-22467272-seg-0",
+        "id": "piste-22467272-seg-0-seg-0",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-22467272-seg-1",
+        "id": "piste-22467272-seg-1-seg-0",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-22467272-seg-2",
+        "id": "piste-22467272-seg-1-seg-1",
         "name": "7",
         "position": "start"
       },
       {
-        "id": "piste-1421556618-seg-0",
+        "id": "piste-22467272-seg-2-seg-0",
+        "name": "7",
+        "position": "start"
+      },
+      {
+        "id": "piste-1421556618-seg-0-seg-0",
         "name": "5",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-44",
+    "id": "station-56",
     "name": "Trockener Steg",
     "coordinates": [
       7.721829360000001,
@@ -2924,39 +3545,39 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-23400215-seg-0",
+        "id": "piste-23400215-seg-0-seg-0",
         "name": "Theodulsee",
         "position": "start"
       },
       {
-        "id": "piste-631955741-seg-0",
+        "id": "piste-631955741-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-631955741-seg-1",
+        "id": "piste-631955741-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905169247-seg-0",
+        "id": "piste-905169247-seg-0-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-905169247-seg-1",
+        "id": "piste-905169247-seg-1-seg-0",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-1386959391-seg-5",
+        "id": "piste-1386959391-seg-5-seg-0",
         "name": "Theodulgletscher",
         "position": "end"
       }
     ]
   },
   {
-    "id": "station-45",
+    "id": "station-57",
     "name": "Tuftern",
     "coordinates": [
       7.7730786,
@@ -2972,34 +3593,49 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-55083672-seg-1",
+        "id": "piste-55083672-seg-1-seg-0",
         "name": "Arbzug",
         "position": "end"
       },
       {
-        "id": "piste-180243320-seg-0",
+        "id": "piste-180243320-seg-0-seg-0",
         "name": "Unnamed",
         "position": "end"
       },
       {
-        "id": "piste-180243320-seg-1",
+        "id": "piste-180243320-seg-0-seg-1",
         "name": "Unnamed",
         "position": "start"
       },
       {
-        "id": "piste-1461647517-seg-0",
+        "id": "piste-180243320-seg-1-seg-0",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-180243320-seg-1-seg-1",
+        "name": "Unnamed",
+        "position": "start"
+      },
+      {
+        "id": "piste-1461647517-seg-0-seg-0",
         "name": "15b Murmelbodmen",
         "position": "end"
       },
       {
-        "id": "piste-1461647517-seg-1",
+        "id": "piste-1461647517-seg-0-seg-1",
+        "name": "15b Murmelbodmen",
+        "position": "start"
+      },
+      {
+        "id": "piste-1461647517-seg-1-seg-0",
         "name": "15b Murmelbodmen",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-46",
+    "id": "station-58",
     "name": "Tufternkumme",
     "coordinates": [
       7.7893702,
@@ -3020,19 +3656,19 @@
     ],
     "connectedSlopes": [
       {
-        "id": "piste-22467261-seg-11",
+        "id": "piste-22467261-seg-11-seg-0",
         "name": "Kumme",
         "position": "end"
       },
       {
-        "id": "piste-905018124-seg-0",
+        "id": "piste-905018124-seg-0-seg-0",
         "name": "Tufternkumme",
         "position": "start"
       }
     ]
   },
   {
-    "id": "station-47",
+    "id": "station-59",
     "name": "Zermatt",
     "coordinates": [
       7.7428266,
@@ -3052,28 +3688,5 @@
       }
     ],
     "connectedSlopes": []
-  },
-  {
-    "id": "station-zermatt-sunnegga",
-    "name": "Zermatt (Sunnegga)",
-    "coordinates": [
-      7.7531707,
-      46.0220822
-    ],
-    "elevation": 1620,
-    "connectedLifts": [
-      {
-        "id": "lift-22330086",
-        "name": "Zermatt–Sunnegga funicular",
-        "position": "start"
-      }
-    ],
-    "connectedSlopes": [
-      {
-        "id": "piste-1459564618-seg-0",
-        "name": "Riedweg",
-        "position": "end"
-      }
-    ]
   }
 ]
