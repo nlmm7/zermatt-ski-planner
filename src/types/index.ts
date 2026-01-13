@@ -15,6 +15,7 @@ export interface LiftProperties {
   capacity: number;
   duration: number; // minutes
   sector: Sector;
+  connectsTo?: string[]; // array of segment/lift IDs reachable from the top
   isOpen?: boolean;
   lastRun?: string; // time like "16:30"
 }
@@ -27,11 +28,13 @@ export interface SlopeProperties {
   number?: string | null; // official piste number from map
   difficulty: Difficulty;
   length: number; // meters
-  verticalDrop: number;
+  startElevation: number; // elevation at top of segment
+  endElevation: number; // elevation at bottom of segment
+  verticalDrop: number; // startElevation - endElevation
   sector: Sector;
   segmentIndex?: number; // which segment of the original piste (0-indexed)
   totalSegments?: number; // how many segments the original piste was split into
-  connectsTo: string[]; // array of segment/lift IDs this connects to
+  connectsTo: string[]; // array of segment/lift IDs this connects to (downhill direction only)
   isOpen?: boolean;
 }
 

@@ -133,32 +133,9 @@ function getSegmentConnections(segment: RouteSegment): string[] {
     const slope = getSlopeById(segment.id);
     return slope?.properties.connectsTo || [];
   } else {
-    // For lifts, we need to find what's reachable from the top
-    // This means finding pistes/lifts whose start is near the lift's end
+    // Lifts now have pre-computed connectsTo arrays
     const lift = getLiftById(segment.id);
-    if (!lift) return [];
-
-    const liftEnd = lift.geometry.coordinates[lift.geometry.coordinates.length - 1];
-    const connections: string[] = [];
-
-    // Find slopes that start near the lift top
-    for (const slope of slopes.features) {
-      const slopeStart = slope.geometry.coordinates[0];
-      if (haversineDistance(liftEnd, slopeStart) <= CONNECTION_THRESHOLD) {
-        connections.push(slope.properties.id);
-      }
-    }
-
-    // Find other lifts that start near this lift's top
-    for (const otherLift of lifts.features) {
-      if (otherLift.properties.id === lift.properties.id) continue;
-      const otherStart = otherLift.geometry.coordinates[0];
-      if (haversineDistance(liftEnd, otherStart) <= CONNECTION_THRESHOLD) {
-        connections.push(otherLift.properties.id);
-      }
-    }
-
-    return connections;
+    return lift?.properties.connectsTo || [];
   }
 }
 

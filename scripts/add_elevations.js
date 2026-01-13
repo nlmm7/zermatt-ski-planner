@@ -1,0 +1,370 @@
+#!/usr/bin/env node
+/**
+ * Add elevation data to piste segments and enforce directional connections
+ *
+ * This script:
+ * 1. Fetches elevation data for all segment endpoints
+ * 2. Determines segment direction (top = high elevation, bottom = low)
+ * 3. Calculates vertical drop for each segment
+ * 4. Rebuilds connections to only allow downhill travel on pistes
+ *
+ * Run: node scripts/add_elevations.js
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
+
+// Connection threshold in meters
+const CONNECTION_THRESHOLD = 30;
+
+// Batch size for elevation API requests
+const ELEVATION_BATCH_SIZE = 100;
+
+// ============================================================================
+// ELEVATION FETCHING
+// ============================================================================
+
+function fetchElevations(coordinates) {
+  // Format: lat,lon|lat,lon|...
+  const locations = coordinates.map(c => `${c[1]},${c[0]}`).join('|');
+  const url = `https://api.open-elevation.com/api/v1/lookup?locations=${locations}`;
+
+  try {
+    const result = execSync(`curl -s "${url}"`, { timeout: 60000 });
+    const data = JSON.parse(result.toString());
+    return data.results.map(r => r.elevation);
+  } catch (e) {
+    console.error(`  Error fetching elevations: ${e.message}`);
+    return coordinates.map(() => null);
+  }
+}
+
+async function getAllElevations(segments, lifts) {
+  console.log('Collecting unique coordinates...');
+
+  // Collect all unique start and end coordinates
+  const coordMap = new Map(); // "lon,lat" -> { coord, elevation }
+
+  for (const seg of segments) {
+    const coords = seg.geometry.coordinates;
+    const startKey = `${coords[0][0]},${coords[0][1]}`;
+    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
+
+    if (!coordMap.has(startKey)) {
+      coordMap.set(startKey, { coord: coords[0], elevation: null });
+    }
+    if (!coordMap.has(endKey)) {
+      coordMap.set(endKey, { coord: coords[coords.length - 1], elevation: null });
+    }
+  }
+
+  for (const lift of lifts) {
+    const coords = lift.geometry.coordinates;
+    const startKey = `${coords[0][0]},${coords[0][1]}`;
+    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
+
+    if (!coordMap.has(startKey)) {
+      coordMap.set(startKey, { coord: coords[0], elevation: null });
+    }
+    if (!coordMap.has(endKey)) {
+      coordMap.set(endKey, { coord: coords[coords.length - 1], elevation: null });
+    }
+  }
+
+  console.log(`  Found ${coordMap.size} unique endpoints`);
+
+  // Fetch elevations in batches
+  console.log('Fetching elevations from API...');
+
+  const entries = Array.from(coordMap.entries());
+  let fetched = 0;
+
+  for (let i = 0; i < entries.length; i += ELEVATION_BATCH_SIZE) {
+    const batch = entries.slice(i, i + ELEVATION_BATCH_SIZE);
+    const coords = batch.map(([key, val]) => val.coord);
+
+    const elevations = fetchElevations(coords);
+
+    for (let j = 0; j < batch.length; j++) {
+      batch[j][1].elevation = elevations[j];
+    }
+
+    fetched += batch.length;
+    console.log(`  Fetched ${fetched}/${entries.length} elevations...`);
+
+    // Small delay to avoid rate limiting
+    if (i + ELEVATION_BATCH_SIZE < entries.length) {
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+  }
+
+  return coordMap;
+}
+
+// ============================================================================
+// GEOMETRY HELPERS
+// ============================================================================
+
+function haversineDistance(coord1, coord2) {
+  const R = 6371000;
+  const lat1 = coord1[1] * Math.PI / 180;
+  const lat2 = coord2[1] * Math.PI / 180;
+  const dLat = (coord2[1] - coord1[1]) * Math.PI / 180;
+  const dLon = (coord2[0] - coord1[0]) * Math.PI / 180;
+
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(lat1) * Math.cos(lat2) *
+            Math.sin(dLon/2) * Math.sin(dLon/2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+// ============================================================================
+// SEGMENT PROCESSING
+// ============================================================================
+
+function updateSegmentElevations(segments, coordMap) {
+  console.log('Updating segment elevations and directions...');
+
+  let updatedCount = 0;
+  let reversedCount = 0;
+
+  for (const seg of segments) {
+    const coords = seg.geometry.coordinates;
+    const startKey = `${coords[0][0]},${coords[0][1]}`;
+    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
+
+    const startElev = coordMap.get(startKey)?.elevation;
+    const endElev = coordMap.get(endKey)?.elevation;
+
+    if (startElev !== null && endElev !== null) {
+      // Check if segment needs to be reversed (should go high to low)
+      if (startElev < endElev) {
+        // Reverse the segment so it goes downhill
+        seg.geometry.coordinates = coords.reverse();
+        seg.properties.startElevation = endElev;
+        seg.properties.endElevation = startElev;
+        seg.properties.verticalDrop = Math.round(endElev - startElev);
+        reversedCount++;
+      } else {
+        seg.properties.startElevation = startElev;
+        seg.properties.endElevation = endElev;
+        seg.properties.verticalDrop = Math.round(startElev - endElev);
+      }
+      updatedCount++;
+    } else {
+      // Fallback - keep as is
+      seg.properties.startElevation = startElev || 0;
+      seg.properties.endElevation = endElev || 0;
+      seg.properties.verticalDrop = 0;
+    }
+  }
+
+  console.log(`  Updated ${updatedCount} segments with elevation data`);
+  console.log(`  Reversed ${reversedCount} segments to correct downhill direction`);
+}
+
+function updateLiftElevations(lifts, coordMap) {
+  console.log('Updating lift elevations...');
+
+  let updatedCount = 0;
+  let reversedCount = 0;
+
+  for (const lift of lifts) {
+    const coords = lift.geometry.coordinates;
+    const startKey = `${coords[0][0]},${coords[0][1]}`;
+    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
+
+    const startElev = coordMap.get(startKey)?.elevation;
+    const endElev = coordMap.get(endKey)?.elevation;
+
+    if (startElev !== null && endElev !== null) {
+      // Lifts should go low to high (bottom to top)
+      if (startElev > endElev) {
+        // Reverse the lift so it goes uphill
+        lift.geometry.coordinates = coords.reverse();
+        lift.properties.bottomElevation = endElev;
+        lift.properties.topElevation = startElev;
+        lift.properties.verticalRise = Math.round(startElev - endElev);
+        reversedCount++;
+      } else {
+        lift.properties.bottomElevation = startElev;
+        lift.properties.topElevation = endElev;
+        lift.properties.verticalRise = Math.round(endElev - startElev);
+      }
+      updatedCount++;
+    }
+  }
+
+  console.log(`  Updated ${updatedCount} lifts with elevation data`);
+  console.log(`  Reversed ${reversedCount} lifts to correct uphill direction`);
+}
+
+// ============================================================================
+// DIRECTIONAL CONNECTIONS
+// ============================================================================
+
+function buildDirectionalConnections(segments, lifts) {
+  console.log('Building directional connections...');
+
+  // Index all segment and lift endpoints
+  // For pistes: you exit at the BOTTOM (end) and can enter at the TOP (start) of another
+  // For lifts: you enter at the BOTTOM and exit at the TOP
+
+  const pisteStarts = []; // Where you can START skiing (top of piste)
+  const liftBottoms = []; // Where you can BOARD a lift
+
+  for (const seg of segments) {
+    const coords = seg.geometry.coordinates;
+    pisteStarts.push({
+      id: seg.properties.id,
+      coord: coords[0], // Start (top) of piste
+      elevation: seg.properties.startElevation
+    });
+  }
+
+  for (const lift of lifts) {
+    const coords = lift.geometry.coordinates;
+    liftBottoms.push({
+      id: lift.properties.id,
+      coord: coords[0], // Bottom of lift
+      elevation: lift.properties.bottomElevation
+    });
+  }
+
+  let totalConnections = 0;
+
+  // For each piste segment, find what you can reach from its END (bottom)
+  for (const seg of segments) {
+    const coords = seg.geometry.coordinates;
+    const endCoord = coords[coords.length - 1]; // Bottom of piste
+    const endElev = seg.properties.endElevation;
+    const connections = new Set();
+
+    // Can connect to piste starts (tops) that are nearby and at similar or lower elevation
+    for (const ps of pisteStarts) {
+      if (ps.id === seg.properties.id) continue;
+
+      const dist = haversineDistance(endCoord, ps.coord);
+      if (dist <= CONNECTION_THRESHOLD) {
+        // Allow if the next piste start is at similar elevation (±50m) or lower
+        // This allows for small uphills between connecting pistes
+        if (ps.elevation <= endElev + 50) {
+          connections.add(ps.id);
+        }
+      }
+    }
+
+    // Can connect to lift bottoms that are nearby
+    for (const lb of liftBottoms) {
+      const dist = haversineDistance(endCoord, lb.coord);
+      if (dist <= CONNECTION_THRESHOLD) {
+        connections.add(lb.id);
+      }
+    }
+
+    seg.properties.connectsTo = Array.from(connections);
+    totalConnections += connections.size;
+  }
+
+  // For lifts, find what pistes you can reach from the TOP
+  for (const lift of lifts) {
+    const coords = lift.geometry.coordinates;
+    const topCoord = coords[coords.length - 1]; // Top of lift
+    const connections = new Set();
+
+    // Can connect to piste starts (tops) that are nearby
+    for (const ps of pisteStarts) {
+      const dist = haversineDistance(topCoord, ps.coord);
+      if (dist <= CONNECTION_THRESHOLD) {
+        connections.add(ps.id);
+      }
+    }
+
+    // Can also connect to other lift bottoms nearby (transfers)
+    for (const lb of liftBottoms) {
+      if (lb.id === lift.properties.id) continue;
+      const dist = haversineDistance(topCoord, lb.coord);
+      if (dist <= CONNECTION_THRESHOLD) {
+        connections.add(lb.id);
+      }
+    }
+
+    lift.properties.connectsTo = Array.from(connections);
+    totalConnections += lift.properties.connectsTo.length;
+  }
+
+  console.log(`  Built ${totalConnections} directional connections`);
+}
+
+// ============================================================================
+// MAIN
+// ============================================================================
+
+async function main() {
+  console.log('Adding elevation data and directional connections...\n');
+
+  // Load current data
+  const slopesData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'slopes.json'), 'utf8'));
+  const liftsData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'lifts.json'), 'utf8'));
+
+  const segments = slopesData.features;
+  const lifts = liftsData.features;
+
+  console.log(`Loaded ${segments.length} segments and ${lifts.length} lifts\n`);
+
+  // Get elevations
+  const coordMap = await getAllElevations(segments, lifts);
+
+  // Update segments with elevations and correct direction
+  console.log('');
+  updateSegmentElevations(segments, coordMap);
+
+  // Update lifts with elevations
+  console.log('');
+  updateLiftElevations(lifts, coordMap);
+
+  // Build directional connections
+  console.log('');
+  buildDirectionalConnections(segments, lifts);
+
+  // Write output
+  console.log('\nWriting output files...');
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'slopes.json'),
+    JSON.stringify({ type: 'FeatureCollection', features: segments }, null, 2)
+  );
+  console.log(`  slopes.json: ${segments.length} segments`);
+
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'lifts.json'),
+    JSON.stringify({ type: 'FeatureCollection', features: lifts }, null, 2)
+  );
+  console.log(`  lifts.json: ${lifts.length} lifts`);
+
+  // Summary
+  console.log('\n=== SUMMARY ===');
+
+  // Sample elevation data
+  const sampleSegments = segments.slice(0, 5);
+  console.log('\nSample segment elevations:');
+  for (const seg of sampleSegments) {
+    console.log(`  ${seg.properties.name}: ${seg.properties.startElevation}m -> ${seg.properties.endElevation}m (drop: ${seg.properties.verticalDrop}m)`);
+  }
+
+  const sampleLifts = lifts.slice(0, 5);
+  console.log('\nSample lift elevations:');
+  for (const lift of sampleLifts) {
+    console.log(`  ${lift.properties.name}: ${lift.properties.bottomElevation}m -> ${lift.properties.topElevation}m (rise: ${lift.properties.verticalRise}m)`);
+  }
+
+  console.log('\nDone! Run "npm run build" to verify.');
+}
+
+main().catch(err => {
+  console.error('Error:', err);
+  process.exit(1);
+});
