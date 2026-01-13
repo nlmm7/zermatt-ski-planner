@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-import { RouteSegment } from '@/types';
+import { RouteSegment, RoutePoint } from '@/types';
 import { calculateRouteStats, validateConnection } from '@/lib/routeCalculations';
 import { saveRoute, getSavedRoutes, deleteRoute } from '@/lib/storage';
 import RouteBuilder from '@/components/RouteBuilder';
@@ -19,6 +19,8 @@ const SkiMap = dynamic(() => import('@/components/SkiMap'), {
 
 export default function Home() {
   const [route, setRoute] = useState<RouteSegment[]>([]);
+  const [startPoint, setStartPoint] = useState<RoutePoint | null>(null);
+  const [endPoint, setEndPoint] = useState<RoutePoint | null>(null);
   const [showSidebar, setShowSidebar] = useState(true);
   const [showSaveModal, setShowSaveModal] = useState(false);
   const [routeName, setRouteName] = useState('');
@@ -78,6 +80,21 @@ export default function Home() {
 
   const handleClearRoute = useCallback(() => {
     setRoute([]);
+  }, []);
+
+  const handleSetStartPoint = useCallback((point: RoutePoint) => {
+    setStartPoint(point);
+    setToast({ message: `Start: ${point.name}`, type: 'info' });
+  }, []);
+
+  const handleSetEndPoint = useCallback((point: RoutePoint) => {
+    setEndPoint(point);
+    setToast({ message: `End: ${point.name}`, type: 'info' });
+  }, []);
+
+  const handleClearPoints = useCallback(() => {
+    setStartPoint(null);
+    setEndPoint(null);
   }, []);
 
   const handleSaveRoute = useCallback(() => {
@@ -158,7 +175,14 @@ export default function Home() {
       <div className="flex-1 flex overflow-hidden">
         {/* Map */}
         <div className={`flex-1 ${showSidebar ? 'hidden md:block' : 'block'}`}>
-          <SkiMap selectedRoute={route} onSegmentClick={handleSegmentClick} />
+          <SkiMap
+            selectedRoute={route}
+            onSegmentClick={handleSegmentClick}
+            startPoint={startPoint}
+            endPoint={endPoint}
+            onSetStartPoint={handleSetStartPoint}
+            onSetEndPoint={handleSetEndPoint}
+          />
         </div>
 
         {/* Sidebar */}
@@ -169,8 +193,11 @@ export default function Home() {
         >
           <RouteBuilder
             route={route}
+            startPoint={startPoint}
+            endPoint={endPoint}
             onRemoveSegment={handleRemoveSegment}
             onClearRoute={handleClearRoute}
+            onClearPoints={handleClearPoints}
             onSaveRoute={handleSaveRoute}
           />
         </div>

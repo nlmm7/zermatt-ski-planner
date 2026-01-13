@@ -64,6 +64,13 @@ export interface RouteSegment {
   name: string;
 }
 
+export interface RoutePoint {
+  type: 'lift' | 'slope';
+  id: string;
+  name: string;
+  position: 'start' | 'end'; // start = bottom of lift / top of slope, end = top of lift / bottom of slope
+}
+
 export interface Route {
   id: string;
   name: string;

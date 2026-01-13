@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useMemo } from 'react';
-import { MapContainer, TileLayer, Polyline, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Polyline, Popup, useMap, CircleMarker, Tooltip } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import liftsData from '@/data/lifts.json';
@@ -13,6 +13,7 @@ import {
   DIFFICULTY_COLORS,
   LIFT_COLORS,
   RouteSegment,
+  RoutePoint,
   Difficulty,
 } from '@/types';
 import { getValidNextSegments } from '@/lib/routeCalculations';
@@ -38,6 +39,10 @@ const ZERMATT_BOUNDS: [[number, number], [number, number]] = [
 interface SkiMapProps {
   selectedRoute: RouteSegment[];
   onSegmentClick: (segment: RouteSegment) => void;
+  startPoint: RoutePoint | null;
+  endPoint: RoutePoint | null;
+  onSetStartPoint: (point: RoutePoint) => void;
+  onSetEndPoint: (point: RoutePoint) => void;
 }
 
 function MapEventHandler({ selectedRoute }: { selectedRoute: RouteSegment[] }) {
@@ -95,7 +100,31 @@ function MapEventHandler({ selectedRoute }: { selectedRoute: RouteSegment[] }) {
 // Reachable segment highlight color
 const REACHABLE_HIGHLIGHT = '#00ff88';
 
-export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
+// Get coordinates for a route point
+function getPointCoordinates(point: RoutePoint): [number, number] | null {
+  if (point.type === 'lift') {
+    const lift = lifts.features.find((f) => f.properties.id === point.id);
+    if (!lift) return null;
+    const coords = lift.geometry.coordinates;
+    const coord = point.position === 'start' ? coords[0] : coords[coords.length - 1];
+    return [coord[1], coord[0]];
+  } else {
+    const slope = slopes.features.find((f) => f.properties.id === point.id);
+    if (!slope) return null;
+    const coords = slope.geometry.coordinates;
+    const coord = point.position === 'start' ? coords[0] : coords[coords.length - 1];
+    return [coord[1], coord[0]];
+  }
+}
+
+export default function SkiMap({
+  selectedRoute,
+  onSegmentClick,
+  startPoint,
+  endPoint,
+  onSetStartPoint,
+  onSetEndPoint,
+}: SkiMapProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -234,6 +263,20 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
                 >
                   {inRoute ? 'Remove from route' : 'Add to route'}
                 </button>
+                <div className="flex gap-1 mt-1">
+                  <button
+                    onClick={() => onSetStartPoint({ type: 'slope', id, name, position: 'start' })}
+                    className="flex-1 px-2 py-1 bg-green-100 text-green-700 text-xs rounded hover:bg-green-200"
+                  >
+                    Set start
+                  </button>
+                  <button
+                    onClick={() => onSetEndPoint({ type: 'slope', id, name, position: 'end' })}
+                    className="flex-1 px-2 py-1 bg-red-100 text-red-700 text-xs rounded hover:bg-red-200"
+                  >
+                    Set end
+                  </button>
+                </div>
               </div>
             </Popup>
           </Polyline>
@@ -329,11 +372,68 @@ export default function SkiMap({ selectedRoute, onSegmentClick }: SkiMapProps) {
                 >
                   {inRoute ? 'Remove from route' : 'Add to route'}
                 </button>
+                <div className="flex gap-1 mt-1">
+                  <button
+                    onClick={() => onSetStartPoint({ type: 'lift', id, name, position: 'start' })}
+                    className="flex-1 px-2 py-1 bg-green-100 text-green-700 text-xs rounded hover:bg-green-200"
+                  >
+                    Set start
+                  </button>
+                  <button
+                    onClick={() => onSetEndPoint({ type: 'lift', id, name, position: 'end' })}
+                    className="flex-1 px-2 py-1 bg-red-100 text-red-700 text-xs rounded hover:bg-red-200"
+                  >
+                    Set end
+                  </button>
+                </div>
               </div>
             </Popup>
           </Polyline>
         );
       })}
+
+      {/* Start/End Point Markers */}
+      {startPoint && (() => {
+        const coords = getPointCoordinates(startPoint);
+        if (!coords) return null;
+        return (
+          <CircleMarker
+            center={coords}
+            radius={12}
+            pathOptions={{
+              color: '#16a34a',
+              fillColor: '#22c55e',
+              fillOpacity: 1,
+              weight: 3,
+            }}
+          >
+            <Tooltip permanent direction="top" offset={[0, -10]}>
+              <span className="font-medium">Start: {startPoint.name}</span>
+            </Tooltip>
+          </CircleMarker>
+        );
+      })()}
+
+      {endPoint && (() => {
+        const coords = getPointCoordinates(endPoint);
+        if (!coords) return null;
+        return (
+          <CircleMarker
+            center={coords}
+            radius={12}
+            pathOptions={{
+              color: '#dc2626',
+              fillColor: '#ef4444',
+              fillOpacity: 1,
+              weight: 3,
+            }}
+          >
+            <Tooltip permanent direction="top" offset={[0, -10]}>
+              <span className="font-medium">End: {endPoint.name}</span>
+            </Tooltip>
+          </CircleMarker>
+        );
+      })()}
     </MapContainer>
   );
 }

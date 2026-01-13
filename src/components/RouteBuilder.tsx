@@ -1,19 +1,25 @@
 'use client';
 
-import { RouteSegment, DIFFICULTY_COLORS, Difficulty } from '@/types';
+import { RouteSegment, RoutePoint, DIFFICULTY_COLORS, Difficulty } from '@/types';
 import { calculateRouteStats, formatTime, getLiftById, getSlopeById } from '@/lib/routeCalculations';
 
 interface RouteBuilderProps {
   route: RouteSegment[];
+  startPoint: RoutePoint | null;
+  endPoint: RoutePoint | null;
   onRemoveSegment: (index: number) => void;
   onClearRoute: () => void;
+  onClearPoints: () => void;
   onSaveRoute: () => void;
 }
 
 export default function RouteBuilder({
   route,
+  startPoint,
+  endPoint,
   onRemoveSegment,
   onClearRoute,
+  onClearPoints,
   onSaveRoute,
 }: RouteBuilderProps) {
   const stats = calculateRouteStats(route);
@@ -24,6 +30,50 @@ export default function RouteBuilder({
         <h2 className="text-lg font-bold">Route Builder</h2>
         <p className="text-sm text-gray-600">Tap lifts and slopes on the map to build your route</p>
       </div>
+
+      {/* Start/End Points */}
+      {(startPoint || endPoint) && (
+        <div className="p-4 bg-gradient-to-r from-green-50 to-red-50 border-b">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-sm font-medium text-gray-700">Route Planning</span>
+            <button
+              onClick={onClearPoints}
+              className="text-xs text-gray-500 hover:text-gray-700"
+            >
+              Clear points
+            </button>
+          </div>
+          <div className="space-y-2">
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <div className="text-xs text-gray-500">Start</div>
+                <div className="text-sm font-medium truncate">
+                  {startPoint ? startPoint.name : <span className="text-gray-400 italic">Not set</span>}
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 rounded-full bg-red-500 flex items-center justify-center">
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <div className="text-xs text-gray-500">End</div>
+                <div className="text-sm font-medium truncate">
+                  {endPoint ? endPoint.name : <span className="text-gray-400 italic">Not set</span>}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Stats */}
       {route.length > 0 && (
