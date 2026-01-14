@@ -460,11 +460,16 @@ export default function SkiMap({
         const isStart = startPoint?.type === 'station' && startPoint?.id === station.id;
         const isEnd = endPoint?.type === 'station' && endPoint?.id === station.id;
 
+        // Make major lift base stations more visible
+        const isMajorStation = station.name.includes('Zermatt') ||
+                               station.connectedLifts.length >= 2;
+        const markerRadius = isMajorStation ? 10 : 8;
+
         return (
           <CircleMarker
             key={station.id}
             center={[station.coordinates[1], station.coordinates[0]]}
-            radius={8}
+            radius={markerRadius}
             pathOptions={{
               color: isStart ? '#16a34a' : isEnd ? '#dc2626' : '#6366f1',
               fillColor: isStart ? '#22c55e' : isEnd ? '#ef4444' : '#818cf8',
