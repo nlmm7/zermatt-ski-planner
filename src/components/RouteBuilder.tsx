@@ -43,15 +43,15 @@ export default function RouteBuilder({
 
   return (
     <div className="bg-white h-full flex flex-col">
-      <div className="p-4 border-b">
+      <div className="p-2 md:p-4 border-b">
         <h2 className="text-lg font-bold">Route Builder</h2>
-        <p className="text-sm text-gray-600">Tap lifts and slopes on the map to build your route</p>
+        <p className="text-sm text-gray-600 hidden md:block">Tap lifts and slopes on the map to build your route</p>
       </div>
 
       {/* Start/End Points */}
       {(startPoint || endPoint) && (
-        <div className="p-4 bg-gradient-to-r from-green-50 to-red-50 border-b">
-          <div className="flex items-center justify-between mb-2">
+        <div className="p-2 md:p-4 bg-gradient-to-r from-green-50 to-red-50 border-b">
+          <div className="flex items-center justify-between mb-1 md:mb-2">
             <span className="text-sm font-medium text-gray-700">Route Planning</span>
             <button
               onClick={onClearPoints}
@@ -60,7 +60,7 @@ export default function RouteBuilder({
               Clear points
             </button>
           </div>
-          <div className="space-y-2">
+          <div className="space-y-1 md:space-y-2">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,7 +91,7 @@ export default function RouteBuilder({
           </div>
 
           {/* Max Difficulty Selector */}
-          <div className="mt-3">
+          <div className="mt-2 md:mt-3">
             <div className="text-xs text-gray-500 mb-1">Max Difficulty</div>
             <div className="flex gap-1">
               {DIFFICULTIES.map((diff) => (
@@ -122,7 +122,7 @@ export default function RouteBuilder({
             <button
               onClick={onFindRoute}
               disabled={isCalculating}
-              className={`mt-3 w-full py-2 px-4 rounded font-medium text-white transition-colors ${
+              className={`mt-2 md:mt-3 w-full py-2 px-4 rounded font-medium text-white transition-colors ${
                 isCalculating
                   ? 'bg-gray-400 cursor-not-allowed'
                   : 'bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600'
@@ -146,22 +146,22 @@ export default function RouteBuilder({
 
       {/* Stats */}
       {route.length > 0 && (
-        <div className="p-4 bg-gray-50 border-b">
-          <div className="grid grid-cols-2 gap-3">
-            <div className="text-center p-2 bg-white rounded shadow-sm">
-              <div className="text-2xl font-bold text-green-600">+{stats.totalVerticalUp}m</div>
+        <div className="p-2 md:p-4 bg-gray-50 border-b">
+          <div className="grid grid-cols-2 gap-1.5 md:gap-3">
+            <div className="text-center p-1.5 md:p-2 bg-white rounded shadow-sm">
+              <div className="text-lg md:text-2xl font-bold text-green-600">+{stats.totalVerticalUp}m</div>
               <div className="text-xs text-gray-500">Vertical up</div>
             </div>
-            <div className="text-center p-2 bg-white rounded shadow-sm">
-              <div className="text-2xl font-bold text-red-600">-{stats.totalVerticalDown}m</div>
+            <div className="text-center p-1.5 md:p-2 bg-white rounded shadow-sm">
+              <div className="text-lg md:text-2xl font-bold text-red-600">-{stats.totalVerticalDown}m</div>
               <div className="text-xs text-gray-500">Vertical down</div>
             </div>
-            <div className="text-center p-2 bg-white rounded shadow-sm">
-              <div className="text-2xl font-bold text-blue-600">{formatTime(stats.estimatedTime)}</div>
+            <div className="text-center p-1.5 md:p-2 bg-white rounded shadow-sm">
+              <div className="text-lg md:text-2xl font-bold text-blue-600">{formatTime(stats.estimatedTime)}</div>
               <div className="text-xs text-gray-500">Est. time</div>
             </div>
-            <div className="text-center p-2 bg-white rounded shadow-sm">
-              <div className="text-2xl font-bold text-purple-600">
+            <div className="text-center p-1.5 md:p-2 bg-white rounded shadow-sm">
+              <div className="text-lg md:text-2xl font-bold text-purple-600">
                 {stats.liftCount + stats.slopeCount}
               </div>
               <div className="text-xs text-gray-500">Segments</div>
@@ -169,7 +169,7 @@ export default function RouteBuilder({
           </div>
 
           {/* Difficulty breakdown */}
-          <div className="mt-3 flex gap-2 justify-center">
+          <div className="mt-2 md:mt-3 flex gap-2 justify-center">
             {(Object.entries(stats.difficultyBreakdown) as [Difficulty, number][])
               .filter(([, count]) => count > 0)
               .map(([diff, count]) => (
@@ -190,7 +190,7 @@ export default function RouteBuilder({
       )}
 
       {/* Route segments */}
-      <div className="flex-1 overflow-y-auto p-4">
+      <div className="flex-1 overflow-y-auto p-2 md:p-4">
         {route.length === 0 ? (
           <div className="text-center text-gray-400 mt-8">
             <svg
@@ -281,7 +281,7 @@ export default function RouteBuilder({
 
       {/* Actions */}
       {route.length > 0 && (
-        <div className="p-4 border-t space-y-2">
+        <div className="p-2 md:p-4 border-t space-y-2">
           <button
             onClick={onSaveRoute}
             className="w-full py-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-700 font-medium"
