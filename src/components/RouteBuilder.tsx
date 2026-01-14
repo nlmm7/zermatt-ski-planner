@@ -214,7 +214,23 @@ export default function RouteBuilder({
             {route.map((segment, index) => {
               const isLift = segment.type === 'lift';
               const data = isLift ? getLiftById(segment.id) : getSlopeById(segment.id);
-              const props = data?.properties;
+
+              // Extract properties with better type safety
+              let verticalChange = 0;
+              let difficulty = '';
+              let number = '';
+              let liftType = '';
+
+              if (data?.properties) {
+                if (isLift && 'verticalRise' in data.properties) {
+                  verticalChange = data.properties.verticalRise || 0;
+                  liftType = data.properties.type || '';
+                } else if (!isLift && 'verticalDrop' in data.properties) {
+                  verticalChange = data.properties.verticalDrop || 0;
+                  difficulty = data.properties.difficulty || '';
+                  number = data.properties.number || '';
+                }
+              }
 
               return (
                 <div
@@ -233,27 +249,26 @@ export default function RouteBuilder({
                     <div className="text-xs text-gray-500 flex items-center gap-2">
                       {isLift ? (
                         <>
-                          <span className="capitalize">{props && 'type' in props ? (props.type as string).replace('_', ' ') : ''}</span>
-                          <span>+{props && 'verticalRise' in props ? props.verticalRise : 0}m</span>
+                          <span className="capitalize">{liftType.replace('_', ' ')}</span>
+                          <span>+{verticalChange}m</span>
                         </>
                       ) : (
                         <>
-                          {props && 'number' in props && props.number && (
-                            <span className="font-semibold">#{props.number}</span>
+                          {number && (
+                            <span className="font-semibold">#{number}</span>
                           )}
-                          <span
-                            className="w-2 h-2 rounded-full"
-                            style={{
-                              backgroundColor:
-                                props && 'difficulty' in props
-                                  ? DIFFICULTY_COLORS[props.difficulty as Difficulty]
-                                  : '#ccc',
-                            }}
-                          />
-                          <span className="capitalize">
-                            {props && 'difficulty' in props ? props.difficulty : ''}
-                          </span>
-                          <span>-{props && 'verticalDrop' in props ? props.verticalDrop : 0}m</span>
+                          {difficulty && (
+                            <>
+                              <span
+                                className="w-2 h-2 rounded-full"
+                                style={{
+                                  backgroundColor: DIFFICULTY_COLORS[difficulty as Difficulty] || '#ccc',
+                                }}
+                              />
+                              <span className="capitalize">{difficulty}</span>
+                            </>
+                          )}
+                          <span>-{verticalChange}m</span>
                         </>
                       )}
                     </div>
