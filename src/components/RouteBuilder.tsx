@@ -1,4 +1,5 @@
 'use client';
+// v0.1.1 - Force rebuild with correct vertical drop display
 
 import { RouteSegment, RoutePoint, DIFFICULTY_COLORS, Difficulty } from '@/types';
 import { calculateRouteStats, formatTime, getLiftById, getSlopeById } from '@/lib/routeCalculations';
