@@ -461,6 +461,7 @@ export default function SkiMap({
         const isEnd = endPoint?.type === 'station' && endPoint?.id === station.id;
 
         // Make major lift base stations more visible
+        // Build v0.1.1: Increased marker size for Zermatt stations
         const isMajorStation = station.name.includes('Zermatt') ||
                                station.connectedLifts.length >= 2;
         const markerRadius = isMajorStation ? 10 : 8;
