@@ -21,6 +21,7 @@ export default function Home() {
   const [route, setRoute] = useState<RouteSegment[]>([]);
   const [startPoint, setStartPoint] = useState<RoutePoint | null>(null);
   const [endPoint, setEndPoint] = useState<RoutePoint | null>(null);
+  const [waypoints, setWaypoints] = useState<RoutePoint[]>([]);
   const [maxDifficulty, setMaxDifficulty] = useState<Difficulty | null>(null);
   const [isCalculating, setIsCalculating] = useState(false);
   const [showSidebar, setShowSidebar] = useState(true);
@@ -97,6 +98,27 @@ export default function Home() {
   const handleClearPoints = useCallback(() => {
     setStartPoint(null);
     setEndPoint(null);
+    setWaypoints([]);
+  }, []);
+
+  const handleAddWaypoint = useCallback((point: RoutePoint) => {
+    setWaypoints((prev) => [...prev, point]);
+    setToast({ message: `Waypoint added: ${point.name}`, type: 'info' });
+  }, []);
+
+  const handleRemoveWaypoint = useCallback((index: number) => {
+    setWaypoints((prev) => prev.filter((_, i) => i !== index));
+  }, []);
+
+  const handleMoveWaypoint = useCallback((index: number, direction: 'up' | 'down') => {
+    setWaypoints((prev) => {
+      const newWaypoints = [...prev];
+      const newIndex = direction === 'up' ? index - 1 : index + 1;
+      if (newIndex >= 0 && newIndex < newWaypoints.length) {
+        [newWaypoints[index], newWaypoints[newIndex]] = [newWaypoints[newIndex], newWaypoints[index]];
+      }
+      return newWaypoints;
+    });
   }, []);
 
   const handleFindRoute = useCallback(() => {
@@ -109,17 +131,41 @@ export default function Home() {
 
     // Use setTimeout to allow UI to update before calculation
     setTimeout(() => {
-      const result = findRoute(startPoint, endPoint, maxDifficulty);
-      setIsCalculating(false);
+      // Build list of points to visit: start -> waypoint1 -> waypoint2 -> ... -> end
+      const points = [startPoint, ...waypoints, endPoint];
+      const allSegments: RouteSegment[] = [];
+      let failed = false;
 
-      if (result.success) {
-        setRoute(result.route);
-        setToast({ message: `Route found: ${result.route.length} segments`, type: 'info' });
-      } else {
-        setToast({ message: result.message || 'No route found', type: 'error' });
+      // Chain routes through all waypoints
+      for (let i = 0; i < points.length - 1; i++) {
+        const from = points[i];
+        const to = points[i + 1];
+        const result = findRoute(from, to, maxDifficulty);
+
+        if (result.success) {
+          allSegments.push(...result.route);
+        } else {
+          setIsCalculating(false);
+          setToast({
+            message: `No route from ${from.name} to ${to.name}`,
+            type: 'error'
+          });
+          failed = true;
+          break;
+        }
+      }
+
+      if (!failed) {
+        setIsCalculating(false);
+        setRoute(allSegments);
+        const waypointMsg = waypoints.length > 0 ? ` via ${waypoints.length} waypoint(s)` : '';
+        setToast({
+          message: `Route found: ${allSegments.length} segments${waypointMsg}`,
+          type: 'info'
+        });
       }
     }, 10);
-  }, [startPoint, endPoint, maxDifficulty]);
+  }, [startPoint, endPoint, waypoints, maxDifficulty]);
 
   const handleSaveRoute = useCallback(() => {
     setShowSaveModal(true);
@@ -204,8 +250,10 @@ export default function Home() {
             onSegmentClick={handleSegmentClick}
             startPoint={startPoint}
             endPoint={endPoint}
+            waypoints={waypoints}
             onSetStartPoint={handleSetStartPoint}
             onSetEndPoint={handleSetEndPoint}
+            onAddWaypoint={handleAddWaypoint}
           />
         </div>
 
@@ -219,6 +267,7 @@ export default function Home() {
             route={route}
             startPoint={startPoint}
             endPoint={endPoint}
+            waypoints={waypoints}
             maxDifficulty={maxDifficulty}
             isCalculating={isCalculating}
             onRemoveSegment={handleRemoveSegment}
@@ -227,6 +276,8 @@ export default function Home() {
             onSetMaxDifficulty={setMaxDifficulty}
             onFindRoute={handleFindRoute}
             onSaveRoute={handleSaveRoute}
+            onRemoveWaypoint={handleRemoveWaypoint}
+            onMoveWaypoint={handleMoveWaypoint}
           />
         </div>
       </div>

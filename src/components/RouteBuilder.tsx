@@ -8,6 +8,7 @@ interface RouteBuilderProps {
   route: RouteSegment[];
   startPoint: RoutePoint | null;
   endPoint: RoutePoint | null;
+  waypoints: RoutePoint[];
   maxDifficulty: Difficulty | null;
   isCalculating: boolean;
   onRemoveSegment: (index: number) => void;
@@ -16,6 +17,8 @@ interface RouteBuilderProps {
   onSetMaxDifficulty: (difficulty: Difficulty | null) => void;
   onFindRoute: () => void;
   onSaveRoute: () => void;
+  onRemoveWaypoint: (index: number) => void;
+  onMoveWaypoint: (index: number, direction: 'up' | 'down') => void;
 }
 
 const DIFFICULTIES: (Difficulty | null)[] = [null, 'green', 'blue', 'red', 'black'];
@@ -31,6 +34,7 @@ export default function RouteBuilder({
   route,
   startPoint,
   endPoint,
+  waypoints,
   maxDifficulty,
   isCalculating,
   onRemoveSegment,
@@ -39,6 +43,8 @@ export default function RouteBuilder({
   onSetMaxDifficulty,
   onFindRoute,
   onSaveRoute,
+  onRemoveWaypoint,
+  onMoveWaypoint,
 }: RouteBuilderProps) {
   const stats = calculateRouteStats(route);
 
@@ -76,6 +82,53 @@ export default function RouteBuilder({
                 </div>
               </div>
             </div>
+
+            {/* Waypoints */}
+            {waypoints.map((waypoint, index) => (
+              <div key={index} className="flex items-center gap-2">
+                <div className="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold">
+                  {index + 1}
+                </div>
+                <div className="flex-1">
+                  <div className="text-xs text-gray-500">Waypoint {index + 1}</div>
+                  <div className="text-sm font-medium truncate">{waypoint.name}</div>
+                </div>
+                <div className="flex gap-1">
+                  {index > 0 && (
+                    <button
+                      onClick={() => onMoveWaypoint(index, 'up')}
+                      className="text-gray-400 hover:text-gray-600"
+                      title="Move up"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                      </svg>
+                    </button>
+                  )}
+                  {index < waypoints.length - 1 && (
+                    <button
+                      onClick={() => onMoveWaypoint(index, 'down')}
+                      className="text-gray-400 hover:text-gray-600"
+                      title="Move down"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                  )}
+                  <button
+                    onClick={() => onRemoveWaypoint(index)}
+                    className="text-red-400 hover:text-red-600"
+                    title="Remove waypoint"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            ))}
+
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 rounded-full bg-red-500 flex items-center justify-center">
                 <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

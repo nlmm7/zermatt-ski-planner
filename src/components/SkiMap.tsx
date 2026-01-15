@@ -44,8 +44,10 @@ interface SkiMapProps {
   onSegmentClick: (segment: RouteSegment) => void;
   startPoint: RoutePoint | null;
   endPoint: RoutePoint | null;
+  waypoints: RoutePoint[];
   onSetStartPoint: (point: RoutePoint) => void;
   onSetEndPoint: (point: RoutePoint) => void;
+  onAddWaypoint: (point: RoutePoint) => void;
 }
 
 function MapEventHandler({ selectedRoute }: { selectedRoute: RouteSegment[] }) {
@@ -125,8 +127,10 @@ export default function SkiMap({
   onSegmentClick,
   startPoint,
   endPoint,
+  waypoints,
   onSetStartPoint,
   onSetEndPoint,
+  onAddWaypoint,
 }: SkiMapProps) {
   const [mounted, setMounted] = useState(false);
 
@@ -340,6 +344,12 @@ export default function SkiMap({
                     Set end
                   </button>
                 </div>
+                <button
+                  onClick={() => onAddWaypoint({ type: 'slope', id, name, position: 'start' })}
+                  className="w-full mt-1 px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded hover:bg-blue-200"
+                >
+                  Add waypoint
+                </button>
               </div>
             </Popup>
           </Polyline>
@@ -449,6 +459,12 @@ export default function SkiMap({
                     Set end
                   </button>
                 </div>
+                <button
+                  onClick={() => onAddWaypoint({ type: 'lift', id, name, position: 'start' })}
+                  className="w-full mt-1 px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded hover:bg-blue-200"
+                >
+                  Add waypoint
+                </button>
               </div>
             </Popup>
           </Polyline>
@@ -501,6 +517,12 @@ export default function SkiMap({
                     Set end
                   </button>
                 </div>
+                <button
+                  onClick={() => onAddWaypoint({ type: 'station', id: station.id, name: station.name, position: 'start' })}
+                  className="w-full mt-1 px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded hover:bg-blue-200"
+                >
+                  Add waypoint
+                </button>
               </div>
             </Popup>
             <Tooltip direction="top" offset={[0, -5]}>
