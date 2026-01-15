@@ -154,7 +154,7 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-xl font-bold">Zermatt Ski Planner</h1>
-            <p className="text-sm text-blue-100">Plan your perfect ski day in Zermatt</p>
+            <p className="text-sm text-blue-100">Plan your ski day ⛷️</p>
           </div>
           <div className="flex gap-2">
             <button
