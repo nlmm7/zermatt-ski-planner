@@ -1,6 +1,7 @@
 'use client';
 // v0.1.1 - Force rebuild with correct vertical drop display
 
+import { useState } from 'react';
 import { RouteSegment, RoutePoint, DIFFICULTY_COLORS, Difficulty } from '@/types';
 import { calculateRouteStats, formatTime, getLiftById, getSlopeById } from '@/lib/routeCalculations';
 
@@ -46,6 +47,7 @@ export default function RouteBuilder({
   onRemoveWaypoint,
   onMoveWaypoint,
 }: RouteBuilderProps) {
+  const [isRoutePlanningCollapsed, setIsRoutePlanningCollapsed] = useState(false);
   const stats = calculateRouteStats(route);
 
   return (
@@ -57,9 +59,22 @@ export default function RouteBuilder({
 
       {/* Start/End Points */}
       {(startPoint || endPoint) && (
-        <div className="p-2 md:p-4 bg-gradient-to-r from-green-50 to-red-50 border-b">
-          <div className="flex items-center justify-between mb-1 md:mb-2">
-            <span className="text-sm font-medium text-gray-700">Route Planning</span>
+        <div className="bg-gradient-to-r from-green-50 to-red-50 border-b">
+          <div className="flex items-center justify-between p-2 md:p-4">
+            <button
+              onClick={() => setIsRoutePlanningCollapsed(!isRoutePlanningCollapsed)}
+              className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-gray-900"
+            >
+              <span>Route Planning</span>
+              <svg
+                className={`w-4 h-4 transition-transform ${isRoutePlanningCollapsed ? '-rotate-90' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
             <button
               onClick={onClearPoints}
               className="text-xs text-gray-500 hover:text-gray-700"
@@ -67,6 +82,9 @@ export default function RouteBuilder({
               Clear points
             </button>
           </div>
+
+          {!isRoutePlanningCollapsed && (
+          <div className="px-2 md:px-4 pb-2 md:pb-4">
           <div className="space-y-1 md:space-y-2">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center">
@@ -194,6 +212,8 @@ export default function RouteBuilder({
                 'Find Route'
               )}
             </button>
+          )}
+          </div>
           )}
         </div>
       )}
