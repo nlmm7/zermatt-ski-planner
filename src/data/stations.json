@@ -3688,5 +3688,22 @@
       }
     ],
     "connectedSlopes": []
+  },
+  {
+    "id": "station-60",
+    "name": "Zermatt (Sunnegga)",
+    "coordinates": [
+      7.7531707,
+      46.0220822
+    ],
+    "elevation": 1645,
+    "connectedLifts": [
+      {
+        "id": "lift-22330086",
+        "name": "Zermatt–Sunnegga funicular",
+        "position": "start"
+      }
+    ],
+    "connectedSlopes": []
   }
 ]
