@@ -20,8 +20,8 @@ const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
 // Connection threshold in meters (75m to handle large station areas)
 const CONNECTION_THRESHOLD = 75;
 
-// Batch size for elevation API requests
-const ELEVATION_BATCH_SIZE = 100;
+// Batch size for elevation API requests (reduced to avoid URL length issues)
+const ELEVATION_BATCH_SIZE = 20;
 
 // ============================================================================
 // ELEVATION FETCHING
@@ -43,9 +43,9 @@ function fetchElevations(coordinates) {
 }
 
 async function getAllElevations(segments, lifts) {
-  console.log('Collecting unique coordinates...');
+  console.log('Collecting unique coordinates from slopes only (lifts already have elevation data)...');
 
-  // Collect all unique start and end coordinates
+  // Collect all unique start and end coordinates from SLOPES ONLY
   const coordMap = new Map(); // "lon,lat" -> { coord, elevation }
 
   for (const seg of segments) {
@@ -61,20 +61,9 @@ async function getAllElevations(segments, lifts) {
     }
   }
 
-  for (const lift of lifts) {
-    const coords = lift.geometry.coordinates;
-    const startKey = `${coords[0][0]},${coords[0][1]}`;
-    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
+  // SKIP lifts - they already have elevation data from previous run
 
-    if (!coordMap.has(startKey)) {
-      coordMap.set(startKey, { coord: coords[0], elevation: null });
-    }
-    if (!coordMap.has(endKey)) {
-      coordMap.set(endKey, { coord: coords[coords.length - 1], elevation: null });
-    }
-  }
-
-  console.log(`  Found ${coordMap.size} unique endpoints`);
+  console.log(`  Found ${coordMap.size} unique slope endpoints`);
 
   // Fetch elevations in batches
   console.log('Fetching elevations from API...');
@@ -95,9 +84,9 @@ async function getAllElevations(segments, lifts) {
     fetched += batch.length;
     console.log(`  Fetched ${fetched}/${entries.length} elevations...`);
 
-    // Small delay to avoid rate limiting
+    // Delay to avoid rate limiting (1 second between batches)
     if (i + ELEVATION_BATCH_SIZE < entries.length) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
 
@@ -189,35 +178,17 @@ function updateSegmentElevations(segments, coordMap) {
 }
 
 function updateLiftElevations(lifts, coordMap) {
-  console.log('Updating lift elevations...');
+  console.log('Skipping lift elevations (already complete from previous run)...');
 
-  let updatedCount = 0;
-  let flatOrDownhillCount = 0;
-
+  // Lifts already have elevation data - skip this step
+  let withData = 0;
   for (const lift of lifts) {
-    const coords = lift.geometry.coordinates;
-    const startKey = `${coords[0][0]},${coords[0][1]}`;
-    const endKey = `${coords[coords.length - 1][0]},${coords[coords.length - 1][1]}`;
-
-    const startElev = coordMap.get(startKey)?.elevation;
-    const endElev = coordMap.get(endKey)?.elevation;
-
-    if (startElev !== null && endElev !== null) {
-      // Keep original OSM direction - lifts go from boarding point to exit point
-      // Some connection lifts may be flat or even go slightly downhill
-      lift.properties.bottomElevation = startElev;
-      lift.properties.topElevation = endElev;
-      lift.properties.verticalRise = Math.round(endElev - startElev);
-
-      if (endElev <= startElev) {
-        flatOrDownhillCount++;
-      }
-      updatedCount++;
+    if (lift.properties.bottomElevation && lift.properties.topElevation) {
+      withData++;
     }
   }
 
-  console.log(`  Updated ${updatedCount} lifts with elevation data`);
-  console.log(`  ${flatOrDownhillCount} lifts are flat or connection lifts (not going uphill)`);
+  console.log(`  ${withData}/${lifts.length} lifts already have elevation data`);
 }
 
 // ============================================================================
