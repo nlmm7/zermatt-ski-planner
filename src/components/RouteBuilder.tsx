@@ -217,6 +217,7 @@ export default function RouteBuilder({
               const data = isLift ? getLiftById(segment.id) : getSlopeById(segment.id);
 
               // Extract properties with better type safety
+              // Build v0.1.1: Explicit property extraction to fix vertical drop display
               let verticalChange = 0;
               let difficulty = '';
               let number = '';
