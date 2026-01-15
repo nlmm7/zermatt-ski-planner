@@ -27,6 +27,44 @@ const BBOX = {
 const CONNECTION_THRESHOLD = 50;
 
 // ============================================================================
+// ELEVATION API
+// ============================================================================
+
+async function fetchElevations(coordinates) {
+  // Fetch elevations from Open-Elevation API in batches
+  const BATCH_SIZE = 100; // API limit
+  const allElevations = [];
+
+  for (let i = 0; i < coordinates.length; i += BATCH_SIZE) {
+    const batch = coordinates.slice(i, i + BATCH_SIZE);
+    const locations = batch.map(coord => ({ latitude: coord[1], longitude: coord[0] }));
+
+    try {
+      const { execSync } = require('child_process');
+      const payload = JSON.stringify({ locations });
+      const cmd = `curl -s -X POST https://api.open-elevation.com/api/v1/lookup -H "Content-Type: application/json" -d '${payload.replace(/'/g, "\\'")}'`;
+      const result = execSync(cmd, { maxBuffer: 10 * 1024 * 1024, timeout: 30000 });
+      const data = JSON.parse(result);
+
+      if (data.results) {
+        allElevations.push(...data.results.map(r => r.elevation));
+      } else {
+        // Fallback to 0 if API fails
+        allElevations.push(...batch.map(() => 0));
+      }
+
+      // Rate limiting
+      await new Promise(resolve => setTimeout(resolve, 200));
+    } catch (err) {
+      console.error(`  Warning: Elevation fetch failed for batch ${i / BATCH_SIZE + 1}, using 0`);
+      allElevations.push(...batch.map(() => 0));
+    }
+  }
+
+  return allElevations;
+}
+
+// ============================================================================
 // OVERPASS API QUERIES
 // ============================================================================
 
